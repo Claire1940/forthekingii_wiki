@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
-          height: 1080,
+          height: 620,
           alt: "For The King II - Turn-Based Roguelite Tabletop RPG",
         },
       ],
