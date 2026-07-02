@@ -1,1 +1,1173 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "For The King II - Guia de Classes, Builds e Co-op",
+      "description": "For The King II abrange classes, builds, armas, quests, DLC, conquistas, dicas de co-op e guias para iniciantes no Steam, Xbox e PlayStation.",
+      "keywords": "For The King II, Steam, Xbox, PlayStation, classes, builds, armas, co-op, DLC",
+      "ogTitle": "For The King II - Guia de Classes, Builds e Co-op",
+      "ogDescription": "For The King II abrange classes, builds, armas, quests, DLC, conquistas, dicas de co-op e guias para iniciantes no Steam, Xbox e PlayStation.",
+      "twitterTitle": "For The King II - Guia de Classes, Builds e Co-op",
+      "twitterDescription": "Wiki de For The King II: classes, builds, equipamentos, co-op, DLC e conquistas para Steam, Xbox e PlayStation."
+    }
+  },
+  "nav": {
+    "guide": "Guia",
+    "codes": "Códigos",
+    "classes": "Classes",
+    "combat": "Combate",
+    "multiplayer": "Multiplayer",
+    "platforms": "Plataformas"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no Steam",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "RPG de Mesa Roguelite por Turnos",
+    "title": "Wiki de For The King II",
+    "description": "Monte uma party, explore Fahrul gerada proceduralmente, domine as táticas do Battle Grid, desbloqueie classes, complete campanhas e sobreviva a dungeon runs em co-op.",
+    "getFreeCodesCTA": "Ver Guias",
+    "playOnSteamCTA": "Jogue no Steam",
+    "stats": {
+      "stat1": {
+        "value": "623",
+        "label": "Jogadores Online"
+      },
+      "stat2": {
+        "value": "28.528",
+        "label": "Pico de CCU"
+      },
+      "stat3": {
+        "value": "15K+",
+        "label": "Avaliações no Steam"
+      },
+      "stat4": {
+        "value": "126",
+        "label": "Conquistas do Steam"
+      }
+    }
+  },
+  "tools": {
+    "title": "For The King II",
+    "titleHighlight": "Guias",
+    "subtitle": "Tudo o que você precisa para dominar classes, builds, combate, campanhas e incursões em masmorras co-op.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guia do Iniciante",
+        "description": "Funções do grupo, Focus, Sanctums e o ritmo da primeira jornada"
+      },
+      {
+        "icon": "Crown",
+        "title": "Tier List de Classes",
+        "description": "Melhores classes por função, atributo e estágio de desbloqueio"
+      },
+      {
+        "icon": "Users",
+        "title": "Melhores Builds de Grupo",
+        "description": "Composições para campanha, co-op e Dark Carnival"
+      },
+      {
+        "icon": "Gift",
+        "title": "Lore Store e Códigos",
+        "description": "Resgate de entradas, progressão de Lore e desbloqueios de DLC"
+      },
+      {
+        "icon": "Swords",
+        "title": "Combate e Loadouts",
+        "description": "Battle Grid, Focus, armas e efeitos de status"
+      },
+      {
+        "icon": "Globe",
+        "title": "Multijogador e Crossplay",
+        "description": "Co-op, jogo local, Remote Play e plataformas"
+      },
+      {
+        "icon": "Map",
+        "title": "Capítulos da Campanha",
+        "description": "Aventuras, missões de cidade, biomas e pressão de Chaos"
+      },
+      {
+        "icon": "Skull",
+        "title": "Dark Carnival",
+        "description": "Masmorra infinita, Dungeon Crawl e Into The Wild"
+      }
+    ]
+  },
+  "modules": {
+    "forTheKingIIBeginnerGuide": {
+      "title": "Guia do Iniciante de For The King II",
+      "intro": "For The King II é um RPG de mesa roguelite em turnos construído em torno de rolagens inspiradas em dados, combate em grade e progressão entre jornadas. Este guia para iniciantes foca nos hábitos que mantêm um novo grupo vivo o suficiente para transformar o Chaos inicial em progresso real.",
+      "steps": [
+        {
+          "title": "Monte um Grupo em Torno de Funções, Não de Favoritos",
+          "goal": "Cubra a defesa da linha de frente, dano à distância, dano mágico e suporte antes de buscar desbloqueios avançados.",
+          "details": [
+            "Blacksmith protege a formação e ancora a linha de frente.",
+            "Hunter lida com dano físico baseado em Awareness e exploração do mapa.",
+            "Scholar cobre magia baseada em Intelligence, pergaminhos e controle de grupo.",
+            "Herbalist mantém o grupo suprido com Party Heal e economia de Herbs."
+          ],
+          "tip": "Um grupo equilibrado de quatro funções perdoa mais erros do que quatro causadores de dano empilhados na mesma carroça de decisões ruins."
+        },
+        {
+          "title": "Gaste Focus Onde a Falha Mais Dói",
+          "goal": "Use Focus em ataques perigosos, rolagens de movimento cruciais, objetivos de missão e rolagens que protegem o tempo do grupo.",
+          "details": [
+            "Focus melhora a consistência da rolagem antes que a ação seja resolvida.",
+            "Rolagens perfeitas importam mais contra inimigos que punem rolagens parciais ou se esquivam de golpes fracos.",
+            "Scholar pode recuperar Focus através de Refocus, tornando a classe tolerante para novos jogadores."
+          ],
+          "tip": "Não acumule Focus até que a partida colapse. Gaste-o antes de um Sanctum ou Stone Hero, pois eles podem recarregar a barra."
+        },
+        {
+          "title": "Encontre o Sanctum e o Stone Hero em cada bioma",
+          "goal": "Garanta a rede de segurança de ressurreição local e o aumento de nível antes de avançar para a próxima área perigosa.",
+          "details": [
+            "O Sanctum concede um buff útil e pode proteger um personagem da morte uma vez.",
+            "O Stone Hero ajuda o grupo a subir de nível rapidamente e recarrega o Focus.",
+            "Explore o bioma antes de correr para o objetivo principal."
+          ],
+          "tip": "Um grupo que ignora ferramentas de segurança gratuitas está apenas fazendo speedrun de arrependimento."
+        },
+        {
+          "title": "Trate cada cidade como um Power Spike",
+          "goal": "Use as cidades para missões, equipamentos, cura, mercenários e suprimentos antes de entrar em masmorras ou lutas da história.",
+          "details": [
+            "Verifique o novo inventário da cidade na primeira visita.",
+            "Escolha missões de cidade com recompensas que atendam às necessidades do seu grupo.",
+            "Estoque Godsbeard, Panax e outros itens de sobrevivência.",
+            "Contrate mercenários ou seguidores quando o grupo estiver fraco."
+          ],
+          "tip": "Algumas missões iniciais de cidade são difíceis para grupos de nível baixo. Escolha recompensas que resolvam uma fraqueza imediata."
+        },
+        {
+          "title": "Use as Regras de Pull para controlar os combates",
+          "goal": "Entre em batalhas sob as suas condições, em vez de arrastar a vizinhança inteira para uma pilha de desastres.",
+          "details": [
+            "As masmorras puxam todos os membros do grupo para o encontro.",
+            "Lutas no Overworld podem puxar aliados e inimigos próximos, a menos que o grupo realize uma emboscada corretamente.",
+            "O posicionamento antes de uma luta pode importar tanto quanto a primeira jogada de ataque."
+          ],
+          "tip": "Reagrupe-se antes de masmorras, separe-se apenas quando a exploração for segura e evite iniciar lutas ao lado de inimigos extras."
+        },
+        {
+          "title": "Dê equipamentos para o atributo que realmente o rola",
+          "goal": "Combine armas e itens de utilidade com o personagem cujo atributo principal os apoia.",
+          "details": [
+            "Blacksmith: escudos, equipamentos defensivos e ferramentas de Força.",
+            "Hunter: armas de Percepção e melhorias de dano à distância.",
+            "Scholar: tomos de Inteligência, cajados, varinhas e sinergia de pergaminhos.",
+            "Herbalist: equipamentos de suporte, valor de cura e opções mágicas de Inteligência.",
+            "Alchemist: ferramentas de Inteligência, bombas e utilidade de dano em área."
+          ],
+          "tip": "Use o resumo do grupo e a pré-visualização de atributos antes de distribuir o saque. Uma ótima arma no personagem errado é apenas um móvel caro."
+        },
+        {
+          "title": "Jogue os capítulos como progressão, não como um salvamento perfeito.",
+          "goal": "Use cada partida para desbloquear melhores opções iniciais, aprender os padrões dos inimigos e melhorar os equipamentos futuros.",
+          "details": [
+            "A campanha é dividida em aventuras separadas com progressão roguelite.",
+            "Os desbloqueios de Lore melhoram as opções iniciais futuras e o planejamento de equipamentos.",
+            "Dark Carnival oferece um modo estilo masmorra infinita para um desafio repetível."
+          ],
+          "tip": "Uma partida fracassada ainda ensina o comportamento do inimigo e ajuda a se preparar para tentativas futuras mais fortes."
+        }
+      ],
+      "quickTips": [
+        "Gaste Focus antes de usar um Sanctum ou Stone Hero, pois eles podem recarregar a barra.",
+        "Explore cada bioma antes de correr para o objetivo principal para que as ferramentas de segurança gratuitas não sejam desperdiçadas.",
+        "Combine as armas com o atributo que realmente as rola, em vez de entregar o saque para quem parecer mais heroico.",
+        "Trate uma partida fracassada como progressão: desbloqueios e padrões aprendidos fortalecem a próxima tentativa."
+      ]
+    },
+    "forTheKingIIClassTierList": {
+      "title": "Tier List de Classes de For The King II",
+      "intro": "As classes em For The King II são mais fortes quando seu atributo, tipo de arma e função de combate correspondem ao plano do grupo. Esta grade de classificação favorece o valor prático na partida, a facilidade para iniciantes e a utilidade da equipe em detrimento de um caos chamativo que parece inteligente logo antes do grupo morrer.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Utilidade de Topo e Controle de Run",
+          "description": "Estas classes resolvem os principais problemas do grupo e se encaixam nas composições de equipe mais confiáveis.",
+          "classes": [
+            {
+              "name": "Herbalist",
+              "role": "Curandeiro de suporte e utilidade mágica",
+              "stat": "Intelligence",
+              "unlock": "Classe do jogo base",
+              "difficulty": "Fácil",
+              "strengths": [
+                "Party Heal oferece uma forte sustentação de grupo.",
+                "Find Herb melhora o valor de suprimentos a longo prazo.",
+                "Pode apoiar o grupo em combate e durante as fases de recuperação."
+              ],
+              "bestFor": "Novos jogadores, campanhas longas e runs de co-op mais seguras",
+              "watchOut": "Precisa de proteção contra a pressão da linha de frente."
+            },
+            {
+              "name": "Alchemist",
+              "role": "Dano mágico e utilidade de bombas",
+              "stat": "Intelligence",
+              "unlock": "Classe desbloqueável do jogo base",
+              "difficulty": "Médio",
+              "strengths": [
+                "Find Potion pode descobrir bombas enquanto viaja.",
+                "Ataques químicos adicionam fortes opções de área e de burst.",
+                "Funciona bem quando o grupo já possui proteção na linha de frente."
+              ],
+              "bestFor": "Jogadores que desejam maior burst, utilidade de itens e dano flexível",
+              "watchOut": "Requer mais consciência de itens e de timing do que as classes iniciais."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Classes Principais Confiáveis",
+          "description": "Estas classes são fáceis de estruturar e permanecem úteis ao longo da campanha e do jogo co-op.",
+          "classes": [
+            {
+              "name": "Blacksmith",
+              "role": "Tank de linha de frente e protetor",
+              "stat": "Vitality",
+              "unlock": "Classe do jogo base",
+              "difficulty": "Fácil",
+              "strengths": [
+                "Começa com uma identidade de tank de escudo e martelo.",
+                "Steadfast e Guard ajudam a proteger a linha de trás.",
+                "Excelente primeira escolha para aprender o posicionamento na grade de batalha."
+              ],
+              "bestFor": "Grupos de iniciantes, co-op de quatro jogadores e composições de equipe defensivas",
+              "watchOut": "Velocidade mais baixa pode atrasar ações importantes."
+            },
+            {
+              "name": "Hunter",
+              "role": "Dano físico à distância e reconhecimento",
+              "stat": "Awareness",
+              "unlock": "Classe do jogo base",
+              "difficulty": "Fácil",
+              "strengths": [
+                "Elite Ambush e Elite Sneak ajudam a controlar confrontos no overworld.",
+                "Called Shot recompensa rolagens perfeitas com acertos críticos.",
+                "Forte pressão à distância da fileira de trás."
+              ],
+              "bestFor": "Dano seguro, jogabilidade focada em emboscadas e funções à distância amigáveis para iniciantes",
+              "watchOut": "Precisa de boas armas de Awareness para manter o escalonamento de dano."
+            },
+            {
+              "name": "Scholar",
+              "role": "Dano mágico, controle e economia de pergaminhos",
+              "stat": "Intelligence",
+              "unlock": "Classe do jogo base",
+              "difficulty": "Fácil",
+              "strengths": [
+                "Usa bem tomos, cajados e varinhas.",
+                "Find Scroll melhora o acesso à utilidade.",
+                "Refocus pode restaurar Focus ao final de um turno."
+              ],
+              "bestFor": "Dano mágico, controle de multidão e grupos que gastam Focus com frequência",
+              "watchOut": "Frágil se a linha de frente colapsar."
+            },
+            {
+              "name": "Monk",
+              "role": "Híbrido de suporte",
+              "stat": "Suporte híbrido",
+              "unlock": "Classe de atualização gratuita",
+              "difficulty": "Médio",
+              "strengths": [
+                "Adiciona outra opção orientada ao suporte além do Herbalist.",
+                "Encaixa-se em grupos que querem cura e utilidade sem um único slot de suporte.",
+                "Funciona melhor em grupos equilibrados que já têm o dano coberto."
+              ],
+              "bestFor": "Grupos co-op focados em suporte e equipes de campanha flexíveis",
+              "watchOut": "Precisa de uma função clara no grupo para evitar sobreposição com o suporte existente."
+            },
+            {
+              "name": "Fortune Teller",
+              "role": "Dano de Awareness e manipulação do destino",
+              "stat": "Awareness",
+              "unlock": "Tinkerers of Fate Character Pack",
+              "difficulty": "Médio",
+              "strengths": [
+                "O perfil de Elite Awareness combina com combate à distância.",
+                "Cartas de tarô alteram o fluxo do combate e a sorte do grupo.",
+                "Combina bem com grupos que podem proteger uma linha de trás especialista."
+              ],
+              "bestFor": "Proprietários de DLC, equipes baseadas em Awareness e jogadores de utilidade tática",
+              "watchOut": "Menos direto do que as classes de dano padrão."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Escolhas Especialistas",
+          "description": "Estas classes podem ser poderosas, mas exigem mais do jogador ou precisam de um plano de grupo específico.",
+          "classes": [
+            {
+              "name": "Toymaker",
+              "role": "Invocador e trapaceiro baseado em Talento",
+              "stat": "Talento",
+              "unlock": "Pacote de Personagens Tinkerers of Fate",
+              "difficulty": "Difícil",
+              "strengths": [
+                "Captura a essência dos inimigos em brinquedos.",
+                "Pode invocar brinquedos para remodelar a pressão do combate.",
+                "Adiciona um estilo de jogo único construído em torno de preparação e tempo tático."
+              ],
+              "bestFor": "Proprietários de DLC, equipes focadas em invocação e jogadores experientes",
+              "watchOut": "Precisa de planejamento e proteção do grupo para alcançar seu valor total."
+            }
+          ]
+        }
+      ]
+    },
+    "forTheKingIIBestPartyBuilds": {
+      "title": "Melhores Builds de Grupo para For The King II",
+      "intro": "O melhor grupo de For The King II não é apenas quatro classes fortes jogadas na mesma carroça de decisões ruins. Uma boa composição cobre defesa, tipos de dano, cura, uso de Focus e posicionamento na grade de batalha antes que a primeira masmorra comece a acumular corpos.",
+      "builds": [
+        {
+          "name": "Grupo Equilibrado para a Primeira Conclusão",
+          "party": [
+            "Blacksmith",
+            "Hunter",
+            "Scholar",
+            "Herbalist"
+          ],
+          "difficulty": "Fácil",
+          "bestFor": [
+            "Novos jogadores",
+            "Jogo solo",
+            "Primeiros capítulos da campanha"
+          ],
+          "roles": [
+            {
+              "label": "Linha de frente",
+              "text": "Blacksmith absorve a pressão e protege a estrutura da fileira."
+            },
+            {
+              "label": "Dano Físico",
+              "text": "Hunter lida com dano de Percepção à distância e engajamento mais seguro no overworld."
+            },
+            {
+              "label": "Dano Mágico",
+              "text": "Scholar traz magia baseada em Inteligência, utilidade de pergaminhos e recuperação de Focus."
+            },
+            {
+              "label": "Suporte",
+              "text": "Herbalist fornece Party Heal e economia de Herbs."
+            }
+          ],
+          "gamePlan": "Mantenha o Blacksmith na frente, proteja o Scholar e o Herbalist, use o Hunter para eliminar alvos prioritários e gaste Focus em rolagens que evitem picos de dano.",
+          "lootPriority": [
+            "Escudos e armaduras defensivas para o Blacksmith",
+            "Arcos de Percepção ou armas à distância para o Hunter",
+            "Ferramentas mágicas de Inteligência para o Scholar",
+            "Equipamento de cura e suporte para o Herbalist"
+          ]
+        },
+        {
+          "name": "Exemplo de Grupo Flexível dos Desenvolvedores",
+          "party": [
+            "Blacksmith",
+            "Hunter",
+            "Herbalist",
+            "Busker"
+          ],
+          "difficulty": "Fácil",
+          "bestFor": [
+            "Co-op para quatro jogadores",
+            "Partidas de campanha equilibradas",
+            "Grupos que preferem utilidade em vez de magia pura"
+          ],
+          "roles": [
+            {
+              "label": "Linha de frente",
+              "text": "Blacksmith ancora a grade de batalha."
+            },
+            {
+              "label": "Dano",
+              "text": "Hunter fornece pressão à distância confiável."
+            },
+            {
+              "label": "Suporte",
+              "text": "Herbalist mantém o grupo abastecido e curado."
+            },
+            {
+              "label": "Utilidade",
+              "text": "Busker adiciona um quarto espaço flexível para suporte e valor ao grupo."
+            }
+          ],
+          "gamePlan": "Use isto como uma estrutura estável para co-op: um tank claro, um atacante à distância claro, um curador dedicado e um espaço de utilidade que pode se adaptar à partida.",
+          "lootPriority": [
+            "Equipamento de tank primeiro",
+            "Melhorias de dano para Hunter em segundo",
+            "Godsbeard e itens de suporte para Herbalist",
+            "Equipamentos de utilidade e economia para Busker"
+          ]
+        },
+        {
+          "name": "Burst Core desbloqueável",
+          "party": [
+            "Blacksmith",
+            "Hunter",
+            "Herbalist",
+            "Alchemist"
+          ],
+          "difficulty": "Médio",
+          "bestFor": [
+            "Jogadores que desbloquearam o Alchemist",
+            "Lutas contra chefes",
+            "Partidas que precisam de maior dano em área e explosivo"
+          ],
+          "roles": [
+            {
+              "label": "Linha de frente",
+              "text": "Blacksmith dá tempo para o Alchemist preparar o dano."
+            },
+            {
+              "label": "Dano à Distância",
+              "text": "Hunter lida com a pressão constante nos alvos."
+            },
+            {
+              "label": "Suporte",
+              "text": "Herbalist protege o grupo em lutas mais longas."
+            },
+            {
+              "label": "Dano Explosivo",
+              "text": "Alchemist adiciona utilidade com bombas, ataques químicos e turnos explosivos."
+            }
+          ],
+          "gamePlan": "Deixe o Blacksmith e a Herbalist estabilizarem a luta enquanto o Hunter e o Alchemist eliminam alvos de alto valor rapidamente.",
+          "lootPriority": [
+            "Valor de bomba e poção para o Alchemist",
+            "Itens de sobrevivência para a Herbalist",
+            "Equipamento defensivo para o Blacksmith",
+            "Armas de Awareness para o Hunter"
+          ]
+        },
+        {
+          "name": "Divisão Cooperativa para Dois Jogadores",
+          "party": [
+            "Blacksmith",
+            "Herbalist",
+            "Hunter",
+            "Scholar"
+          ],
+          "difficulty": "Fácil",
+          "bestFor": [
+            "Co-op online para dois jogadores",
+            "Planejamento local com dois heróis por jogador",
+            "Controle de funções equilibrado"
+          ],
+          "roles": [
+            {
+              "label": "Jogador Um",
+              "text": "Blacksmith mais Herbalist controlam as decisões de sobrevivência, posicionamento e cura."
+            },
+            {
+              "label": "Jogador Dois",
+              "text": "Hunter mais Scholar controlam o dano à distância, pressão mágica e o gasto de Focus."
+            }
+          ],
+          "gamePlan": "Divida as responsabilidades para que cada jogador controle uma função defensiva ou de suporte e uma função de combate ativa. Isso mantém ambos os jogadores úteis a cada turno, em vez de transformar uma pessoa no estagiário designado para poções.",
+          "lootPriority": [
+            "O jogador um prioriza a defesa e o estoque de cura",
+            "O jogador dois prioriza armas de Awareness e Intelligence"
+          ]
+        },
+        {
+          "name": "Rede de Segurança do Dark Carnival",
+          "party": [
+            "Blacksmith",
+            "Herbalist",
+            "Alchemist",
+            "Hunter"
+          ],
+          "difficulty": "Médio",
+          "bestFor": [
+            "Dark Carnival",
+            "Partidas mais longas no estilo masmorra",
+            "Jogadores que querem sustentação mais dano explosivo"
+          ],
+          "roles": [
+            {
+              "label": "Sobrevivência",
+              "text": "Blacksmith e Herbalist reduzem a chance de um colapso rápido."
+            },
+            {
+              "label": "Dano Explosivo",
+              "text": "Alchemist lida com janelas de dano explosivo."
+            },
+            {
+              "label": "Limpeza",
+              "text": "Hunter elimina alvos enfraquecidos ou perigosos à distância."
+            }
+          ],
+          "gamePlan": "Priorize sustentação e dano misto. Dark Carnival recompensa grupos que conseguem sobreviver a salas repetidas e, ao mesmo tempo, encerrar combates perigosos rapidamente.",
+          "lootPriority": [
+            "Ferramentas de cura e defesa primeiro",
+            "Ferramentas de bomba e dano em área em segundo",
+            "Melhorias à distância em terceiro"
+          ]
+        },
+        {
+          "name": "Núcleo do Trickster do DLC Tinkerers",
+          "party": [
+            "Blacksmith",
+            "Herbalist",
+            "Toymaker",
+            "Fortune Teller"
+          ],
+          "difficulty": "Difícil",
+          "bestFor": [
+            "Proprietários de Tinkerers of Fate",
+            "Jogabilidade focada em invocações",
+            "Jogadores que querem um grupo especialista"
+          ],
+          "roles": [
+            {
+              "label": "Linha de Frente",
+              "text": "Blacksmith protege a linha de trás especialista."
+            },
+            {
+              "label": "Suporte",
+              "text": "Herbalist mantém o grupo estável."
+            },
+            {
+              "label": "Invocações",
+              "text": "Toymaker usa essência capturada e brinquedos para mudar a pressão do combate."
+            },
+            {
+              "label": "Controle de Destino",
+              "text": "Fortune Teller adiciona pressão baseada em Awareness e utilidade de tarô."
+            }
+          ],
+          "gamePlan": "Use Blacksmith e Herbalist para ganhar tempo enquanto Toymaker e Fortune Teller criam vantagens táticas incomuns.",
+          "lootPriority": [
+            "Equipamento de Talent para o Toymaker",
+            "Equipamento de Awareness para a Fortune Teller",
+            "Equipamento de cura para o Herbalist",
+            "Equipamento defensivo para o Blacksmith"
+          ]
+        }
+      ]
+    },
+    "forTheKingIILoreStoreCodes": {
+      "title": "Códigos e Desbloqueios da Lore Store de For The King II",
+      "intro": "For The King II usa a Lore Store como uma camada de progressão roguelite de longo prazo. A distinção importante é simples: desbloqueios de Lore são progressão normal, Character Packs são conteúdo oficial de DLC, e atalhos de trapaça aleatórios de terceiros não são códigos de resgate.",
+      "cards": [
+        {
+          "title": "Códigos Públicos da Lore Store",
+          "type": "Status de Resgate de Código",
+          "status": "Nenhuma lista pública de códigos gratuitos",
+          "location": "Lore Store > Resgatar Código",
+          "rewards": [],
+          "details": "O campo Resgatar Código existe no jogo, mas códigos de recompensa públicos regulares não são distribuídos como um recurso padrão de For The King II. O uso de códigos especiais é reservado para casos como drops oficiais, competições ou situações de suporte de conta."
+        },
+        {
+          "title": "Moeda de Lore",
+          "type": "Moeda de Progressão",
+          "status": "Progressão principal",
+          "location": "Lore Store",
+          "rewards": [
+            "Itens de Loadout",
+            "Novas opções iniciais",
+            "Armas",
+            "Cosméticos",
+            "Melhorias para partidas futuras"
+          ],
+          "details": "Lore é obtida ao jogar e gasta na Lore Store para melhorar a preparação para partidas futuras. Desbloquear novos itens e opções de loadout faz parte da progressão normal da campanha."
+        },
+        {
+          "title": "Desbloqueios de Classes do Jogo Base",
+          "type": "Progressão de Classe",
+          "status": "Conteúdo do jogo base",
+          "location": "Lore Store e progressão de campanha",
+          "rewards": [
+            "Classes jogáveis adicionais",
+            "Opções expandidas de montagem de grupo",
+            "Mais variedade de builds iniciais"
+          ],
+          "details": "For The King II foi lançado com 12 classes jogáveis, incluindo funções que retornam, como Blacksmith, Hunter, Scholar e Herbalist, além de novas classes como Alchemist e Stablehand."
+        },
+        {
+          "title": "Conteúdo de Personagem de Atualização Gratuita",
+          "type": "Desbloqueio de atualização oficial",
+          "status": "Conteúdo de atualização gratuita",
+          "location": "Conteúdo e progressão de atualização do jogo",
+          "rewards": [
+            "Monk",
+            "Conteúdo da atualização Child of Chaos"
+          ],
+          "details": "O Monk retornou como parte da atualização gratuita Child of Chaos, expandindo as opções de grupo focadas em suporte além do elenco de lançamento original."
+        },
+        {
+          "title": "Pacote de Personagens Tinkerers of Fate",
+          "type": "Desbloqueios de DLC pago",
+          "status": "DLC disponível",
+          "location": "Compra de DLC no Steam e progressão no jogo",
+          "rewards": [
+            "Toymaker",
+            "Fortune Teller",
+            "Conjunto de Rapieira",
+            "Conjunto de Orbe",
+            "Traço de nível Ouro",
+            "Mercenário de nível Ouro",
+            "Pet de nível Ouro",
+            "Skin cosmética de nível Ouro"
+          ],
+          "details": "Este pacote adiciona um Toymaker baseado em Talent que captura essência em brinquedos e uma Fortune Teller focada em Awareness que usa cartas de tarô para alterar a sorte."
+        },
+        {
+          "title": "Pacote de Personagens Fallen Oaths",
+          "type": "Desbloqueios de DLC pago",
+          "status": "DLC disponível",
+          "location": "Compra de DLC no Steam e progressão no jogo",
+          "rewards": [
+            "Fallen Knight",
+            "Voidwalker",
+            "Conjunto de Lança",
+            "Conjunto de Rifle",
+            "Traço de nível Ouro",
+            "Mercenário de nível Ouro",
+            "Pet de nível Ouro",
+            "Skin cosmética de nível Ouro"
+          ],
+          "details": "Este pacote expande o elenco com o Fallen Knight e o Voidwalker, além de conjuntos de armas temáticos e recompensas de progressão de nível Ouro."
+        },
+        {
+          "title": "Pacote de Personagens Into The Wild",
+          "type": "Desbloqueios de DLC pago",
+          "status": "DLC disponível",
+          "location": "Compra de DLC no Steam e progressão no jogo",
+          "rewards": [
+            "Beekeeper",
+            "Angler",
+            "Conjunto de Clava",
+            "Conjunto de Arpão",
+            "Trait de nível Ouro",
+            "Merc de nível Ouro",
+            "Pet de nível Ouro",
+            "Cosmetic Skin de nível Ouro"
+          ],
+          "details": "Este pacote adiciona o Beekeeper e o Angler, com mecânicas de classe temáticas de natureza e novo conteúdo oficial desbloqueável."
+        },
+        {
+          "title": "Ferramentas de Trapaça Não São Códigos",
+          "type": "Regra de Segurança",
+          "status": "Não são recompensas oficiais",
+          "location": "Não aplicável",
+          "rewards": [],
+          "details": "Edições de save, ferramentas de desbloqueio de terceiros, trainers e geradores não oficiais não são códigos da Lore Store e não devem ser apresentados como recompensas resgatáveis."
+        }
+      ]
+    },
+    "forTheKingIICombatLoadouts": {
+      "title": "Guia de Combate e Loadouts de For The King II",
+      "intro": "O combate de For The King II não é apenas sorte nos dados. Posicionamento, gasto de Focus, tipo de defesa, timing de itens e planejamento de loadout decidem se uma luta é controlada ou se torna outro vexame heroico do grupo.",
+      "items": [
+        {
+          "label": "Posicionamento na Grade de Batalha",
+          "summary": "O combate usa uma grade 2x4 onde o posicionamento muda o que os personagens podem proteger, mirar, evitar ou sofrer.",
+          "rules": [
+            "Personagens da fileira da frente podem proteger aliados da fileira de trás com ferramentas defensivas, como o estilo de jogo Guard e Tower Shield.",
+            "Personagens da fileira de trás estão mais seguros para funções de longo alcance, magia e suporte, mas ainda são vulneráveis a ataques de fileira, coluna e splash.",
+            "Os inimigos também usam a grade, então agrupar todo o grupo pode atrair dano de área.",
+            "O movimento pode esquivar de perigos, proteger aliados frágeis ou preparar melhores linhas para ataques."
+          ],
+          "bestUse": "Coloque personagens resistentes na frente, mantenha personagens frágeis de longo alcance ou suporte atrás deles e mova-se antes de atacar quando a posição na grade criar um resultado melhor."
+        },
+        {
+          "label": "Ataques de AOE, Fileira e Coluna",
+          "summary": "Ataques de área podem atingir mais de um espaço, o que torna o espaçamento do grupo tão importante quanto o dano bruto.",
+          "rules": [
+            "Ataques de fileira podem atingir todas as unidades em uma linha horizontal.",
+            "Ataques de coluna podem atingir as posições da frente e de trás na mesma raia vertical.",
+            "Armas mágicas frequentemente usam padrões de AOE, mas armas físicas também podem ter ataques de alvos múltiplos.",
+            "Alguns ataques especiais cobrem formas maiores ou incomuns, então pré-visualize o alvo antes de gastar Focus."
+          ],
+          "bestUse": "Espalhe o grupo antes dos turnos de AOE inimigos, então use seus próprios ataques de fileira ou coluna quando os inimigos se alinharem mal."
+        },
+        {
+          "label": "Gasto de Focus",
+          "summary": "Focus adiciona rolagens garantidas a testes de combate, testes de habilidade e movimento no Overworld.",
+          "rules": [
+            "Gaste Focus para garantir ataques cruciais, Taunts, curas, feitiços de AOE e movimentos urgentes.",
+            "Focus pode ser restaurado ao Meditar em cidades ou acampamentos, usando Golden Root, ou através de Traits como Deep Thinker.",
+            "Em masmorras, Focus is mais difícil de restaurar porque cidades e acampamentos não estão disponíveis.",
+            "Antes de usar um Sanctum ou Stone Hero, gaste o Focus sobressalente primeiro, pois esses pontos podem reabastecer o medidor de Focus."
+          ],
+          "bestUse": "Economize Focus para ações decisivas, alvos evasivos, turnos perigosos de chefes e objetivos onde o movimento desperdiçado custaria pressão de Chaos ao grupo."
+        },
+        {
+          "label": "Ações Primárias e Secundárias",
+          "summary": "Um turno geralmente termina após uma ação primária, enquanto ações secundárias lidam com movimento e uso de itens.",
+          "rules": [
+            "Ações primárias geralmente incluem atacar, usar uma habilidade principal ou aplicar uma habilidade de combate.",
+            "Ações secundárias podem incluir mover-se, usar Herbs, beber poções, lançar bombas ou usar certos consumíveis.",
+            "O Trait Nimble permite até duas ações secundárias em um turno.",
+            "Dazed remove a próxima ação secundária, o que pode bloquear o movimento e o uso de itens no pior momento possível."
+          ],
+          "bestUse": "Use ações secundárias primeiro quando o movimento, itens ou posicionamento puderem melhorar a ação primária que virá a seguir."
+        },
+        {
+          "label": "Tipos de Dano e Defesa",
+          "summary": "A Defesa Física e a Resistência Mágica reduzem diferentes tipos de dano recebido.",
+          "rules": [
+            "A Defesa Física reduz o dano físico.",
+            "A Resistência Mágica reduz o dano mágico.",
+            "Pierce ignora a armadura e pode punir alvos com forte defesa.",
+            "A escolha da arma deve corresponder ao melhor atributo do usuário e ao tipo de defesa mais fraco do inimigo."
+          ],
+          "bestUse": "Dê armas de Strength para personagens de Strength, armas de Intelligence para conjuradores, armas de Talent para usuários de Talent, e mantenha pelo menos uma maneira de lidar com inimigos blindados."
+        },
+        {
+          "label": "Efeitos de Status",
+          "summary": "Efeitos de status podem remover turnos, bloquear ataques, reduzir atributos, quebrar equipamentos ou aumentar o dano recebido.",
+          "rules": [
+            "Dazed — desabilita a próxima ação secundária do alvo, bloqueando o uso de itens e movimento.",
+            "Stunned — pula o próximo turno do alvo.",
+            "Burn — causa dano de fogo ao longo do tempo após um turno e pode vir de casas em chamas.",
+            "Entangled — impede ataques físicos e movimento.",
+            "Lightning — faz com que uma rolagem falhe automaticamente.",
+            "Curse — reduz drasticamente um atributo até ser curado.",
+            "Confusion — pode acionar ações aleatórias, incluindo o uso de equipamentos, consumíveis ou fuga.",
+            "Poison — causa dano ao longo do tempo no mapa do mundo e reduz atributos.",
+            "Acid — pode dissolver equipamentos valiosos permanentemente.",
+            "Fear — pode forçar um personagem a fugir e atrapalhar o posicionamento da retaguarda.",
+            "Frozen — faz o alvo receber dano extra.",
+            "Bleed — causa dano ao longo do tempo durante o combate."
+          ],
+          "bestUse": "Leve curas para rotas longas e masmorras, porque perder um turno ou uma arma para um efeito de status é uma maneira bem For The King II de descobrir consequências."
+        },
+        {
+          "label": "Equipamentos Iniciais e Prioridade de Itens",
+          "summary": "Pontos de Loadout, características, armas, armaduras e consumíveis devem ser atribuídos por função, em vez de serem jogados aleatoriamente em quem quer que pareça heroico.",
+          "rules": [
+            "Os loadouts iniciais podem incluir armas melhoradas, armaduras, características e itens essenciais desbloqueados através da progressão.",
+            "Personagens da linha de frente devem priorizar a sobrevivência: armaduras, escudos, ferramentas defensivas e opções confiáveis de taunt ou guard.",
+            "Causadores de dano devem obter armas compatíveis com seus atributos antes de melhorias cosméticas.",
+            "Personagens de suporte devem carregar Herbs, restauração de Focus e itens que protejam a partida de imprevistos.",
+            "Equipamentos e ouro podem ser negociados através do inventário quando os membros do grupo estiverem próximos o suficiente, e itens podem ser passados por membros do grupo adjacentes."
+          ],
+          "bestUse": "Atribua a melhor arma ao personagem com o atributo certo, depois distribua armaduras, curas, Golden Root e itens de cura pelo grupo antes de entrar em masmorras."
+        }
+      ]
+    },
+    "forTheKingIIMultiplayerCrossplay": {
+      "title": "Guia de Multijogador e Crossplay de For The King II",
+      "intro": "For The King II suporta modo solo, co-op online e co-op local, mas as plataformas importam. Esta comparação ajuda os jogadores a saberem quem pode participar antes que o grupo passe 20 minutos culpando o lobby.",
+      "platforms": [
+        "Steam / PC",
+        "Xbox",
+        "PlayStation"
+      ],
+      "rows": [
+        {
+          "feature": "Número de Jogadores",
+          "steam": "O modo solo e o co-op com um grupo de até quatro personagens são suportados.",
+          "xbox": "1 a 4 jogadores, com co-op online e co-op local listados para 2 a 4 jogadores.",
+          "playstation": "1 a 4 jogadores listados, com jogo online para até 4 jogadores.",
+          "note": "Um jogador solo controla todo o grupo. No co-op, os jogadores podem controlar seus próprios personagens."
+        },
+        {
+          "feature": "Co-op Online",
+          "steam": "O Co-op Online está listado no Steam. Os hosts criam uma aventura a partir do menu multiplayer e podem usar configurações de região, nome da sala, privacidade e senha.",
+          "xbox": "O co-op online e o multiplayer online estão listados para 2 a 4 jogadores.",
+          "playstation": "O jogo online suporta até 4 jogadores e requer PlayStation Plus.",
+          "note": "Os jogadores precisam entrar pelo lobby antes que o host carregue o save."
+        },
+        {
+          "feature": "Co-op Local",
+          "steam": "O co-op compartilhado ou em tela dividida está listado. A Curve também descreve o co-op offline no mesmo PC com suporte a múltiplos controles.",
+          "xbox": "O co-op local e o multiplayer local do Xbox estão listados para 2 a 4 jogadores.",
+          "playstation": "A PlayStation Store lista de 1 a 4 jogadores no PS4 e PS5.",
+          "note": "O co-op offline no mesmo PC permite que múltiplos controles enviem comandos no turno de todos."
+        },
+        {
+          "feature": "Rótulos de Crossplay e Multiplataforma",
+          "steam": "O Steam lista Multiplayer Multiplataforma.",
+          "xbox": "O Xbox lista multiplayer multiplataforma do Xbox e co-op multiplataforma do Xbox.",
+          "playstation": "A página da PlayStation Store lista multiplayer online e suporte a Remote Play, sem um rótulo de multiplataforma.",
+          "note": "Grupos de plataformas mistas devem ser planejados com base nos rótulos de recursos da loja para a plataforma exata que está sendo usada."
+        },
+        {
+          "feature": "Recursos de Remote Play, Nuvem e Ecossistema",
+          "steam": "O Steam Remote Play Together está listado.",
+          "xbox": "Xbox Cloud Gaming, Xbox Play Anywhere, Smart Delivery e multiplayer cross-gen do Xbox Live estão listados.",
+          "playstation": "O Remote Play é suportado. O streaming na nuvem do PS5 está listado com o PlayStation Plus Premium.",
+          "note": "Esses recursos ajudam quando um jogador está remoto, usando outro dispositivo ou jogando entre ecossistemas de console e PC."
+        },
+        {
+          "feature": "Fluxo de Reentrada e Salvamento",
+          "steam": "Os jogadores não podem entrar em uma partida já em andamento. O host deve salvar, sair para o seletor de aventuras ou mapa da campanha, permitir que todos entrem novamente e então carregar o save.",
+          "xbox": "Use a mesma regra de \"lobby primeiro\" ao reconstruir um grupo antes de continuar um save.",
+          "playstation": "Use a mesma regra de \"lobby primeiro\" ao reconstruir um grupo antes de continuar um save.",
+          "note": "Se uma sala não aparecer, verifique a seleção de região, a versão do jogo e se o host ainda está dentro de uma partida ativa."
+        }
+      ]
+    },
+    "forTheKingIICampaignChapters": {
+      "title": "Capítulos e Missões da Campanha de For The King II",
+      "intro": "A campanha é uma longa corrente de aventuras ligadas, não um corredor reto com confetes. Os jogadores precisam gerenciar cidades, missões, Sanctums, Stone Heroes, masmorras e Chaos antes que o mapa comece a cobrar por seus erros.",
+      "steps": [
+        {
+          "title": "Comece com a Estrutura de Campanha de Sete Aventuras",
+          "summary": "For The King II apresenta uma campanha de mais de 30 horas dividida em sete aventuras narrativamente ligadas.",
+          "details": [
+            "Escolha Apprentice, Journeyman, Master ou House Rules personalizadas antes de iniciar a partida.",
+            "Use House Rules para ajustar Chaos Speed, Life Pool, Economy e Loadout Points.",
+            "Trate partidas fracassadas como progressão, pois desbloqueios e conhecimento melhoram os loadouts iniciais futuros."
+          ]
+        },
+        {
+          "title": "Siga a Estrutura das Aventuras de História Nomeadas",
+          "summary": "A rota da história conduz o grupo pela Fahrul da Queen Rosomon através de aventuras nomeadas e objetivos de mapa crescentes.",
+          "details": [
+            "The Resistance — aprenda funções do grupo, compras na cidade, posicionamento em combate e escolhas seguras de missões iniciais.",
+            "The Primordial Oak — mova-se de forma eficiente entre os objetivos e evite desperdiçar turnos enquanto a pressão do Chaos aumenta.",
+            "The Royal Mines — prepare-se para cadeias de masmorras mais longas com cura, recuperação de Focus e tipos de dano mistos.",
+            "The Hangman's Noose — mantenha o grupo suprido, reagrupe-se antes de grandes avanços e evite entrar em lutas com nível baixo.",
+            "The Castle Gates — use recursos economizados, finalize armas e entre em objetivos finais com curas, armadura e ferramentas de Focus."
+          ]
+        },
+        {
+          "title": "Limpe cada bioma antes de avançar apressadamente.",
+          "summary": "Cada bioma pode conter pontos de apoio fundamentais que tornam a próxima região mais segura.",
+          "details": [
+            "Encontre o Sanctum do bioma antes de deixar a área.",
+            "Use Sanctums para obter bônus poderosos e uma rede de segurança extra de ressurreição.",
+            "Encontre Stone Heroes porque eles ajudam os personagens a subir de nível rapidamente.",
+            "Gaste o Focus sobressalente antes de usar um Sanctum ou Stone Hero, pois eles podem reabastecer o medidor de Focus."
+          ]
+        },
+        {
+          "title": "Use Cidades para Missões, Equipamentos e Recuperação",
+          "summary": "A primeira visita a uma cidade oferece novas lojas, missões e possíveis mercenários.",
+          "details": [
+            "Verifique as mercadorias da cidade antes de iniciar combates próximos.",
+            "Use missões da cidade para obter recompensas úteis, mas evite missões iniciais que arrastem o grupo para combates que ele não consegue vencer.",
+            "Contrate mercenários ou seguidores cedo quando o grupo precisar de mais combatentes, dano ou proteção.",
+            "Medite em cidades ou acampamentos para restaurar o Focus antes de objetivos importantes."
+          ]
+        },
+        {
+          "title": "Controle a Atração de Inimigos e a Entrada em Masmorras",
+          "summary": "O overworld pode arrastar inimigos próximos para a batalha, a menos que o grupo controle a aproximação.",
+          "details": [
+            "Observe o raio vermelho do inimigo antes de iniciar um combate.",
+            "Use emboscadas para impedir que inimigos próximos se juntem ao combate.",
+            "As masmorras atraem todos os membros do grupo, independentemente da distância no overworld.",
+            "Use a entrada da masmorra para se reagrupar, mas não entre sem Herbs, curas, recuperação de Focus e equipamentos reparados."
+          ]
+        },
+        {
+          "title": "Atribua Recompensas por Função, Não por Vibe",
+          "summary": "As escolhas de loot importam porque classes, traços, atributos e funções no Battle Grid exigem equipamentos diferentes.",
+          "details": [
+            "Use o Resumo do Grupo para verificar atributos, buffs, debuffs e imunidades antes de distribuir o loot.",
+            "Use as informações de pré-visualização do loot para decidir quem se beneficia mais de uma arma ou item.",
+            "Dê equipamentos defensivos primeiro aos personagens da linha de frente.",
+            "Dê armas compatíveis com seus atributos aos personagens com maior probabilidade de acertar ataques confiáveis.",
+            "Troque equipamentos e ouro pelo inventário quando os personagens estiverem próximos o suficiente, ou passe itens através de membros do grupo que estejam perto."
+          ]
+        },
+        {
+          "title": "Gaste Focus e Movimento sob a Pressão do Chaos",
+          "summary": "O Focus pode adicionar espaços de movimento no overworld, o que o torna uma ferramenta de campanha, não apenas um botão de pânico para o combate.",
+          "details": [
+            "Gaste Focus para alcançar objetivos urgentes antes que a pressão do Chaos piore.",
+            "Economize Focus em masmorras onde a recuperação é limitada.",
+            "Use Golden Root e traços de Focus para manter os personagens principais prontos para testes difíceis.",
+            "Evite combates secundários desnecessários quando o cronômetro do mapa já estiver punindo o grupo."
+          ]
+        }
+      ]
+    },
+    "forTheKingIIDarkCarnival": {
+      "title": "Guia de Dark Carnival e Dungeon Crawl de For The King II",
+      "intro": "Dark Carnival e Dungeon Crawl dão aos jogadores que retornam novos motivos para sofrer de forma produtiva: andares infinitos, placares de líderes com seeds, novos chefes, novas classes e mais maneiras de provar que o planejamento supera o otimismo.",
+      "modes": [
+        {
+          "name": "Dark Carnival",
+          "type": "Modo Masmorra Infinita",
+          "objective": "Conquiste o máximo de andares possível antes que o grupo caia.",
+          "mechanics": [
+            "O modo é liderado pelo Ringmaster.",
+            "Os jogadores coletam Carnival Tickets para explorar caminhos pelo carnaval.",
+            "As runs incluem salas temáticas e escolhas de rotas imprevisíveis.",
+            "A Wheel of Death pode aparecer como parte da estrutura de risco e recompensa do carnaval."
+          ],
+          "preparation": [
+            "Traga uma linha de frente resistente.",
+            "Mantenha a cura e a recuperação de Focus distribuídas pelo grupo.",
+            "Use ferramentas de AOE e controle de grupo para longas sequências de combates.",
+            "Evite gastar todas as curas cedo, pois os modos de masmorra de formato longo punem o uso desleixado de itens."
+          ]
+        },
+        {
+          "name": "Dungeon Crawl",
+          "type": "Modo Roguelite Gratuito",
+          "objective": "Avance por uma jornada roguelite focada em masmorras com mapas, chefes e encontros aleatórios, além de ameaças crescentes.",
+          "mechanics": [
+            "Dungeon Crawl retorna como uma atualização gratuita para For The King II.",
+            "O modo usa mapas gerados aleatoriamente e chefes rotativos.",
+            "Ele é construído em torno de rotas mais profundas no estilo roguelite, pressão de masmorra e preparação de combate repetida.",
+            "A atualização adiciona novos chefes, inimigos, armas, cosméticos, traços e conteúdo de companheiros junto com o modo."
+          ],
+          "preparation": [
+            "Use um grupo com dano físico e mágico.",
+            "Leve curas de status antes de entrar em longas sequências de masmorras.",
+            "Priorize armadura e sobrevivência nos personagens da fileira da frente.",
+            "Mantenha pelo menos um personagem pronto para testes que exijam muito Focus ou turnos decisivos de AOE."
+          ]
+        },
+        {
+          "name": "Dungeon Crawl Gauntlet",
+          "type": "Desafio de Placar com Semente",
+          "objective": "Compita em um mapa mensal com semente onde os jogadores enfrentam o mesmo layout, pressão de masmorra e estrutura de chefes.",
+          "mechanics": [
+            "O formato Gauntlet usa um mapa com semente para a competição do placar.",
+            "As partidas de placar recompensam consistência, planejamento de rota e combate limpo mais do que exploração sortuda.",
+            "Os melhores jogadores do placar podem ser homenageados com estátuas de Stone Hero.",
+            "Como a semente é compartilhada, o planejamento de rotas e a optimização do grupo se tornam a principal vantagem."
+          ],
+          "preparation": [
+            "Monte uma equipe confiável antes de tentar subir no placar.",
+            "Registre quais rotas, combates e recompensas produzem o progresso mais seguro.",
+            "Use Focus em testes de alto impacto em vez de jogadas de conveniência de baixo valor.",
+            "Trate cada recurso como parte do caminho para a pontuação final."
+          ]
+        },
+        {
+          "name": "Into The Wild Character Pack",
+          "type": "Pacote de Personagens Pago",
+          "objective": "Adicione novas classes jogáveis, armas, conteúdo de companheiros e opções cosméticas ao jogo base.",
+          "mechanics": [
+            "Adiciona a classe Angler, focada em pescar petiscos, refeições, riquezas e mecânicas de combate baseadas em movimento.",
+            "Adiciona a classe Beekeeper, focada em doces petiscos, picadas e um polinizador de estimação.",
+            "Adiciona os conjuntos de armas Bludgeon e Harpoon.",
+            "Inclui uma Trait de nível Ouro, um novo Merc, um novo Pet e uma Skin Cosmética."
+          ],
+          "preparation": [
+            "Use o Angler quando o grupo se beneficiar de truques de movimento e utilidade de recursos.",
+            "Use o Beekeeper quando o grupo se beneficiar de pressão baseada em pets e ferramentas de suporte.",
+            "Teste os novos conjuntos de armas contra diferentes builds de fileira da frente e de trás.",
+            "Combine as novas classes com funções defensivas estáveis até se familiarizar com o fluxo de suas habilidades."
+          ]
+        },
+        {
+          "name": "Conteúdo de Atualização Gratuita",
+          "type": "Novas Ferramentas e Encontros",
+          "objective": "Renove a criação de grupos e as rotas de masmorras com adições gratuitas lançadas junto com a atualização Dungeon Crawl.",
+          "mechanics": [
+            "O Treasure Hunter retorna com novas opções de jogo.",
+            "O Pathfinder recebe habilidades atualizadas.",
+            "A atualização adiciona o conjunto de armas Blunderbuss.",
+            "Inimigos Abelha e Urso juntam-se ao conjunto de encontros.",
+            "Conteúdo adicional de cosméticos, companheiros e traits expande a variedade das partidas."
+          ],
+          "preparation": [
+            "Verifique novamente as funções do grupo após as atualizações, pois novas armas e traits podem mudar as builds ideais.",
+            "Use a Encyclopedia e as ferramentas de resumo do grupo para confirmar mecânicas desconhecidas.",
+            "Espere que novos inimigos punam velhos hábitos, porque até monstros de jogos acreditam em desenvolvimento profissional."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre For The King II",
+    "questions": [
+      {
+        "question": "O que é For The King II?",
+        "answer": "For The King II é um RPG de mesa roguelite por turnos com rolagens inspiradas em dados, um sistema de combate Battle Grid, Fahrul gerada proceduralmente e progressão entre partidas através da Lore Store."
+      },
+      {
+        "question": "For The King II é multiplayer?",
+        "answer": "Sim. For The King II suporta jogo solo, co-op online e co-op local para até quatro jogadores, com um jogador controlando todo o grupo no modo solo."
+      },
+      {
+        "question": "Em quais plataformas For The King II está disponível?",
+        "answer": "For The King II está disponível no Steam para PC, Xbox e PlayStation. O Xbox lista multiplayer entre plataformas e suporte ao Xbox Play Anywhere."
+      },
+      {
+        "question": "For The King II suporta crossplay?",
+        "answer": "Steam e Xbox listam marcadores de multiplayer entre plataformas para For The King II. O PlayStation lista multiplayer online e Remote Play, então grupos de plataformas mistas devem seguir os marcadores de funcionalidade de cada loja."
+      },
+      {
+        "question": "Existem códigos de resgate (redeem codes) ativos em For The King II?",
+        "answer": "For The King II possui um campo de Redeem Code no jogo, mas não distribui uma lista pública de códigos gratuitos. Recompensas de longo prazo vêm através da Lore Store, atualizações gratuitas e pacotes de personagens oficiais."
+      },
+      {
+        "question": "Quantas classes existem em For The King II?",
+        "answer": "For The King II foi lançado com 12 classes jogáveis e adiciona mais através de atualizações gratuitas como o Monk e pacotes de personagens pagos, como Tinkerers of Fate, Fallen Oaths e Into The Wild."
+      },
+      {
+        "question": "O que é a Lore Store em For The King II?",
+        "answer": "A Lore Store é a camada de progressão roguelite de For The King II. A Lore ganha ao jogar desbloqueia novos itens iniciais, armas, cosméticos e opções de classes que fortalecem as partidas futuras."
+      },
+      {
+        "question": "For The King II tem um modo endgame?",
+        "answer": "Sim. For The King II inclui a masmorra infinita Dark Carnival e a atualização gratuita Dungeon Crawl com mapas aleatórios, chefes rotativos e um placar de líderes Gauntlet com seeds."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para explorar For The King II?",
+    "description": "Junte-se à comunidade de For The King II no Discord para guias, atualizações e discussões!",
+    "joinCommunity": "Junte-se ao Discord",
+    "joinGame": "Jogue no Steam"
+  },
+  "footer": {
+    "title": "Wiki de For The King II",
+    "description": "Seu hub de recursos completo para classes, builds, equipamentos, campanhas, masmorras, multiplayer, DLC e conquistas de For The King II.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 For The King II Wiki. Não afiliado à IronOak Games ou Curve Games.",
+    "disclaimer": "Website de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guias de For The King II",
+      "description": "Guias completos de For The King II cobrindo dicas para iniciantes, detonados, controles de nível de Chaos, teclas de atalho e estratégia de run completa.",
+      "metaTitle": "Guias de For The King II - Detonado, Dicas e Ajuda para Iniciantes",
+      "metaDescription": "Navegue por todos os guias de For The King II: detonado para iniciantes, dicas, teclas de atalho, configurações de nível de Chaos, barris de pólvora e o traço Chosen One.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que são os Guias de For The King II?",
+      "whatIsDescription": "Os guias de For The King II detalham os sistemas de RPG de mesa roguelite em turnos que decidem se um grupo sobrevive a Fahrul: posicionamento na Battle Grid, gasto de Focus, rotas de Sanctum e Stone Hero, economia da cidade e gerenciamento de pressão de Chaos.",
+      "why": "Por que ler estes guias?",
+      "whySteps": {
+        "step1Title": "Evite a Eliminação Precoce do Grupo",
+        "step1Description": "Aprenda funções do grupo, regras de pull e disciplina de Focus para que os primeiros capítulos parem de terminar em uma falha heroica do grupo.",
+        "step2Title": "Controle o Chaos e o Tempo",
+        "step2Description": "Domine o Nível de Chaos, Velocidade de Chaos e Focus de movimento para evitar que o cronômetro do mapa puna cada decisão.",
+        "step3Title": "Transforme Cada Run em Progresso",
+        "step3Description": "Use runs fracassadas, a Lore Store e o planejamento de desbloqueios para tornar cada tentativa mais forte que a anterior."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "codes": {
+      "title": "Códigos de For The King II",
+      "description": "O status atual dos códigos de For The King II, como funciona o campo Redeem Code e de onde realmente vêm as recompensas de longo prazo.",
+      "metaTitle": "Códigos de For The King II - Status do Redeem Code e Recompensas da Lore Store",
+      "metaDescription": "Códigos de For The King II explicados: como funciona o campo Redeem Code no jogo, recompensas da Lore Store e desbloqueios oficiais de classes sem códigos falsos de terceiros.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são os Códigos de For The King II?",
+      "whatIsDescription": "For The King II inclui um campo Redeem Code no jogo dentro da Lore Store. As recompensas de longo prazo vêm através do sistema de progressão da Lore Store, atualizações gratuitas e pacotes de personagens oficiais, em vez de uma lista pública de códigos gratuitos.",
+      "why": "Por que usar este guia de códigos?",
+      "whySteps": {
+        "step1Title": "Conheça as Verdadeiras Fontes de Recompensas",
+        "step1Description": "Entenda que os desbloqueios de Lore, atualizações gratuitas e pacotes de personagens oficiais são a verdadeira progressão, não geradores de códigos aleatórios.",
+        "step2Title": "Use o Campo Redeem Code Corretamente",
+        "step2Description": "Encontre a entrada do Redeem Code dentro da Lore Store e saiba que tipos de códigos são realmente distribuídos.",
+        "step3Title": "Evite Códigos Falsos e de Terceiros",
+        "step3Description": "Ignore edições de save, trainers e ferramentas de desbloqueio não oficiais que não sejam recompensas oficiais de For The King II."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Códigos"
+    },
+    "classes": {
+      "title": "Classes de For The King II",
+      "description": "Cada classe de For The King II explicada com atributos, funções, desbloqueios e uma tier list completa para montar o grupo mais forte.",
+      "metaTitle": "Classes e Tier List de For The King II - A Melhor Classe para Cada Função",
+      "metaDescription": "Compare todas as classes de For The King II, incluindo Alchemist, Beekeeper, Monk, Voidwalker e Fortune Teller, com uma tier list baseada em funções e as melhores builds de grupo.",
+      "categoryLabel": "CLASSES",
+      "whatIs": "O que são as Classes de For The King II?",
+      "whatIsDescription": "As classes de For The King II definem o atributo principal de cada herói, tipos de armas, função em combate e utilidade para o grupo. O elenco foi lançado com 12 classes jogáveis e cresce por meio de atualizações gratuitas, como o Monk, e pacotes de personagens pagos.",
+      "why": "Por que comparar classes?",
+      "whySteps": {
+        "step1Title": "Combine a Classe com a Função",
+        "step1Description": "Escolha as classes pela função que o grupo precisa: tanque de linha de frente, dano à distância, controle mágico ou suporte de cura.",
+        "step2Title": "Planeje Desbloqueios e DLC",
+        "step2Description": "Saiba quais classes vêm do jogo base, de atualizações gratuitas ou de pacotes como Tinkerers of Fate, Fallen Oaths e Into The Wild.",
+        "step3Title": "Monte o Melhor Grupo",
+        "step3Description": "Combine classes em composições equilibradas para a campanha, co-op e explorações de masmorras no Dark Carnival."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Classes"
+    },
+    "combat": {
+      "title": "Combate em For The King II",
+      "description": "Domine o combate de For The King II: posicionamento no Battle Grid, Focus, armas, armaduras, efeitos de status e prioridade de equipamentos.",
+      "metaTitle": "Guia de Combate de For The King II - Battle Grid, Armas, Armaduras e Focus",
+      "metaDescription": "Aprenda as mecânicas de combate de For The King II, incluindo o Battle Grid, gasto de Focus, armas, armaduras, atributos de personagem, efeitos de status e equipamentos do grupo.",
+      "categoryLabel": "COMBATE",
+      "whatIs": "O que é o Combate de For The King II?",
+      "whatIsDescription": "O combate de For The King II ocorre em um Battle Grid 2x4, onde o posicionamento, o gasto de Focus, os tipos de defesa e os efeitos de status decidem se uma luta permanece sob controle. Armas e armaduras devem corresponder ao atributo principal de cada personagem.",
+      "why": "Por que usar este guia de combate?",
+      "whySteps": {
+        "step1Title": "Controle o Battle Grid",
+        "step1Description": "Coloque personagens resistentes na frente, proteja funções frágeis da linha de trás e use o movimento para desviar de ataques de área.",
+        "step2Title": "Gaste Focus em Jogadas Decisivas",
+        "step2Description": "Guarde Focus para ataques cruciais, curas, feitiços de área e movimentos urgentes, em vez de jogadas de conveniência de baixo valor.",
+        "step3Title": "Combine Equipamento com Atributos",
+        "step3Description": "Dê armas de Força para personagens de Força, ferramentas de Inteligência para conjuradores e mantenha a armadura na linha de frente."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Combate"
+    },
+    "multiplayer": {
+      "title": "Multiplayer de For The King II",
+      "description": "Como funciona o multiplayer de For The King II: número de jogadores, co-op online, co-op local, crossplay e Remote Play no Steam, Xbox e PlayStation.",
+      "metaTitle": "Multiplayer de For The King II - Co-op, Crossplay e Número de Jogadores",
+      "metaDescription": "O multiplayer de For The King II explicado: co-op online, co-op local, suporte a crossplay, Remote Play e quantos jogadores podem participar no Steam, Xbox e PlayStation.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "O que é o Multiplayer de For The King II?",
+      "whatIsDescription": "For The King II suporta jogo solo, co-op online e co-op local para até quatro jogadores. Um jogador solo controla todo o grupo, enquanto o co-op permite que cada jogador gerencie seus próprios personagens.",
+      "why": "Por que ler este guia de multiplayer?",
+      "whySteps": {
+        "step1Title": "Saiba o Número de Jogadores",
+        "step1Description": "Entenda quantos jogadores podem participar e como o jogo solo entrega o controle de todo o grupo a uma pessoa.",
+        "step2Title": "Escolha o Modo Co-op Certo",
+        "step2Description": "Compare o co-op online e o co-op local, incluindo o jogo em tela compartilhada com múltiplos controles.",
+        "step3Title": "Planeje o Crossplay e o Remote Play",
+        "step3Description": "Verifique as etiquetas de cross-platform entre Steam, Xbox e PlayStation antes de montar um grupo multiplataforma."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Multiplayer"
+    },
+    "platforms": {
+      "title": "Plataformas de For The King II",
+      "description": "Onde jogar For The King II: Steam, Xbox, PlayStation e Game Pass comparados com datas de lançamento e recursos de plataforma.",
+      "metaTitle": "Plataformas de For The King II - Steam, Xbox, PS5 e Game Pass",
+      "metaDescription": "Encontre For The King II no Steam, Xbox, PlayStation e Game Pass. Compare datas de lançamento, crossplay, recursos de nuvem e disponibilidade de plataforma.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "Em quais plataformas For The King II está disponível?",
+      "whatIsDescription": "For The King II está disponível no Steam para PC, Xbox e PlayStation. A versão de PC foi lançada em 2 de novembro de 2023, com os lançamentos para console seguindo em 12 de dezembro de 2024.",
+      "why": "Por que consultar o guia de plataformas?",
+      "whySteps": {
+        "step1Title": "Escolha Sua Plataforma",
+        "step1Description": "Compare a disponibilidade no Steam, Xbox e PlayStation, além do acesso ao Game Pass antes de comprar.",
+        "step2Title": "Combine Plataforma com Recursos",
+        "step2Description": "Veja quais plataformas oferecem crossplay, Remote Play, jogos em nuvem e recursos de ecossistema como o Xbox Play Anywhere.",
+        "step3Title": "Planeje o Jogo Cross-Platform",
+        "step3Description": "Use as etiquetas de recursos de plataforma para confirmar quem pode se juntar ao seu grupo de co-op antes de iniciar uma run."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Plataforma"
+    }
+  }
+}
