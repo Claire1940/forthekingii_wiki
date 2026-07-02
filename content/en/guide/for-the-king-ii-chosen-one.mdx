@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Chosen One: Trait Guide & Mechanics",
+  description: "Learn how to unlock and optimize the Chosen One trait in For The King II. Master the flat +5% skill chance mechanics, best class builds, and team setups.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Chosen+One+Trait+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Chosen One Trait**: Grants a flat **+5% Skill Chance** to all character passive abilities.
+- **Mechanical Advantage**: This bonus is applied **after all scaling and caps**, bypassing standard limits.
+- **How to Unlock**: Purchase in the **Lore Store** after completing the *A New Age* adventure or campaign milestones.
+- **Best Classes**: Extremely powerful on the **Blacksmith**, **Herbalist**, **Scholar**, and **Fortune Teller**.
+- **Top Synergy**: Combines perfectly with the **Lucky** trait and skill-proc-heavy equipment.
+</Callout>
+
+In the unforgiving turn-based roguelite world of Fahrul, success is often decided by the roll of a die [homepage-modules-1]. However, relying purely on luck is a fast track to a party wipe [homepage-modules-1, homepage-modules-2]. To survive the brutal campaigns, players must leverage every mechanical advantage available. Among the most powerful tools introduced in the post-launch updates is the **for the king ii chosen one** trait. This guide breaks down the exact mechanics of this game-changing trait, how to unlock it, and how to build an optimized party around its unique skill-boosting capabilities.
+
+
+<Section icon={Sparkles} title="Overview of the Chosen One Trait">
+
+The **for the king ii chosen one** trait was officially introduced to Fahrul during the major free content update, *A New Age*. Designed to reward players who rely heavily on passive character skills, this trait provides a flat **+5% Skill Chance** (often referred to in the game files as a "Skill Bonus"). 
+
+Unlike other traits that alter raw attributes like Strength or Speed, the Chosen One trait directly influences the background rolls that determine whether your characters' passive abilities trigger at the end of a turn or during combat.
+
+| Trait | Base Effect | Primary Scaling | Ideal Class Synergy |
+| :--- | :--- | :--- | :--- |
+| **Chosen One** | Flat +5% Skill Chance | Post-calculation flat add | Blacksmith, Herbalist, Scholar |
+| **Lucky** | Increases Luck Stat | Scales with Luck gear | Fortune Teller, Busker, Toymaker |
+| **Gifted** | Boosts primary stats | Flat stat increase (+3) | Fallen Knight, Hunter, Pathfinder |
+
+<Callout type="tip" title="Why +5% is Massive">
+While a 5% increase might seem minor on paper, its mechanical application makes it one of the strongest traits in the game. It acts as a flat modifier applied *after* all other penalties, making it highly reliable.
+</Callout>
+
+</Section>
+
+
+<Section icon={Trophy} title="Unlocking the For The King II Chosen One Trait">
+
+Before you can assign the Chosen One trait to your characters during the loadout phase of a new run, you must first unlock it via the game's roguelite progression system—the Lore Store. 
+
+The trait is available to all players who have updated their game to the *A New Age* content version. To add it to your permanent customization pool, follow the progression steps outlined below.
+
+<Steps>
+  <Step num="1" title="Complete the 'A New Age' Adventure">
+    To make the trait appear in the Lore Store, you must first complete the *A New Age* campaign adventure or achieve specific high-tier milestones, such as defeating 1,000 enemies across your career runs.
+  </Step>
+  <Step num="2" title="Accumulate Lore Currency">
+    Lore points are earned by completing overworld quests, defeating Scourges, clearing dungeons, and successfully finishing campaign chapters [00基础信息, homepage-modules-1]. Ensure you have at least 15 to 20 Lore points saved up.
+  </Step>
+  <Step num="3" title="Purchase in the Lore Store">
+    From the main menu, navigate to the Lore Store, select the **Traits** tab, and scroll down to locate the **Chosen One** trait. Purchase it to permanently unlock it for all future character creations.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Unlock Bug Workaround">
+Some players have reported a minor visual bug where the trait notification pops up but does not immediately show in the store. If this happens, purchase a cheap item (like a 5-Lore location or cosmetic) to refresh the store inventory, and the trait will appear.
+</Callout>
+
+</Section>
+
+
+<Section icon={Shield} title="Deep Dive: Skill Chance Mechanics & Math">
+
+To truly appreciate the power of the **for the king ii chosen one** trait, it is essential to understand how the game calculates passive skill triggers. Passive skills—such as the Blacksmith's *Steadfast*, the Herbalist's *Find Herb*, or the Scholar's *Refocus*—do not trigger automatically; they rely on hidden math.
+
+Most passive skills scale with a character's primary stat or their Luck stat. However, the developers have placed hard caps on how high these trigger chances can go naturally. For example, the Blacksmith's *Steadfast* skill caps at a maximum of 30% from Vitality, Armor, and Resistance scaling. 
+
+This is where the Chosen One trait shines: **Skill Bonus is added after all other calculations, penalties, and caps are computed**.
+
+| Passive Skill | Class | Base Trigger Mechanic | Chosen One Impact |
+| :--- | :--- | :--- | :--- |
+| **Steadfast** | Blacksmith | Capped at 30% from Vitality | Raises absolute cap to 35% |
+| **Mend** | Blacksmith | First check scales with Level | Guarantees 100% first-check success |
+| **Find Herb** | Herbalist | Random chance on overworld turn | Significantly stabilizes herb economy |
+| **Refocus** | Scholar | Random chance at combat turn end | Provides highly reliable Focus recovery |
+
+<Callout type="info" title="Chosen One vs. Lucky Trait">
+The *Lucky* trait increases your Luck stat, which indirectly boosts skills that scale with Luck. However, if you are hit with status debuffs or are using skills with hard caps, *Lucky* will not help. The *Chosen One* trait bypasses these limitations completely by adding a flat 5% to the final percentage.
+</Callout>
+
+</Section>
+
+
+<Section icon={Swords} title="Best Class Builds & Synergies">
+
+Because the **for the king ii chosen one** trait provides a flat bonus to passive skill activation, it is highly situational. Equipping it on a class with no passive skills (such as the base Pathfinder) is a waste of a trait slot. 
+
+To maximize your efficiency, assign this trait to classes that rely heavily on their unique passive abilities to support the team or survive on the front line.
+
+<CardGrid cols={2}>
+  <Card title="The Unkillable Blacksmith">
+    - **Class**: Blacksmith
+    - **Key Passives**: *Steadfast* & *Mend*
+    - **Synergy**: The flat +5% pushes *Steadfast* past its 30% cap to 35%, while making the first check of *Mend* a guaranteed 100% trigger. This ensures your shield and armor remain intact through grueling dungeon crawls.
+  </Card>
+  <Card title="The Infinite Scholar">
+    - **Class**: Scholar
+    - **Key Passives**: *Refocus* & *Find Scroll* [homepage-modules-1]
+    - **Synergy**: Scholar relies on *Refocus* to regenerate Focus points at the end of combat turns. Stacking Chosen One ensures a steady stream of Focus, allowing you to cast powerful spells without depleting your item inventory [homepage-modules-1, homepage-modules-2].
+  </Card>
+  <Card title="The Master Herbalist">
+    - **Class**: Herbalist
+    - **Key Passives**: *Find Herb* & *Party Heal* [homepage-modules-1]
+    - **Synergy**: Keeping your party healthy is the hardest part of Master difficulty [00首页信息, homepage-modules-1]. A Chosen One Herbalist consistently produces free Herbs on the overworld, saving thousands of gold over the course of a campaign [00基础信息, homepage-modules-1].
+  </Card>
+  <Card title="The Fate-Weaving Fortune Teller">
+    - **Class**: Fortune Teller
+    - **Key Passives**: *Fate* & *Gather Focus*
+    - **Synergy**: The Fortune Teller uses tarot cards to manipulate combat outcomes. Stacking Chosen One ensures that your tarot-altering passives trigger far more reliably, turning bad rolls into perfect successes.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ideal Gear Synergies">
+When running a Chosen One build, look for weapons and armor that grant additional "+Skill Chance" stats. Stacking these items with your trait can push passive trigger rates to incredibly high levels, transforming your characters into passive-triggering powerhouses.
+</Callout>
+
+</Section>
+
+
+<Section icon={Target} title="Endgame Checklist & Team Setup">
+
+To successfully conquer Master difficulty or push deep into the endless floors of the **Dark Carnival**, your team composition must be perfectly balanced [00首页信息, homepage-modules-2]. The Chosen One trait works best when integrated into a team that covers all essential roles: defense, healing, physical damage, and magical utility [homepage-modules-1].
+
+| Role / Class | Trait Choice | Core Combat Function | Primary Loot Priority |
+| :--- | :--- | :--- | :--- |
+| **Blacksmith** (Tank) | Chosen One | Absorbs damage, procs Steadfast & Mend | Shields, heavy armor, Vitality gear |
+| **Herbalist** (Healer) | Gifted | Restores party health, secures herbs | Godsbeard, Intelligence staves, focus gear |
+| **Fortune Teller** (DPS) | Lucky | Tarot manipulation, heavy channeled damage | Orbs, Luck-based trinkets, Awareness gear |
+| **Hunter** (Scout) | Nimble | Ranged physical burst, ambush control | Bows, speed-boosting gear, Awareness armor |
+
+<Checklist
+  id="chosen-one-optimization"
+  title="Chosen One Optimization Goals:"
+  items={[
+    "Unlock the Chosen One trait in the Lore Store using 15-20 Lore points.",
+    "Assign the trait to your front-line Blacksmith or back-line Scholar during loadout selection.",
+    "Equip your Chosen One character with armor that boosts passive Skill Chance.",
+    "Pair the Chosen One character with a Lucky character to maximize team-wide passive triggers.",
+    "Keep your party grouped tightly to benefit from area-of-effect passive heals and buffs."
+  ]}
+/>
+
+<Callout type="info" title="Dungeon Crawl Tip">
+In long-form dungeon modes like the *Dungeon Crawl Gauntlet*, resources like Godsbeard and Focus are extremely scarce [homepage-modules-2]. Having a Chosen One Scholar and Herbalist ensures your party regenerates resources passively without spending gold [homepage-modules-1, homepage-modules-2].
+</Callout>
+
+</Section>
+
+
+<Section icon={Map} title="Frequently Asked Questions (FAQ)">
+
+<FAQ items={[
+  {
+    question: "How exactly does the Chosen One trait work mechanically in For The King II?",
+    answer: "Unlike the Lucky trait which scales your Luck stat, the Chosen One trait adds a flat +5% Skill Chance after all other calculations, penalties, and caps are computed. This makes it incredibly powerful for bypassing hard caps on skills like Steadfast."
+  },
+  {
+    question: "Is the Chosen One trait better than the Lucky trait?",
+    answer: "Yes, for classes with powerful passive skills like the Blacksmith's Mend or the Herbalist's Find Herb. Lucky is better for general luck-based overworld events and classes like the Fortune Teller whose abilities scale heavily with the Luck stat."
+  },
+  {
+    question: "How do I unlock the For The King II Chosen One trait in the Lore Store?",
+    answer: "The Chosen One trait is unlocked by updating your game to the 'A New Age' content version and completing specific campaign milestones. Once unlocked, you can purchase it in the Lore Store using Lore points."
+  },
+  {
+    question: "Does Chosen One affect combat roll accuracy?",
+    answer: "No, Chosen One only affects passive skill trigger chances (such as Refocus, Steadfast, and Find Potion). It does not increase your accuracy or success rates on standard weapon combat rolls."
+  }
+]} />
+
+<Callout type="tip" title="Final Verdict">
+The **for the king ii chosen one** trait is a top-tier pick for any defensive or utility-focused character. By bypassing standard game caps, it provides unparalleled reliability in a game governed by random dice rolls.
+</Callout>
+
+</Section>

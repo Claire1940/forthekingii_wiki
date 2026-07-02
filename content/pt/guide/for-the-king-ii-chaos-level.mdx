@@ -1,0 +1,146 @@
+import { Map, Swords, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Nível de Caos de For The King II: Mecânicas e Gerenciamento",
+  description: "Domine as mecânicas do Nível de Caos em For The King II. Aprenda como o Caos escala o HP dos inimigos, gera Hexágonos de Caos e como gerenciar a linha do tempo para sobreviver em Fahrul.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1a47/fff?text=Chaos+Level+Management+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II",
+  keywords: "for the king ii, nível de caos, mecânicas, guia de sobrevivência, fahrul"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Nível de Caos** representa a corrupção crescente de Fahrul, rastreando o destino incremental através de um medidor de 3 emblemas no mapa.
+- **Escalonamento de Inimigos** aumenta os Pontos de Vida (HP) dos inimigos em **5%**, **10%** ou **20%** por nível de Caos, dependendo da dificuldade da sua campanha.
+- **Gerenciamento da Linha do Tempo** é o ciclo central de sobrevivência; permitir que o medidor atinja a capacidade máxima desencadeia a devastação total do mundo exterior.
+- **Métodos de Redução** incluem completar objetivos do cenário principal, concluir missões secundárias em cidades e destruir Geradores de Caos.
+- **Caos Total** inunda o mapa com blocos amaldiçoados, aumenta as taxas de encontro e libera a mortal Besta do Caos errante.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas de Nível de Caos de For The King II">
+
+Em *For The King II*, o **nível de caos de for the king ii** atua como um relógio do destino implacável baseado em turnos. Representado por um rastreador de linha do tempo e um **Medidor de Caos de 3 emblemas** no topo da sua tela, o Caos aumenta naturalmente à medida que as rodadas passam. Se você ignorar o relógio para subir de nível excessivamente ou vagar sem rumo, a terra de Fahrul se tornará ativamente hostil, aumentando a barreira de entrada até mesmo para encontros básicos de combate.
+
+Ao contrário das mortes de personagens — que esgotam a Reserva de Vidas Compartilhada do seu grupo em vez de gerar corrupção — o Caos é puramente uma mecânica de restrição de tempo. À medida que o medidor enche, o mundo físico se deforma e a camada estratégica do jogo muda da exploração para o gerenciamento de crise urgente.
+
+| Estado do Medidor de Caos | Efeitos no Mundo Exterior | Escalonamento de Inimigos | Intensidade de Perigos |
+| :--- | :--- | :--- | :--- |
+| **0 Emblemas** | Navegação normal pelo terreno | Atributos base | Surgimentos padrão no mapa |
+| **1 Emblema** | Hexágonos de Caos surgem em blocos aleatórios | **+5% / +10% / +20% HP** | Pequenas penalidades de navegação |
+| **2 Emblemas** | Distribuição densa de Hexágonos de Caos | Dobro da penalidade de escalonamento | Surgimentos frequentes de patrulhas de elite |
+| **3 Emblemas (Máx)** | Terra amaldiçoada inunda Fahrul | Escalonamento máximo de atributos | **Besta do Caos** surge aleatoriamente |
+
+<Callout type="warning" title="A Dificuldade Determina a Penalidade">
+A penalidade de escalonamento de cada emblema de Caos está ligada diretamente ao nível de dificuldade selecionado. No nível Aprendiz, os inimigos ganham 5% de HP por nível; no Viajante, ganham 10%; na dificuldade Mestre, eles escalam em massivos 20% de HP por nível, transformando lutas básicas em guerras de atrito excruciantes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="As Consequências de Desencadear o Caos Total">
+
+Permitir que o Medidor de Caos atinja sua capacidade máxima de 3 emblemas mergulha Fahrul em um estado de **Caos Total**. Uma vez que esse limite é ultrapassado, o mapa do mundo exterior sofre uma transformação permanente e altamente destrutiva que ameaça encerrar sua campanha imediatamente.
+
+<CardGrid cols={3}>
+  <Card title="Inundação de Terra Amaldiçoada">
+    - **Hexágonos Corrompidos** substituem rapidamente os blocos de terreno padrão em todo o bioma.
+    - Entrar ou atravessar esses blocos inflige efeitos de status negativos graves e aleatórios.
+    - O movimento torna-se altamente restrito, forçando o gasto de preciosos pontos de Foco.
+  </Card>
+  <Card title="Surgimento da Besta do Caos">
+    - Uma entidade massiva e aterrorizante conhecida como **Besta do Caos** materializa-se no mapa.
+    - Ela permanece escondida em um hexágono aleatório até que um membro do grupo pise nele.
+    - Suas habilidades de combate atingem **todo o grupo simultaneamente**, ignorando as defesas padrão de fileira da Grade de Batalha.
+  </Card>
+  <Card title="Taxas de Encontro Elevadas">
+    - Patrulhas inimigas normais são substituídas por grupos de Caos de alto nível altamente agressivos.
+    - As taxas de emboscada disparam, impedindo que seu grupo escolha um posicionamento de combate seguro.
+    - Zonas seguras, como cidades, podem ser sitiadas, bloqueando seu acesso a serviços vitais.
+  </Card>
+</CardGrid>
+
+<Callout type="danger" title="Limite de Fim de Jogo">
+Em certos cenários de campanha, deixar o Medidor de Caos totalmente cheio por muito tempo ou falhar em objetivos cronometrados específicos desencadeará uma derrota imediata e irreversível da campanha. Nunca trate o estado de 3 emblemas como uma base gerenciável.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para Gerenciar e Reduzir o Caos">
+
+Para manter um ritmo de campanha saudável e manter o **nível de caos de for the king ii** em zero, você deve integrar ativamente a mitigação do Caos na rota de movimento do seu grupo. Use esta estratégia passo a passo para controlar a linha do tempo.
+
+<Steps>
+  <Step num="1" title="Priorize Missões Secundárias de Cidades">
+    Sempre que entrar em uma nova cidade, verifique o quadro de missões local imediatamente. As cidades oferecem regularmente missões secundárias que recompensam com **-1 de Caos** ou resetam o relógio de acumulação da linha do tempo do Caos atual. Planeje sua rota de viagem para completar esses objetivos antes de avançar na história principal.
+  </Step>
+  <Step num="2" title="Cace Geradores de Caos">
+    Fique atento a **Dispositivos e Catapultas de Caos** no mapa. Em capítulos difíceis como *O Carvalho Primordial*, as Catapultas de Goblins locais atuam como geradores ativos de Caos. Esses dispositivos geralmente estão localizados em um **raio de 5 hexágonos** de cidades locais; procure-os e desarme-os para manter a linha do tempo limpa.
+  </Step>
+  <Step num="3" title="Utilize o Carrossel do Carnaval Sombrio">
+    Se você estiver jogando o Carnaval Sombrio ou modos de masmorra infinita, procure pelo **Carrossel do Caos**. Jogar no Carrossel permite reduzir os níveis de Caos em 1 ou 2. No entanto, isso requer testes de Sorte bem-sucedidos. Tenha cuidado: falhar nesses testes pode preencher completamente o seu Medidor de Caos.
+  </Step>
+  <Step num="4" title="Sacrifique Atributos em Altares">
+    Para partidas de progressão avançada, desbloquear o **Altar** na Loja de Lore (requer 8 de Lore) fornece uma rede de segurança crítica. Se o seu grupo estiver em uma situação desesperadora, você pode sacrificar uma parte do vigor máximo de um personagem em um Altar para reduzir manualmente o valor atual do Caos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="A Regra de Ouro do Ritmo">
+Os grupos mais bem-sucedidos movem-se como uma unidade coesa, aceitando lutas opcionais de alto valor e missões de cidades para permanecerem no nível exigido pela região, enquanto dedicam pelo menos um membro (como um Menestrel de alto Talento) para desarmar geradores de Caos regionais com segurança.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ritmo de Campanha e Customização de Regras da Casa">
+
+Se a linha do tempo padrão do Caos parecer punitiva demais, *For The King II* oferece **Regras da Casa** robustas durante a criação da campanha, permitindo que você adapte a experiência ao seu ritmo tático preferido.
+
+### Configurações de Regras da Casa Relacionadas ao Caos
+| Configuração de Regra | Faixa de Ajuste | Impacto Tático | Uso Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Velocidade do Caos** | 50% a 200% | Desacelera ou acelera a geração de emblemas | Defina como **50%** para uma partida relaxada e focada em exploração |
+| **Reserva de Vidas** | 0 a 5 Vidas | Ajusta quantas ressurreições de grupo estão disponíveis | Aumente para compensar derrotas agressivas no início do jogo |
+| **Inflação de Ouro** | 0% a 100% | Controla o escalonamento de preços das lojas conforme a campanha avança | Mantenha baixa em partidas no Mestre para combater custos extremos de equipamentos |
+
+### Marcos Essenciais de Gerenciamento de Caos
+<Checklist
+  id="chaos-milestones"
+  title="Checklist de Partida Ativa:"
+  items={[
+    "Localize e mapeie todas as cidades dentro do bioma atual para revelar os quadros de missões [1.2.4].",
+    "Explore um raio de 5 hexágonos ao redor das cidades para encontrar e desativar Catapultas de Caos ativas.",
+    "Certifique-se de que pelo menos um membro do grupo carregue uma Bolsa de Isqueiro (Tinder Pouch) para montar acampamentos para recuperação segura.",
+    "Mantenha uma margem de pelo menos 1 slot de emblema vazio no Medidor de Caos antes de entrar em masmorras principais da história."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A morte de um personagem aumenta o nível de Caos em For The King II?",
+    answer: "Não. As mortes de personagens não geram Caos. Em vez disso, morrer reduz a Reserva de Vidas Compartilhada do seu grupo. O Caos é estritamente uma mecânica baseada em tempo que aumenta à medida que as rodadas no mapa passam."
+  },
+  {
+    question: "Qual é o limite máximo para os níveis de personagens na campanha?",
+    answer: "O limite de nível máximo para todos os personagens em For The King II é o nível 14. Quaisquer pontos de experiência ganhos após atingir esse limite não serão contabilizados."
+  },
+  {
+    question: "Como lidar com a alta velocidade dos inimigos ao gerenciar o Caos?",
+    answer: "Inimigos como Goblins em regiões de alto Caos movem-se incrivelmente rápido. Usar um Fazendeiro com o traço Ansioso (Eager) pode garantir um Espantalho defensivo no início do combate, absorvendo picos de dano iniciais."
+  },
+  {
+    question: "Existem modos de campanha onde as mecânicas de Caos são desativadas?",
+    answer: "Sim. O cenário de campanha Aventura de Gelo (Frost Adventure) não apresenta o Índice de Caos ou o Medidor de Caos. Em vez disso, os jogadores devem gerenciar o dano de frio e as mecânicas de congelamento enquanto navegam pelo mundo exterior."
+  }
+]} />
+
+</Section>

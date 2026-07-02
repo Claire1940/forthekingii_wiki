@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Lumberjack: Unlock Guide & Best Builds",
+  description: "Unlock the Lumberjack in For The King II. Learn the best party builds, weapons, and combat strategies to dominate Fahrul's Battle Grid.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Lumberjack+Unlock+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Lumberjack Overview**: A high-impact physical damage dealer built around Strength and heavy two-handed weapons.
+- **Key Unlock Condition**: Earned via specific campaign progression and unlocked in the in-game Lore Store using Lore currency.
+- **Core Passive**: Features powerful combat traits that reward perfect dice rolls and shield-breaking strikes.
+- **Best Team Role**: Serves as a primary front-row physical damage dealer or a hybrid off-tank next to a Blacksmith.
+</Callout>
+
+<Section icon={Map} title="How to Unlock the Lumberjack">
+
+To recruit the Lumberjack to your roster in [For The King II](https://store.steampowered.com/app/1676840/For_The_King_II/), you must progress through the main campaign and spend your hard-earned Lore currency. Unlike starter classes, this physical powerhouse requires active campaign participation before becoming selectable in your starting loadouts.
+
+| Unlock Step | Requirement | Location | Reward |
+|--- |--- |--- |--- |
+| **1. Earn Lore** | Complete overworld quests and campaign chapters | Any Adventure | Lore Currency |
+| **2. Access Store** | Open the main menu and navigate to the progression shop | Lore Store | Unlock Menu |
+| **3. Purchase Class** | Spend the required Lore points to permanently claim the class | Character Tab | Lumberjack Playable |
+
+<Callout type="success" title="Lore Farming Tip">
+If you are short on Lore, run the early chapters of the campaign on Apprentice difficulty. Completing town quests and defeating overworld bosses is the fastest way to stack Lore points without risking a total party wipe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lumberjack Stats & Passive Skills">
+
+The Lumberjack is a frontline specialist designed to shatter enemy defenses. Boasting exceptional Strength and high Vitality, this class excels at wielding heavy, slow two-handed weapons that deal massive single-target or row-clearing physical damage.
+
+| Attribute | Base Value | Rating | Tactical Use |
+|--- |--- |--- |--- |
+| **Strength** | Very High | ★★★★★ | Primary damage scaling and weapon rolls |
+| **Vitality** | High | ★★★★☆ | Increases maximum health and frontline survival |
+| **Speed** | Low | ★★☆☆☆ | Delays turn order, requiring speed-boosting gear |
+| **Awareness** | Moderate | ★★★☆☆ | Secondary physical utility and ambush checks |
+
+### Passive Abilities
+- **Justice**: Has a random chance to turn a standard single-target attack into a devastating splash attack that damages adjacent targets.
+- **Door Slam**: Increases physical damage when attacking fortified targets, barricades, or shielded frontlines on the Battle Grid.
+
+<Callout type="warning" title="Speed Penalty Warning">
+Because the Lumberjack has low base Speed, they will often act last in the turn order. Pair them with support characters or equip speed-boosting boots to prevent fast enemies from focus-firing them down before they can swing.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Lumberjack Party Builds">
+
+Building a balanced team around the Lumberjack prevents them from being overwhelmed on the 2x4 Battle Grid. A proper party composition covers frontline defense, reliable healing, magic utility, and speed manipulation.
+
+<CardGrid cols={3}>
+  <Card title="The Iron Vanguard">
+    - **Frontline**: Blacksmith & Lumberjack
+    - **Backline**: Scholar & Herbalist
+    - **Strategy**: Maximum physical protection and steady group healing.
+  </Card>
+  <Card title="The Burst Striker">
+    - **Frontline**: Lumberjack
+    - **Backline**: Alchemist & Hunter & Herbalist
+    - **Strategy**: High physical and magic burst to end fights in two turns.
+  </Card>
+  <Card title="The Co-op Flex">
+    - **Frontline**: Lumberjack & Busker
+    - **Backline**: Scholar & Herbalist
+    - **Strategy**: Excellent gold economy, crowd control, and physical split.
+  </Card>
+</CardGrid>
+
+| Position | Class | Role | Core Loot Priority |
+|--- |--- |--- |--- |
+| Front Left | **Blacksmith** | Main Tank / Taunt | Heavy Shields, Vitality Armor |
+| Front Right | **Lumberjack** | Physical Damage / Off-Tank | Two-Handed Axes, Strength Gear |
+| Back Left | **Herbalist** | Group Healer / Support | Godsbeard, Intelligence Magic |
+| Back Right | **Scholar** | Magic Damage / Focus Maker | Tomes, Focus-restoring Trinkets |
+
+<Callout type="tip" title="Battle Grid Placement">
+Always place your Lumberjack in the front row next to a shield-wielding Blacksmith. The Blacksmith can use the Guard skill to protect the Lumberjack while they focus entirely on charging up high-damage Strength attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Combat Strategy">
+
+Maximizing the Lumberjack's impact on the Battle Grid requires careful planning, Focus management, and target prioritization. Follow this tactical rotation to turn this slow giant into an unstoppable force.
+
+<Steps>
+  <Step num="1" title="Positioning Check">
+    Before starting a fight, ensure the Lumberjack is in the front row. If caught in an ambush, use your first secondary action to move them into a slot adjacent to your tank.
+  </Step>
+  <Step num="2" title="Analyze Enemy Defenses">
+    Identify high-armor targets. Use the Lumberjack to target enemies with low Physical Defence or use armor-piercing weapon skills to bypass heavy shields.
+  </Step>
+  <Step num="3" title="Spend Focus Wisely">
+    Do not waste Focus on easy fights. Save your Focus points for high-damage two-handed skills that hit multiple tiles or when you need to guarantee a critical execution.
+  </Step>
+  <Step num="4" title="Trigger Justice">
+    Target the center enemy in a row. If the passive skill **Justice** triggers, your attack will splash to the left and right, dealing massive collateral damage.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Focus Recovery">
+Use your Scholar's Refocus ability or consume Golden Root during recovery phases to keep your Lumberjack's Focus bar full before entering major dungeons.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recommended Gear and Loadouts">
+
+Equipping the Lumberjack with the correct weapons and utility items makes the difference between a missed swing and a one-hit kill. Focus entirely on Strength-scaling weapons and gear that mitigates their low Speed.
+
+### Best Weapons
+- **Great Axe**: High raw physical damage with reliable single-target and splash skills.
+- **Woodsman's Axe**: Bypasses a portion of enemy armor and scales perfectly with base Strength.
+- **Two-Handed Hammer**: Excellent for stunning targets and disrupting their turn order on the Battle Grid.
+
+### Starting Loadout Priority
+1. **Strength Trinket**: Grants an immediate boost to your primary roll success rate.
+2. **Speed Boots**: Helps offset the class's low natural initiative.
+3. **Panax**: Keeps the Lumberjack clean of status effects like Dazed or Stunned, which completely ruin their turn economy.
+
+<Checklist
+  id="lumberjack-prep"
+  title="Lumberjack Run Checklist:"
+  items={[
+    "Unlock the Lumberjack in the Lore Store",
+    "Equip a high-damage Strength weapon",
+    "Pair with a healer (Herbalist or Monk)",
+    "Acquire at least one Speed-boosting item",
+    "Carry status cures to prevent Dazed penalties"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Lumberjack better than the Blacksmith in For The King II?",
+    answer: "They serve different purposes. The Blacksmith is a pure tank focused on defense and protection, while the Lumberjack is a dedicated physical damage dealer with off-tank capabilities."
+  },
+  {
+    question: "How do I trigger the Justice passive skill consistently?",
+    answer: "Justice triggers randomly on melee attacks. To maximize its value, always target the middle enemy in an active row so the splash damage can hit targets on both sides."
+  },
+  {
+    question: "What is the best weapon type for the Lumberjack?",
+    answer: "Two-handed axes and heavy hammers are the best options. Look for weapons that scale exclusively with Strength and offer armor-piercing or splash damage skills."
+  },
+  {
+    question: "Can the Lumberjack use a shield?",
+    answer: "Yes, but it is not recommended. Equipping a shield forces you to use one-handed weapons, which significantly lowers your physical damage output and limits your ability to trigger high-impact splash attacks."
+  }
+]} />
+
+</Section>

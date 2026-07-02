@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Detonado de For The King II: Estratégia de Campanha e Melhores Composições de Grupo",
+  description: "Domine Fahrul com o nosso detonado de For The King II. Aprenda as melhores composições de grupo, lista de classes por tier, táticas de grade de batalha e estratégias de campanha.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Campaign+Walkthrough+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Domine a campanha** com este **detonado completo de For The King II** projetado para ajudar você a sobreviver em Fahrul.
+- **Monte equipes equilibradas** usando classes de Tier S, como o Ervanário para cura de grupo e o Alquimista para dano mágico explosivo.
+- **Gerencie seu Foco** com cuidado para garantir movimentos críticos no mapa e jogadas de dados decisivas na grade de batalha.
+- **Prepare-se para os biomas** caçando Santuários e Heróis de Pedra para garantir bônus vitais e aumentos de nível.
+</Callout>
+
+<Section icon={Swords} title="Configuração de Grupo e Lista de Classes por Tier">
+
+Ter sucesso no mundo roguelite em turnos de Fahrul exige uma compreensão profunda das capacidades do seu grupo. Montar uma equipe baseada em preferências pessoais em vez de funções estratégicas é um caminho rápido para a derrota. Para evitar que seu grupo desmorone durante as primeiras explorações de masmorras, você deve equilibrar defesa física, resistência mágica, dano à distância e cura confiável.
+
+A lista de tiers a seguir classifica as principais classes disponíveis no jogo base e nas atualizações de DLC. Cada classe é avaliada com base em seus atributos principais, utilidade em combate e viabilidade a longo prazo ao longo dos capítulos difíceis da campanha.
+
+| Tier | Classe | Atributo Principal | Função | Força Principal |
+|------|--------|--------------------|--------|-----------------|
+| S | Ervanário | Inteligência | Curandeiro de suporte | Cura de Grupo oferece sustentação para a equipe |
+| S | Alquimista | Inteligência | Explosão mágica | Utilidade de Encontrar Poção |
+| A | Ferreiro | Vitalidade | Tanque de linha de frente | Habilidades Firmeza e Proteger |
+| A | Caçador | Percepção | Físico à distância | Emboscada de Elite controla o mapa |
+| A | Estudioso | Inteligência | Utilidade mágica | Refocar restaura pontos de Foco |
+| A | Monge | Híbrido | Suporte híbrido | Opções flexíveis de cura |
+| A | Cartomante | Percepção | Utilidade à distância | Cartas de Tarô manipulam o destino |
+| B | Fabricante de Brinquedos | Talento | Invocador | Captura a essência dos inimigos |
+
+<CardGrid cols={3}>
+  <Card title="O Tanque (Ferreiro)">
+    - **Alta Vitalidade** permite que você absorva ataques físicos pesados.
+    - **Mecânicas de Firmeza e Proteger** defendem aliados adjacentes na linha de trás.
+    - **Melhor equipado** com escudos pesados, martelos e armaduras físicas.
+  </Card>
+  <Card title="O Curandeiro (Ervanário)">
+    - **Cura de Grupo** restaura a vida de todos os aliados dentro e fora de combate.
+    - **Passiva de Encontrar Erva** gera itens gratuitos de sobrevivência durante viagens pelo mapa.
+    - **Melhor equipado** com tomos baseados em inteligência e equipamentos que aumentam a velocidade.
+  </Card>
+  <Card title="O Caçador (DPS à Distância)">
+    - **Emboscada de Elite** permite isolar alvos únicos no mapa do mundo.
+    - **Tiro Certeiro** recompensa jogadas perfeitas de dados com acertos críticos devastadores.
+    - **Melhor equipado** com arcos baseados em percepção e armaduras leves de evasão.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estratégia Profissional de Cura">
+Sempre priorize o Ervanário para a sua primeira conclusão de campanha. Manter um curandeiro dedicado minimiza o ouro que você precisa gastar com ressurreições caras nas cidades e ervas de cura, preservando sua economia para melhorias de armas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Detonado de For The King II: Roteiro de Campanha Passo a Passo">
+
+A campanha principal é uma jornada desafiadora dividida em sete aventuras ligadas narrativamente. Cada capítulo apresenta biomas únicos, aumento da pressão do Caos e masmorras mortais. Para sobreviver à jornada, você deve estabelecer um ritmo de progressão metódico.
+
+Este roteiro passo a passo descreve os hábitos essenciais que mantêm um grupo vivo o suficiente para transformar o caos inicial do mapa em um progresso constante.
+
+<Steps>
+  <Step num="1" title="Estabeleça as Funções do Grupo Cedo">
+    Antes de iniciar uma nova campanha, certifique-se de que sua equipe de quatro jogadores cubra todas as bases críticas. Uma configuração padrão e confiável inclui um Ferreiro na linha de frente, um Caçador para dano físico à distância, um Estudioso para controle mágico e um Ervanário para cura. Evite acumular muitos causadores de dano frágeis na mesma equipe.
+  </Step>
+  <Step num="2" title="Gaste Foco Onde a Falha Custa Mais Caro">
+    O Foco é o seu recurso mais valioso. Não o acumule até que seu grupo esteja à beira do colapso. Use o Foco para garantir ataques críticos, conjurar feitiços de controle de grupo de alto impacto, passar em testes urgentes de movimento no mapa ou garantir objetivos de missões nas cidades.
+  </Step>
+  <Step num="3" title="Localize o Santuário do Bioma e o Herói de Pedra">
+    Cada bioma principal contém um Santuário e um Herói de Pedra. Priorize explorar o mapa para encontrar esses locais antes de correr para o objetivo principal da missão. Os Santuários concedem bônus permanentes poderosos e protegem os personagens da morte uma vez, enquanto os Heróis de Pedra oferecem grandes impulsos de experiência.
+  </Step>
+  <Step num="4" title="Otimize as Visitas às Cidades e Missões">
+    Trate cada cidade como um grande salto de poder. Ao entrar em uma nova cidade, verifique o estoque da loja em busca de novas armas, Barba de Deus e Panax. Aceite missões de cidade que ofereçam recompensas adequadas às necessidades atuais do seu grupo e contrate mercenários se precisar de proteção extra na linha de frente.
+  </Step>
+  <Step num="5" title="Controle os Confrontos de Inimigos no Mapa">
+    Evite atrair múltiplos grupos de inimigos para uma única batalha. Preste muita atenção ao raio vermelho de alcance dos inimigos no mapa. Use a habilidade Emboscada de Elite do Caçador para isolar alvos ou agrupe os membros do seu grupo de perto antes de iniciar uma luta para garantir que todos entrem na grade de batalha.
+  </Step>
+  <Step num="6" title="Distribua o Saque com Base nos Atributos Principais">
+    Nunca distribua equipamentos aleatoriamente. Use a tela de resumo do grupo para combinar armas e armaduras com o personagem cujos atributos principais lhes dão suporte. Um arco de percepção de alto dano pertence exclusivamente ao seu Caçador, enquanto escudos defensivos devem ir diretamente para o seu Ferreiro.
+  </Step>
+  <Step num="7" title="Aceite a Derrota Roguelite e os Desbloqueios">
+    Se o seu grupo cair, não trate a tentativa como tempo perdido. Use a moeda de Conhecimento ganha durante a partida para desbloquear classes avançadas, itens de equipamento inicial e características poderosas na Loja de Conhecimento. Esses desbloqueios facilitam significativamente a dificuldade das futuras tentativas de campanha.
+  </Step>
+</Steps>
+
+Para ajudar você a planejar sua jornada, consulte a visão geral das aventuras da campanha abaixo. Esta tabela destaca os objetivos principais e os níveis de ameaça dos capítulos primários que você encontrará.
+
+| Aventura | Objetivo Principal | Nível de Ameaça | Foco de Preparação |
+|----------|--------------------|-----------------|--------------------|
+| A Resistência | Aprender as funções do grupo | Baixo | Compras na cidade e combate básico |
+| O Carvalho Primordial | Movimentação eficiente | Médio | Gerenciar a pressão crescente do Caos |
+| As Minas Reais | Avançar em cadeias de masmorras | Alto | Cura e recuperação de Foco |
+| A Forca do Enforcado | Reagrupar e sobreviver | Alto | Estocar curas e ervas |
+| Os Portões do Castelo | Investida final à fortaleza | Muito Alto | Melhorias de armadura e Foco máximo |
+
+<Callout type="warning" title="Gerenciamento do Caos">
+Não ignore o medidor de Caos. Se o Caos subir demais, os encontros no mapa tornam-se brutalmente difíceis, os inimigos ganham vida adicional e os serviços das cidades tornam-se proibitivamente caros. Mantenha a pressão baixa completando os objetivos principais e limpando os acampamentos de Caos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Táticas de Grade de Batalha e Otimização de Equipamentos">
+
+O combate ocorre em uma grade de batalha dinâmica de 2x4. Seu posicionamento nesta grade determina quais personagens podem proteger aliados, alvejar inimigos ou se tornarem vítimas de ataques em área (AOE). Gerenciar suas linhas de frente e de trás é tão importante quanto acertar seus ataques físicos.
+
+| Linha | Classes Recomendadas | Funções Principais | Estratégia de Posicionamento |
+|-------|----------------------|--------------------|------------------------------|
+| Linha de Frente | Ferreiro, Cavaleiro Caído | Absorve pressão, protege aliados | Coloque tanques resistentes aqui |
+| Linha de Trás | Estudioso, Caçador, Ervanário | Dano à distância, magia, cura | Proteja contra danos colaterais |
+
+Ataques em área podem alvejar linhas ou colunas inteiras. Se você agrupar seus conjuradores frágeis, um único ataque inimigo em coluna pode devastar sua linha de trás. Espalhe seus personagens ao enfrentar inimigos com alta capacidade mágica e use suas próprias armas de limpeza de linha quando os oponentes se alinharem de forma desfavorável.
+
+Além disso, efeitos de status podem transformar rapidamente uma luta vitoriosa em um desastre. Compreender como combater esses efeitos é essencial para explorações profundas em masmorras.
+
+| Efeito de Status | Impacto em Combate | Cura ou Contra-ataque |
+|------------------|--------------------|-----------------------|
+| Atordoado (Dazed) | Remove a próxima ação secundária | Panax ou esperar a duração passar |
+| Atordoado (Stunned) | Pula o próximo turno do alvo | Habilidades de purificação ou esperar |
+| Queimadura | Dano de fogo ao longo do tempo | Água ou esperar a duração passar |
+| Eletricidade | Faz com que a próxima jogada falhe automaticamente | Panax ou purificar o status |
+| Veneno | Dano ao longo do tempo e redução de atributos | Panax ou cura na cidade |
+| Ácido | Dissolve equipamentos permanentemente | Proteger equipamentos ou derrotar o conjurador |
+
+<Callout type="success" title="Eficiência em Combate">
+Sempre verifique o tipo de defesa do inimigo antes de realizar seus ataques. Atacar alvos com armadura pesada usando armas físicas é altamente ineficiente. Em vez disso, alveje a defesa física deles com dano mágico ou use ataques de perfuração para ignorar a armadura por completo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Multijogador, Crossplay e Gerenciamento de Saves">
+
+For The King II suporta jogo solo, cooperativo online e cooperativo local. No entanto, entender como funcionam os recursos da plataforma e os salvamentos de lobby evitará frustrações no matchmaking.
+
+| Recurso | PC Steam | Xbox | PlayStation |
+|---------|----------|------|-------------|
+| Limite de Jogadores | Solo ou até 4 jogadores | 1 a 4 jogadores | 1 a 4 jogadores |
+| Coop Online | Suportado via sistema de lobby | Cooperativo online listado | Requer PS Plus |
+| Coop Local | Tela compartilhada ou dividida | Multijogador local listado | Jogo local suportado |
+| Crossplay | Multijogador entre plataformas | Crossplay listado | Uso remoto suportado |
+
+Ao gerenciar campanhas multijogador, lembre-se de que os jogadores não podem entrar em uma sessão de jogo ativa em andamento. O anfitrião deve salvar o jogo, retornar ao menu principal de aventura, recriar o lobby, permitir que todos os jogadores se conectem e, em seguida, recarregar o arquivo de salvamento.
+
+<Callout type="info" title="Resolução de Problemas de Lobby">
+Se um lobby multijogador não aparecer para seus amigos, verifique se todos os jogadores estão executando a mesma versão do jogo. Verificar suas configurações de região no menu de matchmaking também pode resolver problemas de conexão.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Carnaval Sombrio e Fim de Jogo de Dungeon Crawl">
+
+Para os jogadores que desejam testar suas habilidades além da história principal, os modos de fim de jogo oferecem desafios infinitos. Os modos Carnaval Sombrio e Dungeon Crawl eliminam as viagens pelo mapa, focando inteiramente na progressão tática de combate e no gerenciamento de recursos.
+
+<Checklist
+  id="endgame-preparation"
+  title="Lista de Preparação para o Fim de Jogo:"
+  items={[
+    "Desbloqueie classes avançadas de Tier S, como o Alquimista e o Monge, na Loja de Conhecimento.",
+    "Prepare uma equipe equilibrada com causadores de dano físico e mágico.",
+    "Estoque curas de status, Barba de Deus e Raiz Dourada para restaurar Foco.",
+    "Equipe seus tanques da linha de frente com escudos pesados e armaduras de alta defesa.",
+    "Estude as imunidades de status dos inimigos antes de entrar em desafios de alto nível."
+  ]}
+/>
+
+No Desafio Dungeon Crawl, os jogadores competem em mapas mensais com sementes geradas. Como o layout do mapa e os encontros com inimigos são idênticos para todos os participantes, o sucesso depende inteiramente da eficiência de rota, posicionamento de combate e uso preciso do Foco, em vez de sorte com aparições no mapa.
+
+<Callout type="tip" title="Sobrevivência no Modo Infinito">
+No Carnaval Sombrio, economize suas curas de status. Explorações de masmorras longas transformam pequenos efeitos de veneno, sangramento ou atordoamento em desastres que encerram a partida se você desperdiçar seus consumíveis de cura durante batalhas iniciais de baixa ameaça.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para encerrar este guia de campanha, aqui estão as respostas para as perguntas mais comuns que os jogadores fazem ao navegar pelas terras perigosas de Fahrul.
+
+<FAQ items={[
+  {
+    question: "Este detonado de For The King II cobre todas as sete aventuras da campanha?",
+    answer: "Sim, este guia descreve o caminho de progressão e as estratégias de preparação para todas as principais aventuras da campanha, incluindo A Resistência, O Carvalho Primordial e Os Portões do Castelo."
+  },
+  {
+    question: "Qual é a melhor composição de grupo para uma partida de iniciante?",
+    answer: "O grupo inicial mais seguro consiste em um Ferreiro (tanque), um Caçador (dano físico à distância), um Estudioso (utilidade mágica) e um Ervanário (cura dedicada)."
+  },
+  {
+    question: "Como faço para desbloquear novas classes, como o Alquimista?",
+    answer: "Novas classes são desbloqueadas ao ganhar a moeda de Conhecimento durante suas partidas de campanha e gastá-la na Loja de Conhecimento do menu principal."
+  },
+  {
+    question: "Posso jogar cooperativo local e cooperativo online simultaneamente?",
+    answer: "Sim, o jogo suporta modos multijogador mistos, permitindo que jogadores locais na mesma tela entrem em lobbies online com jogadores remotos."
+  }
+]} />
+
+<Callout type="info" title="Veredito Final">
+Salve este guia como seu detonado de referência para progressão de campanha, configurações de classes e dicas de sobrevivência no fim de jogo. Mantenha sua mente afiada, gerencie seu Foco e lute para recuperar Fahrul!
+</Callout>
+
+</Section>

@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Co-op: Guia de Configuração e Dicas Multiplayer",
+  description: "Domine o modo cooperativo de For The King II com nosso guia sobre crossplay, configuração de multiplayer local, melhores composições de grupo para 4 jogadores e estratégias de grade de batalha para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Co-op+Multiplayer+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II",
+  keywords: "for the king ii co-op, multiplayer, crossplay, guia, estratégias"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O modo cooperativo de For The King II** suporta até **quatro jogadores** nos modos de jogo online e local.
+- **As etiquetas de crossplay** variam por plataforma; Steam e Xbox listam explicitamente o suporte multiplataforma.
+- **Arquivos de salvamento** são hospedados por um jogador; todos os participantes devem estar no lobby antes de carregar.
+- **As funções do grupo** devem ser divididas entre tanques de linha de frente, curandeiros e causadores de dano à distância.
+- **A gestão de recursos** é compartilhada, o que significa que a comunicação sobre o uso de ouro e ervas é crítica.
+</Callout>
+
+<Section icon={Users} title="For The King II Co-op: Suporte de Plataforma e Crossplay">
+
+Participar do **modo cooperativo de For The King II** transforma a desafiadora experiência roguelite em um evento social tático. Esteja você jogando com amigos no sofá ou se conectando de diferentes continentes, entender as limitações técnicas e os requisitos de cada plataforma é o primeiro passo para retomar Fahrul da Rainha Rosomon. O jogo suporta um máximo de quatro personagens em um grupo, que podem ser controlados por um único jogador ou distribuídos entre um grupo completo de quatro.
+
+A arquitetura multiplayer difere ligeiramente entre as versões de PC e console. Embora a jogabilidade principal permaneça idêntica, os recursos de rede, como Remote Play e Cloud Gaming, são específicos de cada plataforma. Em 2026, a comunidade permanece ativa nos ecossistemas Steam, Xbox Game Pass e PlayStation, tornando mais fácil do que nunca encontrar um grupo.
+
+| Recurso | Steam (PC) | Xbox Series X/S | PlayStation 5 |
+| :--- | :--- | :--- | :--- |
+| **Máximo de Jogadores** | 4 Jogadores | 4 Jogadores | 4 Jogadores |
+| **Co-op Online** | Suportado | Suportado (Xbox Live) | Suportado (PS Plus) |
+| **Co-op Local** | Tela Compartilhada/Dividida | Multiplayer Local | 1-4 Jogadores Local |
+| **Crossplay** | Suporte Listado | Cross-Platform Xbox | Apenas Remote Play |
+| **Remote Play** | Remote Play Together | Jogo na Nuvem | Suporte para Remote Play |
+
+<Callout type="tip" title="Dica de Ecossistema">
+Se você estiver jogando via Xbox Game Pass, pode utilizar o Xbox Play Anywhere para transitar seu progresso cooperativo entre o PC e o console perfeitamente.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Configurar Sua Sessão Multiplayer">
+
+Configurar uma sessão para o **co-op de For The King II** exige que o anfitrião gerencie as configurações da aventura e a privacidade do lobby. Diferente de alguns títulos modernos de entrada rápida, este jogo exige que todos os jogadores estejam presentes no lobby antes que a aventura comece ou antes que um jogo salvo seja retomado. Isso garante que as atribuições de personagens sejam tratadas corretamente antes que os dados do mapa sejam carregados.
+
+Siga estes passos para iniciar um novo jogo ou retomar uma campanha com sua equipe:
+
+<Steps>
+  <Step num="1" title="Inicializar o Lobby Multiplayer">
+    O anfitrião deve selecionar 'Multiplayer' no menu principal. Aqui, você pode escolher hospedar uma 'Nova Aventura' ou 'Carregar Jogo'. Defina um nome para a sala e uma senha para evitar que jogadores aleatórios ocupem as vagas destinadas aos seus amigos.
+  </Step>
+  <Step num="2" title="Selecionar Região e Privacidade">
+    Certifique-se de que todos os jogadores estejam buscando na mesma região geográfica (ex: América do Norte, Europa). Se seus amigos não conseguirem ver a sala, verifique se o tipo de NAT do anfitrião está aberto e se a versão do jogo coincide em todos os dispositivos.
+  </Step>
+  <Step num="3" title="Atribuir Personagens e Funções">
+    Assim que todos os jogadores entrarem no lobby, o anfitrião pode atribuir personagens específicos a cada jogador. Em um jogo de dois jogadores, cada pessoa normalmente controla dois personagens. Em um jogo de quatro jogadores, cada um gerencia um herói.
+  </Step>
+  <Step num="4" title="Configurar Regras da Casa">
+    Antes de começar, use o menu 'Regras da Casa' para ajustar a dificuldade. Você pode modificar a velocidade do Caos, a reserva de vidas e os pontos de equipamento inicial para se adequar ao nível de habilidade do seu grupo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Regra de Reentrada">
+Os jogadores não podem entrar em uma sessão que já está em andamento. Se um jogador desconectar, o anfitrião deve salvar o jogo, retornar ao menu principal, recriar o lobby e fazer com que todos entrem novamente antes de carregar o salvamento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Composições de Grupo para Jogo Cooperativo">
+
+No **co-op de For The King II**, a sinergia do grupo é mais importante do que o poder individual. Um grupo de quatro "canhões de vidro" provavelmente falhará na primeira masmorra porque falta utilidade defensiva para sobreviver às mecânicas da Grade de Batalha. Você deve equilibrar sua equipe para cobrir defesa física, resistência mágica e cura.
+
+A tabela a seguir detalha as funções essenciais para uma jornada multiplayer bem-sucedida:
+
+| Função | Classes Recomendadas | Atributo Principal | Valor no Co-op |
+| :--- | :--- | :--- | :--- |
+| **Tanque de Linha de Frente** | Ferreiro, Cavaleiro Caído | Vitalidade | Protege a linha de trás com habilidades de Guarda |
+| **Curandeiro/Suporte** | Herbalista, Monge | Inteligência | Fornece Cura de Grupo e economia de ervas |
+| **DPS Físico** | Caçador, Pescador | Percepção | Alta chance de crítico e exploração no mapa |
+| **Magia/Utilidade** | Estudioso, Alquimista | Inteligência | Restauração de Foco e dano em área (AOE) |
+
+<CardGrid cols={2}>
+  <Card title="A Base Equilibrada de Quatro Jogadores">
+    - **Ferreiro**: Ancora a linha de frente.
+    - **Herbalista**: Garante que o grupo permaneça saudável.
+    - **Caçador**: Elimina alvos prioritários à distância.
+    - **Estudioso**: Gerencia controle de grupo e pergaminhos.
+  </Card>
+  <Card title="O Grupo Especialista de DLC">
+    - **Cavaleiro Caído**: Tanque de alto risco e alta recompensa.
+    - **Fabricante de Brinquedos**: Usa invocações para distrair inimigos.
+    - **Vidente**: Manipula o destino e bônus de tarô.
+    - **Alquimista**: Fornece dano explosivo em área.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Estratégia">
+Ao jogar com apenas dois jogadores, tente a composição de 'Responsabilidade Dividida'. O jogador um controla o Tanque e o Curandeiro (Sobrevivência), enquanto o jogador dois controla o Arqueiro e o Mago (Ofensiva). Isso mantém ambos os jogadores engajados em cada fase da luta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Combate Cooperativo e Táticas na Grade de Batalha">
+
+O combate no **co-op de For The King II** ocorre em uma grade de 2x4. A cooperação é essencial aqui porque o posicionamento afeta quais aliados você pode proteger e quais inimigos pode atingir. Diferente do primeiro jogo, o sistema de grade da sequência introduz mecânicas de "Guarda" e dano "Splash" que podem punir uma equipe mal posicionada.
+
+A comunicação eficaz durante uma batalha deve focar no gasto de Foco e na priorização de alvos. Como o Foco é um recurso limitado, os jogadores devem discutir quem usará seu Foco para desferir um golpe fatal ou um atordoamento crucial.
+
+| Mecânica de Combate | Como Funciona no Co-op | Melhor Prática |
+| :--- | :--- | :--- |
+| **Guarda/Proteger** | Unidades da linha de frente podem absorver golpes para a linha de trás. | Mantenha seu Ferreiro diretamente na frente do Herbalista. |
+| **AOE/Splash** | Ataques podem atingir blocos adjacentes ou fileiras inteiras. | Espalhe-se se o inimigo tiver ataques poderosos baseados em fileiras. |
+| **Compartilhamento de Foco** | O Foco é individual, mas seu uso beneficia toda a equipe. | Use Foco em rolagens de alta porcentagem para evitar picos de dano. |
+| **Ações Secundárias** | Itens e movimento não encerram o turno. | Use uma poção ou mova-se para um bloco melhor antes de atacar. |
+
+<Checklist
+  id="dungeon-prep"
+  title="Checklist de Entrada em Masmorra para Equipes:"
+  items={[
+    "Distribuir todas as ervas Barba de Deus para o Herbalista ou personagens com alta prioridade.",
+    "Garantir que a linha de frente tenha os melhores escudos e armaduras disponíveis.",
+    "Trocar ouro para que um jogador possa comprar uma melhoria de equipamento crucial na próxima cidade.",
+    "Verificar se todos têm pelo menos 2 pontos de Foco antes de entrar.",
+    "Designar um jogador para carregar curas de status (Panax) para todo o grupo."
+  ]}
+/>
+
+<Callout type="info" title="Nota sobre a Grade de Batalha">
+Lembre-se de que o movimento na grade custa uma ação secundária. Se você estiver Atordoado (Dazed), você perde essa ação, ficando efetivamente preso no seu bloco atual. Sempre priorize remover o status de Atordoado do seu tanque.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão, Loja de Lore e Conteúdo de DLC">
+
+O sucesso em uma jornada cooperativa rende Lore, uma moeda usada para desbloquear novas classes, itens e características para tentativas futuras. Embora o progresso da campanha esteja vinculado ao arquivo de salvamento do anfitrião, a Lore que você ganha é adicionada à sua conta individual. Isso significa que mesmo uma jornada fracassada contribui para o seu poder a longo prazo.
+
+Em 2026, a variedade de conteúdo disponível para o **co-op de For The King II** expandiu significativamente através de pacotes de personagens. Essas adições fornecem novas camadas táticas para grupos veteranos que buscam experimentar composições não tradicionais.
+
+| Tipo de Conteúdo | Nome | Principais Características |
+| :--- | :--- | :--- |
+| **Jogo Base** | A Resistência | 12 classes iniciais e 7 capítulos principais |
+| **Atualização Gratuita** | Dungeon Crawl | Modo infinito com placares de líderes semeados |
+| **Pacote de Personagem** | Inventores do Destino | Classes Fabricante de Brinquedos e Vidente |
+| **Pacote de Personagem** | Na Natureza | Classes Pescador e Apicultor |
+| **Pacote de Personagem** | Juramentos Caídos | Classes Cavaleiro Caído e Voidwalker |
+
+<Callout type="warning" title="Compatibilidade de DLC">
+Apenas o anfitrião precisa possuir a DLC da campanha para o grupo jogar os novos capítulos, mas os jogadores individuais devem possuir os Pacotes de Personagens para selecionar essas classes específicas no lobby.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes sobre o Co-op">
+
+<FAQ items={[
+  {
+    question: "O For The King II tem crossplay entre Steam e consoles?",
+    answer: "A partir de 2026, o crossplay é oficialmente suportado entre Steam e Xbox. Usuários de PlayStation podem jogar juntos entre as versões de PS4 e PS5, mas o jogo entre plataformas mistas com PC/Xbox é restrito com base nas etiquetas atuais das lojas."
+  },
+  {
+    question: "Como voltamos a um jogo cooperativo após uma queda?",
+    answer: "O anfitrião deve salvar o jogo e sair para o menu principal. Em seguida, ele recria o lobby multiplayer. Todos os jogadores devem entrar neste lobby antes que o anfitrião carregue o arquivo de salvamento para garantir que todos recebam seus personagens corretos."
+  },
+  {
+    question: "O ouro é compartilhado entre todos os jogadores no multiplayer?",
+    answer: "O ouro é coletado individualmente pelo personagem que desfere o golpe fatal ou interage com um baú. No entanto, os jogadores podem trocar ouro e itens livremente, desde que seus personagens estejam em hexágonos adjacentes ou na mesma cidade/masmorra."
+  },
+  {
+    question: "Podemos jogar co-op local e co-op online ao mesmo tempo?",
+    answer: "Sim, For The King II suporta uma configuração 'combo' onde dois jogadores no mesmo PC ou console podem entrar em um lobby online para jogar com outros dois amigos remotamente."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Armor: Defense Mechanics & Best Gear Loadouts",
+  description: "Master For The King II armor systems with our guide on physical defense, magical resistance, and the best starting gear for your party in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Armor+and+Defense+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **For the king ii armor** is divided into two primary stats: **Physical Defence** and **Magical Resistance**, which mitigate different damage types.
+- **Front-row characters** like the Blacksmith must prioritize high Physical Defence and Shields to protect the backline.
+- **Pierce damage** is a critical threat in 2026 as it completely bypasses armor values, requiring high HP or Evasion to counter.
+- **Acid status effects** are the greatest danger to your gear, as they can permanently dissolve your equipped armor and weapons.
+- **Starting loadouts** should be spent on armor upgrades and traits like **Steadfast** to improve early-game survivability.
+</Callout>
+
+<Section icon={Shield} title="Understanding Armor and Defense Mechanics">
+
+In the brutal world of Fahrul, **for the king ii armor** serves as the primary barrier between your party's survival and a quick trip to the graveyard. Unlike traditional RPGs where a single "Defense" stat covers all bases, this game utilizes a dual-stat system that requires careful balancing. Whether you are traversing the overworld or deep within a dungeon, understanding how your equipment interacts with the 2x4 Battle Grid is essential for any successful run.
+
+**Video Highlights:**
+- Overview of the **Battle Grid** and how positioning affects damage intake.
+- Visual breakdown of **Physical vs. Magical** damage indicators.
+- Tips on managing **Focus** to ensure defensive rolls succeed.
+- Explanation of how **Guard** and **Steadfast** skills interact with armor.
+
+<YouTubeEmbed videoId="TGEnahBwPlE" title="For The King II - Resistance Trailer" />
+
+Armor in this sequel is more than just a passive stat; it is a tactical resource. Your positioning on the grid determines which characters are targeted by specific enemy attacks. Generally, your front-row characters will absorb the brunt of physical strikes, while your back-row characters remain vulnerable to AOE (Area of Effect), column, and magical attacks. Equipping the right armor for the right position is the difference between a controlled fight and a total party wipe.
+
+<Callout type="tip" title="Pro Tip: The Shield Advantage">
+Always equip a shield on your front-line tank. Shields not only provide flat Physical Defence but also unlock the **Guard** ability, which allows the character to absorb damage meant for adjacent allies.
+</Callout>
+
+| Defense Type | Primary Stat | Mitigates | Key Equipment |
+| :--- | :--- | :--- | :--- |
+| **Physical Defence** | Vitality / Strength | Melee and Ranged Physical | Heavy Plate, Shields, Helms |
+| **Magical Resistance** | Intelligence / Resistance | Spells and Elemental Attacks | Robes, Cowls, Magic Charms |
+| **Evasion** | Awareness / Speed | All non-guaranteed attacks | Light Leather, Capes, Boots |
+
+</Section>
+
+<Section icon={Swords} title="Defense Types: Physical vs. Magical Resistance">
+
+The core of your defensive strategy revolves around distinguishing between Physical Defence and Magical Resistance. Enemies in Fahrul are diverse; a bandit might swing a rusty sword (Physical), while a Chaos Acolyte will hurl dark energy (Magical). If your Blacksmith has 20 Physical Defence but 0 Magical Resistance, a simple fire spell will melt through their health bar regardless of their heavy plate armor.
+
+**Physical Defence** reduces the raw damage taken from physical sources. This is the bread and butter for classes like the Blacksmith and the Stablehand. In 2026, high-tier physical armor often comes with a speed penalty, so you must decide if the extra protection is worth moving later in the turn order.
+
+**Magical Resistance** is often found on lighter gear used by Scholars and Herbalists. Because magic attacks often hit multiple targets or apply status effects like Burn or Frozen, having a baseline of Resistance across the whole party is often more important than stacking it on a single character.
+
+<Callout type="warning" title="Watch Out for Pierce">
+Some weapons and enemy skills have the **Pierce** attribute. This allows the attack to ignore 100% of the target's armor and resistance. When facing "Piercing" enemies, your only defenses are high health pools or Evasion.
+</Callout>
+
+| Character Role | Priority Stat | Recommended Armor Focus | Role in Combat |
+| :--- | :--- | :--- | :--- |
+| **Frontline Tank** | Vitality | **Physical Defence** / HP | Absorb melee hits, use Guard |
+| **Magic Support** | Intelligence | **Magical Resistance** / Focus | Survive AOE spells, heal party |
+| **Ranged DPS** | Awareness | **Evasion** / Resistance | Avoid being targeted, stay back |
+| **Utility/Hybrid** | Talent | Balanced Defense | Flexible positioning, item use |
+
+</Section>
+
+<Section icon={Target} title="Starting Armor Loadouts and Lore Store Unlocks">
+
+Before you even step foot into a new campaign, the choices you make in the **Lore Store** and the initial loadout screen will dictate your early-game success. **For the king ii armor** progression is a roguelite experience; you earn Lore currency during your runs, which is then spent to unlock better starting equipment for future attempts.
+
+<Steps>
+  <Step num="1" title="Unlock Loadout Items in the Lore Store">
+    Spend your earned Lore on "Starting Gear" packs. These often include improved shields, reinforced leather, or basic robes that give your party a significant stat boost from turn one.
+  </Step>
+  <Step num="2" title="Assign Loadout Points Based on Role">
+    Every character starts with a set amount of Loadout Points. Do not dump these randomly. Assign the **Shield and Hammer** loadout to your Blacksmith and the **Intelligence Scarf** or **Focus Potion** loadout to your casters.
+  </Step>
+  <Step num="3" title="Select Defensive Traits">
+    Traits like **Steadfast** (chance to ignore damage when using a shield) or **Deep Thinker** (restore Focus) complement your armor by making your defensive actions more reliable.
+  </Step>
+  <Step num="4" title="Distribute Gear in the First Town">
+    The first town visit is a power spike. Check the shop for any "broken" or "cheap" armor pieces that offer more defense than your starting rags.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="The Tank Setup">
+    - **Focus:** Physical Defence
+    - **Key Item:** Tower Shield
+    - **Trait:** Steadfast
+    - **Best For:** Blacksmith
+  </Card>
+  <Card title="The Evasive Scout">
+    - **Focus:** Awareness/Evasion
+    - **Key Item:** Cloak of Shadows
+    - **Trait:** Nimble
+    - **Best For:** Hunter
+  </Card>
+  <Card title="The Mage Guard">
+    - **Focus:** Magic Resistance
+    - **Key Item:** Silk Robes
+    - **Trait:** Refocus
+    - **Best For:** Scholar
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meta Tip: Early Game Economy">
+If you find a high-tier armor piece that no one can wear effectively due to stat requirements, sell it immediately. The gold is better spent on **Godsbeard** and **Golden Root** to keep your current gear-holders alive.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Armor Maintenance: Acid and Status Effects">
+
+One of the most frustrating mechanics for new players is the permanent destruction of gear. In Fahrul, your **for the king ii armor** isn't just a static number; it is a vulnerable asset. Certain enemies, particularly slimes and specific bosses, utilize **Acid** attacks. Acid has a chance to permanently dissolve a piece of your armor, removing it from your inventory forever.
+
+| Status Effect | Impact on Defense | How to Counter |
+| :--- | :--- | :--- |
+| **Acid** | **Destroys Armor** | Use Acid Sponge or Panax |
+| **Dazed** | Removes Secondary Action | High Physical Defence / Focus |
+| **Frozen** | Increases Damage Taken | Magical Resistance / Fire |
+| **Curse** | Lowers Defensive Stats | Curse Cleansing / Sanctums |
+
+Beyond Acid, status effects like **Bleed** and **Burn** bypass armor to deal damage over time. This makes defensive items that offer "Status Immunity" incredibly valuable in the mid-to-late game. A helmet that grants immunity to Stun is often better than a helmet with 5 more defense points.
+
+<Callout type="warning" title="The Danger of Daze">
+The **Dazed** status effect removes your next secondary action. This means you cannot move on the Battle Grid or use a healing herb. If your tank is Dazed and out of position, your fragile backline is exposed regardless of their armor stats.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Armor Strategy for Dungeons and Campaigns">
+
+When entering a dungeon, your armor strategy must shift from "exploration" to "attrition." In the overworld, you can easily visit a town to heal or buy new gear. Inside a dungeon, you are limited to what you carry. This makes **for the king ii armor** durability and the distribution of support items critical.
+
+**Dungeon Survival Checklist:**
+<Checklist
+  id="dungeon-armor-prep"
+  title="Pre-Dungeon Gear Check:"
+  items={[
+    "Ensure the front-row has repaired shields and max Physical Defence.",
+    "Equip at least one character with high Magical Resistance for AOE rooms.",
+    "Distribute all 'Status Cures' (Panax, Acid Sponge) across the party.",
+    "Check that every character is using a weapon that matches their best defensive stat.",
+    "Assign Focus restoration items to the character with the most defensive skills."
+  ]}
+/>
+
+In long campaign chapters like *The Royal Mines*, you will face escalating Chaos pressure. Chaos increases enemy damage and frequency. To counter this, you should seek out **Sanctums** and **Stone Heroes**. Sanctums provide a permanent defensive buff to a single character and act as a "revive" safety net, which is essentially the ultimate form of armor.
+
+<Callout type="info" title="Positioning is Armor">
+Remember that you can move your characters on the Battle Grid during their turn as a secondary action. If your tank's armor is low or they are suffering from a debuff, move them to the back row and bring a healthier character forward to split the damage.
+</Callout>
+
+| Chapter Name | Primary Threat | Recommended Armor Focus |
+| :--- | :--- | :--- |
+| **The Resistance** | Bandits / Physical | Physical Defence |
+| **Primordial Oak** | Nature / Poison | Resistance / Cures |
+| **Royal Mines** | Piercing / Acid | High HP / Acid Sponge |
+| **Castle Gates** | Magic / Chaos | Magical Resistance |
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does for the king ii armor reduce all types of damage?",
+    answer: "No. Physical Defence only reduces physical damage (swords, arrows), while Magical Resistance only reduces magical damage (spells, elemental attacks). Pierce damage ignores both entirely."
+  },
+  {
+    question: "Can I repair armor that has been hit by Acid?",
+    answer: "No. If Acid successfully 'dissolves' a piece of gear, it is permanently removed from your inventory. You must use an Acid Sponge or Panax to remove the Acid status before the gear is destroyed."
+  },
+  {
+    question: "Is high Evasion better than high Physical Defence?",
+    answer: "It depends on the character. For classes with high Awareness like the Hunter, Evasion is more reliable. However, Evasion is RNG-based, whereas Physical Defence provides guaranteed damage reduction for every non-piercing hit."
+  },
+  {
+    question: "How do I get better armor in the early game?",
+    answer: "Focus on completing Town Quests and unlocking 'Starting Gear' in the Lore Store. The Lore Store is the most consistent way to start a run with high-quality armor."
+  }
+]} />
+
+</Section>

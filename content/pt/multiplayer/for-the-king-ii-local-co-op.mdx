@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Gamepad2, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Co-op Local: Guia de Configuração e Comparação de Consoles",
+  description: "Saiba como configurar o co-op local de For The King II no PC, Xbox e PlayStation. Explore requisitos de controle, builds de grupo e dicas de tela dividida.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Local+Co-Op+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II",
+  keywords: "for the king ii, co-op local, multijogador, guia de configuração, xbox, playstation, pc"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Suporte Principal**: For The King II suporta **co-op local** para até 4 jogadores em um único dispositivo no PC e consoles.
+- **Requisito de Controle**: Cada jogador local normalmente requer um controle dedicado; no PC, um jogador pode usar Mouse/Teclado enquanto os outros usam gamepads.
+- **Disponibilidade de Plataforma**: O jogo local está totalmente integrado nas versões de Steam, Xbox Series X|S e PlayStation 5 a partir de 2026.
+- **Progressão Compartilhada**: Todos os desbloqueios da Loja de Lore e o progresso da campanha são salvos no perfil do anfitrião durante as sessões locais.
+- **Grade de Combate**: Os jogadores devem coordenar o posicionamento na Grade de Batalha 2x4 para proteger personagens frágeis da linha de trás.
+</Callout>
+
+<Section icon={Users} title="Compatibilidade de Plataformas do Co-op Local de For The King II">
+
+A transição do título original para a sequência trouxe melhorias significativas na arquitetura multijogador. Para os jogadores que desejam aproveitar o **co-op local de For The King II**, a experiência foi projetada para imitar uma noite tradicional de jogo de tabuleiro. Esteja você jogando em um PC de alto desempenho ou nos consoles domésticos mais recentes, o jogo permite uma experiência perfeita de "couch co-op", onde até quatro amigos podem controlar membros individuais da resistência contra a Rainha Rosomon.
+
+**Destaques do Vídeo:**
+- Visão geral das mecânicas de RPG de tabuleiro roguelite por turnos.
+- Demonstração visual da jogabilidade cooperativa para 4 jogadores.
+- Insights sobre táticas da Grade de Batalha e sinergia de classes.
+- Prévia dos diversos biomas e geração de mapas procedimentais.
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Join The Fight - Trailer" />
+
+Entender os recursos específicos disponíveis na sua plataforma de escolha é essencial antes de reunir seu grupo. Embora a jogabilidade principal permaneça idêntica, recursos técnicos como Remote Play e Cloud Gaming variam entre os ecossistemas Steam e de consoles.
+
+| Plataforma | Suporte a Co-op Local | Máx. de Jogadores Locais | Remote Play / Nuvem | Suporte Cross-gen |
+| :--- | :--- | :--- | :--- | :--- |
+| **Steam (PC)** | **Suporte Total** | 4 Jogadores | Remote Play Together | N/A |
+| **Xbox Series X|S** | **Suporte Total** | 4 Jogadores | Xbox Cloud Gaming | **Sim** |
+| **PlayStation 5** | **Suporte Total** | 4 Jogadores | PS Remote Play | **Sim** |
+| **Xbox One / PS4** | **Suportado** | 4 Jogadores | Limitado | **Sim** |
+
+<Callout type="tip" title="Dica Pro: Steam Remote Play">
+No PC, você pode usar o recurso "Remote Play Together" do Steam para simular um ambiente de co-op local pela internet. Isso permite que apenas uma pessoa possua o jogo enquanto os outros entram como se estivessem sentados no mesmo sofá.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Configurar uma Sessão de Co-op Local">
+
+Configurar uma sessão para o **co-op local de For The King II** é simples, mas requer garantir que todos os dispositivos de entrada sejam reconhecidos pelo sistema antes de lançar a campanha. Ao contrário dos lobbies online, o jogo local é gerenciado diretamente nos menus "Nova Aventura" ou "Carregar Jogo".
+
+<Steps>
+  <Step num="1" title="Conectar Dispositivos de Entrada">
+    Certifique-se de que todos os controles estejam conectados e sincronizados com seu PC ou console. Para jogadores de PC, o jogo suporta uma mistura de um usuário de Teclado/Mouse e três usuários de controle. Nos consoles, cada jogador deve, idealmente, estar logado em um perfil de convidado local ou secundário para rastrear preferências individuais, embora não seja estritamente necessário para a jogabilidade.
+  </Step>
+  <Step num="2" title="Navegar para o Multijogador">
+    No menu principal, selecione "Multijogador". Mesmo para o jogo local, este menu serve como o hub para o gerenciamento do grupo. Alternativamente, você pode iniciar um "Novo Jogo" e atribuir o controle dos personagens a diferentes dispositivos de entrada durante a tela de criação do grupo.
+  </Step>
+  <Step num="3" title="Atribuir Personagens">
+    Na tela de configuração do grupo, você verá quatro slots. Use os controles conectados para "Entrar" na sessão. O anfitrião pode então atribuir personagens específicos (ex: Ferreiro, Erudito, Caçador) a cada jogador. É aqui que você decide quem liderará o grupo no mapa do mundo.
+  </Step>
+  <Step num="4" title="Configurar Regras da Casa">
+    Antes de começar, o grupo deve concordar com as "Regras da Casa". Você pode ajustar a dificuldade (Aprendiz, Viajante, Mestre) ou personalizar configurações específicas como a velocidade do Caos e vidas iniciais. No co-op local, o consenso é fundamental para evitar um "Fim de Jogo" nos capítulos iniciais.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Ghosting de Controle">
+Se um controle não estiver sendo reconhecido, reinicie o jogo com todos os gamepads já conectados. For The King II às vezes falha em detectar controles conectados após a tela de título ter sido carregada.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Composições de Grupo para Jogo Local">
+
+Em um ambiente local, a comunicação é muito mais rápida do que no jogo online, permitindo manobras táticas altamente complexas. O sucesso no **co-op local de For The King II** depende do equilíbrio das funções do seu grupo para cobrir a linha de frente, dano à distância e cura essencial.
+
+<CardGrid cols={3}>
+  <Card title="O Núcleo Clássico">
+    - **Ferreiro**: Tanque de Linha de Frente
+    - **Erudito**: Magia/Foco
+    - **Caçador**: DPS à Distância
+    - **Herbalista**: Cura de Grupo
+  </Card>
+  <Card title="O Esquadrão de Dano Explosivo">
+    - **Cocheiro**: Economia de Ações
+    - **Alquimista**: Dano em Área (AOE)
+    - **Desbravador**: Exploração
+    - **Frade**: Buffs/Suporte
+  </Card>
+  <Card title="O Especialista em DLC">
+    - **Cavaleiro Caído**: Tanque Pesado
+    - **Fabricante de Brinquedos**: Invocações
+    - **Apicultor**: Dano ao Longo do Tempo
+    - **Vidente**: Utilidade
+  </Card>
+</CardGrid>
+
+Ao jogar localmente, é útil atribuir funções com base na familiaridade dos jogadores com as mecânicas do jogo. O jogador da "Linha de Frente" deve focar em Vitalidade e Defesa Física, enquanto o jogador de "Suporte" gerencia o inventário de Barba de Deus e Panax do grupo.
+
+| Função | Atributo Principal | Responsabilidade em Combate | Valor no Co-op |
+| :--- | :--- | :--- | :--- |
+| **Tanque** | **Vitalidade** | Provocar, Guardar, Absorver Dano | Alto: Protege aliados frágeis |
+| **Atacante** | **Percepção** | Alto DPS em alvo único | Médio: Remove ameaças prioritárias |
+| **Mago** | **Inteligência** | Magia AOE, Controle de Grupo | Alto: Ignora armadura física |
+| **Suporte** | **Talento/Int** | Cura, Restauração de Foco | **Crítico**: Evita a derrota do grupo |
+
+<Callout type="success" title="Bônus de Sinergia">
+Atribua o Herbalista ao jogador com as melhores habilidades de gerenciamento de "Foco". Como o Herbalista pode fornecer "Cura de Grupo", sua sobrevivência é o fator mais importante em longas explorações de masmorras.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Co-op Local e Gerenciamento de Interface">
+
+Um dos aspectos únicos do **co-op local de For The King II** é como o jogo lida com recursos compartilhados e a Grade de Batalha. Diferente do primeiro jogo, a sequência apresenta uma grade 2x4, tornando o posicionamento um esforço colaborativo. Os jogadores devem conversar entre si para decidir quem se move para a fila da frente para fornecer "Guarda" e quem fica atrás para evitar danos colaterais.
+
+**Principais Mecânicas Locais:**
+- **Ouro Compartilhado**: Embora os personagens segurem ouro individualmente, ele pode ser trocado livremente quando estiverem adjacentes.
+- **Troca de Inventário**: Itens podem ser passados entre jogadores no mapa do mundo ou durante o combate (como uma ação secundária).
+- **Ordem de Turno**: A linha do tempo no topo da tela é visível para todos. Grupos locais devem planejar seus ataques com base em qual inimigo agirá a seguir.
+- **Gasto de Foco**: Como o Foco é um recurso limitado, os jogadores locais devem "votar" sobre quando gastá-lo para rolagens cruciais, como emboscar um acampamento difícil ou limpar um gerador de Caos.
+
+| Recurso | Comportamento no Co-op Local | Estratégia Recomendada |
+| :--- | :--- | :--- |
+| **Movimentação no Mapa** | Individual ou em Grupo | Fiquem juntos para acionar combates "Próximos" |
+| **Drops de Saque** | Escolha do Anfitrião/Jogador | Atribua equipamentos ao atributo correspondente mais alto |
+| **Santuários** | Buff de Personagem Único | Dê ao jogador com maior probabilidade de morrer |
+| **Loja de Lore** | Apenas Perfil do Anfitrião | Discuta os desbloqueios antes de gastar Lore |
+
+<Callout type="info" title="Posicionamento de Combate">
+No co-op local, certifique-se de que seu "Tanque" sempre termine o turno na fila da frente. Se eles se moverem para trás para usar um item, deixarão o "Mago" ou "Caçador" expostos a ataques corpo a corpo diretos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão e Conquistas Multijogador">
+
+Jogar o **co-op local de For The King II** é uma das maneiras mais rápidas de farmar Lore, a moeda de meta-progressão. Cada encontro bem-sucedido, missão secundária concluída e capítulo finalizado concede pontos de Lore que podem ser gastos na Loja de Lore para desbloquear novas classes, itens e conjuntos iniciais para futuras partidas.
+
+<Checklist
+  id="coop-milestones"
+  title="Checklist de Conclusão do Co-op Local:"
+  items={[
+    "Sincronizar 4 controles para uma sessão de grupo completa",
+    "Completar o capítulo 'A Resistência' em qualquer dificuldade",
+    "Desbloquear a classe Alquimista através da Loja de Lore",
+    "Realizar com sucesso uma emboscada de 4 jogadores no mapa do mundo",
+    "Derrotar um Chefe de Mundo com todos os 4 jogadores vivos"
+  ]}
+/>
+
+Embora as conquistas no Steam ou os Troféus do PlayStation estejam frequentemente vinculados à conta principal, as recompensas desbloqueadas na Loja de Lore beneficiam todo o grupo durante a sessão atual. Se você estiver jogando em um console, certifique-se de que o "Anfitrião" seja o jogador que deseja manter a progressão de longo prazo.
+
+<Callout type="tip" title="Farm de Lore">
+A dificuldade Mestre fornece significativamente mais Lore, mas é extremamente punitiva. Para grupos locais, a dificuldade Viajante oferece o melhor equilíbrio entre "Diversão" e "Progresso" para uma jogatina de fim de semana.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "For The King II suporta tela dividida?",
+    answer: "O jogo usa uma perspectiva de tela compartilhada em vez da tradicional tela dividida. Todos os jogadores visualizam o mesmo mapa do mundo e grade de combate simultaneamente, o que mantém a interface limpa e fácil de ler em uma única TV."
+  },
+  {
+    question: "Podemos misturar jogadores locais e online no mesmo jogo?",
+    answer: "Sim, For The King II suporta 'Combo Co-op'. Você pode ter dois jogadores jogando localmente em uma máquina enquanto entram em um lobby online com outros dois amigos. Isso é ideal para grupos espalhados por diferentes locais."
+  },
+  {
+    question: "Existe um limite de quantos controles posso usar?",
+    answer: "O jogo suporta até 4 controles para um grupo local completo. No PC, você pode usar uma variedade de gamepads, incluindo Xbox, PlayStation e controles X-input genéricos."
+  },
+  {
+    question: "O que acontece se um jogador precisar sair no meio da sessão?",
+    answer: "No co-op local, o anfitrião pode simplesmente assumir o controle do personagem do jogador que saiu. O jogo permite reatribuir o controle de qualquer personagem a qualquer dispositivo de entrada conectado a qualquer momento a partir do menu de pausa."
+  }
+]} />
+
+</Section>

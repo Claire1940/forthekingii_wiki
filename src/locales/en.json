@@ -10,7 +10,14 @@
       "twitterDescription": "For The King II wiki: classes, builds, gear, co-op, DLC, and achievements for Steam, Xbox, and PlayStation."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "codes": "Codes",
+    "classes": "Classes",
+    "combat": "Combat",
+    "multiplayer": "Multiplayer",
+    "platforms": "Platforms"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -920,5 +927,126 @@
     "copyright": "© 2026 For The King II Wiki. Not affiliated with IronOak Games or Curve Games.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "For The King II Guides",
+      "description": "Complete For The King II guides covering beginner tips, walkthroughs, chaos level controls, hotkeys, and full-run strategy.",
+      "metaTitle": "For The King II Guides - Walkthrough, Tips & Beginner Help",
+      "metaDescription": "Browse every For The King II guide: beginner walkthrough, tips, hotkeys, chaos level settings, powder kegs, and the Chosen One trait.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are For The King II Guides?",
+      "whatIsDescription": "For The King II guides break down the turn-based roguelite tabletop RPG systems that decide whether a party survives Fahrul: Battle Grid positioning, Focus spending, Sanctum and Stone Hero routing, town economy, and Chaos pressure management.",
+      "why": "Why read these guides?",
+      "whySteps": {
+        "step1Title": "Avoid Early Party Wipes",
+        "step1Description": "Learn party roles, pull rules, and Focus discipline so the first chapters stop ending in a heroic group failure.",
+        "step2Title": "Control Chaos and Tempo",
+        "step2Description": "Master Chaos Level, Chaos Speed, and movement Focus to keep the map timer from punishing every decision.",
+        "step3Title": "Turn Each Run Into Progress",
+        "step3Description": "Use failed runs, the Lore Store, and unlock planning to make every attempt stronger than the last."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "codes": {
+      "title": "For The King II Codes",
+      "description": "The current status of For The King II codes, how the Redeem Code field works, and where long-term rewards actually come from.",
+      "metaTitle": "For The King II Codes - Redeem Code Status & Lore Store Rewards",
+      "metaDescription": "For The King II codes explained: how the in-game Redeem Code field works, Lore Store rewards, and official class unlocks without fake third-party codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are For The King II Codes?",
+      "whatIsDescription": "For The King II includes an in-game Redeem Code field inside the Lore Store. Long-term rewards come through the Lore Store progression system, free updates, and official character packs rather than a public freebie code list.",
+      "why": "Why use this codes guide?",
+      "whySteps": {
+        "step1Title": "Know the Real Reward Sources",
+        "step1Description": "Understand that Lore unlocks, free updates, and official character packs are the real progression, not random code generators.",
+        "step2Title": "Use the Redeem Code Field Correctly",
+        "step2Description": "Find the Redeem Code entry inside the Lore Store and learn what kinds of codes are actually distributed.",
+        "step3Title": "Avoid Fake and Third-Party Codes",
+        "step3Description": "Skip save edits, trainers, and unofficial unlock tools that are not official For The King II rewards."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "classes": {
+      "title": "For The King II Classes",
+      "description": "Every For The King II class explained with stats, roles, unlocks, and a full tier list for building the strongest party.",
+      "metaTitle": "For The King II Classes & Tier List - Best Class for Every Role",
+      "metaDescription": "Compare all For The King II classes including Alchemist, Beekeeper, Monk, Voidwalker, and Fortune Teller with a role-based tier list and best party builds.",
+      "categoryLabel": "CLASSES",
+      "whatIs": "What are For The King II Classes?",
+      "whatIsDescription": "For The King II classes define each hero's core stat, weapon types, combat role, and party utility. The roster launched with 12 playable classes and grows through free updates like the Monk and paid character packs.",
+      "why": "Why compare classes?",
+      "whySteps": {
+        "step1Title": "Match Class to Role",
+        "step1Description": "Pick classes by the party role you need: frontline tank, ranged damage, magic control, or support healing.",
+        "step2Title": "Plan Unlocks and DLC",
+        "step2Description": "Know which classes come from the base game, free updates, or packs like Tinkerers of Fate, Fallen Oaths, and Into The Wild.",
+        "step3Title": "Build the Best Party",
+        "step3Description": "Combine classes into balanced compositions for campaign, co-op, and Dark Carnival dungeon runs."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Classes"
+    },
+    "combat": {
+      "title": "For The King II Combat",
+      "description": "Master For The King II combat: Battle Grid positioning, Focus, weapons, armor, status effects, and loadout priority.",
+      "metaTitle": "For The King II Combat Guide - Battle Grid, Weapons, Armor & Focus",
+      "metaDescription": "Learn For The King II combat mechanics including the Battle Grid, Focus spending, weapons, armor, character stats, status effects, and party loadouts.",
+      "categoryLabel": "COMBAT",
+      "whatIs": "What is For The King II Combat?",
+      "whatIsDescription": "For The King II combat runs on a 2x4 Battle Grid where positioning, Focus spending, defense types, and status effects decide whether a fight stays controlled. Weapons and armor must match each character's core stat.",
+      "why": "Why use this combat guide?",
+      "whySteps": {
+        "step1Title": "Control the Battle Grid",
+        "step1Description": "Place durable characters in front, protect fragile backline roles, and use movement to dodge area attacks.",
+        "step2Title": "Spend Focus on Clutch Rolls",
+        "step2Description": "Save Focus for key attacks, heals, AOE spells, and urgent movement instead of low-value convenience rolls.",
+        "step3Title": "Match Gear to Stats",
+        "step3Description": "Give Strength weapons to Strength characters, Intelligence tools to casters, and keep armor on the frontline."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Combat Guides"
+    },
+    "multiplayer": {
+      "title": "For The King II Multiplayer",
+      "description": "How For The King II multiplayer works: player count, online co-op, local co-op, crossplay, and Remote Play across Steam, Xbox, and PlayStation.",
+      "metaTitle": "For The King II Multiplayer - Co-op, Crossplay & Player Count",
+      "metaDescription": "For The King II multiplayer explained: online co-op, local co-op, crossplay support, Remote Play, and how many players can join on Steam, Xbox, and PlayStation.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "What is For The King II Multiplayer?",
+      "whatIsDescription": "For The King II supports solo play, online co-op, and local co-op for up to four players. A solo player controls the whole party, while co-op lets each player run their own characters.",
+      "why": "Why read this multiplayer guide?",
+      "whySteps": {
+        "step1Title": "Know the Player Count",
+        "step1Description": "Understand how many players can join and how solo play hands control of the entire party to one person.",
+        "step2Title": "Pick the Right Co-op Mode",
+        "step2Description": "Compare online co-op and local co-op, including shared-screen play with multiple controllers.",
+        "step3Title": "Plan Crossplay and Remote Play",
+        "step3Description": "Check cross-platform labels between Steam, Xbox, and PlayStation before building a mixed-platform party."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Multiplayer Guides"
+    },
+    "platforms": {
+      "title": "For The King II Platforms",
+      "description": "Where to play For The King II: Steam, Xbox, PlayStation, and Game Pass compared with release dates and platform features.",
+      "metaTitle": "For The King II Platforms - Steam, Xbox, PS5 & Game Pass",
+      "metaDescription": "Find For The King II on Steam, Xbox, PlayStation, and Game Pass. Compare release dates, crossplay, cloud features, and platform availability.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What platforms is For The King II on?",
+      "whatIsDescription": "For The King II is available on Steam for PC, Xbox, and PlayStation. The PC version launched on November 2, 2023, with console releases following on December 12, 2024.",
+      "why": "Why check the platform guide?",
+      "whySteps": {
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare Steam, Xbox, and PlayStation availability plus Game Pass access before buying.",
+        "step2Title": "Match Platform to Features",
+        "step2Description": "See which platforms offer crossplay, Remote Play, cloud gaming, and ecosystem features like Xbox Play Anywhere.",
+        "step3Title": "Plan Cross-Platform Play",
+        "step3Description": "Use the platform capability labels to confirm who can join your co-op party before you start a run."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
+    }
+  }
 }

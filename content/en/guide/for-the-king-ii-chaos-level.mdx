@@ -1,0 +1,145 @@
+import { Map, Swords, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Chaos Level: Mechanics & Management Guide",
+  description: "Master the For The King II Chaos Level mechanics. Learn how Chaos scales enemy HP, spawns Chaos Hexes, and how to manage the timeline to survive Fahrul.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1a47/fff?text=Chaos+Level+Management+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Chaos Level** represents the rising corruption of Fahrul, tracking incremental doom via a 3-emblem overworld meter.
+- **Enemy Scaling** increases enemy Health Points by **5%**, **10%**, or **20%** per Chaos level depending on your campaign difficulty.
+- **Timeline Management** is the core loop of survival; letting the meter fill to maximum capacity triggers total overworld devastation.
+- **Reduction Methods** include completing main scenario objectives, clearing town side quests, and destroying Chaos Generators.
+- **Total Chaos** floods the map with cursed tiles, escalates encounter rates, and unleashes the deadly roaming Chaos Beast.
+</Callout>
+
+<Section icon={Map} title="Understanding the For The King II Chaos Level Mechanics">
+
+In *For The King II*, the **for the king ii chaos level** acts as a relentless, turn-based doom clock. Represented by a timeline tracker and a **3-emblem Chaos Meter** at the top of your screen, Chaos increments naturally as rounds pass. If you ignore the clock to over-level or wander aimlessly, the land of Fahrul becomes actively hostile, raising the barrier of entry for even basic combat encounters.
+
+Unlike character deaths—which deplete your party's Shared Life Pool rather than generating corruption—Chaos is purely a time-constriction mechanic. As the meter fills, the physical world warps, and the strategic layer of the game shifts from exploration to urgent crisis management.
+
+| Chaos Meter State | Overworld Effects | Enemy Scaling | Hazard Intensity |
+| :--- | :--- | :--- | :--- |
+| **0 Emblems** | Normal terrain navigation | Baseline stats | Standard overworld spawns |
+| **1 Emblem** | Chaos Hexes spawn on random tiles | **+5% / +10% / +20% HP** | Minor navigation penalties |
+| **2 Emblems** | Heavy Chaos Hex distribution | Double scaling penalty | Frequent elite patrol spawns |
+| **3 Emblems (Max)** | Cursed land floods Fahrul | Maximum stat scaling | **Chaos Beast** spawns randomly |
+
+<Callout type="warning" title="Difficulty Dictates the Penalty">
+The scaling penalty of each Chaos emblem is tied directly to your selected difficulty level. On Apprentice, enemies gain 5% HP per level; on Journeyman, they gain 10%; on Master difficulty, they scale by a massive 20% HP per level, turning basic fights into grueling wars of attrition.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Consequences of Unleashing Total Chaos">
+
+Allowing the Chaos Meter to reach its maximum capacity of 3 emblems plunges Fahrul into a state of **Total Chaos**. Once this threshold is crossed, the overworld map undergoes a permanent, highly destructive transformation that threatens to end your campaign run immediately.
+
+<CardGrid cols={3}>
+  <Card title="Cursed Land Flooding">
+    - **Corrupted Hexes** rapidly replace standard terrain tiles across the biome.
+    - Entering or crossing these tiles inflicts random, severe negative status effects.
+    - Movement becomes highly restricted, forcing the spending of precious Focus points.
+  </Card>
+  <Card title="The Chaos Beast Spawn">
+    - A massive, terrifying entity known as the **Chaos Beast** materializes on the map.
+    - It remains hidden on a random hex until a party member steps on it.
+    - Its combat abilities target the **entire party simultaneously**, bypassing standard Battle Grid row defenses.
+  </Card>
+  <Card title="Escalated Encounter Rates">
+    - Normal enemy patrols are replaced by highly aggressive high-tier Chaos groups.
+    - Ambush rates spike, preventing your party from choosing safe combat positioning.
+    - Safe zones such as towns may become besieged, locking you out of vital services.
+  </Card>
+</CardGrid>
+
+<Callout type="danger" title="Game Over Threshold">
+In certain campaign scenarios, letting the Chaos Meter remain fully capped for too long or failing specific timed objectives will trigger an immediate, irreversible campaign defeat. Never treat the 3-emblem state as a manageable baseline.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Managing and Reducing Chaos">
+
+To maintain a healthy campaign pace and keep the **for the king ii chaos level** at zero, you must actively integrate Chaos mitigation into your party's movement route. Use this step-by-step strategy to control the timeline.
+
+<Steps>
+  <Step num="1" title="Prioritize Town Side Quests">
+    Whenever you enter a new town, check the local quest board immediately. Towns regularly offer side quests that reward **-1 Chaos** or reset the current Chaos timeline accumulation clock. Plan your travel route around completing these objectives before pushing the main story.
+  </Step>
+  <Step num="2" title="Hunt Down Chaos Generators">
+    Keep an eye out for overworld **Chaos Devices and Catapults**. In tough chapters like *The Primordial Oak*, local Goblin Catapults acts as active Chaos generators. These devices are typically located within a **5-hex radius** of local towns; seek out and disarm them to keep the timeline clean.
+  </Step>
+  <Step num="3" title="Utilize the Dark Carnival Carousel">
+    If you are running the Dark Carnival or endless dungeon modes, seek out the **Chaos Carousel**. Playing the Carousel allows you to reduce Chaos levels by 1 or 2. However, this requires successful Luck rolls. Be cautious: failing these rolls can completely fill your Chaos Meter.
+  </Step>
+  <Step num="4" title="Sacrifice Stats at Altars">
+    For advanced progression runs, unlocking the **Altar** in the Lore Store (requires 8 Lore) provides a critical safety net. If your party is in a desperate situation, you can sacrifice a portion of a character's maximum stamina at an Altar to manually lower the current Chaos value.
+  </Step>
+</Steps>
+
+<Callout type="success" title="The Golden Rule of Pacing">
+The most successful parties move as a cohesive unit, taking high-value optional fights and town quests to stay on par with the regional level requirements while dedicating at least one member (such as a high-Talent Busker) to disarming regional Chaos generators safely.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Campaign Pacing & House Rules Customization">
+
+If the default Chaos timeline feels too punishing, *For The King II* offers robust **House Rules** during campaign creation, allowing you to tailor the experience to your preferred tactical pace.
+
+### Chaos-Related House Rules Settings
+| Rule Setting | Adjustment Range | Tactical Impact | Recommended Use |
+| :--- | :--- | :--- | :--- |
+| **Chaos Speed** | 50% to 200% | Slows down or accelerates emblem generation | Set to **50%** for a relaxed, exploration-heavy run |
+| **Life Pool** | 0 to 5 Lives | Adjusts how many party revives are available | Increase to offset aggressive early-game wipes |
+| **Gold Inflation** | 0% to 100% | Controls shop price scaling as the campaign progresses | Keep lower on Master runs to combat extreme gear costs |
+
+### Essential Chaos Management Milestones
+<Checklist
+  id="chaos-milestones"
+  title="Active Run Checklist:"
+  items={[
+    "Locate and map all towns within the current biome to reveal quest boards [1.2.4].",
+    "Scout a 5-hex radius around towns to find and disable active Chaos Catapults.",
+    "Ensure at least one party member carries a Tinder Pouch to set up camps for safe recovery.",
+    "Keep a buffer of at least 1 empty emblem slot on the Chaos Meter before entering major story dungeons."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does character death increase the Chaos level in For The King II?",
+    answer: "No. Character deaths do not generate Chaos. Instead, dying reduces your party's Shared Life Pool. Chaos is strictly a time-based mechanic that increments as overworld rounds pass."
+  },
+  {
+    question: "What is the maximum cap for character levels in the campaign?",
+    answer: "The maximum level cap for all characters in For The King II is level 14. Any experience points gained after reaching this cap will not be counted."
+  },
+  {
+    question: "How do I deal with the high speed of enemies when managing Chaos?",
+    answer: "Enemies like Goblins in high-Chaos regions move incredibly fast. Using a Farmer with the Eager trait can guarantee a defensive Scarecrow at the start of combat, absorbing early damage spikes."
+  },
+  {
+    question: "Are there campaign modes where Chaos mechanics are disabled?",
+    answer: "Yes. The Frost Adventure campaign scenario does not feature the Chaos Index or Chaos Meter. Instead, players must manage cold damage and freezing mechanics while navigating the overworld."
+  }
+]} />
+
+</Section>

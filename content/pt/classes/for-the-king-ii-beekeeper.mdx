@@ -1,0 +1,220 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HeartPulse, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Apicultor de For The King II: Guia de DLC de 2026 e Melhores Builds",
+  description: "Domine o Apicultor em For The King II com o nosso guia de 2026. Saiba tudo sobre o Pet Polinizador, guloseimas doces e as melhores composições de grupo para a DLC.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d1b4e/fff?text=Beekeeper+Class+Guide",
+  date: "2026-07-02",
+  author: "Equipe do Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Apicultor de For The King II**: Uma classe especializada introduzida na DLC **Pacote de Personagens Into The Wild**, focada em sinergia com pets e efeitos de status.
+- **Mecânicas Principais**: Utiliza o **Pet Polinizador** para ataques automáticos e **Guloseimas Doces** para fornecer efeitos benéficos (buffs) únicos ou cura para o grupo.
+- **Melhor Estratégia**: Posicione o Apicultor na fileira de trás da **Grade de Batalha** para manter a sustentabilidade enquanto o pet causa dano constante e gradual.
+- **Dica Crítica**: O Apicultor se destaca em modos longos como o **Carnaval Sombrio**, onde o gerenciamento de recursos e as ações automáticas do pet economizam Foco precioso.
+- **Melhor Sinergia**: Combina excepcionalmente bem com o **Ferreiro** para proteção e com a **Herbalista** para máxima resistência do grupo.
+</Callout>
+
+<Section icon={Map} title="Visão Geral da Classe Apicultor e Requisitos de Desbloqueio">
+
+O **Apicultor de For The King II** não é um lutador de linha de frente comum. Lançado como parte da expansão **Into The Wild** no final de 2025 e refinado ao longo de 2026, esta classe traz um estilo único ao cenário de RPG de tabuleiro tático de Fahrul. Diferente dos causadores de dano físico ou mágico padrão, o Apicultor opera através de uma combinação de pressão indireta e utilidade ambiental.
+
+Para acessar o Apicultor, os jogadores precisam ter o **Pacote de Personagens Into The Wild**. Assim que a DLC estiver ativa, a classe geralmente requer desbloqueio através da **Loja de Lore** usando a moeda de Lore obtida ao jogar a campanha padrão. Essa progressão garante que os jogadores tenham uma compreensão básica da Grade de Batalha 2x4 do jogo antes de gerenciar as mecânicas de pet mais complexas do Apicultor.
+
+| Recurso | Detalhes |
+| :--- | :--- |
+| **Requisito de DLC** | Pacote de Personagens Into The Wild |
+| **Função Principal** | Híbrido de Suporte / Dano |
+| **Habilidade de Assinatura** | Pet Polinizador (Invocação Automática) |
+| **Foco de Recursos** | Guloseimas Doces e Ferroadas |
+| **Fileira Recomendada** | Fileira de Trás (Segurança em Primeiro Lugar) |
+
+<Callout type="tip" title="Estratégia da Loja de Lore">
+Priorize o desbloqueio do Apicultor cedo se você planeja enfrentar o **Desafio da Masmorra (Gauntlet)**. O dano automático do Pet Polinizador ajuda a mitigar rolagens de dados ruins durante rodadas semeadas de alta pressão, onde cada ponto de dano conta para a sua pontuação no placar de líderes.
+</Callout>
+
+No meta atual de 2026, o Apicultor é preferido por sua habilidade de contornar certas camadas defensivas. As mecânicas de "Ferroada" frequentemente aplicam dano ao longo do tempo (DoT) ou efeitos de status que ignoram a alta Defesa Física, tornando-as inestimáveis contra inimigos blindados encontrados nas **Minas Reais** ou nos capítulos finais da **Resistência**.
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Combate: Pet Polinizador e Guloseimas Doces">
+
+O coração do estilo de jogo do **Apicultor de For The King II** reside em suas interações únicas com o campo de batalha. Enquanto outras classes dependem exclusivamente de suas ações primárias e secundárias, o Apicultor estende sua influência através do **Pet Polinizador**. Este companheiro age de forma independente, fornecendo uma camada de utilidade "gratuita" que pode mudar o rumo de um encontro difícil.
+
+**Fluxo de Combate e Dinâmica da Grade**
+Na Grade de Batalha 2x4, o Apicultor deve ser tratado como um recurso de utilidade de alto valor. Como o seu dano é frequentemente dividido entre seus próprios ataques e as ações do pet, mantê-lo vivo é mais importante do que maximizar seu poder de ataque individual.
+
+| Mecânica | Efeito em Combate | Valor no Meta de 2026 |
+| :--- | :--- | :--- |
+| **Pet Polinizador** | Ataques automáticos no início/fim do turno | Alto (Dano gradual consistente) |
+| **Guloseimas Doces** | Buffs consumíveis para o grupo | Essencial para Lutas de Chefes |
+| **Ataques de Ferroada** | Aplicação de dano ao longo do tempo (DoT) | Ótimo contra tanques com muita vida |
+| **Escudo de Mel** | Proteção temporária para aliados | Moderado (Situacional) |
+
+<Steps>
+  <Step num="1" title="Posicionamento Inicial">
+    Posicione o Apicultor na fileira de trás, de preferência atrás de um **Ferreiro** ou **Cavaleiro Caído**. Isso garante que ele não seja alvo de ataques corpo a corpo de fileira, permitindo que o Pet Polinizador permaneça ativo por mais tempo.
+  </Step>
+  <Step num="2" title="Aplicando Ferroadas">
+    Use sua ação primária para aplicar efeitos de "Ferroada" em alvos de alta prioridade. Esses efeitos acumulam ao longo do tempo, criando um cronômetro para o inimigo que não exige gasto constante de Foco.
+  </Step>
+  <Step num="3" title="Gerenciando Guloseimas Doces">
+    Identifique turnos onde sua produção de dano é secundária para a sobrevivência do grupo. Use ações secundárias para distribuir Guloseimas Doces, que podem restaurar pequenas quantidades de Vida ou fornecer aumentos temporários de atributos sem encerrar seu turno.
+  </Step>
+  <Step num="4" title="Integração de Foco">
+    Guarde seu **Foco** para as habilidades de Área de Efeito (AoE) do Apicultor. Enquanto o pet lida com alvos únicos, as rolagens manuais do Apicultor são melhor utilizadas para espalhar efeitos de status por fileiras inteiras de inimigos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Vulnerabilidade do Pet">
+Na atualização de 2026, certos inimigos nos biomas de **Into The Wild** possuem a característica "Matador" (Swatter) que visa especificamente invocações. Fique atento aos ícones dos inimigos que indicam bônus de dano contra pets para evitar perder seu Polinizador no início da luta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Builds de Grupo para o Apicultor">
+
+Criar uma equipe ao redor do **Apicultor de For The King II** requer um equilíbrio de proteção e tipos de dano complementares. Como o Apicultor fornece DoT sustentado e utilidade, o resto do grupo deve focar em dano explosivo pesado ou estabilidade defensiva absoluta.
+
+<CardGrid cols={3}>
+  <Card title="A Guarda da Natureza">
+    - **Apicultor** (Suporte/DoT)
+    - **Herbalista** (Cura/Magia)
+    - **Ferreiro** (Tanque/Escudo)
+    - **Caçador** (Físico/Longo Alcance)
+    *Melhor para: Novos jogadores e campanhas longas.*
+  </Card>
+  <Card title="A Explosão Selvagem">
+    - **Apicultor** (Utilidade)
+    - **Alquimista** (AoE Explosivo)
+    - **Desbravador** (Velocidade/Exploração)
+    - **Lenhador** (Físico Pesado)
+    *Melhor para: Speedruns de capítulos.*
+  </Card>
+  <Card title="O Enxame Infinito">
+    - **Apicultor** (DoT)
+    - **Fabricante de Brinquedos** (Invocador)
+    - **Monge** (Suporte Híbrido)
+    - **Cavaleiro Caído** (Líder de Agressão)
+    *Melhor para: Carnaval Sombrio e Gauntlet.*
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Destaque de Sinergia: Apicultor + Fabricante de Brinquedos">
+Este "Núcleo de Invocadores" é uma estratégia popular em 2026. Ao combinar o Pet Polinizador do Apicultor com os brinquedos baseados em essência do Fabricante de Brinquedos, você pode efetivamente ter 6 unidades no tabuleiro. Isso sobrecarrega a IA de alvo único do inimigo e distribui o dano recebido entre vários alvos não jogáveis.
+</Callout>
+
+**Tabela de Comparação de Builds**
+
+| Nome da Build | Dificuldade | Gerenciamento de Recursos | Velocidade de Limpeza |
+| :--- | :--- | :--- | :--- |
+| **Guarda da Natureza** | Fácil | Baixo (Muito Eficiente) | Moderada |
+| **Explosão Selvagem** | Média | Alto (Faminto por Foco) | Rápida |
+| **Enxame Infinito** | Difícil | Moderado | Lenta (Segura) |
+
+Ao buildar seu Apicultor, foque nos atributos de **Talento** e **Percepção** (Awareness). A maioria das armas no pacote **Into The Wild**, como os novos conjuntos de Clava e Arpão, escalam com esses atributos. Um Apicultor com alto Talento terá mais sucesso com suas ações secundárias de Guloseimas Doces, enquanto a Percepção garante que seus ataques de Ferroada realmente atinjam alvos esquivos.
+
+</Section>
+
+<Section icon={Shield} title="Otimização de Equipamento e Loadout">
+
+Otimizar o **Apicultor de For The King II** envolve mais do que apenas escolher a arma de maior dano. Você precisa procurar equipamentos que aprimorem as habilidades passivas naturais da classe. Em 2026, o meta mudou para equipamentos de "Economia de Ação" — itens que permitem ao Apicultor fazer mais sem gastar ações primárias.
+
+**Principais Recomendações de Equipamento**
+1. **Arpão da Natureza** (Harpoon of the Wild): Fornece excelente escalonamento de Percepção e chance de sangramento, acumulando perfeitamente com os DoTs de Ferroada.
+2. **Véu do Polinizador** (Pollinator's Veil): Um elmo que aumenta o dano de todas as unidades invocadas em 15%.
+3. **Algibeira do Doceiro** (Sweet-Tooth Satchel): Aumenta a eficácia das Guloseimas Doces, transformando pequenos buffs em grandes ferramentas de recuperação.
+
+| Tipo de Item | Atributo Recomendado | Principal Vantagem |
+| :--- | :--- | :--- |
+| **Arma** | Percepção / Talento | Multi-ataque ou DoT |
+| **Armadura** | Resistência | Evasão para se manter vivo |
+| **Acessório** | Velocidade | Agir antes dos inimigos para aplicar DoTs |
+| **Consumível** | Raiz Dourada | Foco para turnos cruciais de AoE |
+
+<Callout type="info" title="Dica de Loadout para 2026">
+Ao iniciar uma nova jornada, gaste seus pontos de loadout no **talento \"Naturalista\"**. Este talento aumenta a frequência de encontrar ervas e ingredientes para Guloseimas Doces enquanto atravessa o mapa, aumentando significativamente a utilidade do seu Apicultor no meio do jogo.
+</Callout>
+
+**Lista de Prioridades para o Loadout Inicial**
+- [ ] **Arma Primária**: Atualize para uma Clava que escala com Talento, se possível.
+- [ ] **Erva Inicial**: Sempre pegue uma **Barba de Deus** para complementar a Herbalista.
+- [ ] **Talento**: \"Pensador Profundo\" ou \"Naturalista\" são de primeira linha para esta classe.
+- [ ] **Armadura**: Priorize qualquer coisa com bônus de +Velocidade ou +Evasão.
+
+</Section>
+
+<Section icon={Zap} title="Estratégias Avançadas para o Carnaval Sombrio e Desafio da Masmorra (Gauntlet)">
+
+O **Apicultor de For The King II** brilha mais nos modos mais difíceis do jogo. No **Carnaval Sombrio**, onde você enfrenta andares infinitos de dificuldade crescente, a habilidade do Apicultor de fornecer dano sem consumir recursos limitados (como ervas ou Foco) é uma dádiva.
+
+**Táticas para o Carnaval Sombrio**
+No Carnaval, a **Roda da Morte** e os chefes com muita vida podem esgotar rapidamente os recursos do grupo. O Apicultor atua como um \"motor de sustentabilidade\". Ao usar o Pet Polinizador para finalizar inimigos enfraquecidos, você economiza o Foco de seus causadores de dano pesado para o próximo andar.
+
+**Dicas para o Desafio da Masmorra (Gauntlet)**
+Como o Gauntlet é um desafio semeado, você pode prever exatamente quando as Guloseimas Doces do Apicultor serão mais eficazes.
+- **Andares 5-10**: Foque em acumular Ferroadas no chefe enquanto seu tanque protege o Apicultor.
+- **Andares 15+**: Mude para uma função de suporte total, usando suas ações secundárias para manter o Foco do grupo alto através de guloseimas especializadas.
+
+| Modo | Prioridade do Apicultor | Principal Risco |
+| :--- | :--- | :--- |
+| **Carnaval Sombrio** | Sobrevivência e Dano Gradual | Ficar sem Guloseimas Doces |
+| **Gauntlet** | Otimização de Rota Semeada | Baixo dano explosivo nos andares iniciais |
+| **Into The Wild** | Navegação de Bioma | Efeitos de status de Veneno/Ácido |
+
+<Callout type="tip" title="Gerenciamento de Foco">
+No meta do Gauntlet de 2026, os jogadores costumam usar a sinergia de **\"Refoco\"** do Apicultor. Se você combiná-lo com um Acadêmico, o Apicultor pode gastar Foco agressivamente para garantir Ferroadas, sabendo que o Acadêmico pode ajudar a restaurar esses pontos durante as fases de recuperação.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação para Maestria do Apicultor">
+
+Use esta lista de verificação para garantir que você está utilizando o **Apicultor de For The King II** em seu potencial máximo em suas campanhas de 2026.
+
+<Checklist
+  id="beekeeper-mastery"
+  title="Metas de Desempenho do Apicultor:"
+  items={[
+    "Desbloquear o Apicultor na Loja de Lore após comprar a DLC.",
+    "Manter o Pet Polinizador ativo por pelo menos 90% de cada combate.",
+    "Acumular com sucesso 3+ efeitos de Ferroada em um único chefe.",
+    "Equipar pelo menos duas peças de equipamento que aumentem o dano de 'Invocação' ou 'Pet'.",
+    "Concluir uma corrida do Carnaval Sombrio alcançando pelo menos o Andar 20 com um Apicultor no grupo.",
+    "Utilizar uma Guloseima Doce para evitar que um membro do grupo fique abaixo de 10% de Vida."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Apicultor é melhor do que a Herbalista para curar?",
+    answer: "Não. A Herbalista continua sendo a curadora dedicada superior devido à Cura de Grupo. No entanto, o Apicultor oferece melhor utilidade ofensiva e dano 'gratuito' através do pet, tornando-o uma escolha híbrida melhor para equipes agressivas."
+  },
+  {
+    question: "O Pet Polinizador escala com o nível do Apicultor?",
+    answer: "Sim, na versão de 2026 de For The King II, a vida e o dano do Pet Polinizador escalam automaticamente com o nível do personagem do Apicultor, garantindo que ele continue relevante nos capítulos finais do jogo."
+  },
+  {
+    question: "Posso ter vários pets se tiver dois Apicultores?",
+    answer: "Sim, você pode jogar com vários Apicultores, e cada um invocará seu próprio Pet Polinizador. Esta é uma estratégia viável de 'enxame', embora deixe o grupo vulnerável a ataques mágicos em área (AoE)."
+  },
+  {
+    question: "Qual DLC é necessária para o Apicultor?",
+    answer: "Você precisa ter o 'Pacote de Personagens Into The Wild'. Ele é separado dos pacotes 'Tinkerers of Fate' ou 'Fallen Oaths'."
+  }
+]} />
+
+</Section>

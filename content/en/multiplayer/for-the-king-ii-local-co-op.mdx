@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Gamepad2, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Local Co Op: Setup Guide & Console Comparison",
+  description: "Learn how to set up For The King II local co op on PC, Xbox, and PlayStation. Explore controller requirements, party builds, and split-screen tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Local+Co-Op+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Support**: For The King II supports **local co op** for up to 4 players on a single device across PC and consoles.
+- **Controller Requirement**: Each local player typically requires a dedicated controller; on PC, one player can use Mouse/Keyboard while others use gamepads.
+- **Platform Availability**: Local play is fully integrated into the Steam, Xbox Series X|S, and PlayStation 5 versions as of 2026.
+- **Shared Progression**: All Lore Store unlocks and campaign progress are saved to the host's profile during local sessions.
+- **Combat Grid**: Players must coordinate positioning on the 2x4 Battle Grid to protect fragile backline characters.
+</Callout>
+
+<Section icon={Users} title="For The King II Local Co Op Platform Compatibility">
+
+The transition from the original title to the sequel brought significant improvements to the multiplayer architecture. For players looking to enjoy **for the king ii local co op**, the experience is designed to mimic a traditional tabletop board game night. Whether you are playing on a high-end PC or the latest home consoles, the game allows for a seamless "couch co-op" experience where up to four friends can control individual members of the resistance against Queen Rosomon.
+
+**Video Highlights:**
+- Overview of the turn-based roguelite tabletop RPG mechanics.
+- Visual demonstration of the 4-player cooperative gameplay.
+- Insights into the Battle Grid tactics and class synergy.
+- Preview of the diverse biomes and procedural map generation.
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Join The Fight - Trailer" />
+
+Understanding the specific features available on your platform of choice is essential before gathering your party. While the core gameplay remains identical, technical features like Remote Play and Cloud Gaming vary between the Steam and console ecosystems.
+
+| Platform | Local Co-op Support | Max Local Players | Remote Play / Cloud | Cross-gen Support |
+| :--- | :--- | :--- | :--- | :--- |
+| **Steam (PC)** | **Full Support** | 4 Players | Remote Play Together | N/A |
+| **Xbox Series X|S** | **Full Support** | 4 Players | Xbox Cloud Gaming | **Yes** |
+| **PlayStation 5** | **Full Support** | 4 Players | PS Remote Play | **Yes** |
+| **Xbox One / PS4** | **Supported** | 4 Players | Limited | **Yes** |
+
+<Callout type="tip" title="Pro Tip: Steam Remote Play">
+On PC, you can use Steam's "Remote Play Together" feature to simulate a local co-op environment over the internet. This allows only one person to own the game while others join as if they were sitting on the same couch.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Set Up a Local Co Op Session">
+
+Setting up a session for **for the king ii local co op** is straightforward, but it requires ensuring all input devices are recognized by the system before launching the campaign. Unlike online lobbies, local play is managed directly within the "New Adventure" or "Load Game" menus.
+
+<Steps>
+  <Step num="1" title="Connect Input Devices">
+    Ensure all controllers are connected and synced to your PC or console. For PC players, the game supports a mix of one Keyboard/Mouse user and three controller users. On consoles, each player should ideally be signed into a local guest or secondary profile to track individual preferences, though it is not strictly required for gameplay.
+  </Step>
+  <Step num="2" title="Navigate to Multiplayer">
+    From the main menu, select "Multiplayer." Even for local play, this menu serves as the hub for party management. Alternatively, you can start a "New Game" and assign character control to different input devices during the party creation screen.
+  </Step>
+  <Step num="3" title="Assign Characters">
+    In the party setup screen, you will see four slots. Use the connected controllers to "Join" the session. The host can then assign specific characters (e.g., Blacksmith, Scholar, Hunter) to each player. This is where you decide who will lead the party on the overworld map.
+  </Step>
+  <Step num="4" title="Configure House Rules">
+    Before starting, the group should agree on "House Rules." You can adjust the difficulty (Apprentice, Journeyman, Master) or customize specific settings like Chaos speed and starting lives. In local co-op, consensus is key to preventing a "Game Over" in the early chapters.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Controller Ghosting">
+If a controller is not being recognized, restart the game with all gamepads already plugged in. For The King II sometimes fails to detect controllers hot-swapped after the title screen has loaded.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Party Compositions for Local Play">
+
+In a local setting, communication is much faster than online play, allowing for highly complex tactical maneuvers. Success in **for the king ii local co op** depends on balancing your party roles to cover the frontline, ranged damage, and essential healing.
+
+<CardGrid cols={3}>
+  <Card title="The Classic Core">
+    - **Blacksmith**: Frontline Tank
+    - **Scholar**: Magic/Focus
+    - **Hunter**: Ranged DPS
+    - **Herbalist**: Party Heal
+  </Card>
+  <Card title="The Burst Squad">
+    - **Stablehand**: Action Economy
+    - **Alchemist**: AOE Damage
+    - **Pathfinder**: Scouting
+    - **Friar**: Buffs/Support
+  </Card>
+  <Card title="The DLC Specialist">
+    - **Fallen Knight**: Heavy Tank
+    - **Toymaker**: Summons
+    - **Beekeeper**: Damage over Time
+    - **Fortune Teller**: Utility
+  </Card>
+</CardGrid>
+
+When playing locally, it is helpful to assign roles based on the players' familiarity with the game's mechanics. The "Frontline" player should focus on Vitality and Physical Defense, while the "Support" player manages the group's inventory of Godsbeard and Panax.
+
+| Role | Primary Stat | Combat Responsibility | Co-op Value |
+| :--- | :--- | :--- | :--- |
+| **Tank** | **Vitality** | Taunt, Guard, Soak Damage | High: Protects fragile allies |
+| **Striker** | **Awareness** | High Single-target DPS | Medium: Removes priority threats |
+| **Mage** | **Intelligence** | AOE Magic, Crowd Control | High: Bypasses physical armor |
+| **Support** | **Talent/Int** | Healing, Focus Restoration | **Critical**: Prevents party wipe |
+
+<Callout type="success" title="Synergy Bonus">
+Assign the Herbalist to the player with the best "Focus" management skills. Since the Herbalist can provide "Party Heal," their survival is the most important factor in long dungeon crawls.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Local Co Op Mechanics and UI Management">
+
+One of the unique aspects of **for the king ii local co op** is how the game handles shared resources and the Battle Grid. Unlike the first game, the sequel features a 2x4 grid, making positioning a collaborative effort. Players must talk to each other to decide who moves to the front row to provide "Guard" and who stays in the back to avoid splash damage.
+
+**Key Local Mechanics:**
+- **Shared Gold**: While characters hold gold individually, it can be traded freely when adjacent.
+- **Inventory Trading**: Items can be passed between players on the overworld or during combat (as a secondary action).
+- **Turn Order**: The timeline at the top of the screen is visible to everyone. Local groups should plan their attacks based on which enemy is acting next.
+- **Focus Spending**: Since Focus is a limited resource, local players should "vote" on when to spend it for crucial rolls, such as ambushing a difficult camp or clearing a Chaos generator.
+
+| Feature | Local Co-op Behavior | Recommended Strategy |
+| :--- | :--- | :--- |
+| **Overworld Movement** | Individual or Group | Stay together to trigger "Nearby" combat |
+| **Loot Drops** | Host/Player Choice | Assign gear to the highest matching stat |
+| **Sanctums** | Single Character Buff | Give to the player most likely to die |
+| **Lore Store** | Host Profile Only | Discuss unlocks before spending Lore |
+
+<Callout type="info" title="Combat Positioning">
+In local co-op, make sure your "Tank" always ends their turn in the front row. If they move to the back to use an item, they leave the "Mage" or "Hunter" exposed to direct melee attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression and Multiplayer Achievements">
+
+Playing **for the king ii local co op** is one of the fastest ways to farm Lore, the meta-progression currency. Every successful encounter, completed side quest, and cleared chapter grants Lore points that can be spent in the Lore Store to unlock new classes, items, and starting loadouts for future runs.
+
+<Checklist
+  id="coop-milestones"
+  title="Local Co-op Completion Checklist:"
+  items={[
+    "Sync 4 controllers for a full party session",
+    "Complete 'The Resistance' chapter on any difficulty",
+    "Unlock the Alchemist class via the Lore Store",
+    "Successfully perform a 4-player ambush on the overworld",
+    "Defeat a World Boss with all 4 players alive"
+  ]}
+/>
+
+While achievements on Steam or PlayStation Trophies are often tied to the primary account, the rewards unlocked in the Lore Store benefit the entire group during the current session. If you are playing on a console, ensure the "Host" is the player who wants to keep the long-term progression.
+
+<Callout type="tip" title="Lore Farming">
+Master difficulty provides significantly more Lore but is extremely punishing. For local groups, Journeyman difficulty offers the best balance of "Fun" and "Progress" for a weekend playthrough.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does For The King II support split-screen?",
+    answer: "The game uses a shared-screen perspective rather than a traditional split-screen. All players view the same overworld map and combat grid simultaneously, which keeps the UI clean and easy to read on a single TV."
+  },
+  {
+    question: "Can we mix local and online players in the same game?",
+    answer: "Yes, For The King II supports 'Combo Co-op.' You can have two players playing locally on one machine while joining an online lobby with two other friends. This is ideal for groups spread across different locations."
+  },
+  {
+    question: "Is there a limit to how many controllers I can use?",
+    answer: "The game supports up to 4 controllers for a full local party. On PC, you can use a variety of gamepads, including Xbox, PlayStation, and generic X-input controllers."
+  },
+  {
+    question: "What happens if a player has to leave mid-session?",
+    answer: "In local co-op, the host can simply take control of the departing player's character. The game allows you to reassign control of any character to any connected input device at any time from the pause menu."
+  }
+]} />
+
+</Section>

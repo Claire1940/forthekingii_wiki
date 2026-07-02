@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Heart, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Foco em For The King II: Guia de Maestria e Melhores Estratégias de Gasto",
+  description: "Domine as mecânicas de foco em For The King II para garantir rolagens, sobreviver a masmorras e otimizar a estratégia de combate em Fahrul. Aprenda dicas de recuperação e prioridades de gasto.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Focus+Mastery+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II",
+  keywords: "foco em for the king ii, guia de maestria, estratégias de gasto, dicas de recuperação, estratégia de combate"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco em For The King II** é um recurso limitado que garante uma rolagem de dados bem-sucedida para combate, movimento ou eventos.
+- **A prioridade de gasto** deve favorecer ataques de alto dano, testes de movimento críticos e rolagens de eventos baseados em sobrevivência.
+- **Os métodos de recuperação** incluem meditar em cidades, consumir Raiz Dourada ou visitar Heróis de Pedra e Santuários.
+- **As classes Estudioso e Monge** oferecem a melhor sustentação de Foco através de características passivas como Refocar.
+- **A pressão do Caos** aumenta a importância do Foco para viagens eficientes no mundo exterior para evitar turnos desperdiçados.
+</Callout>
+
+<Section icon={Zap} title="Entendendo as Mecânicas de Foco em For The King II">
+
+No mundo brutal de Fahrul, o **foco em For The King II** serve como o equalizador definitivo contra a aleatoriedade inerente das rolagens de dados. Cada ação no jogo — desde balançar uma pesada claymore até passar furtivamente por um acampamento de Goblins — depende de uma série de testes baseados em atributos. O Foco permite que você ignore essas probabilidades ao essencialmente "comprar" um sucesso garantido para um dos slots em uma rolagem. Esta mecânica transforma o jogo de uma pura aposta em uma simulação tática de gerenciamento de recursos, onde saber quando recuar e quando apostar tudo determina a longevidade do seu grupo.
+
+**Destaques do Vídeo:**
+- **Maestria na Grade de Combate**: Como o posicionamento afeta o gasto de Foco para ataques em área (AOE).
+- **Gerenciamento de Recursos**: Equilibrando o uso de ervas com a meditação na cidade para máxima eficiência.
+- **Sinergia de Classes**: Utilizando a característica Refocar do Estudioso para manter uma reserva alta de Foco.
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Junte-se à Luta - Trailer" />
+
+Entender a mudança de probabilidade é crucial para partidas em dificuldades altas. Quando você gasta um ponto de Foco, garante que pelo menos um slot de dado resultará em sucesso, independentemente dos atributos base do seu personagem. Isso é particularmente vital para armas com alta contagem de slots, onde uma única falha pode reduzir significativamente o dano ou fazer com que um ataque erre completamente.
+
+| Tipo de Ação | Impacto do Foco | Garantia de Sucesso | Valor Estratégico |
+| :--- | :--- | :--- | :--- |
+| **Ataque de Combate** | Garante um slot de acerto | Parcial a Total | **Alto** |
+| **Rolagem de Movimento** | Garante um espaço extra | 100% por ponto | **Médio** |
+| **Evento de Teste de Atributo** | Garante o sucesso de um slot | Variável | **Alto** |
+| **Emboscada/Furtividade** | Aumenta a chance de sucesso | Alta | **Crítico** |
+| **Desarmar Armadilha** | Garante o sucesso de um slot | Alta | **Médio** |
+
+<Callout type="tip" title="Dica de Eficiência">
+Sempre verifique o número de slots que uma ação exige. Gastar Foco em uma rolagem de slot único (como alguns testes de movimento básicos) garante uma taxa de sucesso de 100%, enquanto gastá-lo em um ataque de cinco slots garante apenas 20% do potencial total de saída.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gastando Foco em For The King II: Prioridades e Estratégia">
+
+Decidir onde alocar seu **foco em For The King II** é a decisão mais frequente que você tomará. Novos jogadores muitas vezes caem na armadilha de "acumular" Foco para um chefe que nunca chega porque morreram para um inimigo comum, ou de "usar excessivamente" em rolagens de movimento de baixo risco. Uma abordagem disciplinada envolve categorizar suas necessidades em sobrevivência imediata, vantagem tática e progressão a longo prazo.
+
+<CardGrid cols={3}>
+  <Card title="Dominância em Combate">
+    - **AOE Garantido**: Use Foco para garantir que feitiços de múltiplos alvos atinjam todos os inimigos na grade.
+    - **Golpes de Misericórdia**: Garanta eliminações em inimigos com PV baixo para removê-los da ordem de turnos.
+    - **Aplicação de Status**: Garanta que atordoamentos, queimaduras ou congelamentos funcionem quando o grupo estiver sob pressão.
+  </Card>
+  <Card title="Eficiência no Mundo Exterior">
+    - **Gerenciamento de Caos**: Gaste Foco para alcançar um objetivo de redução de Caos antes que o cronômetro avance.
+    - **Acesso a Santuários**: Garanta movimento para alcançar um Santuário antes que um grupo inimigo o intercepte.
+    - **Prazos de Missão**: Garanta que você chegue às cidades para entregar missões e obter ouro e melhorias de equipamento.
+  </Card>
+  <Card title="Mitigação de Risco">
+    - **Controle de Emboscada**: Use Foco para garantir uma emboscada, impedindo que inimigos próximos se juntem à luta.
+    - **Evasão de Armadilhas**: Proteja o PV e o equipamento do grupo garantindo rolagens de desarmamento de armadilhas.
+    - **Furtividade de Elite**: Ignore encontros de alto nível para os quais seu grupo ainda não está equipado.
+  </Card>
+</CardGrid>
+
+A Grade de Batalha adiciona outra camada a isso. Como o movimento na grade custa ações secundárias, você pode precisar de Foco para acertar um golpe após se mover para uma posição melhor. Lembre-se de que certos efeitos de status, como **Atordoado**, podem remover suas ações secundárias, tornando o Foco ainda mais precioso para realizar Ações Primárias de forma eficaz.
+
+| Cenário de Gasto | Nível de Prioridade | Motivo |
+| :--- | :--- | :--- |
+| **Transições de Fase de Chefe** | ★★★★★ | Evita a derrota do grupo durante janelas de dano alto. |
+| **Missões de Redução de Caos** | ★★★★★ | Essencial para evitar que a dificuldade da campanha escale rápido demais. |
+| **Limpeza de Inimigos Comuns** | ★★☆☆☆ | Só gaste se falhar na rolagem resultar em dano significativo. |
+| **Exploração/Visão** | ★★★☆☆ | Útil para encontrar Heróis de Pedra ou Santuários em novos biomas. |
+| **Roubo/Mercantil** | ★★★★☆ | Alto ROI de ouro se for bem-sucedido, mas arriscado. |
+
+<Callout type="warning" title="Aviso sobre Acúmulo">
+Não entre em uma luta de chefe com zero Foco. No entanto, não saia de um bioma com a barra de Foco cheia se ainda não visitou o **Herói de Pedra** local. Heróis de Pedra recarregam seu medidor gratuitamente, então "desperdice" seu Foco atual explorando antes de clicar neles.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Como Restaurar o Foco de Forma Eficaz">
+
+Gerenciar a restauração do **foco em For The King II** é tão importante quanto gastá-lo. Ao contrário da saúde, que pode ser restaurada através de várias ervas baratas, a restauração de Foco costuma ser mais cara ou exige posicionamento específico. A economia de Fahrul é apertada, então escolher o método de restauração certo com base na sua localização atual e composição do grupo é a chave para uma campanha de sucesso em 2026.
+
+<Steps>
+  <Step num="1" title="Meditação na Cidade e Estalagens">
+    Visite qualquer assentamento amigável. Meditar em uma Estalagem é a forma mais econômica de restaurar totalmente o Foco de todo o grupo, embora consuma um turno.
+  </Step>
+  <Step num="2" title="Consumo de Raiz Dourada">
+    Use a Raiz Dourada para restauração imediata. Esta erva é vital durante longas explorações de masmorras onde as cidades são inacessíveis. Sempre distribua estas primeiro ao seu Estudioso ou causador de dano principal.
+  </Step>
+  <Step num="3" title="Heróis de Pedra e Santuários">
+    Localize Heróis de Pedra em cada bioma. Interagir com eles recarrega o Foco do personagem que interage. Santuários fornecem um bônus permanente e uma recarga única de Foco após a ativação.
+  </Step>
+  <Step num="4" title="Características Passivas de Classe">
+    Aproveite características como **Refocar** (Estudioso) ou **Pensador Profundo**. Elas permitem que os personagens recuperem pontos de Foco ao final de um turno ou ao terminar seu movimento em espaços específicos.
+  </Step>
+</Steps>
+
+Nos modos **Carnaval Sombrio** ou **Exploração de Masmorra**, a restauração de Foco torna-se um quebra-cabeça. Como você não pode sair para encontrar uma cidade, sua dependência da Raiz Dourada e das características passivas aumenta significativamente. Gerenciar sua "Economia de Foco" nesses modos é o que separa uma derrota no 5º andar de uma colocação no ranking no 50º andar.
+
+| Método de Restauração | Foco Ganho | Custo/Requisito | Melhor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Meditação em Estalagem** | Recarga Total | Ouro + 1 Turno | Preparação pré-masmorra |
+| **Raiz Dourada** | 1-3 Pontos | Custo do Item | Emergências no meio do combate |
+| **Herói de Pedra** | Recarga Total | Descoberta no Mapa | Conclusão de exploração de bioma |
+| **Refocar do Estudioso** | 1 Ponto | Chance Passiva | Combate prolongado |
+| **Fogueira** | Parcial/Total | Item de Implementação | Recuperação de emergência na natureza |
+
+<Callout type="success" title="Dica Profissional: O Truque do Herói de Pedra">
+Antes de interagir com um Herói de Pedra, gaste todo o seu Foco restante em movimento para explorar o máximo possível da névoa ao redor. Como o Herói recarrega você em 100%, qualquer Foco que sobrasse antes de clicar seria essencialmente potencial desperdiçado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergias de Classe e Otimização de Foco">
+
+Nem todas as classes interagem com o **foco em For The King II** da mesma maneira. Algumas são "Consumidoras de Foco" que precisam de recargas constantes para acertar golpes pesados, enquanto outras são "Geradoras de Foco" que ajudam o grupo a manter suas reservas. Escolher uma composição de grupo equilibrada garante que seu estoque de Raiz Dourada não seja esgotado por um único personagem.
+
+O **Estudioso** continua sendo o padrão ouro para o gerenciamento de Foco. Com a habilidade **Refocar**, eles têm a chance de recuperar um ponto ao final de cada turno de combate. Quando emparelhado com um **Ferreiro** que usa Foco para **Guardar**, o Estudioso pode atuar como a bateria mágica para a equipe. No novo DLC **Into The Wild**, classes como o **Pescador** usam Foco para manipular o movimento e a utilidade de recursos, adicionando uma nova camada à forma como o atributo é utilizado.
+
+| Classe | Papel do Foco | Atributo Principal | Característica de Foco Chave |
+| :--- | :--- | :--- | :--- |
+| **Estudioso** | Gerador | Inteligência | **Refocar** (Recuperação ao fim do turno) |
+| **Ferreiro** | Tanque | Vitalidade | **Inabalável** (Reduz a necessidade de Foco para defesa) |
+| **Caçador** | Atirador | Percepção | **Emboscada de Elite** (Foco intenso no mundo exterior) |
+| **Alquimista** | Explosivo | Inteligência | **Encontrar Poção** (Foco em utilidade) |
+| **Monge** | Híbrido | Força/Int | **Disciplina** (Recuperação de Foco do grupo) |
+
+Além das classes, o equipamento também desempenha um papel. Certos cachimbos e bugigangas aumentam a quantidade de Foco restaurada pela Raiz Dourada ou fornecem uma chance de não consumir Foco quando gasto. Esses itens devem ser priorizados para seus personagens "Carry", que precisam acertar cada golpe para garantir a sobrevivência do grupo.
+
+<Checklist
+  id="focus-build-goals"
+  title="Checklist de Build Otimizada para Foco:"
+  items={[
+    "Equipar o Estudioso com um cachimbo que aumenta a eficiência da Raiz Dourada",
+    "Desbloquear a característica 'Pensador Profundo' na Loja de Lore",
+    "Atribuir uma classe 'Geradora de Foco' (Estudioso ou Monge) ao grupo",
+    "Carregar pelo menos 2 Raízes Douradas por personagem antes de entrar em uma masmorra",
+    "Priorizar Santuários que oferecem bônus relacionados ao Foco"
+  ]}
+/>
+
+<Callout type="info" title="Estratégia da Loja de Lore">
+Gaste seu Lore para desbloquear a característica **Pensador Profundo** cedo. Ela permite que um personagem comece cada aventura com um limite máximo de Foco maior e oferece melhores opções de recuperação, tornando as partidas na dificuldade Mestre significativamente mais fáceis de gerenciar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gerenciamento Avançado de Masmorra e Caos">
+
+No final do jogo, o **foco em For The King II** torna-se uma ferramenta para gerenciar o medidor de **Caos**. À medida que o Caos aumenta, o mundo torna-se mais perigoso: os inimigos ganham vida e a frequência de eventos desastrosos no mundo exterior aumenta. O Foco é sua principal arma contra esse relógio.
+
+Durante uma **Exploração de Masmorra**, você deve tratar sua reserva de Foco como um recurso não renovável (a menos que tenha um excedente de Raiz Dourada). Cada sala em uma masmorra é um teste de eficiência. Se você puder vencer uma luta sem gastar Foco, faça-o. Reserve seus pontos para as "Salas de Armadilhas" e o encontro final com o Chefe. A **Grade de Batalha** em masmorras costuma ser apertada, tornando ataques AOE altamente eficazes, mas intensivos em Foco.
+
+| Perigo da Masmorra | Recomendação de Foco | Por quê? |
+| :--- | :--- | :--- |
+| **Armadilhas de Piso** | **Gaste 1-2** | Dano/Efeitos de status aqui podem arruinar uma partida. |
+| **Guardas de Elite** | **Gaste em CC** | Atordoar uma Elite economiza mais PV do que dano bruto. |
+| **Mímicos** | **Gaste em Fugir/Acertar** | Mímicos podem dissolver equipamentos; termine a luta rápido. |
+| **Chefe Final** | **Gaste Tudo** | Não há "depois" — use tudo para sobreviver. |
+
+<Callout type="warning" title="Alerta de Status">
+Cuidado com o efeito de status **Raio**. Ele faz com que sua próxima rolagem falhe automaticamente em um slot. Você pode anular isso gastando Foco, mas isso essencialmente "desperdiça" um ponto apenas para voltar ao estado neutro. Cure o Raio com Panax imediatamente.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="FAQ: Perguntas Comuns sobre Foco em For The King II">
+
+<FAQ items={[
+  {
+    question: "Gastar mais Foco garante um Acerto Crítico?",
+    answer: "Não. O Foco apenas garante um 'Sucesso' em um slot de dado. Acertos Críticos são determinados por características específicas da arma e pela habilidade 'Tiro Certeiro' (classe Caçador), embora ter todos os slots bem-sucedidos aumente a chance de ativar efeitos específicos da arma."
+  },
+  {
+    question: "Posso restaurar o Foco no meio de uma batalha?",
+    answer: "Sim, usando uma ação secundária para consumir uma Raiz Dourada ou se um personagem com a característica 'Disciplina' (como o Monge) ativar uma recuperação para todo o grupo. Estudiosos também podem recuperá-lo via Refocar ao final de seu turno."
+  },
+  {
+    question: "O que acontece se eu ficar sem Foco em uma masmorra?",
+    answer: "Você terá que confiar nas porcentagens base de seus atributos para todas as rolagens. Isso aumenta significativamente o risco de 'Sucesso Parcial' ou 'Falha', o que pode levar à quebra de equipamentos, ataques perdidos e sofrer dano desnecessário."
+  },
+  {
+    question: "Qual classe é a melhor para um jogador que odeia gerenciar o Foco?",
+    answer: "O Estudioso é a melhor escolha porque sua característica passiva Refocar automatiza grande parte do processo de recuperação, permitindo que você jogue de forma mais agressiva sem verificar constantemente seu estoque de ervas."
+  }
+]} />
+
+</Section>

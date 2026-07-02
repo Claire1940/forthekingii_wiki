@@ -1,0 +1,220 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HeartPulse, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Beekeeper: 2026 DLC Guide & Best Builds",
+  description: "Master the For The King II Beekeeper with our 2026 guide. Learn about the Pet Pollinator, sweet treats, and the best party compositions for the DLC.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d1b4e/fff?text=Beekeeper+Class+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **For The King II Beekeeper**: A specialized class introduced in the **Into The Wild Character Pack** DLC, focusing on pet synergy and status effects.
+- **Core Mechanics**: Utilizes the **Pet Pollinator** for automatic attacks and **Sweet Treats** to provide unique party buffs or healing.
+- **Best Strategy**: Position the Beekeeper in the back row of the **Battle Grid** to maintain sustain while the pet provides consistent chip damage.
+- **Critical Tip**: The Beekeeper excels in long-form modes like **Dark Carnival** where resource management and automatic pet actions save precious Focus.
+- **Top Synergy**: Pairs exceptionally well with the **Blacksmith** for protection and the **Herbalist** for maximum party endurance.
+</Callout>
+
+<Section icon={Map} title="Beekeeper Class Overview and Unlock Requirements">
+
+The **For The King II Beekeeper** is not your average front-line brawler. Released as part of the **Into The Wild** expansion in late 2025 and refined throughout 2026, this class brings a unique flavor to the tactical tabletop RPG landscape of Fahrul. Unlike the standard physical or magical damage dealers, the Beekeeper operates through a combination of indirect pressure and environmental utility.
+
+To access the Beekeeper, players must own the **Into The Wild Character Pack**. Once the DLC is active, the class typically requires unlocking via the **Lore Store** using Lore currency earned through standard campaign play. This progression ensures that players have a basic grasp of the game's 2x4 Battle Grid before managing the Beekeeper's more complex pet mechanics.
+
+| Feature | Details |
+| :--- | :--- |
+| **DLC Requirement** | Into The Wild Character Pack |
+| **Primary Role** | Support / Damage Hybrid |
+| **Signature Ability** | Pet Pollinator (Automatic Summon) |
+| **Resource Focus** | Sweet Treats and Stings |
+| **Recommended Row** | Back Row (Safety First) |
+
+<Callout type="tip" title="Lore Store Strategy">
+Prioritize unlocking the Beekeeper early if you plan on tackling the **Dungeon Crawl Gauntlet**. The automatic damage from the Pet Pollinator helps mitigate bad dice rolls during high-pressure seeded runs where every point of damage counts toward your leaderboard score.
+</Callout>
+
+In the current 2026 meta, the Beekeeper is favored for its ability to bypass certain defensive layers. The "Sting" mechanics often apply damage-over-time or status effects that ignore high Physical Defense, making them invaluable against armored enemies found in **The Royal Mines** or late-game **Resistance** chapters.
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics: Pet Pollinator and Sweet Treats">
+
+The heart of the **For The King II Beekeeper** playstyle lies in its unique interactions with the battlefield. While other classes rely solely on their primary and secondary actions, the Beekeeper extends their influence through the **Pet Pollinator**. This companion acts independently, providing a layer of "free" utility that can turn the tide of a difficult encounter.
+
+**Combat Flow and Grid Dynamics**
+On the 2x4 Battle Grid, the Beekeeper should be treated as a high-value utility asset. Because their damage is often split between their own attacks and the pet's actions, keeping them alive is more important than maximizing their individual hit power.
+
+| Mechanic | Effect in Combat | 2026 Meta Value |
+| :--- | :--- | :--- |
+| **Pet Pollinator** | Automatic attacks at start/end of turn | High (Consistent chip damage) |
+| **Sweet Treats** | Consumable buffs for the party | Essential for Boss Fights |
+| **Sting Attacks** | Damage-over-time (DoT) application | Great against high-HP tanks |
+| **Honey Shield** | Temporary protection for allies | Moderate (Situational) |
+
+<Steps>
+  <Step num="1" title="Initial Placement">
+    Place the Beekeeper in the back row, preferably behind a **Blacksmith** or **Fallen Knight**. This ensures they aren't targeted by melee row attacks, allowing the Pet Pollinator to stay active longer.
+  </Step>
+  <Step num="2" title="Applying Stings">
+    Use your primary action to apply "Sting" effects to high-priority targets. These effects stack over time, creating a ticking clock for the enemy that doesn't require constant Focus expenditure.
+  </Step>
+  <Step num="3" title="Managing Sweet Treats">
+    Identify turns where your damage output is secondary to party survival. Use secondary actions to distribute Sweet Treats, which can restore small amounts of HP or provide temporary stat boosts without ending your turn.
+  </Step>
+  <Step num="4" title="Focus Integration">
+    Save your **Focus** for the Beekeeper's AOE (Area of Effect) abilities. While the pet handles single targets, the Beekeeper's manual rolls are best used to spread status effects across entire enemy rows.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Pet Vulnerability">
+In the 2026 update, certain enemies in the **Into The Wild** biomes have "Swatter" traits that specifically target summons. Watch for enemy icons that indicate bonus damage against pets to avoid losing your Pollinator early in the fight.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Party Builds for the Beekeeper">
+
+Creating a team around the **For The King II Beekeeper** requires a balance of protection and complementary damage types. Since the Beekeeper provides sustained DoT and utility, the rest of the party should focus on either hard-hitting burst damage or absolute defensive stability.
+
+<CardGrid cols={3}>
+  <Card title="The Nature Guard">
+    - **Beekeeper** (Support/DoT)
+    - **Herbalist** (Healing/Magic)
+    - **Blacksmith** (Tank/Shield)
+    - **Hunter** (Physical/Ranged)
+    *Best for: New players and long campaigns.*
+  </Card>
+  <Card title="The Wild Burst">
+    - **Beekeeper** (Utility)
+    - **Alchemist** (Explosive AOE)
+    - **Pathfinder** (Speed/Scouting)
+    - **Woodcutter** (Heavy Physical)
+    *Best for: Speedrunning chapters.*
+  </Card>
+  <Card title="The Endless Swarm">
+    - **Beekeeper** (DoT)
+    - **Toymaker** (Summoner)
+    - **Monk** (Hybrid Support)
+    - **Fallen Knight** (Aggro Lead)
+    *Best for: Dark Carnival & Gauntlet.*
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Synergy Spotlight: Beekeeper + Toymaker">
+This "Summoner Core" is a popular 2026 strategy. By combining the Beekeeper's Pet Pollinator with the Toymaker's essence-based toys, you can effectively have 6 units on the board. This overwhelms enemy single-target AI and spreads incoming damage across multiple non-player targets.
+</Callout>
+
+**Build Comparison Table**
+
+| Build Name | Difficulty | Resource Management | Clear Speed |
+| :--- | :--- | :--- | :--- |
+| **Nature Guard** | Easy | Low (Very Efficient) | Moderate |
+| **Wild Burst** | Medium | High (Focus Hungry) | Fast |
+| **Endless Swarm** | Hard | Moderate | Slow (Safe) |
+
+When building your Beekeeper, focus on **Talent** and **Awareness** stats. Most weapons in the **Into The Wild** pack, such as the new Bludgeon and Harpoon sets, scale with these attributes. A Beekeeper with high Talent will find more success with their Sweet Treat secondary actions, while Awareness ensures their Sting attacks actually land on evasive targets.
+
+</Section>
+
+<Section icon={Shield} title="Gear and Loadout Optimization">
+
+Optimizing the **For The King II Beekeeper** involves more than just picking the highest damage weapon. You need to look for gear that enhances the class's natural passive abilities. In 2026, the meta has shifted toward "Action Economy" gear—items that allow the Beekeeper to do more without spending primary actions.
+
+**Top Gear Recommendations**
+1. **Harpoon of the Wild**: Provides excellent Awareness scaling and a chance to bleed, stacking perfectly with Sting DoTs.
+2. **Pollinator's Veil**: A headpiece that increases the damage of all summoned units by 15%.
+3. **Sweet-Tooth Satchel**: Increases the effectiveness of Sweet Treats, turning minor buffs into major recovery tools.
+
+| Item Type | Recommended Stat | Key Perk |
+| :--- | :--- | :--- |
+| **Weapon** | Awareness / Talent | Multi-hit or DoT |
+| **Armor** | Resistance | Evasion to stay alive |
+| **Trinket** | Speed | Act before enemies to set DoTs |
+| **Consumable** | Golden Root | Focus for critical AOE turns |
+
+<Callout type="info" title="2026 Loadout Tip">
+When starting a new run, spend your loadout points on the **"Naturalist" trait**. This trait increases the frequency of finding herbs and ingredients for Sweet Treats while traversing the overworld, significantly boosting your Beekeeper's utility in the mid-game.
+</Callout>
+
+**Starting Loadout Priority Checklist**
+- [ ] **Primary Weapon**: Upgrade to a Talent-scaled Bludgeon if possible.
+- [ ] **Starting Herb**: Always take a **Godsbeard** to supplement the Herbalist.
+- [ ] **Trait**: "Deep Thinker" or "Naturalist" are top-tier for this class.
+- [ ] **Armor**: Prioritize anything with a +Speed or +Evasion bonus.
+
+</Section>
+
+<Section icon={Zap} title="Advanced Strategies for Dark Carnival and Gauntlet">
+
+The **For The King II Beekeeper** shines brightest in the game's most grueling modes. In the **Dark Carnival**, where you face endless floors of escalating difficulty, the Beekeeper's ability to provide damage without consuming limited resources (like herbs or Focus) is a godsend.
+
+**Dark Carnival Tactics**
+In the Carnival, the **Wheel of Death** and high-HP bosses can quickly deplete a party's resources. The Beekeeper acts as a "sustain engine." By using the Pet Pollinator to finish off weakened enemies, you save your heavy hitters' Focus for the next floor.
+
+**Dungeon Crawl Gauntlet Tips**
+Since the Gauntlet is a seeded challenge, you can predict exactly when the Beekeeper's Sweet Treats will be most effective. 
+- **Floor 5-10**: Focus on stacking Stings on the boss while your tank guards the Beekeeper.
+- **Floor 15+**: Shift to a full support role, using your secondary actions to keep the party's Focus high through specialized treats.
+
+| Mode | Beekeeper Priority | Key Risk |
+| :--- | :--- | :--- |
+| **Dark Carnival** | Survival & Chip Damage | Running out of Sweet Treats |
+| **Gauntlet** | Seeded Route Optimization | Low burst damage in early floors |
+| **Into The Wild** | Biome Navigation | Poison/Acid status effects |
+
+<Callout type="tip" title="Focus Management">
+In the 2026 Gauntlet meta, players often use the Beekeeper's **"Refocus"** synergy. If you pair them with a Scholar, the Beekeeper can spend Focus aggressively to guarantee Stings, knowing the Scholar can help restore those points during recovery phases.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beekeeper Mastery Checklist">
+
+Use this checklist to ensure you are utilizing the **For The King II Beekeeper** to its maximum potential in your 2026 campaigns.
+
+<Checklist
+  id="beekeeper-mastery"
+  title="Beekeeper Performance Goals:"
+  items={[
+    "Unlock the Beekeeper via the Lore Store after purchasing the DLC.",
+    "Maintain the Pet Pollinator for at least 90% of every combat encounter.",
+    "Successfully stack 3+ Sting effects on a single Boss enemy.",
+    "Equip at least two pieces of gear that buff 'Summon' or 'Pet' damage.",
+    "Complete a Dark Carnival run reaching at least Floor 20 with a Beekeeper in the party.",
+    "Utilize a Sweet Treat to prevent a party member from falling below 10% HP."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Beekeeper better than the Herbalist for healing?",
+    answer: "No. The Herbalist remains the superior dedicated healer due to Party Heal. However, the Beekeeper provides better offensive utility and 'free' damage via the pet, making them a better hybrid choice for aggressive teams."
+  },
+  {
+    question: "Does the Pet Pollinator scale with the Beekeeper's level?",
+    answer: "Yes, in the 2026 version of For The King II, the Pet Pollinator's health and damage scale automatically with the Beekeeper's character level, ensuring it remains relevant in late-game chapters."
+  },
+  {
+    question: "Can I have multiple pets if I have two Beekeepers?",
+    answer: "Yes, you can run multiple Beekeepers, and each will summon their own Pet Pollinator. This is a viable 'swarm' strategy, though it leaves the party vulnerable to AOE magic attacks."
+  },
+  {
+    question: "Which DLC is required for the Beekeeper?",
+    answer: "You must have the 'Into The Wild Character Pack'. It is separate from the 'Tinkerers of Fate' or 'Fallen Oaths' packs."
+  }
+]} />
+
+</Section>

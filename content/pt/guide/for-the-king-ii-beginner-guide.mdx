@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia para Iniciantes de For The King II: Estratégia de 2026 e Passo a Passo de Sobrevivência",
+  description: "Domine Fahrul com nosso guia para iniciantes de For The King II. Aprenda táticas de combate, listas de classes, composições de grupo e dicas de sobrevivência para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Beginner+Survival+Guide",
+  date: "2026-07-02",
+  author: "Equipe Wiki de For The King II",
+  keywords: "For The King II, guia para iniciantes, estratégia, sobrevivência, classes, combate, multiplayer"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia para iniciantes de For The King II**: Foque no equilíbrio de funções, gerenciamento de recursos e na compreensão da Grade de Batalha 2x4.
+- **Composição do Grupo**: Sempre inclua um curandeiro dedicado (Herbalista) e um tanque resistente (Ferreiro) para sobreviver ao Caos inicial.
+- **Sistema de Foco**: Use pontos de Foco para garantir rolagens críticas em combates de alto risco ou testes de movimento.
+- **Loja de Conhecimento (Lore Store)**: Gaste a moeda de Conhecimento (Lore) ganha para desbloquear novas classes poderosas, traços e equipamentos iniciais para futuras jornadas.
+- **Multijogador**: Coordene o saque e o posicionamento no cooperativo de 4 jogadores para maximizar a eficiência no Steam e Xbox.
+</Callout>
+
+<Section icon={Swords} title="Dominando a Grade de Batalha e Fundamentos de Combate">
+
+For The King II introduz um sofisticado sistema de Grade de Batalha 2x4 que transforma o combate por turnos tradicional em um quebra-cabeça tático. O sucesso em Fahrul depende menos de rolagens de dados sortudas e mais de como você posiciona seus heróis para explorar as mecânicas de linha e coluna. Personagens na linha de frente agem naturalmente como escudos, enquanto a linha de trás oferece segurança para conjuradores frágeis e especialistas à distância.
+
+| Efeito de Status | Impacto no Combate | Como Curar |
+| :--- | :--- | :--- |
+| **Atordoado (Dazed)** | Remove ação secundária (sem itens/movimento) | Esperar 1 turno / Panax |
+| **Aturdido (Stunned)** | Pula o próximo turno completo do alvo | Esperar 1 turno / Panax |
+| **Queimadura (Burn)** | Dano de fogo ao longo do tempo (DOT) | Tecido de Água / Panax |
+| **Sangramento (Bleed)** | Dano físico ao longo do tempo (DOT) | Bandagens / Panax |
+| **Ácido (Acid)** | Pode dissolver equipamentos permanentemente | Esponja Ácida / Panax |
+| **Choque (Shock)** | A próxima rolagem falha automaticamente | Esperar 1 turno / Panax |
+
+Um combate eficaz requer o gerenciamento de ações primárias e secundárias. Você pode se mover ou usar um consumível como uma ação secundária antes de realizar um ataque primário. Isso permite que você se reposicione para um melhor golpe em AdE (Área de Efeito) ou cure um colega de equipe antes que o inimigo aja.
+
+<Callout type="warning" title="Perigo de Posicionamento">
+Evite agrupar todos os quatro heróis em uma única linha ou coluna. Muitos inimigos utilizam dano de dispersão ou ataques de "Perfuração" que atingem vários blocos adjacentes. Espaçar seu grupo reduz a eficácia dos feitiços de AdE inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Nível de Classes e Estratégia de Composição de Grupo">
+
+Construir uma equipe equilibrada é a decisão mais importante em qualquer **guia para iniciantes de For The King II**. Um grupo que carece de dano mágico terá dificuldades contra golens de alta armadura, enquanto um grupo sem curandeiro esgotará rapidamente seu ouro em Barbas de Deus caras.
+
+<CardGrid cols={3}>
+  <Card title="Nível S: Herbalista">
+    - **Função**: Suporte Essencial
+    - **Habilidade Chave**: Cura de Grupo
+    - **Estratégia**: Mantém a equipe viva sem desperdiçar turnos individuais com ervas.
+  </Card>
+  <Card title="Nível A: Ferreiro">
+    - **Função**: Tanque de Linha de Frente
+    - **Habilidade Chave**: Firmeza (Steadfast)
+    - **Estratégia**: Usa escudos para absorver dano e proteger a linha de trás.
+  </Card>
+  <Card title="Nível A: Estudioso">
+    - **Função**: Dano Mágico
+    - **Habilidade Chave**: Refocar
+    - **Estratégia**: Restaura pontos de Foco para manter ataques mágicos de alta precisão.
+  </Card>
+</CardGrid>
+
+Para sua primeira vitória, recomendamos a composição "Vanguarda Padrão": **Ferreiro, Caçador, Estudioso e Herbalista**. Esta formação cobre dano físico, precisão à distância, utilidade mágica e sustentação de grupo.
+
+| Classe | Atributo Principal | Melhor Tipo de Arma | Complexidade da Função |
+| :--- | :--- | :--- | :--- |
+| **Ferreiro** | Vitalidade | Martelos / Escudos | Baixa (Tanque) |
+| **Caçador** | Percepção | Arcos / Lanças | Baixa (DPS) |
+| **Estudioso** | Inteligência | Cajados / Tomos | Média (Utilidade) |
+| **Alquimista** | Inteligência | Bombas / Químicos | Alta (Explosão) |
+| **Desbravador** | Percepção | Adagas / Pistolas | Média (Exploração) |
+
+<Callout type="tip" title="Alinhamento de Atributos">
+Sempre equipe equipamentos que correspondam ao atributo mais alto do seu personagem. Dar um Tomo baseado em Inteligência a um Ferreiro é um desperdício de turno, pois seu baixo atributo de Inteligência causará falhas frequentes nas rolagens.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploração, Cidades e Gerenciamento de Caos">
+
+O mundo de Fahrul é um mapa baseado em hexágonos repleto de oportunidades e armadilhas mortais. Conforme você explora, o "Medidor de Caos" no topo da tela irá encher. Se o Caos atingir o máximo, o mundo se torna significativamente mais perigoso, gerando inimigos mais fortes e reduzindo os serviços nas cidades.
+
+<Checklist
+  id="biome-checklist"
+  title="Objetivos Essenciais do Bioma:"
+  items={[
+    "Localize o Santuário local para um bônus permanente e proteção contra a morte",
+    "Visite o Herói de Pedra para um aumento de nível gratuito e recarga de Foco",
+    "Complete pelo menos uma Missão de Cidade para diminuir o Caos ou ganhar ouro",
+    "Reabasteça o estoque de Barba de Deus e Panax antes de entrar na masmorra principal",
+    "Identifique acampamentos inimigos para evitar emboscadas durante a viagem"
+  ]}
+/>
+
+As cidades são seus principais centros de segurança. Cada primeira visita a uma nova cidade renova seu inventário. Priorize a compra de todas as Barbas de Deus disponíveis, pois o preço aumenta cada vez que o medidor de Caos avança.
+
+<Callout type="info" title="Benefícios do Santuário">
+Os Santuários oferecem bônus passivos poderosos, como o Santuário da Pressa (movimento extra) ou o Santuário da Sombra (esquiva). Mais importante ainda, eles agem como uma "Segunda Vida". Se um herói morrer sob a proteção de um Santuário, ele é revivido imediatamente, embora o Santuário seja destruído.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guia Passo a Passo para sua Primeira Jornada de Sucesso">
+
+Seguir um caminho estruturado ajudará você a evitar as armadilhas comuns que levam à derrota total do grupo (Party Wipe) no início do jogo. Use esta sequência para estabilizar sua economia e nível de poder.
+
+<Steps>
+  <Step num="1" title="Equipamento Inicial e Traços">
+    Antes de começar, gaste seus pontos de Conhecimento na Loja de Conhecimento para desbloquear traços como "Pensador Profundo" (restaura Foco ao encerrar um turno em uma cidade) ou "Ágil" (ação secundária extra). Equipe seu grupo com suprimentos básicos, como uma Barba de Deus para cada um.
+  </Step>
+  <Step num="2" title="Nivelamento Inicial e Missões">
+    Não corra para o objetivo principal. Gaste os primeiros 5 a 10 turnos limpando acampamentos próximos e completando uma missão de "Matar Monstro" na cidade mais próxima. Isso fornece o ouro necessário para melhores armas e armaduras essenciais.
+  </Step>
+  <Step num="3" title="Gerenciamento de Foco e Recursos">
+    Use pontos de Foco para acertos garantidos em alvos de alto valor. Nunca entre em uma masmorra com zero de Foco. Se encontrar um Herói de Pedra, use primeiro o Foco restante e depois interaja com a estátua para reabastecer o medidor gratuitamente.
+  </Step>
+  <Step num="4" title="Preparação para Masmorras">
+    As masmorras são sequências de 5 a 8 lutas consecutivas. Você não pode visitar cidades uma vez lá dentro. Certifique-se de que seu Herbalista tenha pelo menos 3 Barbas de Deus e que seus causadores de dano tenham equipamentos reparados. Agrupe seu grupo no mapa-múndi para que todos entrem na masmorra simultaneamente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Vitória">
+Se uma luta parecer difícil demais, use a mecânica de "Emboscada". Uma rolagem de emboscada bem-sucedida permite que você lute contra um único inimigo sem que seus aliados próximos se juntem à batalha, transformando efetivamente um desastre de 4v4 em um massacre de 4v1.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão e Coordenação Multijogador">
+
+For The King II foi projetado para ser jogado várias vezes. Mesmo uma jornada fracassada contribui para sua progressão geral através da Loja de Conhecimento. Ao completar conquistas específicas e alcançar novos biomas, você desbloqueia a habilidade de comprar classes superiores, como o Alquimista, ou conjuntos de equipamentos especializados.
+
+| Recurso | Steam / PC | Xbox / PlayStation |
+| :--- | :--- | :--- |
+| **Máximo de Jogadores** | 4 Jogadores | 4 Jogadores |
+| **Cooperativo Online** | Suportado (Sistema de Lobby) | Suportado (Xbox Live/PS Plus) |
+| **Cooperativo Local** | Suportado (Vários Controles) | Suportado (Tela Dividida) |
+| **Crossplay** | Steam + Epic + Windows | Xbox + PC (Play Anywhere) |
+| **Compartilhamento de Save** | Apenas o Host | Apenas o Host |
+
+No multijogador, a comunicação é vital. Os jogadores podem trocar ouro e itens se estiverem em hexágonos adjacentes ou no mesmo encontro de combate. Use a tela de "Resumo do Grupo" para ver quem mais precisa de atualizações de equipamento.
+
+<Callout type="tip" title="Distribuição de Saque">
+Não seja ganancioso. Um Caçador com um arco lendário é inútil se o Ferreiro morrer com um golpe por não ter armadura. Distribua equipamentos defensivos para seus combatentes de linha de frente primeiro para garantir que todo o grupo sobreviva a longo prazo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes (FAQ) de For The King II">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio novas classes em For The King II?",
+    answer: "As novas classes são desbloqueadas principalmente através da Loja de Conhecimento (Lore Store) usando a moeda de Conhecimento ganha durante o jogo. Algumas classes, como o Monge, foram adicionadas em atualizações gratuitas, enquanto outras, como o Criador de Brinquedos, fazem parte da DLC Tinkerers of Fate."
+  },
+  {
+    question: "Qual é a melhor maneira de restaurar pontos de Foco?",
+    answer: "Você pode restaurar o Foco meditando em cidades, usando ervas de Raiz Dourada, descansando em um acampamento feito por jogadores ou interagindo com Heróis de Pedra encontrados pelo mapa."
+  },
+  {
+    question: "Posso jogar For The King II sozinho?",
+    answer: "Sim, um jogador solo pode controlar todos os quatro personagens do grupo. Isso permite uma coordenação tática perfeita, mas carece da diversão social do cooperativo de 4 jogadores."
+  },
+  {
+    question: "O que acontece se o medidor de Caos chegar ao fim?",
+    answer: "Quando o Caos atinge o máximo, poderosas 'Bestas do Caos' surgirão, os preços nas cidades dispararão e seu grupo enfrentará encontros constantes e difíceis até que você complete uma missão para reduzir o nível de Caos."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Lembre-se de que For The King II é um roguelite. O fracasso faz parte da curva de aprendizado. Cada jornada fornece mais Conhecimento e mais saber sobre os padrões dos inimigos, tornando sua próxima viagem a Fahrul muito mais bem-sucedida.
+</Callout>
+
+</Section>

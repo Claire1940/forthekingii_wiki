@@ -1,0 +1,163 @@
+import { Swords, Shield, Target, Sparkles, Trophy, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armas de For The King II: Melhores Tipos de Escalonamento e Builds de Combate",
+  description: "Domine o melhor escalonamento de armas, alvos na Grade de Batalha e builds de combate em For The King II. Explore as listas de níveis de armas de Força, Inteligência e Percepção.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2b1845/fff?text=Weapons+and+Combat+Loadouts+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Equipar as **armas de for the king ii** corretas é o fator mais importante para escalar o dano e a sobrevivência do seu grupo.
+- **Mecânica principal**: As armas escalam diretamente com os atributos do personagem, o que significa que a eficácia de uma arma depende de combinar o atributo exigido com o atributo mais alto do seu herói.
+- **Melhor estratégia**: Mantenha sempre um equilíbrio entre armas que penetram a defesa física e tomos que destroem a resistência mágica em sua grade de combate ativa.
+- **Dica crítica**: Mantenha uma arma física de reserva com um ataque de Fenda (Cleave) ou Respingar (Splash) em seu inventário para lidar com formações inimigas compactas.
+- **Melhor escolha**: Armas com menos rolagens de dados (pips) são geralmente superiores, pois oferecem uma confiabilidade muito maior durante turnos críticos.
+</Callout>
+
+<Section icon={Swords} title="Entendendo o Escalonamento de Armas e Atributos">
+
+Em **For The King II**, seu armamento dita não apenas quanto dano você causa, mas também seus padrões de ataque, penalidades de velocidade e utilidade tática na Grade de Batalha. Ao contrário dos RPGs tradicionais, qualquer personagem pode tecnicamente equipar qualquer arma, mas sua taxa de sucesso está inteiramente ligada aos seus atributos principais.
+
+Usar uma arma que não se alinha com o atributo mais alto do seu personagem é uma maneira rápida de errar ataques cruciais. A tabela abaixo descreve como os tipos de armas se alinham com os atributos principais e seus comportamentos típicos de combate.
+
+| Categoria de Arma | Atributo Principal | Tipo de Dano | Alvo Típico na Grade | Utilidade Principal em Combate |
+| :--- | :--- | :--- | :--- | :--- |
+| **Arcos e Mosquetes** | Percepção | Físico | À distância / Coluna | Alta chance de crítico, perfuração de armadura |
+| **Espadas e Machados** | Força | Físico | Alvo Único / Respingar | Alto dano bruto, destruição de escudo |
+| **Cajados e Tomos** | Inteligência | Mágico | Fileira / Respingar em Área | Estados negativos, ignorar resistência |
+| **Alaúdes e Instrumentos** | Talento | Físico/Mágico | Aura de Buff / Respingar | Buffs de grupo, multiplicadores de ouro, atordoamento |
+| **Adagas e Sais** | Velocidade / Talento | Físico | Alvo Único / Perfurante | Recuperação rápida de turno, alta chance de sangramento |
+
+<Callout type="tip" title="Precisão vs. Dano Bruto">
+Uma arma com menos rolagens de dados (pips) é significativamente mais confiável do que uma com cinco ou seis pips. Se o seu personagem tem uma classificação de atributo de 80%, uma arma de 2 pips tem uma chance muito maior de obter uma rolagem perfeita do que uma arma de 5 pips, garantindo que seus efeitos de status especiais sejam ativados de forma consistente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Armas de Força e Vitalidade de Nível Superior">
+
+Armas de **for the king ii** escalonadas por Força são a base de qualquer build de linha de frente, como o Ferreiro ou o Cavaleiro Caído. Essas armas focam em alto dano físico bruto, capacidades de provocação e quebra de escudos inimigos.
+
+Para personagens que dependem de Vitalidade, escudos defensivos combinados com martelos de uma mão são essenciais para ancorar a primeira fileira da Grade de Batalha.
+
+<CardGrid cols={3}>
+  <Card title="Grandes Machados de Duas Mãos">
+    - **Alto dano físico bruto**
+    - Possui opções de Ataque Pesado (+50% de dano)
+    - Melhor para causadores de dano secundários da linha de frente
+  </Card>
+  <Card title="Martelos e Escudos">
+    - **Alta defesa física**
+    - Ativa as habilidades Proteger e Firmeza
+    - Essencial para proteger conjuradores frágeis da linha de trás
+  </Card>
+  <Card title="Machadinhas de Empunhadura Dupla">
+    - **Explosão física rápida**
+    - Alto escalonamento com Velocidade e Força
+    - Ótimo para remover a armadura inimiga rapidamente
+  </Card>
+</CardGrid>
+
+| Nome da Arma | Atributo Necessário | Dano Base | Padrão de Alvo | Efeitos Especiais |
+| :--- | :--- | :--- | :--- | :--- |
+| **Canhão de Ferro** | Força | Alto | Alvo Único | Ataque Pesado, alto dano de respingo |
+| **Espada Montante** | Força | Médio-Alto | Único / Golpe Amplo | Perfuração de Armadura, estado de Sangramento |
+| **Canhão de Bronze** | Força | Médio | Fileira / Coluna | Dano de fogo, alto recuo |
+| **Martelos Duplos** | Força | Médio | Alvo Único | Atordoamento, alto dano de escudo |
+
+<Callout type="warning" title="Penalidade de Precisão do Ataque Pesado">
+Ataques pesados em armas grandes de Força podem aumentar seu dano base em até +50%, mas carregam uma penalidade de precisão fixa de -15% a -20%. Evite usar ataques Pesados se você precisar absolutamente de uma rolagem perfeita para finalizar um alvo evasivo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Armas de Inteligência e Percepção de Nível Superior">
+
+As armas de Inteligência e Percepção dominam a linha de trás da Grade de Batalha. Enquanto as armas de Inteligência, como Tomos e Cajados, focam em aplicar efeitos de status mágicos massivos em fileiras inteiras, as armas de Percepção se especializam em perfuração física de longo alcance e eliminação de alvos únicos.
+
+### Melhores Armas de Inteligência (Dano Mágico e Controle)
+- **Tomos de Poder Arcano**: Excelentes em ataques de fileira e aplicação de Choque, Queimadura ou Congelamento em vários inimigos simultaneamente.
+- **Cajados de Cura**: Essenciais para classes como o Ervanário escalarem suas capacidades de Cura de Grupo.
+- **Varinhas**: Ótimas para dano mágico de alvo único de alta frequência que ignora a armadura física inimiga.
+
+### Melhores Armas de Percepção (Dano Físico à Distância)
+- **Mosquetes e Bacamartes**: Saída de dano físico massiva, mas muitas vezes exigem um turno de recarga, a menos que combinados com características específicas.
+- **Arcos Recurvos**: Alta velocidade, contagem baixa de pips e ataques críticos de Tiro Certeiro frequentes.
+- **Lanças e Armas de Haste**: Permitem que personagens de combate corpo a corpo ataquem da fileira de trás ou atinjam alvos em coluna.
+
+| Nome da Arma | Atributo Necessário | Tipo de Dano | Padrão de Alvo | Efeitos Especiais |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bacamarte** | Talento / Percepção | Físico | Fileira / Explosão | Alto dano bruto, efeito de Atordoamento |
+| **Arma de Ouro** | Talento | Físico | Alvo Único | Suporte de +20% de Multiplicador de Ouro |
+| **Tomo de Vulcão** | Inteligência | Mágico | Fileira / Respingar | Incendiar, alta queimadura mágica |
+| **Mosquete Enferrujado** | Percepção | Físico | Alvo Único | Alta penetração de armadura, recarga necessária |
+
+<Callout type="success" title="O Poder do Estado de Choque">
+Sempre mantenha um Tomo de Inteligência que cause o estado de Choque em seu inventário. O Choque força a próxima rolagem de ação do alvo a falhar automaticamente, o que é incrivelmente potente contra chefes de alto dano.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Como Melhorar e Adquirir Armas">
+
+<Steps>
+  <Step num="1" title="Mate Monstros Regionais">
+    O dano e os níveis das armas escalam diretamente com o nível dos monstros na região. Matar chefes de mapa de nível mais alto é a maneira mais confiável de garantir drops raros.
+  </Step>
+  <Step num="2" title="Verifique os Inventários de Novas Cidades">
+    Sempre que entrar em um novo bioma ou cidade, verifique o mercado local. O nível mínimo dos monstros na região daquela cidade dita o nível das **armas de for the king ii** disponíveis para compra.
+  </Step>
+  <Step num="3" title="Desbloqueie Equipamentos na Loja de Lore">
+    Gaste sua moeda de Lore ganha na Loja de Lore do menu principal para desbloquear armas iniciais poderosas e opções de drops de alto nível para campanhas futuras.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Armas de Fim de Jogo">
+
+<Checklist
+  id="endgame-weapon-milestones"
+  title="Checklist de Configuração Ideal de Armas:"
+  items={[
+    "Equipe seu tanque principal com um escudo de alto bloqueio e um martelo atordoador [1.1.2].",
+    "Garanta um Tomo de Inteligência com capacidades de Choque ou Congelamento em fileira.",
+    "Forneça ao seu atacante físico à distância um Arco ou Mosquete que penetre armadura.",
+    "Mantenha pelo menos uma arma de reserva por personagem para evitar ser neutralizado por dissoluções de Ácido.",
+    "Desbloqueie as armas lendárias específicas de cada personagem completando suas respectivas campanhas."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como funciona o escalonamento de nível das armas em For The King II?",
+    answer: "O dano das armas escala com o nível da região onde você a adquiriu. Cidades iniciais oferecem armas de Nível 0 (6-9 de dano máximo), enquanto regiões e cidades de Nível 6 oferecem armas de fim de jogo causando mais de 20-30 de dano base."
+  },
+  {
+    question: "Quais são as melhores armas de for the king ii para lidar com inimigos fortemente blindados?",
+    answer: "Armas baseadas em Percepção, como Mosquetes e arcos com o atributo 'Ignorar Armadura', são as melhores escolhas para causadores de dano físico. Alternativamente, use armas que escalam com magia, como Varinhas e Tomos, pois elas visam a Resistência Mágica em vez da Defesa Física."
+  },
+  {
+    question: "As armas podem quebrar permanentemente durante o combate?",
+    answer: "Sim, certas armas de vidro ou iniciais baratas têm o atributo 'Quebrável' e podem se estilhaçar em uma rolagem com falha. Além disso, ataques de Ácido dos inimigos podem dissolver permanentemente suas armas equipadas se você não tiver imunidade."
+  },
+  {
+    question: "Qual é o benefício de usar armas de empunhadura dupla?",
+    answer: "Armas de empunhadura dupla normalmente escalam com Velocidade e Força ou Talento. Elas oferecem tempos de recuperação de turno mais rápidos e são excelentes para aplicar efeitos de status rápidos, como Sangramento ou Veneno, através de vários golpes rápidos."
+  }
+]} />
+
+</Section>

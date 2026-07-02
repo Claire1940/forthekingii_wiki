@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Crossplay entre Xbox e Steam no For The King II: Guia de Configuração e Cooperação",
+  description: "Saiba como configurar o crossplay entre Xbox e Steam no For The King II. Obtenha instruções passo a passo, detalhes sobre progressão cruzada e dicas para resolver problemas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/581c87/fff?text=Xbox+Steam+Crossplay+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Suporte a Crossplay**: O jogo multiplataforma completo está ativado entre Steam, Epic Games, Xbox One, Xbox Series X/S, PS4 e PS5.
+- **Sem Progressão Cruzada**: Os salvamentos do jogo e os desbloqueios da Loja de Lore estão vinculados à sua plataforma local e não são transferidos.
+- **Método de Conexão**: Os anfitriões devem compartilhar um Código de Convite no jogo e uma senha; os jogadores não podem entrar em partidas ativas.
+- **Sincronização do Ecossistema**: Certifique-se de que todos os jogadores estejam na mesma versão do jogo e região para evitar erros de conexão.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Crossplay entre Xbox e Steam no For The King II">
+
+For The King II traz batalhas estratégicas em turnos inspiradas em jogos de tabuleiro para Fahrul com recursos robustos de cooperação. Não importa se você está jogando no PC ou nos consoles, a desenvolvedora IronOak Games ativou a sincronização multijogador completa entre os ecossistemas. Este guia foca na configuração do **crossplay entre Xbox e Steam no For The King II** para que você e seus amigos possam formar um grupo sem restrições de plataforma. Desde o dia do lançamento, os jogadores de PC na Steam podem se conectar perfeitamente com jogadores de console no Xbox One e Xbox Series X/S, além de usuários de PlayStation.
+
+**Destaques do Vídeo:**
+- **Aprenda o básico**: Prepare-se para batalhas cooperativas entendendo o sistema de grade baseado em turnos.
+- **Coordenação de equipe**: Descubra por que escolher funções equilibradas é a chave para sobreviver em Fahrul.
+- **Preparação para o crossplay**: Assista ao trailer oficial para ver a resistência em ação.
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Junte-se à Luta - Trailer" />
+
+O cenário multijogador em For The King II é altamente flexível, permitindo que até quatro jogadores controlem personagens em uma única campanha. Como o jogo está disponível no Xbox Game Pass, muitos jogadores de PC na Steam querem se conectar com seus amigos nos consoles Xbox. Felizmente, os desenvolvedores projetaram a arquitetura multijogador para conectar essas plataformas. O recurso de crossplay está totalmente integrado ao navegador de servidores do jogo e ao sistema de lobby privado.
+
+| Plataforma | Suporte a Crossplay | Modos Multijogador | Disponível no Game Pass |
+| :--- | :--- | :--- | :--- |
+| **Steam PC** | **Sim** | Coop. Online / Remote Play | Não |
+| **Epic Games Store** | **Sim** | Coop. Online | Não |
+| **Xbox App PC** | **Sim** | Coop. Online | **Sim** |
+| **Xbox Series X/S** | **Sim** | Coop. Online / Local | **Sim** |
+| **Xbox One** | **Sim** | Coop. Online / Local | **Sim** |
+| **PlayStation 5** | **Sim** | Coop. Online | Não |
+| **PlayStation 4** | **Sim** | Coop. Online | Não |
+
+<Callout type="success" title="Paridade de Ecossistema">
+As versões de console de For The King II recebem as mesmas atualizações, lançamentos de conteúdo e DLCs que a versão de PC, garantindo que o crossplay continue compatível em todos os dispositivos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Conexão de Crossplay Passo a Passo">
+
+Conectar-se com amigos em diferentes plataformas exige o uso do sistema de lobby interno do jogo, em vez de listas de amigos específicas de cada plataforma. Como os convites da Steam não funcionam diretamente nos consoles Xbox, os jogadores devem contar com o sistema universal de Código de Convite. Isso garante que qualquer jogador em qualquer plataforma possa encontrar e entrar na aventura correta. Siga estes passos para hospedar ou entrar em uma sessão com segurança.
+
+<Steps>
+  <Step num="1" title="Selecione Multijogador no Menu Principal">
+    O anfitrião deve iniciar o For The King II e selecionar **Multijogador** na tela de título principal. Escolha a região de servidor correta que esteja geograficamente mais próxima de todos os jogadores para minimizar a latência.
+  </Step>
+  <Step num="2" title="Crie um Lobby Privado ou Não Listado">
+    Clique em **Criar Aventura**. Defina a privacidade do lobby como **Não Listado** ou **Privado** e atribua uma senha segura. Isso evita que jogadores aleatórios entrem no seu jogo no meio do lobby.
+  </Step>
+  <Step num="3" title="Localize e Compartilhe o Código de Convite">
+    Uma vez dentro do lobby, abra o Menu Multijogador. Na aba **Detalhes**, encontre o campo **Código de Convite Online**. Clique no **Ícone de Olho** para revelar o código exclusivo e copie-o ou leia-o para seus amigos.
+  </Step>
+  <Step num="4" title="Entre por Meio do Código de Convite">
+    Os jogadores que forem entrar na Steam ou no Xbox devem ir ao menu **Multijogador**, selecionar **Conectar por Código de Convite**, inserir o código compartilhado e digitar a senha do lobby.
+  </Step>
+  <Step num="5" title="Reúna o Grupo e Inicie a Partida">
+    Certifique-se de que todos os jogadores entraram no lobby e selecionaram seus personagens *antes* de o anfitrião carregar o arquivo de salvamento ou iniciar a jornada. Os jogadores não podem entrar em uma campanha que já esteja em andamento.
+  </Step>
+</Steps>
+
+| Função | Ação Necessária | Localização do Menu | Configuração Chave |
+| :--- | :--- | :--- | :--- |
+| **Anfitrião** | Criar o servidor | Multijogador > Criar Aventura | Definir como **Não Listado** |
+| **Anfitrião** | Obter chave de conexão | Menu do Lobby > Detalhes | Clicar no **Ícone de Olho** para o código |
+| **Convidado** | Entrar no servidor | Multijogador > Conectar por Código | Inserir **Código de Convite** e senha |
+| **Todos** | Selecionar personagens | Mapa de Seleção de Personagem | Concluir *antes* do início |
+
+<Callout type="warning" title="Bloqueio de Arquivo de Salvamento">
+Sempre certifique-se de que todo o seu grupo esteja presente no lobby antes de carregar uma campanha salva. Se um jogador estiver faltando quando o anfitrião iniciar o mapa, ele ficará bloqueado fora daquela sessão até que o anfitrião retire o grupo para o menu principal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Entendendo o Progresso, Salvamentos e Desbloqueios da Loja de Lore">
+
+Embora o modo cooperativo multijogador seja totalmente multiplataforma, o rastreamento de progresso se comporta de maneira diferente. For The King II não apresenta recursos de progressão cruzada (cross-progression) ou salvamento cruzado (cross-save). A desenvolvedora, IronOak Games, confirmou que, por ser um estúdio independente menor, gerenciar bancos de dados de contas multiplataforma e cumprir com os variados padrões legais de coleta de dados estava além dos limites de sua infraestrutura atual. Isso significa que sua progressão está estritamente vinculada à plataforma onde você joga.
+
+<CardGrid cols={3}>
+  <Card title="Arquivos de Salvamento da Campanha">
+    - **Propriedade do Anfitrião**: Os salvamentos da campanha são armazenados na plataforma do anfitrião.
+    - **Sem Salvamentos Locais para Convidados**: Os convidados não recebem uma cópia do arquivo de salvamento da aventura.
+    - **Retorno Perfeito**: Os convidados podem voltar ao lobby do anfitrião a qualquer momento.
+  </Card>
+  <Card title="Loja de Lore e Desbloqueios">
+    - **Vinculado à Plataforma**: Os desbloqueios do Livro de Lore não são transferidos entre Steam e Xbox.
+    - **Lore Adquirida**: Os jogadores ganham a moeda do Livro de Lore durante as partidas cooperativas em sua plataforma ativa.
+    - **Personalização Local**: Você só pode usar itens cosméticos e classes desbloqueados em sua plataforma atual.
+  </Card>
+  <Card title="Conquistas e Troféus">
+    - **Listas Separadas**: As Conquistas da Steam e as Conquistas do Xbox são completamente independentes.
+    - **Progresso Simultâneo**: As conquistas são desbloqueadas para todos os jogadores do grupo quando os objetivos são alcançados.
+    - **Sem Sincronização Retroativa**: Desbloquear uma conquista na Steam não a ativará no Xbox.
+  </Card>
+</CardGrid>
+
+| Recurso | Compartilhado no Crossplay? | Salvo Localmente para Convidados? | Transferível entre Plataformas? |
+| :--- | :--- | :--- | :--- |
+| **Progresso da Campanha** | **Sim** (Durante a partida) | Não (Anfitrião mantém o salvamento) | Não |
+| **Moeda de Lore Ganha** | **Sim** (Recompensa individual) | **Sim** | Não |
+| **Desbloqueios de Classe** | **Sim** (Pool desbloqueado do anfitrião) | Não | Não |
+| **Cosméticos e Skins** | Não (Escolha individual) | **Sim** | Não |
+| **Conquistas/Troféus** | **Sim** (Ganhos juntos) | **Sim** | Não |
+
+<Callout type="info" title="Compartilhamento de Classes do Anfitrião">
+Se o anfitrião tiver desbloqueado classes avançadas em sua Loja de Lore, outros jogadores no lobby poderão selecionar essas classes para a partida cooperativa, mesmo que ainda não as tenham desbloqueado em seus próprios perfis locais.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Corrigindo Problemas de Conexão e Sincronização">
+
+O multijogador multiplataforma pode, ocasionalmente, apresentar dessincronizações, telas de carregamento infinitas ou erros de conexão. A maioria desses problemas decorre de incompatibilidades de versão entre a Steam e as plataformas de console, ou instabilidades temporárias no servidor. Se você se encontrar travado na tela "Entrando na Aventura", siga este guia de diagnóstico para levar seu grupo de volta a Fahrul.
+
+<Checklist
+  id="crossplay-troubleshooting"
+  title="Lista de Verificação Pré-Crossplay:"
+  items={[
+    "Verifique se todos os jogadores atualizaram o jogo para a versão de patch mais recente.",
+    "Confirme se todos os jogadores selecionaram exatamente a mesma região de servidor no menu multijogador.",
+    "Defina o lobby como Não Listado com uma senha em vez de Público para reduzir a interferência no lobby.",
+    "Reinicie o cliente do jogo se encontrar uma tela de carregamento infinita 'Entrando na Aventura'.",
+    "Certifique-se de que os jogadores de console tenham serviços de assinatura ativos (Xbox Game Pass Core ou PlayStation Plus)."
+  ]}
+/>
+
+| Sintoma do Erro | Causa Provável | Correção Recomendada |
+| :--- | :--- | :--- |
+| **Tela Infinita de 'Entrando'** | Incompatibilidade de versão ou dessincronização do servidor | Reinicie o jogo, verifique as atualizações e recrie o lobby |
+| **Lobby Não Encontrado** | Incompatibilidade de região ou limite de lobby público | Defina a região manualmente, use o **Código de Convite** |
+| **Desconexão no Meio do Jogo** | Latência de rede ou travamento do anfitrião | O anfitrião recarrega o salvamento, os convidados entram novamente no lobby antes do início |
+| **Controle de Personagem Ausente** | Bug de layout da interface durante a atribuição | O anfitrião reatribui as funções dos personagens no resumo do grupo |
+| **Erro de Crossplay Desativado** | Atraso na certificação de patch da plataforma | Aguarde a propagação do patch nos consoles, verifique o Discord |
+
+<Callout type="warning" title="Incompatibilidade de Certificação de Patch">
+Quando a IronOak Games lança uma grande atualização ou DLC, a versão da Steam costuma receber o patch instantaneamente, enquanto a certificação do Xbox e PlayStation pode levar alguns dias extras. O crossplay às vezes é desativado temporariamente durante esses períodos até que todas as plataformas estejam sincronizadas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Melhores Composições de Grupo para o Coop. em Crossplay">
+
+Sobreviver às terras perigosas de Fahrul exige uma equipe bem equilibrada. Ao jogar de forma cooperativa entre plataformas, coordenar as funções e a distribuição de saques é fundamental. Como não há bate-papo por voz integrado, os jogadores devem usar ferramentas de comunicação externas, como o Discord, para coordenar suas posições na grade de batalha e ações de combate.
+
+| Classe | Função | Atributo Principal | Principal Função de Combate |
+| :--- | :--- | :--- | :--- |
+| **Ferreiro (Blacksmith)** | Tanque de Linha de Frente | Vitalidade | Absorve golpes físicos, usa **Proteger (Guard)** para defender aliados |
+| **Caçador (Hunter)** | DPS de Longo Alcance | Percepção | Causa alto dano físico, executa **Tiro Certeiro (Called Shot)** |
+| **Estudioso (Scholar)** | Controle Mágico | Inteligência | Causa dano mágico em área, usa **Refocar (Refocus)** |
+| **Herborista (Herbalist)** | Curandeiro de Suporte | Inteligência | Fornece **Cura de Grupo (Party Heal)**, gerencia o estoque de ervas |
+
+<Callout type="tip" title="Comunicação por Voz">
+Como For The King II não possui bate-papo por voz integrado, os jogadores de Xbox e PlayStation podem usar a integração nativa do Discord em seus consoles para conversar perfeitamente com os jogadores de PC na Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O crossplay entre Xbox e Steam no For The King II é totalmente suportado?",
+    answer: "Sim! O crossplay completo é suportado entre PC (Steam, Epic e Xbox App) e consoles Xbox (Xbox One e Xbox Series X/S). Isso permite que você se conecte e jogue facilmente com amigos, independentemente da plataforma deles."
+  },
+  {
+    question: "Como convido jogadores da Steam para um jogo no Xbox no For The King II?",
+    answer: "Você não pode usar os convites nativos da plataforma. Em vez disso, o anfitrião deve criar um lobby não listado, ir em Detalhes no Menu Multijogador, revelar o Código de Convite Online e compartilhá-lo. Os jogadores convidados usam a opção 'Conectar por Código de Convite' para entrar."
+  },
+  {
+    question: "A progressão cruzada é suportada no For The King II?",
+    answer: "Não. For The King II não suporta progressão cruzada (cross-progression) ou salvamentos cruzados (cross-saves). Seus salvamentos de campanha, moedas da Loja de Lore e desbloqueios de personagens estão estritamente vinculados à plataforma onde você adquiriu ou joga o jogo."
+  },
+  {
+    question: "O que devo fazer se a conexão de crossplay continuar falhando?",
+    answer: "Primeiro, certifique-se de que todos os jogadores estejam na mesma versão do jogo e tenham selecionado a mesma região de servidor. Se uma nova atualização ou DLC foi lançada recentemente, verifique se há um atraso temporário no patch da plataforma que possa ter pausado a compatibilidade do crossplay."
+  }
+]} />
+
+<Callout type="success" title="Suporte da Comunidade">
+Se você encontrar problemas persistentes no lobby, visite os canais de suporte oficiais da Curve Games e IronOak Games ou verifique o Discord da comunidade para obter atualizações em tempo real sobre o status do servidor.
+</Callout>
+
+</Section>

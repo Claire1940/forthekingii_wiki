@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "for the king ii crossplay: Platform Support & Setup Guide",
+  description: "Discover how for the king ii crossplay works across Steam PC, Xbox, and PlayStation. Learn setup steps, co-op rules, and troubleshooting tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Crossplay+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **for the king ii crossplay** supports PC and Xbox ecosystems but has limitations on PlayStation systems [00基础信息, 00首页信息-2].
+- **Online multiplayer** requires all players to join the lobby before the host loads a save file [00首页信息-2].
+- **Local co-op** allows up to four players to share a screen using multiple controllers [00首页信息-1, 00首页信息-2].
+- **Rejoining games** requires the host to save, quit to the main menu, and rebuild the lobby [00首页信息-2].
+</Callout>
+
+<Section icon={Map} title="For The King II Crossplay and Platform Support">
+
+Exploring the vast, procedurally generated lands of Fahrul is best done with allies, making **for the king ii crossplay** a crucial feature for players looking to team up across different platforms [00基础信息]. The game launched on PC on November 2, 2023, followed by its console release on December 12, 2024, bringing its signature turn-based tactical grid combat to PlayStation 5 and Xbox Series X/S [00基础信息].
+
+**Video Highlights:**
+- Turn-based tactical grid combat with up to four players [00基础信息, 00首页信息-1].
+- Procedurally generated maps ensuring high replayability [00基础信息].
+- Strategic depth involving class synergies and battle grid positioning [00基础信息, 00首页信息-1].
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Join The Fight - Trailer" />
+
+Understanding which platforms can connect is essential before gathering your party. While the PC and Xbox ecosystems enjoy robust cross-platform features, PlayStation players navigate a more isolated multiplayer environment [00基础信息, 00首页信息-2]. The following matrix details the exact features supported on each platform [00首页信息-2].
+
+| Feature | Steam PC | Xbox Series X/S | PlayStation 5 | Player Note |
+| :--- | :--- | :--- | :--- | :--- |
+| **Online Co-op** | Supported (1-4 players) | Supported (1-4 players) | Supported (1-4 players) | PS5 requires active PS Plus subscription [00基础信息, 00首页信息-2] |
+| **Local Co-op** | Shared/Split Screen | Local Multiplayer (2-4) | Local Play (1-4) | Multiple controllers supported on same system [00首页信息-2] |
+| **Crossplay** | PC-to-PC & Xbox | Xbox-to-PC | No explicit label | Check store pages for updated ecosystem changes [00首页信息-2] |
+| **Cloud/Remote** | Remote Play Together | Cloud Gaming, Play Anywhere | Remote Play, PS5 Cloud | Helps when playing on alternative devices [00首页信息-2] |
+
+<Callout type="success" title="Play Anywhere Benefits">
+Xbox Play Anywhere support allows players to transition seamlessly between Xbox consoles and the Windows PC store version without losing progress [00基础信息, 00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="How to Set Up Crossplay & Online Lobbies">
+
+Setting up an online session in *For The King II* requires the host to manage the save files and game configuration [00首页信息-2]. Because the game does not support hot-joining—meaning players cannot join a session that has already started—proper lobby preparation is vital [00首页信息-2].
+
+<Steps>
+  <Step num="1" title="Choose Multiplayer">
+    Select Multiplayer from the main menu instead of Single Player to open the lobby browser [00首页信息-2].
+  </Step>
+  <Step num="2" title="Host or Join">
+    The host selects Host Game and configures the campaign, difficulty (Apprentice, Journeyman, Master, or custom House Rules), and lobby settings [00首页信息-2].
+  </Step>
+  <Step num="3" title="Lobby Setup">
+    Set a clear Room Name, select the correct server Region, and apply a Password to prevent random players from joining [00首页信息-2].
+  </Step>
+  <Step num="4" title="Player Connection">
+    Have all participants search for the Room Name or use direct invites to enter the lobby before starting the session [00首页信息-2].
+  </Step>
+</Steps>
+
+When configuring the lobby, the host must pay close attention to network settings. Mismatched regions or outdated game versions are the most common reasons lobbies fail to appear in the browser [00首页信息-2].
+
+| Setting | Available Options | Recommended Choice | Connectivity Impact |
+| :--- | :--- | :--- | :--- |
+| **Server Region** | US East, US West, Europe, Asia | Match host's region | High; different regions cause lobby search failures [00首页信息-2] |
+| **Privacy** | Public, Private, Friends Only | Friends Only or Password | Medium; prevents random players from blocking slots [00首页信息-2] |
+| **House Rules** | Default, Custom Economy/Chaos | Default for first run | Low; adjusts difficulty parameters but not connection [00首页信息-2] |
+| **Lobby Type** | New Campaign, Load Save | Load Save for continuation | High; requires all original players to rejoin [00首页信息-2] |
+
+<Callout type="warning" title="Region Check Required">
+Always verify that all players are set to the exact same server region in their network settings, as mismatched regions will hide the lobby [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Co-op Modes: Online, Local, and Remote Play">
+
+*For The King II* offers multiple ways to experience its challenging tabletop adventures [00基础信息, 00首页信息-2]. Whether you prefer playing with friends across the country, sharing a couch, or using streaming technology, the game accommodates various playstyles [00首页信息-2].
+
+<CardGrid cols={3}>
+  <Card title="Online Co-op">
+    - **Separate Screens**: Each player runs their own copy of the game [00首页信息-2].
+    - **Ecosystem Play**: Connects players across compatible PC and Xbox systems [00首页信息-2].
+    - **Save Control**: Host manages the progression and campaign state [00首页信息-2].
+  </Card>
+  <Card title="Local Couch Co-op">
+    - **Single Screen**: Up to four players share one screen [00首页信息-1, 00首页信息-2].
+    - **Multiple Controllers**: Multiple controllers input on everyone's turn [00首页信息-2].
+    - **Classic Tabletop**: Offers a traditional board game feel without network latency [00首页信息-2].
+  </Card>
+  <Card title="Remote Play Together">
+    - **Steam Feature**: Allows hosting local co-op over the internet [00首页信息-2].
+    - **Cost Effective**: Only the host needs to own the game to invite friends [00首页信息-2].
+    - **Input Sharing**: Guests stream the host's screen and control their characters [00首页信息-2].
+  </Card>
+</CardGrid>
+
+Choosing the right co-op mode depends on your group's hardware and network capabilities [00首页信息-2]. Use the following performance tips to ensure a smooth gameplay experience [00首页信息-2].
+
+| Play Mode | Best Scenario | Controller Setup | Performance Tip |
+| :--- | :--- | :--- | :--- |
+| **Online Play** | Long-distance sessions | Individual controllers | Use wired ethernet connections to prevent desyncs [00首页信息-2] |
+| **Local Couch** | Same-room gatherings | Multiple gamepads | Configure controller order in system settings first [00首页信息-2] |
+| **Remote Play** | Budget-friendly co-op | Streamed inputs | Host needs high upload speed (at least 15 Mbps) [00首页信息-2] |
+
+<Callout type="tip" title="Optimize Streaming Quality">
+When using Steam Remote Play Together, ensure the host has a stable, high-speed internet connection to minimize input lag for the streaming guests [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rejoining and Save File Management">
+
+Because *For The King II* uses procedural generation and complex campaign states, a mid-game disconnect can disrupt the flow of your run [00基础信息, 00首页信息-2]. The game does not support hot-joining [00首页信息-2]. If a player disconnects, the party must follow a specific sequence to restore the session without losing progress [00首页信息-2].
+
+<Checklist
+  id="lobby-verification"
+  title="Lobby Verification Steps:"
+  items={[
+    "Host saves the current game state and exits to the main menu [00首页信息-2].",
+    "Host creates a new multiplayer lobby with the correct region and privacy settings [00首页信息-2].",
+    "All players join the newly created lobby first [00首页信息-2].",
+    "Host loads the save file with all players present in the lobby [00首页信息-2]."
+  ]}
+/>
+
+Network stability is crucial for maintaining the state of your adventure [00首页信息-2]. If you encounter connection issues, consult the troubleshooting table below to resolve common errors [00首页信息-2].
+
+| Issue | Likely Cause | Quick Fix |
+| :--- | :--- | :--- |
+| **Lobby Not Found** | Server region mismatch or outdated game version | Match regions in settings and verify game updates [00首页信息-2] |
+| **Failed to Connect** | Firewall restriction or strict NAT type | Allow the game through firewall or enable UPnP [00首页信息-2] |
+| **Mid-Game Desync** | Packet loss or host connection drop | Host must save, restart lobby, and reload save [00首页信息-2] |
+| **Controller Not Working** | Input conflict in local co-op | Restart game with controllers plugged in beforehand [00首页信息-2] |
+
+<Callout type="info" title="Mid-Battle Disconnects">
+If a player's connection drops during a battle, the host can still safely save the game at the start of the next turn without losing progress [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+To help you get back to the battle grid quickly, here are answers to the most common questions regarding multiplayer connectivity and platform support [00基础信息, 00首页信息-2].
+
+<FAQ items={[
+  {
+    question: "Does for the king ii crossplay support cross-platform play between Steam and consoles?",
+    answer: "Steam PC and Xbox ecosystems support crossplay features, but PlayStation currently lacks explicit cross-platform labels. Check official store pages and patch notes for the latest updates."
+  },
+  {
+    question: "Can I join a co-op game that is already in progress?",
+    answer: "No, hot-joining is not supported. The host must return to the main menu, create a multiplayer lobby, let everyone join, and then load the save file."
+  },
+  {
+    question: "Do all players need to own the DLC to play together?",
+    answer: "No, only the host needs to own campaign DLCs for the party to play them. However, players must own character packs individually to select those specific classes."
+  },
+  {
+    question: "How many players can play local co-op on one system?",
+    answer: "Up to four players can play local co-op on a single PC or console using multiple controllers."
+  }
+]} />
+
+<Callout type="success" title="Team Composition Tip">
+Playing with a balanced party of four characters—whether controlled by one, two, or four players—is the most reliable way to conquer Fahrul [00首页信息-1].
+</Callout>
+
+</Section>

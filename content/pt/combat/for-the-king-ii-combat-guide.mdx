@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Combate do For The King II: Táticas de Batalha e Equipamentos (2026)",
+  description: "Domine o combate de For The King II com nosso guia sobre posicionamento na Grade de Batalha, gerenciamento de Foco, atributos de armas e estratégias de grupo para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Combat+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II",
+  keywords: "For The King II, combate, guia, táticas, grade de batalha, foco, equipamentos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O guia de combate de For The King II** foca em dominar a Grade de Batalha, o gasto de Foco e a sinergia do grupo.
+- **O posicionamento** é crítico; mantenha personagens resistentes na linha de frente para proteger suportes frágeis na retaguarda.
+- **O Foco** deve ser gasto em jogadas de alto impacto, encontros com chefes e movimentação para gerenciar a pressão do Caos.
+- **Equipar itens** que correspondam ao atributo primário do seu personagem é a maneira mais eficaz de aumentar a confiabilidade do dano.
+- **Efeitos de status** podem arruinar uma partida; sempre carregue curas para Atordoamento (Dazed), Veneno (Poison) e Aturdido (Stunned).
+</Callout>
+
+<Section icon={Swords} title="Dominando as Táticas da Grade de Batalha">
+
+O combate eficaz em For The King II exige mais do que apenas atributos altos; requer um entendimento profundo da Grade de Batalha 2x4. O posicionamento adequado evita que seus personagens de suporte sejam alvos de inimigos focados em corpo a corpo.
+
+**Destaques do Vídeo:**
+- Estratégias essenciais de posicionamento para a grade 2x4.
+- Como atrair ataques inimigos usando classes defensivas.
+- Gerenciando feitiços de área (AOE) de múltiplos alvos de forma eficaz.
+
+<YouTubeEmbed videoId="SWTLISZ31Nk" title="Básico do Combate em For The King II" />
+
+Personagens da linha de frente devem priorizar equipamentos defensivos e habilidades como Guardar (Guard) para mitigar o dano recebido. Unidades da retaguarda, como Eruditos ou Herbalistas, devem permanecer protegidas para garantir que possam continuar fornecendo cura e suporte mágico durante o encontro.
+
+| Posição | Função Principal | Classes Recomendadas | Habilidade Chave |
+| :--- | :--- | :--- | :--- |
+| Linha de Frente | Tanque / Protetor | Ferreiro / Cavaleiro Caído | Guardar / Provocar |
+| Retaguarda | Ataque à Distância / Suporte | Herbalista / Caçador | Cura de Grupo / Ataque à Distância |
+
+<Callout type="tip" title="Dica Profissional de Posicionamento">
+Sempre verifique o alcance de ataque do inimigo e os padrões de área (AOE) antes de finalizar seu movimento. Se um inimigo tiver um ataque baseado em coluna, evite empilhar suas unidades da frente e de trás na mesma fileira.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foco e Economia de Ações">
+
+O Foco é seu recurso mais valioso para mitigar o RNG (aleatoriedade). Ele permite garantir um resultado nos dados, transformando falhas em potencial em ações bem-sucedidas. Aprender quando conservar Foco e quando gastá-lo é a marca de um jogador veterano.
+
+<Steps>
+  <Step num="1" title="Identificar Jogadas de Alto Risco">
+    Reserve o Foco para momentos críticos, como desferir um golpe fatal em um chefe ou escapar de uma emboscada.
+  </Step>
+  <Step num="2" title="Planejar a Recuperação">
+    Use cidades, acampamentos ou características específicas como Refocar (Refocus) para reabastecer seu medidor antes de entrar em masmorras.
+  </Step>
+  <Step num="3" title="Otimizar a Eficiência">
+    Nunca acumule Foco até a morte; gastá-lo para evitar um efeito de status ou um pulo de turno sempre vale o custo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Gerenciamento de Recursos">
+Gaste o Foco extra antes de interagir com um Santuário (Sanctum) ou Herói de Pedra (Stone Hero). Esses objetos geralmente fornecem uma recarga completa do medidor, e qualquer Foco que você tinha anteriormente será desperdiçado se não for usado primeiro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamentos e Prioridade de Itens">
+
+Equipar seu grupo corretamente é essencial para a sobrevivência. Uma arma é tão boa quanto o atributo com o qual ela escala. Sempre combine o atributo primário do seu personagem (Força, Inteligência, Percepção ou Talento) com o tipo de arma correspondente.
+
+| Atributo | Melhor Para | Tipo de Equipamento |
+| :--- | :--- | :--- |
+| Força | Tanques de Linha de Frente | Martelos, Escudos, Armadura Pesada |
+| Inteligência | Magos / Curandeiros | Tomos, Cajados, Varinhas |
+| Percepção | Ataque à Distância / Batedores | Arcos, Lanças, Armadura Leve |
+| Talento | Utilidade / Trapaceiros | Berloques, Bombas, Ferramentas Especializadas |
+
+<CardGrid cols={3}>
+  <Card title="Equipamento de Sobrevivência">
+    - Sempre priorize atualizações de armadura para a linha de frente.
+    - Mantenha estoques de Barba de Deus e Panaceia altos.
+    - Conserte equipamentos nas cidades sempre que possível.
+  </Card>
+  <Card title="Escalonamento de Dano">
+    - Combine os atributos da arma com o atributo primário do personagem.
+    - Procure por efeitos de Perfuração contra inimigos blindados.
+    - Melhore as armas antes de itens cosméticos.
+  </Card>
+  <Card title="Itens de Utilidade">
+    - Carregue curas de status para Veneno/Ácido.
+    - Mantenha Raízes Douradas para emergências de Foco.
+    - Use bombas para controle de multidão.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Durabilidade de Equipamentos">
+Cuidado com os efeitos de status de Ácido. Eles podem dissolver permanentemente equipamentos valiosos, deixando seu grupo enfraquecido em longas explorações de masmorras. Sempre carregue itens que possam limpar efeitos de status negativos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Progressão">
+
+Use este checklist para garantir que seu grupo esteja preparado para os desafios de Fahrul. Esses passos ajudam a manter o ímpeto e minimizar o risco de um colapso total do grupo.
+
+<Checklist
+  id="combat-prep"
+  title="Checklist de Prontidão de Combate:"
+  items={[
+    "Verifique se todos os membros do grupo possuem armas apropriadas para seus atributos",
+    "Estoque pelo menos três itens de cura por personagem",
+    "Certifique-se de que a linha de frente tenha um escudo ou ferramenta defensiva equipada",
+    "Identifique o Santuário mais próximo para revivais de emergência",
+    "Verifique as missões da cidade para recompensas essenciais de ouro e suprimentos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Users} title="Perguntas Frequentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Como o guia de combate do For The King II ajuda em novas partidas?",
+    answer: "Este guia foca nos fundamentos da Grade de Batalha e no gerenciamento de recursos, garantindo que você não desperdice turnos ou Foco em ações de baixo impacto, o que é vital para o sucesso no início do jogo."
+  },
+  {
+    question: "Devo priorizar Força ou Inteligência para meu curandeiro?",
+    answer: "Sempre priorize Inteligência para curandeiros como a Herbalista. Sua capacidade de cura e utilidade mágica escalam diretamente com este atributo, tornando-os mais eficazes em manter o grupo vivo."
+  },
+  {
+    question: "Por que minha ação secundária foi bloqueada?",
+    answer: "Você provavelmente está com o efeito de status Atordoado (Dazed), que impede seu personagem de realizar sua próxima ação secundária, como mover-se ou usar itens."
+  },
+  {
+    question: "É melhor focar o fogo ou espalhar o dano?",
+    answer: "Focar o fogo é geralmente melhor. Eliminar um inimigo perigoso rapidamente reduz a pressão de dano recebido em seu grupo, o que é mais eficaz do que espalhar o dano entre vários alvos."
+  }
+]} />
+
+</Section>

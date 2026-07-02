@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Multiplayer: Co-op Setup & Crossplay Guide",
+  description: "Learn how to set up For The King II multiplayer lobbies, configure crossplay, manage local co-op, and build the best team compositions in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7b41a1/fff?text=Multiplayer+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Party capacity**: Play with up to four players in online or local co-op modes [00基础信息].
+- **Crossplay capabilities**: Steam and Xbox ecosystems support cross-platform multiplayer [00首页信息-2].
+- **Lobby rejoining**: Save and quit to the main menu to let disconnected players rejoin [00首页信息-2].
+- **Local co-op setup**: Connect multiple controllers on PC or console to play offline together [00首页信息-2].
+</Callout>
+
+<Section icon={Map} title="Setting Up For The King II Multiplayer Lobbies">
+
+Setting up a successful co-op run in **for the king ii multiplayer** requires a strong understanding of lobby configuration and save file management [00首页信息-2]. Because the game is built around turn-based roguelite tabletop mechanics, coordination begins before the first dice are even rolled [00基础信息]. 
+
+When hosting an online multiplayer game, the host player is responsible for creating the session and managing the save progress [00首页信息-2]. From the multiplayer menu, the host can customize the adventure settings, choose the region, name the room, and set a password to ensure only invited friends can join [00首页信息-2]. 
+
+One of the most critical aspects of managing a lobby is understanding how the game handles player connections. Unlike standard drop-in multiplayer games, players cannot join a run that is already in progress [00首页信息-2]. If a player disconnects or if you want to resume a saved campaign with your group, you must follow the correct rejoining flow [00首页信息-2].
+
+| Feature | Description | Best Practice |
+| Host Controls | Create adventure, set region, set password | Keep region identical for all players |
+| Save File | Saved on host machine | Host must load from main menu |
+| Rejoin Method | Back out to lobby, invite, load save | Never try to join an active run |
+
+<Callout type="warning" title="Lobby-First Rule">
+If a player disconnects during a run, the host must save the game, quit to the main menu, recreate the lobby, wait for all players to rejoin, and then load the save file [00首页信息-2]. Attempting to invite players directly into an active game will result in connection errors [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Platform Compatibility and Crossplay Features">
+
+Navigating the platform landscape is essential when planning your multiplayer sessions [00首页信息-2]. *For The King II* is available across several major platforms, including Steam PC, Xbox, and PlayStation [00基础信息]. However, the multiplayer features and crossplay capabilities vary depending on where you and your friends purchased the game [00首页信息-2].
+
+The Steam and Xbox ecosystems share robust cross-platform multiplayer and co-op features [00首页信息-2]. This means PC players on Steam can seamlessly join games hosted by Xbox console players or those using PC Game Pass [00首页信息-2]. PlayStation players, however, operate on a separate ecosystem [00首页信息-2]. While PlayStation supports 4-player online co-op, it does not feature cross-platform connectivity with Steam or Xbox in the current 2026 build [00首页信息-2].
+
+| Feature | Steam PC | Xbox | PlayStation |
+| Player Count | 1-4 Players | 1-4 Players | 1-4 Players |
+| Online Co-op | Supported | Supported | Supported (PS Plus) |
+| Local Co-op | Supported | Supported | Supported |
+| Crossplay | Steam to Xbox | Xbox to Steam | Not cross-platform |
+
+<Callout type="info" title="Subscription Requirements">
+Playing online co-op on consoles requires active platform subscriptions [00首页信息-2]. Xbox players require Xbox Game Pass (Core or Ultimate), while PlayStation players require an active PlayStation Plus subscription to access online lobbies [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Steps to Configure Local Co-op and Shared Screen">
+
+If you prefer playing with friends on the same couch, *For The King II* offers dedicated local co-op and shared-screen functionality [00首页信息-2]. This mode allows multiple players to control different characters in the party using a single PC or console [00首页信息-2]. Follow these steps to set up your local multiplayer session [00首页信息-1, 00首页信息-2]:
+
+<Steps>
+  <Step num="1" title="Connect Your Controllers">
+    Before launching the game, ensure all controllers are connected and recognized by your PC or console [00首页信息-2]. The game supports a mix of keyboard/mouse and gamepads on PC [00首页信息-2].
+  </Step>
+  <Step num="2" title="Select Local Play Mode">
+    From the main menu, select the local co-op or shared-screen option [00首页信息-2]. This will open the character creation screen where you can build your party of up to four characters [00首页信息-1, 00首页信息-2].
+  </Step>
+  <Step num="3" title="Assign Controllers to Characters">
+    Map each connected input device to a specific character slot [00首页信息-1]. A single player can control multiple characters if you have fewer than four physical players [00首页信息-1].
+  </Step>
+  <Step num="4" title="Manage Overworld and Combat Turns">
+    On the overworld map, the camera dynamically follows the active character's turn [00首页信息-2]. During combat on the Battle Grid, control shifts automatically to the gamepad assigned to the character whose turn it is [00首页信息-2].
+  </Step>
+</Steps>
+
+<Callout type="tip" title="PC Input Mixing">
+On PC, you can play local co-op with one player using the keyboard and mouse while the remaining players use USB or wireless controllers, making it highly accessible for home setups [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Co-op Party Compositions">
+
+Success in multiplayer campaigns depends heavily on team synergy [00首页信息-1]. A poorly planned party will quickly fall apart under the pressure of Chaos and high-difficulty encounters [00首页信息-1, 00首页信息-2]. When playing with friends, you must assign distinct roles—such as frontline tanking, physical damage, magical damage, and support healing—to ensure survival [00首页信息-1]. 
+
+Here are the most effective party builds designed specifically for multiplayer coordination [00首页信息-1]:
+
+<CardGrid cols={3}>
+  <Card title="First Clear Balanced Party">
+    - **Blacksmith**: Frontline tanking and protecting [00首页信息-1]
+    - **Hunter**: Ranged physical damage and scouting [00首页信息-1]
+    - **Scholar**: Magic damage and Focus recovery [00首页信息-1]
+    - **Herbalist**: Group healing and herb supply [00首页信息-1]
+  </Card>
+  <Card title="Two-Player Co-op Split">
+    - **Player 1**: Controls Blacksmith and Herbalist [00首页信息-1]
+    - **Player 2**: Controls Hunter and Scholar [00首页信息-1]
+    - **Synergy**: Perfectly balances defense and offense [00首页信息-1]
+  </Card>
+  <Card title="Dark Carnival Safety Net">
+    - **Blacksmith**: Anchors the frontline grid [00首页信息-1]
+    - **Herbalist**: Ensures party-wide healing [00首页信息-1]
+    - **Alchemist**: Provides explosive area damage [00首页信息-1]
+    - **Hunter**: Picks off priority targets from afar [00首页信息-1]
+  </Card>
+</CardGrid>
+
+To make these builds work, players must coordinate their loot distribution [00首页信息-1]. Handing the wrong gear to a character with mismatched core stats is a fast way to ruin a run [00首页信息-1].
+
+| Class | Role | Core Stat | Primary Loot Priority |
+| Blacksmith | Frontline Tank | Vitality | Shields, heavy armor, taunt gear [00首页信息-1, 00首页信息-2] |
+| Hunter | Ranged Physical | Awareness | Bows, speed gear, physical weapons [00首页信息-1, 00首页信息-2] |
+| Scholar | Magic Damage | Intelligence | Tomes, staves, magic modifiers [00首页信息-1, 00首页信息-2] |
+| Herbalist | Support Healer | Intelligence | Godsbeard, healing items, support gear [00首页信息-1, 00首页信息-2] |
+
+<Callout type="success" title="Inventory Trading">
+Remember that players can trade gold and equipment through the inventory menu [00首页信息-2]. However, your characters must be on adjacent hex tiles on the overworld map to initiate a trade, so plan your movements accordingly [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Multiplayer Campaign Goals and Checklist">
+
+Coordinating movement and resource spending is just as important as winning battles on the grid [00首页信息-2]. In a multiplayer campaign, players often make the mistake of splitting up too far on the overworld map [00首页信息-1]. While scouting is useful, wandering off alone exposes individual characters to deadly single-combat ambushes [00首页信息-1]. 
+
+Keep your group aligned by focusing on these essential multiplayer survival goals [00首页信息-1, 00首页信息-2]:
+
+<Checklist
+  id="multiplayer-survival"
+  title="Multiplayer Survival Goals:"
+  items={[
+    "Locate the biome Sanctum to secure a death-prevention buff for the team [00首页信息-1, 00首页信息-2]",
+    "Spend spare Focus points before activating a Stone Hero to maximize recovery [00首页信息-1, 00首页信息-2]",
+    "Coordinate town visits to buy Godsbeard and utility herbs before they sell out [00首页信息-1, 00首页信息-2]",
+    "Regroup the party physically before entering any dungeon to avoid leaving anyone behind [00首页信息-1, 00首页信息-2]",
+    "Trade stat-matched gear to the correct character immediately to optimize combat rolls [00首页信息-1, 00首页信息-2]"
+  ]}
+/>
+
+<Callout type="warning" title="Dungeon Pull Rules">
+Entering a dungeon will automatically pull all party members into the instance, regardless of how far apart they are on the overworld map [00首页信息-1, 00首页信息-2]. Ensure your entire team is fully healed and stocked with herbs before anyone initiates a dungeon entry [00首页信息-1, 00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+To help you resolve connection issues and gameplay confusion quickly, refer to these frequently asked questions regarding multiplayer mechanics [00首页信息-2]:
+
+<FAQ items={[
+  {
+    question: "Can a new player join a multiplayer run already in progress?",
+    answer: "No, players cannot join an active run directly. The host must save the game, exit to the main menu, recreate the multiplayer lobby, wait for all players to join, and then reload the save file."
+  },
+  {
+    question: "Does For The King II multiplayer support crossplay between PC and PlayStation?",
+    answer: "No, crossplay is currently supported between Steam and the Xbox ecosystem (including PC Game Pass). PlayStation players can only play online co-op with other users on PlayStation consoles."
+  },
+  {
+    question: "How do you trade items between players in co-op?",
+    answer: "Players can trade gold and equipment through the inventory menu as long as their characters are on adjacent hex tiles on the overworld map, or during combat preparation phases."
+  },
+  {
+    question: "What happens if a player disconnects during a multiplayer session?",
+    answer: "The game will pause or allow the host to take control of the disconnected player's character. To let the player rejoin, the host should save, quit to the lobby, and reload the game."
+  }
+]} />
+
+<Callout type="tip" title="Version Matching">
+If you cannot find your friend's lobby in the multiplayer browser, double-check that all players have updated their games to the exact same version build, as version mismatches will hide lobbies [00首页信息-2].
+</Callout>
+
+</Section>

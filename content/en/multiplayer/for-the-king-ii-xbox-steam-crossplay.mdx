@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "for the king ii xbox steam crossplay: Setup & Co-op Guide",
+  description: "Learn how to set up for the king ii xbox steam crossplay. Get step-by-step instructions, cross-progression details, and troubleshooting tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/581c87/fff?text=Xbox+Steam+Crossplay+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Crossplay Support**: Full cross-platform play is enabled between Steam, Epic Games, Xbox One, Xbox Series X/S, PS4, and PS5.
+- **No Cross-Progression**: Game saves and Lore Store unlocks are locked to your local platform and do not transfer.
+- **Connection Method**: Hosts must share an in-game Invite Code and password; players cannot join active runs.
+- **Ecosystem Sync**: Ensure all players are on the same game version and region to avoid connection errors.
+</Callout>
+
+<Section icon={Map} title="for the king ii xbox steam crossplay Overview">
+
+For The King II brings strategic tabletop-inspired turn-based battles to Fahrul with robust co-op features. Whether you are playing on PC or consoles, the developer IronOak Games has enabled full multiplayer synchronization across ecosystems. This guide focuses on setting up **for the king ii xbox steam crossplay** so that you and your friends can party up without platform restrictions. From launch day, PC players on Steam can seamlessly connect with console players on Xbox One and Xbox Series X/S, as well as PlayStation users.
+
+**Video Highlights:**
+- **Learn the basics**: Get ready for co-op battles by understanding the turn-based grid system.
+- **Team coordination**: Discover why picking balanced roles is key to surviving Fahrul.
+- **Crossplay preparation**: Watch the official trailer to see the resistance in action.
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Join The Fight - Trailer" />
+
+The multiplayer landscape in For The King II is highly flexible, allowing up to four players to control characters in a single campaign. Because the game is available on Xbox Game Pass, many PC players on Steam want to connect with their friends on Xbox consoles. Fortunately, the developers designed the multiplayer architecture to bridge these platforms. The crossplay feature is fully integrated into the game's server browser and private lobby system.
+
+| Platform | Crossplay Support | Multiplayer Modes | Game Pass Available |
+| :--- | :--- | :--- | :--- |
+| **Steam PC** | **Yes** | Online Co-op / Remote Play | No |
+| **Epic Games Store** | **Yes** | Online Co-op | No |
+| **Xbox App PC** | **Yes** | Online Co-op | **Yes** |
+| **Xbox Series X/S** | **Yes** | Online / Local Co-op | **Yes** |
+| **Xbox One** | **Yes** | Online / Local Co-op | **Yes** |
+| **PlayStation 5** | **Yes** | Online Co-op | No |
+| **PlayStation 4** | **Yes** | Online Co-op | No |
+
+<Callout type="success" title="Ecosystem Parity">
+The console versions of For The King II receive the same updates, content drops, and DLC as the PC version, ensuring that crossplay remains compatible across all devices.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Crossplay Connection Guide">
+
+Connecting with friends across different platforms requires using the in-game lobby system rather than platform-specific friend lists. Since Steam invites do not work directly on Xbox consoles, players must rely on the universal Invite Code system. This ensures that any player on any platform can find and join the correct adventure. Follow these steps to host or join a session safely.
+
+<Steps>
+  <Step num="1" title="Select Multiplayer from the Main Menu">
+    The host must launch For The King II and select **Multiplayer** from the main title screen. Choose the correct server region that is geographically closest to all players to minimize latency.
+  </Step>
+  <Step num="2" title="Create a Private or Unlisted Lobby">
+    Click **Create Adventure**. Set the lobby privacy to **Unlisted** or **Private** and assign a secure password. This prevents random players from joining your game mid-lobby.
+  </Step>
+  <Step num="3" title="Locate and Share the Invite Code">
+    Once inside the lobby, open the Multiplayer Menu. Under the **Details** tab, find the **Online Invite Code** field. Click the **Eye Icon** to reveal the unique code, and copy or read it to your friends.
+  </Step>
+  <Step num="4" title="Join via the Invite Code">
+    The joining players on Steam or Xbox must go to the **Multiplayer** menu, select **Connect by Invite Code**, enter the shared code, and input the lobby password.
+  </Step>
+  <Step num="5" title="Assemble the Party and Start the Run">
+    Ensure all players have joined the lobby and selected their characters *before* the host loads the save file or starts the journey. Players cannot join a campaign that is already in progress.
+  </Step>
+</Steps>
+
+| Role | Action Required | Menu Location | Key Setting |
+| :--- | :--- | :--- | :--- |
+| **Host** | Create the server | Multiplayer > Create Adventure | Set to **Unlisted** |
+| **Host** | Get connection key | Lobby Menu > Details | Click **Eye Icon** for code |
+| **Guest** | Enter the server | Multiplayer > Connect by Code | Input **Invite Code** & password |
+| **All**| Select characters | Character Selection Map | Complete *before* launch |
+
+<Callout type="warning" title="Save File Lock-In">
+Always make sure your entire group is present in the lobby before loading a saved campaign. If a player is missing when the host launches the map, they will be locked out of that session until the host returns to the main menu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Understanding Progress, Saves, and Lore Store Unlocks">
+
+While multiplayer co-op is completely cross-platform, progress tracking behaves differently. For The King II does not feature cross-progression or cross-save capabilities. The developer, IronOak Games, confirmed that as a smaller independent studio, managing cross-platform account databases and complying with varied legal standards for data collection was beyond their current infrastructure limits. This means your progression is strictly tied to the platform where you play.
+
+<CardGrid cols={3}>
+  <Card title="Campaign Save Files">
+    - **Host-Owned**: Campaign saves are stored on the host's platform.
+    - **No Local Guest Saves**: Guests do not receive a copy of the adventure save file.
+    - **Seamless Rejoining**: Guests can rejoin the host's lobby at any time.
+  </Card>
+  <Card title="Lore Store & Unlocks">
+    - **Platform-Bound**: Lore Book unlocks do not transfer between Steam and Xbox.
+    - **Earned Lore**: Players earn Lore Book currency during co-op runs on their active platform.
+    - **Local Customization**: You can only use cosmetics and classes unlocked on your current platform.
+  </Card>
+  <Card title="Achievements & Trophies">
+    - **Separate Lists**: Steam Achievements and Xbox Achievements are completely independent.
+    - **Simultaneous Progress**: Achievements unlock for all players in the party when goals are met.
+    - **No Retroactive Sync**: Unlocking an achievement on Steam will not trigger it on Xbox.
+  </Card>
+</CardGrid>
+
+| Feature | Shared in Crossplay? | Saved Locally for Guests? | Platform Transferable? |
+| :--- | :--- | :--- | :--- |
+| **Campaign Progress** | **Yes** (During the run) | No (Host keeps save) | No |
+| **Lore Currency Earned** | **Yes** (Individual payout) | **Yes** | No |
+| **Class Unlocks** | **Yes** (Host's unlocked pool) | No | No |
+| **Cosmetics & Skins** | No (Individual choice) | **Yes** | No |
+| **Achievements/Trophies** | **Yes** (Earned together) | **Yes** | No |
+
+<Callout type="info" title="Host Class Sharing">
+If the host has unlocked advanced classes in their Lore Store, other players in the lobby can select those classes for the co-op run, even if they haven't unlocked them on their own local profiles yet.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fixing Connection and Sync Issues">
+
+Cross-platform multiplayer can occasionally experience desyncs, infinite loading screens, or connection errors. Most of these issues stem from version mismatches between Steam and console platforms, or temporary server hiccups. If you find yourself stuck on the 'Joining Adventure' screen, follow this diagnostic guide to get your party back into Fahrul.
+
+<Checklist
+  id="crossplay-troubleshooting"
+  title="Pre-Flight Crossplay Checklist:"
+  items={[
+    "Verify that all players have updated the game to the latest patch version.",
+    "Confirm that every player has selected the exact same server region in the multiplayer menu.",
+    "Set the lobby to Unlisted with a password instead of Public to reduce lobby interference.",
+    "Restart the game client if you encounter a 'Joining Adventure' infinite loading screen.",
+    "Ensure console players have active subscription services (Xbox Game Pass Core or PlayStation Plus)."
+  ]}
+/>
+
+| Error Symptom | Likely Cause | Recommended Fix |
+| :--- | :--- | :--- |
+| **Infinite 'Joining' Screen** | Version mismatch or server desync | Restart game, verify updates, and recreate lobby |
+| **Lobby Not Found** | Region mismatch or public lobby limit | Set region manually, use **Invite Code** |
+| **Mid-Game Disconnect** | Network latency or host crash | Host reloads save, guests rejoin lobby before launch |
+| **Missing Character Control**| UI layout bug during assignment | Host reassigns character roles in the party summary |
+| **Crossplay Disabled Error** | Platform patch certification delay | Wait for console patch to propagate, check Discord |
+
+<Callout type="warning" title="Patch Certification Mismatch">
+When IronOak Games releases a major update or DLC, the Steam version often receives the patch instantly, while Xbox and PlayStation certification can take a few extra days. Crossplay is sometimes temporarily disabled during these windows until all platforms are in sync.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Party Compositions for Crossplay Co-op">
+
+Surviving the dangerous lands of Fahrul requires a well-balanced team. When playing co-op across platforms, coordinating roles and loot distribution is critical. Since there is no built-in voice chat, players should use external communication tools like Discord to coordinate their battle grid positions and combat actions.
+
+| Class | Role | Core Stat | Key Combat Function |
+| :--- | :--- | :--- | :--- |
+| **Blacksmith** | Frontline Tank | Vitality | Absorbs physical hits, uses **Guard** to protect allies |
+| **Hunter** | Ranged DPS | Awareness | Deals high physical damage, executes **Called Shot** |
+| **Scholar** | Magic Control | Intelligence | Delivers magical area damage, uses **Refocus** |
+| **Herbalist** | Support Healer | Intelligence | Provides **Party Heal**, manages herb supply |
+
+<Callout type="tip" title="Voice Communication">
+Since For The King II lacks built-in voice chat, Xbox and PlayStation players can use the native Discord integration on their consoles to chat seamlessly with PC players on Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is for the king ii xbox steam crossplay fully supported?",
+    answer: "Yes! Full crossplay is supported between PC (Steam, Epic, and Xbox App) and Xbox consoles (Xbox One and Xbox Series X/S). This allows you to easily connect and play with friends regardless of their platform."
+  },
+  {
+    question: "How do I invite Steam players to an Xbox game in For The King II?",
+    answer: "You cannot use native platform invites. Instead, the host must create an unlisted lobby, go to the Multiplayer Menu Details, reveal the Online Invite Code, and share it. Guest players then use the 'Connect by Invite Code' option to join."
+  },
+  {
+    question: "Is cross-progression supported in For The King II?",
+    answer: "No. For The King II does not support cross-progression or cross-saves. Your campaign saves, Lore Store currency, and character unlocks are strictly tied to the platform where you purchased or play the game."
+  },
+  {
+    question: "What should I do if the crossplay connection keeps failing?",
+    answer: "First, ensure all players are on the same game version and have selected the same server region. If a new update or DLC was recently released, check if there is a temporary platform patch delay that might have paused crossplay compatibility."
+  }
+]} />
+
+<Callout type="success" title="Community Support">
+If you encounter persistent lobby issues, visit the official Curve Games and IronOak Games support channels or check the community Discord for real-time server status updates.
+</Callout>
+
+</Section>

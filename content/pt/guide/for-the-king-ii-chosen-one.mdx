@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Escolhido em For The King II: Guia de Traço e Mecânicas",
+  description: "Aprenda como desbloquear e otimizar o traço Escolhido em For The King II. Domine as mecânicas de +5% fixos de chance de habilidade, melhores builds de classe e composições de equipe.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Chosen+One+Trait+Guide",
+  date: "2026-07-02",
+  author: "Equipe do Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Traço Escolhido**: Concede um bônus fixo de **+5% de Chance de Habilidade** para todas as habilidades passivas do personagem.
+- **Vantagem Mecânica**: Este bônus é aplicado **após todos os multiplicadores e limites (caps)**, ignorando os limites padrão.
+- **Como Desbloquear**: Compre na **Loja de Lore** após completar a aventura *Uma Nova Era* (A New Age) ou marcos de campanha.
+- **Melhores Classes**: Extremamente poderoso no **Ferreiro**, **Herborista**, **Estudioso** e **Cartomante**.
+- **Melhor Sinergia**: Combina perfeitamente com o traço **Sortudo** e equipamentos focados em ativação de habilidades (skill-proc).
+</Callout>
+
+No implacável mundo roguelite em turnos de Fahrul, o sucesso é frequentemente decidido pelo rolar de um dado [homepage-modules-1]. No entanto, depender puramente da sorte é um caminho rápido para a eliminação do grupo (party wipe) [homepage-modules-1, homepage-modules-2]. Para sobreviver às campanhas brutais, os jogadores devem aproveitar todas as vantagens mecânicas disponíveis. Entre as ferramentas mais poderosas introduzidas nas atualizações pós-lançamento está o traço **Escolhido de For The King II** (Chosen One). Este guia detalha as mecânicas exatas desse traço revolucionário, como desbloqueá-lo e como montar um grupo otimizado em torno de suas capacidades exclusivas de aprimoramento de habilidades.
+
+
+<Section icon={Sparkles} title="Visão Geral do Traço Escolhido">
+
+O traço **Escolhido de For The King II** foi introduzido oficialmente em Fahrul durante a grande atualização de conteúdo gratuita, *Uma Nova Era* (A New Age). Projetado para recompensar jogadores que dependem muito de habilidades passivas de personagens, este traço fornece um bônus fixo de **+5% de Chance de Habilidade** (frequentemente referido nos arquivos do jogo como "Bônus de Habilidade").
+
+Diferente de outros traços que alteram atributos brutos como Força ou Velocidade, o traço Escolhido influencia diretamente as rolagens em segundo plano que determinam se as habilidades passivas dos seus personagens serão ativadas no final de um turno ou durante o combate.
+
+| Traço | Efeito Base | Escalonamento Primário | Sinergia de Classe Ideal |
+| :--- | :--- | :--- | :--- |
+| **Escolhido** | +5% Fixo de Chance de Habilidade | Adição fixa pós-cálculo | Ferreiro, Herborista, Estudioso |
+| **Sortudo** | Aumenta o Atributo de Sorte | Escala com equipamentos de Sorte | Cartomante, Artista de Rua, Fabricante de Brinquedos |
+| **Dotado** | Melhora atributos primários | Aumento fixo de atributos (+3) | Cavaleiro Caído, Caçador, Desbravador |
+
+<Callout type="tip" title="Por que +5% é Enorme">
+Embora um aumento de 5% possa parecer pequeno no papel, sua aplicação mecânica o torna um dos traços mais fortes do jogo. Ele atua como um modificador fixo aplicado *depois* de todas as outras penalidades, tornando-o altamente confiável.
+</Callout>
+
+</Section>
+
+
+<Section icon={Trophy} title="Como Desbloquear o Traço Escolhido em For The King II">
+
+Antes de poder atribuir o traço Escolhido aos seus personagens durante a fase de preparação (loadout) de uma nova partida, você deve primeiro desbloqueá-lo através do sistema de progressão roguelite do jogo — a Loja de Lore.
+
+O traço está disponível para todos os jogadores que atualizaram o jogo para a versão de conteúdo *Uma Nova Era* (A New Age). Para adicioná-lo ao seu conjunto permanente de personalização, siga as etapas de progressão descritas abaixo.
+
+<Steps>
+  <Step num="1" title="Complete a Aventura 'Uma Nova Era'">
+    Para fazer o traço aparecer na Loja de Lore, você deve primeiro completar a aventura de campanha *Uma Nova Era* (A New Age) ou alcançar marcos específicos de alto nível, como derrotar 1.000 inimigos ao longo de suas partidas.
+  </Step>
+  <Step num="2" title="Acumule Moeda de Lore">
+    Pontos de Lore são obtidos ao completar missões no mapa, derrotar Flagelos (Scourges), limpar masmorras e terminar capítulos de campanha com sucesso [00基础信息, homepage-modules-1]. Certifique-se de ter pelo menos 15 a 20 pontos de Lore guardados.
+  </Step>
+  <Step num="3" title="Compre na Loja de Lore">
+    No menu principal, navegue até a Loja de Lore, selecione a aba **Traços** e role para baixo para encontrar o traço **Escolhido**. Compre-o para desbloqueá-lo permanentemente para todas as criações de personagens futuras.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Solução para Bug de Desbloqueio">
+Alguns jogadores relataram um pequeno bug visual onde a notificação do traço aparece, mas ele não se mostra imediatamente na loja. Se isso acontecer, compre um item barato (como uma localização de 5 Lore ou item cosmético) para atualizar o inventário da loja, e o traço aparecerá.
+</Callout>
+
+</Section>
+
+
+<Section icon={Shield} title="Análise Profunda: Mecânicas e Matemática de Chance de Habilidade">
+
+Para realmente apreciar o poder do traço **Escolhido de For The King II**, é essencial entender como o jogo calcula as ativações de habilidades passivas. Habilidades passivas — como a *Inabalável* (Steadfast) do Ferreiro, *Encontrar Erva* (Find Herb) da Herborista ou *Focar Novamente* (Refocus) do Estudioso — não são ativadas automaticamente; elas dependem de uma matemática oculta.
+
+A maioria das habilidades passivas escala com o atributo principal do personagem ou com seu atributo de Sorte. No entanto, os desenvolvedores colocaram limites máximos (hard caps) sobre quão altas essas chances de ativação podem chegar naturalmente. Por exemplo, a habilidade *Inabalável* do Ferreiro é limitada a um máximo de 30% a partir do escalonamento de Vitalidade, Armadura e Resistência.
+
+É aqui que o traço Escolhido brilha: **o Bônus de Habilidade é adicionado após todos os outros cálculos, penalidades e limites serem computados**.
+
+| Habilidade Passiva | Classe | Mecânica de Ativação Base | Impacto do Escolhido |
+| :--- | :--- | :--- | :--- |
+| **Inabalável** | Ferreiro | Limitada a 30% por Vitalidade | Eleva o limite absoluto para 35% |
+| **Remendar** | Ferreiro | Primeira verificação escala com o Nível | Garante 100% de sucesso na primeira verificação |
+| **Encontrar Erva** | Herborista | Chance aleatória no turno do mapa | Estabiliza significativamente a economia de ervas |
+| **Focar Novamente** | Estudioso | Chance aleatória no fim do turno de combate | Fornece uma recuperação de Foco altamente confiável |
+
+<Callout type="info" title="Traço Escolhido vs. Sortudo">
+O traço *Sortudo* aumenta o seu atributo de Sorte, o que indiretamente melhora as habilidades que escalam com Sorte. No entanto, se você for atingido por penalidades de status (debuffs) ou estiver usando habilidades com limites máximos fixos, o traço *Sortudo* não ajudará. O traço *Escolhido* ignora completamente essas limitações ao adicionar 5% fixos à porcentagem final.
+</Callout>
+
+</Section>
+
+
+<Section icon={Swords} title="Melhores Builds de Classe e Sinergias">
+
+Como o traço **Escolhido de For The King II** fornece um bônus fixo para a ativação de habilidades passivas, ele é altamente situacional. Equipá-lo em uma classe sem habilidades passivas (como o Desbravador básico) é um desperdício de espaço de traço.
+
+Para maximizar sua eficiência, atribua este traço a classes que dependem fortemente de suas habilidades passivas exclusivas para apoiar a equipe ou sobreviver na linha de frente.
+
+<CardGrid cols={2}>
+  <Card title="O Ferreiro Imortal">
+    - **Classe**: Ferreiro
+    - **Passivas Principais**: *Inabalável* & *Remendar*
+    - **Sinergia**: Os +5% fixos empurram a habilidade *Inabalável* além do seu limite de 30% para 35%, enquanto tornam a primeira verificação de *Remendar* uma ativação garantida de 100%. Isso garante que seu escudo e armadura permaneçam intactos durante masmorras exaustivas.
+  </Card>
+  <Card title="O Estudioso Infinito">
+    - **Classe**: Estudioso
+    - **Passivas Principais**: *Focar Novamente* & *Encontrar Pergaminho* [homepage-modules-1]
+    - **Sinergia**: O Estudioso depende de *Focar Novamente* para regenerar pontos de Foco no final dos turnos de combate. Acumular o traço Escolhido garante um fluxo constante de Foco, permitindo que você conjure feitiços poderosos sem esgotar seu inventário de itens [homepage-modules-1, homepage-modules-2].
+  </Card>
+  <Card title="A Herborista Mestra">
+    - **Classe**: Herborista
+    - **Passivas Principais**: *Encontrar Erva* & *Cura de Grupo* [homepage-modules-1]
+    - **Sinergia**: Manter seu grupo saudável é a parte mais difícil na dificuldade Mestre [00首页信息, homepage-modules-1]. Uma Herborista Escolhida produz consistentemente ervas gratuitas no mapa, economizando milhares de moedas de ouro ao longo de uma campanha [00基础信息, homepage-modules-1].
+  </Card>
+  <Card title="A Cartomante Tecelã do Destino">
+    - **Classe**: Cartomante
+    - **Passivas Principais**: *Destino* & *Reunir Foco*
+    - **Sinergia**: A Cartomante usa cartas de tarô para manipular os resultados do combate. Acumular o traço Escolhido garante que suas passivas de alteração de tarô sejam ativadas com muito mais confiabilidade, transformando rolagens ruins em sucessos perfeitos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergias Ideais de Equipamentos">
+Ao jogar com uma build de Escolhido, procure por armas e armaduras que concedam atributos adicionais de "+Chance de Habilidade". Acumular esses itens com seu traço pode elevar as taxas de ativação passiva a níveis incrivelmente altos, transformando seus personagens em verdadeiras máquinas de ativação passiva.
+</Callout>
+
+</Section>
+
+
+<Section icon={Target} title="Checklist de Fim de Jogo e Configuração de Equipe">
+
+Para conquistar com sucesso a dificuldade Mestre ou avançar profundamente nos andares infinitos do **Carnaval Sombrio** (Dark Carnival), a composição da sua equipe deve ser perfeitamente equilibrada [00首页信息, homepage-modules-2]. O traço Escolhido funciona melhor quando integrado a uma equipe que cobre todas as funções essenciais: defesa, cura, dano físico e utilidade mágica [homepage-modules-1].
+
+| Função / Classe | Escolha de Traço | Função Principal em Combate | Prioridade de Saque Primária |
+| :--- | :--- | :--- | :--- |
+| **Ferreiro** (Tanque) | Escolhido | Absorve dano, ativa Inabalável & Remendar | Escudos, armadura pesada, equipamentos de Vitalidade |
+| **Herborista** (Curandeira) | Dotado | Restaura a vida do grupo, garante ervas | Barba-de-deus, cajados de Inteligência, equipamentos de foco |
+| **Cartomante** (DPS) | Sortudo | Manipulação de tarô, alto dano canalizado | Orbes, amuletos baseados em Sorte, equipamentos de Percepção |
+| **Caçador** (Batedor) | Ágil | Dano físico à distância, controle de emboscada | Arcos, equipamentos de velocidade, armadura de Percepção |
+
+<Checklist
+  id="chosen-one-optimization"
+  title="Metas de Otimização do Escolhido:"
+  items={[
+    "Desbloqueie o traço Escolhido na Loja de Lore usando de 15 a 20 pontos de Lore.",
+    "Atribua o traço ao seu Ferreiro de linha de frente ou ao seu Estudioso de linha de trás durante a seleção de preparação.",
+    "Equipe seu personagem Escolhido com armaduras que aumentem a Chance de Habilidade passiva.",
+    "Combine o personagem Escolhido com um personagem Sortudo para maximizar as ativações passivas de toda a equipe.",
+    "Mantenha seu grupo bem agrupado para se beneficiar de curas passivas e bônus de área de efeito."
+  ]}
+/>
+
+<Callout type="info" title="Dica para Exploração de Masmorras">
+Em modos de masmorra longos, como o *Desafio de Masmorra* (Dungeon Crawl Gauntlet), recursos como Barba-de-deus e Foco são extremamente escassos [homepage-modules-2]. Ter um Estudioso e uma Herborista com o traço Escolhido garante que seu grupo regenere recursos passivamente sem gastar ouro [homepage-modules-1, homepage-modules-2].
+</Callout>
+
+</Section>
+
+
+<Section icon={Map} title="Perguntas Frequentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Como exatamente o traço Escolhido funciona mecanicamente em For The King II?",
+    answer: "Diferente do traço Sortudo, que escala seu atributo de Sorte, o traço Escolhido adiciona um bônus fixo de +5% de Chance de Habilidade depois que todos os outros cálculos, penalidades e limites são computados. Isso o torna incrivelmente poderoso para contornar limites fixos em habilidades como Inabalável."
+  },
+  {
+    question: "O traço Escolhido é melhor do que o traço Sortudo?",
+    answer: "Sim, para classes com habilidades passivas poderosas, como o Remendar do Ferreiro ou o Encontrar Erva da Herborista. O Sortudo é melhor para eventos gerais de mapa baseados em sorte e para classes como a Cartomante, cujas habilidades escalam fortemente com o atributo de Sorte."
+  },
+  {
+    question: "Como faço para desbloquear o traço Escolhido na Loja de Lore de For The King II?",
+    answer: "O traço Escolhido é desbloqueado ao atualizar seu jogo para a versão de conteúdo 'Uma Nova Era' (A New Age) e completar marcos de campanha específicos. Depois de desbloqueado, você pode comprá-lo na Loja de Lore usando pontos de Lore."
+  },
+  {
+    question: "O Escolhido afeta a precisão das rolagens de combate?",
+    answer: "Não, o Escolhido afeta apenas as chances de ativação de habilidades passivas (como Focar Novamente, Inabalável e Encontrar Poção). Ele não aumenta sua precisão ou taxas de sucesso em rolagens de combate com armas padrão."
+  }
+]} />
+
+<Callout type="tip" title="Veredito Final">
+O traço **Escolhido de For The King II** é uma escolha de primeira linha para qualquer personagem focado em defesa ou utilidade. Ao contornar os limites padrão do jogo, ele fornece uma confiabilidade incomparável em um jogo governado por rolagens de dados aleatórias.
+</Callout>
+
+</Section>

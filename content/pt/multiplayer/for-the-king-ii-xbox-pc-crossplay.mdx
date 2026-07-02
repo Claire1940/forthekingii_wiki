@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Xbox PC Crossplay: Guia de Configuração Multiplayer",
+  description: "Saiba como configurar o crossplay de For The King II entre Xbox e PC, gerenciar lobbies multijogador e coordenar builds de grupo cooperativo entre plataformas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Xbox+PC+Crossplay+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Status do Crossplay**: O suporte total para **for the king ii xbox pc crossplay** está disponível entre Steam, consoles Xbox e o aplicativo Xbox para PC.
+- **Configuração do Lobby**: Os anfitriões devem configurar a região, o nome da sala e as senhas antes de carregar um salvamento de campanha.
+- **Regra de Reconexão**: A entrada no meio do jogo não é suportada; os anfitriões devem retornar ao menu principal para permitir que os jogadores se reconectem.
+- **Progressão**: O progresso da campanha é salvo estritamente no anfitrião, enquanto a moeda da Loja de Conhecimento (Lore Store) e os desbloqueios permanecem globais para todos os jogadores.
+- **Tamanho do Grupo**: Suporta até quatro jogadores online, com opções flexíveis de distribuição de personagens.
+</Callout>
+
+<Section icon={Map} title="Visão Geral da Compatibilidade Multiplayer e Crossplay">
+
+Se você está planejando se aventurar pelas terras perigosas de Fahrul com amigos em diferentes plataformas, entender como o **for the king ii xbox pc crossplay** funciona é essencial para uma sessão tranquila. O jogo suporta multiplayer multiplataforma, permitindo que jogadores de PC no Steam se juntem a jogadores no Xbox Series X/S e no aplicativo Xbox para PC. Esse ecossistema unificado garante que você não precise dividir seu grupo de jogo com base em preferências de loja ou escolhas de hardware.
+
+A arquitetura multiplayer depende de um backend de matchmaking centralizado. Ao hospedar um jogo, os jogadores podem personalizar seus lobbies para permitir conexões perfeitas entre redes. No entanto, os recursos específicos do ecossistema de cada plataforma diferem ligeiramente dependendo de onde você comprou o jogo. Por exemplo, jogadores dentro do ecossistema Xbox se beneficiam do Xbox Play Anywhere e Cloud Gaming, enquanto os jogadores do Steam utilizam o Steam Remote Play Together para sessões locais.
+
+| Recurso | Steam PC | Xbox Series X/S | PlayStation 5 |
+| :--- | :--- | :--- | :--- |
+| Cooperativo Online | Suportado (1-4 jogadores) | Suportado (1-4 jogadores) | Suportado (Requer PS Plus) |
+| Cooperativo Local | Tela Compartilhada/Dividida | Cooperativo Local (2-4 jogadores) | Cooperativo Local (1-4 jogadores) |
+| Crossplay | Suportado com Xbox/PC | Suportado com PC/Steam | Não rotulado oficialmente |
+| Recursos do Ecossistema | Remote Play Together | Play Anywhere, Nuvem | Remote Play, Streaming em Nuvem |
+
+Embora os jogadores de PC e Xbox desfrutem de uma experiência de matchmaking altamente integrada, os jogadores de PlayStation 5 operam sob diferentes rótulos de capacidade da loja. Se você está montando um grupo cross-network, priorize a coordenação entre as plataformas Steam e Xbox para garantir a máxima compatibilidade sem quedas de lobby.
+
+<Callout type="warning" title="Aviso da PlayStation Network">
+A página da PlayStation Store lista suporte para multiplayer online e Remote Play, mas carece do rótulo de multiplayer multiplataforma presente nas páginas das lojas Steam e Xbox. Sempre verifique os rótulos ativos das plataformas se o seu grupo incluir usuários de PlayStation.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hospedando e Entrando em Lobbies de Crossplay de For The King II (Xbox e PC)">
+
+Configurar uma sessão multiplataforma exige que o anfitrião configure adequadamente os parâmetros do lobby antes de iniciar a aventura. Como o jogo não suporta a entrada dinâmica no meio da partida, estabelecer uma conexão estável no lobby pré-jogo é fundamental. Se um jogador desconectar durante uma partida, o anfitrião deve salvar o jogo, sair para o menu principal e recriar o lobby para permitir que ele volte.
+
+Siga estes passos estruturados para estabelecer uma sessão de crossplay estável entre jogadores de Xbox e PC.
+
+<Steps>
+  <Step num="1" title="Selecionar Modo Multiplayer">
+    O anfitrião designado deve navegar até o menu principal e selecionar a opção Multiplayer. Escolha a opção de hospedar uma nova aventura em vez de iniciar um jogo solo local.
+  </Step>
+  <Step num="2" title="Configurar Ajustes do Lobby">
+    Defina sua região de matchmaking para corresponder à dos seus companheiros de equipe. Crie um Nome de Sala exclusivo e aplique uma senha segura para evitar que jogadores aleatórios ocupem os slots de personagens.
+  </Step>
+  <Step num="3" title="Compartilhar Detalhes do Lobby">
+    Forneça aos seus companheiros de equipe o Nome da Sala exato, a senha e a região do servidor escolhida. Jogadores de Xbox e PC podem usar o navegador de servidores do jogo para pesquisar o nome da sala diretamente.
+  </Step>
+  <Step num="4" title="Atribuir Personagens e Iniciar">
+    Assim que todos os jogadores entrarem no lobby, distribua os personagens do grupo entre os jogadores ativos. O anfitrião pode então carregar com segurança um salvamento existente ou iniciar um novo capítulo da campanha.
+  </Step>
+</Steps>
+
+Se um jogador sofrer uma falha de conexão durante uma longa incursão em uma masmorra, não entre em pânico. Seu progresso está seguro. O anfitrião só precisa salvar o estado atual, sair para o menu principal, hospedar novamente o lobby com as mesmas configurações e deixar o jogador desconectado entrar novamente antes de recarregar o arquivo de salvamento ativo.
+
+<Callout type="tip" title="Regra de Alinhamento de Versão">
+Certifique-se de que todos os jogadores atualizaram seus jogos para a mesma versão. Como os processos de certificação de atualização de PC e console às vezes diferem, pequenas incompatibilidades de versão podem impedir temporariamente que os lobbies de crossplay apareçam no navegador de servidores.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Composição do Grupo Cooperativo e Distribuição de Funções">
+
+O sucesso em partidas multiplayer depende fortemente do planejamento cooperativo do grupo. Colocar quatro classes frágeis e de alto dano em um único veículo terrestre é o caminho mais rápido para uma partida fracassada. Um grupo equilibrado deve distribuir tarefas defensivas, dano físico, utilidade mágica e suporte de cura entre os jogadores ativos.
+
+Dependendo do tamanho do seu grupo, você deve distribuir os quatro slots de personagens para garantir que cada jogador tenha um papel ativo no combate e na exploração do mapa.
+
+<CardGrid cols={3}>
+  <Card title="Divisão para Dois Jogadores">
+    - **Jogador Um**: Controla o Tanque da linha de frente (Ferreiro) e o Suporte principal (Ervanária).
+    - **Jogador Dois**: Controla o DPS físico (Caçador) e o DPS mágico (Estudioso).
+    - **Estratégia**: Garante que ambos os jogadores gerenciem uma função de defesa/utilidade e uma função de dano ativo.
+  </Card>
+  <Card title="Divisão para Três Jogadores">
+    - **Jogador Um**: Controla o protetor da linha de frente.
+    - **Jogador Dois**: Controla o causador de dano principal.
+    - **Jogador Três**: Controla o curandeiro de suporte e um personagem de utilidade secundária.
+    - **Estratégia**: Equilibra a tomada de decisões táticas enquanto mantém os tempos de turno relativamente rápidos.
+  </Card>
+  <Card title="Divisão para Quatro Jogadores">
+    - **Jogador Um**: Tanque da linha de frente.
+    - **Jogador Dois**: DPS físico à distância.
+    - **Jogador Três**: Controlador mágico.
+    - **Jogador Quatro**: Curandeiro de suporte dedicado.
+    - **Estratégia**: Cooperação máxima exigida; requer coordenação rigorosa de itens e ouro.
+  </Card>
+</CardGrid>
+
+Para aproveitar ao máximo sua build cooperativa, alinhe a distribuição de equipamentos com os atributos principais de cada personagem. Não deixe os jogadores acumularem itens que não beneficiam suas funções principais de combate.
+
+| Função | Atributos Chave | Posição na Grade | Responsabilidade Principal |
+| :--- | :--- | :--- | :--- |
+| **Tanque** | Vitalidade, Força | Linha de Frente | Absorve dano, protege aliados, usa escudos |
+| **DPS Físico** | Percepção, Velocidade | Linha de Trás | Dano à distância, exploração de mapa, emboscadas |
+| **DPS Mágico** | Inteligência | Linha de Trás | Alto dano explosivo, controle de área, uso de pergaminhos |
+| **Suporte** | Inteligência, Talento | Linha de Trás | Cura, buffs para o grupo, gerenciamento de ervas |
+
+Coordenar suas posições na Grade de Batalha 2x4 é tão importante quanto suas escolhas de classe. Mantenha seus conjuradores frágeis atrás do seu Ferreiro pesadamente blindado para fazer uso de habilidades defensivas como Proteger (Guard).
+
+<Callout type="success" title="Estratégia de Inventário Compartilhado">
+Lembre-se de que ouro e equipamentos podem ser trocados livremente entre membros adjacentes do grupo no mapa. Use a tela de resumo do grupo para revisar atributos e entregar armas poderosas ao personagem que possa rolá-las com a maior precisão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão Multiplayer e Mecânicas de Salvamento">
+
+Um ponto comum de confusão em sessões de crossplay é como a progressão da campanha e as recompensas são distribuídas. Em For The King II, os arquivos de salvamento da campanha estão vinculados diretamente à conta do anfitrião. Jogadores clientes que entram em uma sessão não receberão um arquivo de salvamento de campanha local em sua própria máquina. No entanto, todas as moedas de progressão, conquistas e desbloqueios da Loja de Conhecimento são totalmente mantidos por cada jogador individual na sessão.
+
+Essa estrutura permite que você se junte à campanha de um amigo, ajude-o a conquistar um capítulo difícil e ainda ganhe valiosas moedas de Conhecimento para gastar em suas próprias partidas solo mais tarde.
+
+| Tipo de Progressão | Status do Anfitrião | Status do Cliente | Detalhe Chave |
+| :--- | :--- | :--- | :--- |
+| **Salvamento da Campanha** | Salvo no PC/Console do Anfitrião | Não salvo localmente | Clientes devem reentrar no lobby do Anfitrião para continuar |
+| **Conhecimento Ganho** | Totalmente mantido | Totalmente mantido | Ganho com base em marcos de jogabilidade ativos |
+| **Desbloqueios da Loja** | Mantidos globalmente | Mantidos globalmente | Desbloqueios valem para partidas solo e outras cooperativas |
+| **Conquistas** | Desbloqueadas normalmente | Desbloqueadas normalmente | Ativadas simultaneamente para todos os jogadores elegíveis |
+
+Antes de embarcar em uma longa sessão multiplayer, verifique esta lista de preparação pré-jogo para garantir que seu grupo esteja totalmente pronto para os desafios de Fahrul.
+
+<Checklist
+  id="coop-prep-checklist"
+  title="Lista de Verificação da Sessão Multiplayer:"
+  items={[
+    "Confirmar se todos os jogadores estão na mesma versão de atualização do jogo",
+    "Designar um anfitrião com uma conexão de internet estável para manter o arquivo de salvamento",
+    "Coordenar as funções dos personagens antes de gastar os Pontos de Equipamento iniciais",
+    "Selecionar uma região de servidor ideal para todos nas configurações do lobby",
+    "Estabelecer um plano claro para distribuir ouro e ervas Barba de Deus (Godsbeard)"
+  ]}
+/>
+
+<Callout type="info" title="Progressão na Loja de Conhecimento">
+Mesmo que você falhe em uma partida cooperativa, a moeda de Conhecimento que você acumulou durante a sessão de jogo continua sendo sua. Você pode gastá-la imediatamente em sua Loja de Conhecimento pessoal para desbloquear novas classes iniciais, características e itens para partidas futuras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O For The King II suporta crossplay entre Steam e Xbox Game Pass?",
+    answer: "Sim. O crossplay total é suportado entre o Steam e o ecossistema Xbox, que inclui tanto os consoles Xbox quanto o aplicativo Xbox para PC. Os jogadores podem se encontrar usando a ferramenta de busca de sala no jogo."
+  },
+  {
+    question: "Um jogador cliente pode continuar um salvamento de campanha multiplayer em jogo solo?",
+    answer: "Não. Os arquivos de salvamento da campanha são salvos exclusivamente no armazenamento local ou perfil de nuvem do anfitrião. Os jogadores clientes devem entrar no lobby do anfitrião original para continuar o progresso daquela campanha específica."
+  },
+  {
+    question: "O que acontece se um jogador desconectar durante uma sessão multiplayer?",
+    answer: "O jogo não suporta a entrada rápida (hot-joining). O anfitrião deve salvar o jogo, sair para o menu principal, hospedar um novo lobby, esperar o jogador desconectado entrar e então recarregar o arquivo de salvamento."
+  },
+  {
+    question: "Todos os jogadores ganham moeda de Conhecimento durante uma partida cooperativa em crossplay?",
+    answer: "Sim. Todos os jogadores na sessão ganham moeda de Conhecimento com base em conquistas e marcos de jogabilidade ativos. Essa moeda está vinculada ao seu perfil global e pode ser gasta em sua Loja de Conhecimento pessoal."
+  }
+]} />
+
+</Section>

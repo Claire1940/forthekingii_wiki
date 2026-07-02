@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Como Desativar a Velocidade do Caos em For The King II: Guia de Configuração e Estratégia",
+  description: "Saiba como desativar ou reduzir a Velocidade do Caos em For The King II. Domine os controles de dificuldade personalizados, a mitigação no mapa e estratégias de jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Chaos+Speed+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **Velocidade do Caos** é a mecânica central de contagem regressiva em For The King II que dita a pressão no mapa do mundo.
+- **Desative a Velocidade do Caos** completamente usando os controles deslizantes de Regras da Casa (House Rules) personalizadas ao iniciar uma nova aventura.
+- **Configurações personalizadas** permitem desacelerar a linha do tempo do Caos ao mínimo para que você possa explorar livremente.
+- **Conquistas do Steam** para a dificuldade Mestre (Master) serão desativadas se você modificar os controles de dificuldade.
+- **Opções no mapa** como Dispositivos de Caos, Missões Secundárias e Dispositivos de Culto permitem reduzir o Caos durante as partidas ativas.
+</Callout>
+
+<Section icon={Map} title="Como Desativar a Velocidade do Caos em For The King II">
+
+For The King II é um RPG de mesa roguelite em turnos onde a contagem regressiva da linha do tempo do Caos da Rainha Rosomon dita cada movimento seu. Para jogadores que preferem explorar Fahrul sem a pressão constante do tempo, o jogo apresenta um conjunto de opções de dificuldade personalizadas. Embora tecnicamente você não possa remover a interface do Caos da campanha, você pode ajustar o controle deslizante de **Velocidade do Caos** para um nível onde ele se torna praticamente inexistente. 
+
+Isso permite que você aproveite o mapa do mundo, conclua missões secundárias e equipe seu grupo no seu próprio ritmo.
+
+| Seleção de Dificuldade | Modificador de Velocidade do Caos | Recomendado Para | Elegibilidade para Conquistas |
+| | | | |
+| **Aprendiz** | 75% de Velocidade | Novos jogadores aprendendo os sistemas básicos | Totalmente Elegível |
+| **Jornaleiro** | 100% de Velocidade | Experiência padrão equilibrada | Totalmente Elegível |
+| **Mestre** | 150%+ de Velocidade | Veteranos hardcore em busca de um desafio brutal | Totalmente Elegível |
+| **Regras da Casa (Personalizado)** | Ajustável (0% - 200%) | Exploração tranquila ou desafio personalizado | Parcialmente Desativado (Conquistas de Mestre) |
+
+<Callout type="warning" title="Aviso de Conquistas">
+Modificar a Velocidade do Caos ou outros controles de dificuldade nas Regras da Casa é totalmente suportado para progressão e desbloqueios. No entanto, se você estiver tentando obter conquistas do Steam especificamente ligadas a vencer aventuras na dificuldade **Mestre**, modificar os controles desativará essas conquistas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração Passo a Passo de Jogo Personalizado">
+
+Para ajustar a pressão do tempo antes de iniciar uma partida, você deve configurar sua campanha usando o menu de Regras da Casa. Siga estes passos para personalizar a velocidade da sua linha do tempo:
+
+<Steps>
+  <Step num="1" title="Selecione sua Aventura">
+    Vá para o menu principal, escolha Um Jogador ou Multijogador e selecione o capítulo da campanha desejado.
+  </Step>
+  <Step num="2" title="Escolha o Modo de Dificuldade">
+    Clique na tela de seleção de dificuldade. Em vez de escolher uma predefinição como Jornaleiro ou Mestre, clique na opção **Regras da Casa** ou **Personalizado**.
+  </Step>
+  <Step num="3" title="Ajuste o Controle de Velocidade do Caos">
+    Localize o controle deslizante de **Velocidade do Caos**. Arraste-o totalmente para a configuração mais baixa. Isso desacelera a frequência dos pontos de Caos a um nível onde você pode concluir o jogo inteiro sem sofrer um único evento de Caos no mapa.
+  </Step>
+  <Step num="4" title="Ajuste Fino de Outras Regras">
+    Você também pode ajustar outros controles aqui, como o tamanho inicial da **Reserva de Vidas**, os **Pontos de Equipamento** iniciais e as taxas de **Inflação do Mercado** para se adequar perfeitamente ao seu estilo de jogo preferido.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Controles do Anfitrião Cooperativo">
+Se você estiver jogando em modo cooperativo online, apenas o anfitrião do lobby pode ajustar esses controles. Certifique-se de discutir a velocidade da linha do tempo preferida com seu grupo antes de iniciar a partida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas do Mapa para Gerenciar e Reduzir o Caos">
+
+Se você optar por jogar nas dificuldades padrão predefinidas, não poderá desativar a linha do tempo por meio de controles deslizantes no meio da partida. Em vez disso, você deve utilizar táticas de jogo e mecânicas do mapa para reduzir ativamente o Caos e manter a linha do tempo limpa.
+
+<CardGrid cols={3}>
+  <Card title="Geradores de Caos">
+    - Encontrados em cada uma das regiões de Fahrul.
+    - Desativar um **Gerador de Caos** permite que o grupo faça escolhas táticas.
+    - Pode escolher reduzir diretamente o nível atual de Caos em 1.
+  </Card>
+  <Card title="Dispositivos de Culto">
+    - Estruturas ocultas espalhadas pelos biomas.
+    - Interagir com um **Dispositivo de Culto** reduz imediatamente o Caos em 1.
+    - Alvos essenciais para explorar durante o início da jornada.
+  </Card>
+  <Card title="Missões Secundárias de Cidades">
+    - Visite as cidades locais para ver o mural de trabalhos.
+    - Procure por missões de caça ao **Acampamento de Acólitos do Caos**.
+    - Derrotar o acampamento recompensa você com uma redução de Caos de 1.
+  </Card>
+</CardGrid>
+
+### Estratégias Ativas de Redução de Caos
+
+Usar as mecânicas do mapa de forma eficiente é a chave para sobreviver nas dificuldades padrão sem ser sobrecarregado por inimigos de nível alto e emboscadas indesejadas da Guarda da Rainha.
+
+| Método | Valor de Redução de Caos | Nível de Risco | Requisito de Recursos |
+| | | | |
+| **Desativar Gerador de Caos** | Reduz o Caos em 1 | Médio (requer combate) | Alto (exploração de masmorra) |
+| **Destruir Dispositivo de Culto** | Reduz o Caos em 1 | Baixo (requer exploração) | Nenhum |
+| **Concluir Missão Secundária** | Reduz o Caos em 1 | Médio (combate no mapa) | Turnos de movimento |
+| **Carrossel do Carnaval Sombrio** | Reduz o Caos em 1 ou 2 | Alto (rolagens malsucedidas aumentam o Caos) | Ingressos de Carnaval e Sorte |
+
+<Callout type="success" title="O Buffer Invisível de Caos">
+Se você reduzir o Caos quando o medidor visível da linha do tempo estiver completamente vazio, o jogo registrará um \"buffer invisível\". A próxima ocorrência de Caos que normalmente avançaria na sua linha do tempo será completamente anulada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Sobrevivência da Campanha">
+
+Gerenciar seu movimento e o ritmo do grupo é tão importante quanto interagir com dispositivos de redução de Caos. Use esta lista para otimizar seus turnos no mapa:
+
+<Checklist
+  id="chaos-survival-checklist"
+  title="Objetivos de Ritmo no Mapa:"
+  items={[
+    "Priorize a exploração de biomas em busca de Dispositivos de Culto antes de avançar nas missões principais [1.1.1].",
+    "Use pontos de Foco em testes de movimento no mapa para cobrir mais terreno por turno.",
+    "Aceite missões secundárias de cidades que tenham como alvo Acólitos do Caos assim que elas aparecerem.",
+    "Só jogue no Carrossel de Caos do Carnaval Sombrio se tiver personagens com alta sorte.",
+    "Reúna seu grupo antes de entrar em masmorras para que ninguém seja deixado para trás."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso desativar completamente a interface da linha do tempo do Caos em For The King II?",
+    answer: "Não, a linha do tempo visual permanece na tela, pois é um elemento temático central do jogo. No entanto, ao definir o controle de Velocidade do Caos para o ajuste mais baixo nas Regras da Casa, a linha do tempo progredirá tão lentamente que você poderá jogar sem nunca acionar um evento de Caos."
+  },
+  {
+    question: "Reduzir a Velocidade do Caos afeta as conquistas do Steam?",
+    answer: "Sim, mas apenas para as conquistas da dificuldade Mestre. Você ainda pode desbloquear a progressão geral da campanha, cosméticos de personagens e outras conquistas em dificuldades personalizadas, mas as conquistas específicas da dificuldade Mestre exigem as configurações padrão e não modificadas do controle Mestre."
+  },
+  {
+    question: "O que acontece quando o medidor de Caos se enche completamente?",
+    answer: "Quando o Caos atinge o limite máximo, o jogo não termina instantaneamente. Em vez disso, ele ativa estados negativos graves, como fortalecer significativamente os atributos dos inimigos, gerar encontros de elite no mapa e criar ondas agressivas de inimigos que tornam a sobrevivência extremamente difícil."
+  },
+  {
+    question: "Posso alterar a Velocidade do Caos no meio do jogo se minha partida estiver muito difícil?",
+    answer: "Não, os parâmetros de dificuldade e as Regras da Casa devem ser definidos no início de uma aventura. Depois que a campanha for iniciada, você não poderá ajustar os controles de velocidade. Você deve gerenciar o Caos usando métodos do jogo, como Dispositivos de Culto e Missões Secundárias."
+  }
+]} />
+
+</Section>

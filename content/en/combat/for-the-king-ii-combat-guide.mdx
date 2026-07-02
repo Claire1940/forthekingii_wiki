@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Combat Guide: Battle Tactics & Loadouts (2026)",
+  description: "Master For The King II combat with our guide on Battle Grid positioning, Focus management, weapon stats, and party loadout strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Combat+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **For The King II combat guide** focuses on mastering the Battle Grid, Focus spending, and party synergy.
+- **Positioning** is critical; keep durable characters in the front row to protect fragile backline support.
+- **Focus** should be spent on high-impact rolls, boss encounters, and movement to manage Chaos pressure.
+- **Stat-matching** gear to your character's primary attribute is the most effective way to increase damage reliability.
+- **Status effects** can devastate a run; always carry cures for Dazed, Poison, and Stunned effects.
+</Callout>
+
+<Section icon={Swords} title="Mastering Battle Grid Tactics">
+
+Effective combat in For The King II requires more than just high stats; it demands a deep understanding of the 2x4 Battle Grid. Proper placement prevents your support characters from being targeted by melee-focused enemies.
+
+**Video Highlights:**
+- Essential positioning strategies for the 2x4 grid.
+- How to bait enemy attacks using defensive classes.
+- Managing multi-target AOE spells effectively.
+
+<YouTubeEmbed videoId="SWTLISZ31Nk" title="For The King II Combat Basics" />
+
+Front-row characters should prioritize defensive gear and abilities like Guard to mitigate incoming damage. Back-row units, such as Scholars or Herbalists, must remain protected to ensure they can continue providing healing and magic support throughout the encounter.
+
+| Position | Primary Role | Recommended Classes | Key Ability |
+| :--- | :--- | :--- | :--- |
+| Front Row | Tank / Protector | Blacksmith / Fallen Knight | Guard / Taunt |
+| Back Row | Ranged / Support | Herbalist / Hunter | Party Heal / Ranged |
+
+<Callout type="tip" title="Positioning Pro Tip">
+Always check the enemy's attack range and AOE patterns before finalizing your move. If an enemy has a column-based attack, avoid stacking your front and back row units in the same lane.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Focus and Action Economy">
+
+Focus is your most valuable resource for mitigating RNG. It allows you to guarantee a roll, turning potential failures into successful actions. Learning when to conserve Focus and when to spend it is the hallmark of a veteran player.
+
+<Steps>
+  <Step num="1" title="Identify High-Risk Rolls">
+    Reserve Focus for critical moments, such as landing a killing blow on a boss or escaping an ambush.
+  </Step>
+  <Step num="2" title="Plan for Recovery">
+    Use towns, camps, or specific traits like Refocus to replenish your meter before entering dungeons.
+  </Step>
+  <Step num="3" title="Optimize Efficiency">
+    Never hoard Focus until death; spending it to prevent a status effect or a turn skip is always worth the cost.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Resource Management">
+Spend spare Focus before interacting with a Sanctum or Stone Hero. These objects often provide a full meter refill, and any Focus you had previously will be wasted if you don't use it first.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Loadout and Gear Priority">
+
+Equipping your party correctly is essential for survival. A weapon is only as good as the stat it scales with. Always match your character's primary attribute (Strength, Intelligence, Awareness, or Talent) to their weapon type.
+
+| Stat | Best For | Gear Type |
+| :--- | :--- | :--- |
+| Strength | Frontline Tanks | Hammers, Shields, Heavy Armor |
+| Intelligence | Mages / Healers | Tomes, Staves, Wands |
+| Awareness | Ranged / Scouts | Bows, Spears, Light Armor |
+| Talent | Utility / Tricksters | Trinkets, Bombs, Specialized Tools |
+
+<CardGrid cols={3}>
+  <Card title="Survival Gear">
+    - Always prioritize armor upgrades for the frontline.
+    - Keep Godsbeard and Panax stocks high.
+    - Repair gear at towns whenever possible.
+  </Card>
+  <Card title="Damage Scaling">
+    - Match weapon stats to character primary.
+    - Look for Pierce effects against armored foes.
+    - Upgrade weapons before cosmetic items.
+  </Card>
+  <Card title="Utility Items">
+    - Carry status cures for Poison/Acid.
+    - Keep Golden Roots for Focus emergencies.
+    - Use bombs for crowd control.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gear Durability">
+Watch out for Acid status effects. They can permanently dissolve valuable equipment, leaving your party underpowered in long dungeon crawls. Always carry items that can cleanse negative status effects.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist">
+
+Use this checklist to ensure your party is prepared for the challenges of Fahrul. These steps help maintain momentum and minimize the risk of a total party collapse.
+
+<Checklist
+  id="combat-prep"
+  title="Combat Readiness Checklist:"
+  items={[
+    "Verify all party members have stat-appropriate weapons",
+    "Stockpile at least three healing items per character",
+    "Ensure the frontline has a shield or defensive tool equipped",
+    "Identify the nearest Sanctum for emergency revives",
+    "Check town quests for essential gold and supply rewards"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Users} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How does the For The King II combat guide help with new runs?",
+    answer: "This guide focuses on the fundamentals of the Battle Grid and resource management, ensuring you don't waste turns or Focus on low-impact actions, which is vital for early-game success."
+  },
+  {
+    question: "Should I prioritize Strength or Intelligence for my healer?",
+    answer: "Always prioritize Intelligence for healers like the Herbalist. Their healing output and magic utility scale directly with this stat, making them more effective at keeping the party alive."
+  },
+  {
+    question: "Why did my secondary action get blocked?",
+    answer: "You likely have the Dazed status effect, which prevents your character from performing their next secondary action, such as moving or using items."
+  },
+  {
+    question: "Is it better to focus fire or spread damage?",
+    answer: "Focus fire is generally better. Eliminating a dangerous enemy quickly reduces the incoming damage pressure on your party, which is more effective than spreading damage across multiple targets."
+  }
+]} />
+
+</Section>

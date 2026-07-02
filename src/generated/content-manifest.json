@@ -1,1 +1,698 @@
-{}
+{
+  "en": {
+    "classes": [
+      {
+        "slug": "for-the-king-ii-alchemist",
+        "file": "for-the-king-ii-alchemist"
+      },
+      {
+        "slug": "for-the-king-ii-beekeeper",
+        "file": "for-the-king-ii-beekeeper"
+      },
+      {
+        "slug": "for-the-king-ii-best-class",
+        "file": "for-the-king-ii-best-class"
+      },
+      {
+        "slug": "for-the-king-ii-best-party",
+        "file": "for-the-king-ii-best-party"
+      },
+      {
+        "slug": "for-the-king-ii-characters",
+        "file": "for-the-king-ii-characters"
+      },
+      {
+        "slug": "for-the-king-ii-classes",
+        "file": "for-the-king-ii-classes"
+      },
+      {
+        "slug": "for-the-king-ii-lumberjack",
+        "file": "for-the-king-ii-lumberjack"
+      },
+      {
+        "slug": "for-the-king-ii-monk",
+        "file": "for-the-king-ii-monk"
+      },
+      {
+        "slug": "for-the-king-ii-tier-list",
+        "file": "for-the-king-ii-tier-list"
+      },
+      {
+        "slug": "for-the-king-ii-voidwalker",
+        "file": "for-the-king-ii-voidwalker"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "for-the-king-ii-codes",
+        "file": "for-the-king-ii-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "for-the-king-ii-armor",
+        "file": "for-the-king-ii-armor"
+      },
+      {
+        "slug": "for-the-king-ii-character-stats",
+        "file": "for-the-king-ii-character-stats"
+      },
+      {
+        "slug": "for-the-king-ii-combat-guide",
+        "file": "for-the-king-ii-combat-guide"
+      },
+      {
+        "slug": "for-the-king-ii-focus",
+        "file": "for-the-king-ii-focus"
+      },
+      {
+        "slug": "for-the-king-ii-loadouts",
+        "file": "for-the-king-ii-loadouts"
+      },
+      {
+        "slug": "for-the-king-ii-party-build",
+        "file": "for-the-king-ii-party-build"
+      },
+      {
+        "slug": "for-the-king-ii-weapons",
+        "file": "for-the-king-ii-weapons"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "for-the-king-ii-beginner-guide",
+        "file": "for-the-king-ii-beginner-guide"
+      },
+      {
+        "slug": "for-the-king-ii-chaos-level",
+        "file": "for-the-king-ii-chaos-level"
+      },
+      {
+        "slug": "for-the-king-ii-chosen-one",
+        "file": "for-the-king-ii-chosen-one"
+      },
+      {
+        "slug": "for-the-king-ii-guide",
+        "file": "for-the-king-ii-guide"
+      },
+      {
+        "slug": "for-the-king-ii-hotkeys",
+        "file": "for-the-king-ii-hotkeys"
+      },
+      {
+        "slug": "for-the-king-ii-how-to-get-more-powder-kegs",
+        "file": "for-the-king-ii-how-to-get-more-powder-kegs"
+      },
+      {
+        "slug": "for-the-king-ii-how-to-play",
+        "file": "for-the-king-ii-how-to-play"
+      },
+      {
+        "slug": "for-the-king-ii-tips",
+        "file": "for-the-king-ii-tips"
+      },
+      {
+        "slug": "for-the-king-ii-turn-off-chaos-speed",
+        "file": "for-the-king-ii-turn-off-chaos-speed"
+      },
+      {
+        "slug": "for-the-king-ii-walkthrough",
+        "file": "for-the-king-ii-walkthrough"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "for-the-king-ii-co-op",
+        "file": "for-the-king-ii-co-op"
+      },
+      {
+        "slug": "for-the-king-ii-crossplay",
+        "file": "for-the-king-ii-crossplay"
+      },
+      {
+        "slug": "for-the-king-ii-how-many-players",
+        "file": "for-the-king-ii-how-many-players"
+      },
+      {
+        "slug": "for-the-king-ii-local-co-op",
+        "file": "for-the-king-ii-local-co-op"
+      },
+      {
+        "slug": "for-the-king-ii-multiplayer",
+        "file": "for-the-king-ii-multiplayer"
+      },
+      {
+        "slug": "for-the-king-ii-xbox-pc-crossplay",
+        "file": "for-the-king-ii-xbox-pc-crossplay"
+      },
+      {
+        "slug": "for-the-king-ii-xbox-steam-crossplay",
+        "file": "for-the-king-ii-xbox-steam-crossplay"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "for-the-king-ii-game-pass",
+        "file": "for-the-king-ii-game-pass"
+      },
+      {
+        "slug": "for-the-king-ii-ps5",
+        "file": "for-the-king-ii-ps5"
+      },
+      {
+        "slug": "for-the-king-ii-steam",
+        "file": "for-the-king-ii-steam"
+      },
+      {
+        "slug": "for-the-king-ii-switch",
+        "file": "for-the-king-ii-switch"
+      },
+      {
+        "slug": "for-the-king-ii-xbox",
+        "file": "for-the-king-ii-xbox"
+      }
+    ]
+  },
+  "ko": {
+    "classes": [
+      {
+        "slug": "for-the-king-ii-alchemist",
+        "file": "for-the-king-ii-alchemist"
+      },
+      {
+        "slug": "for-the-king-ii-beekeeper",
+        "file": "for-the-king-ii-beekeeper"
+      },
+      {
+        "slug": "for-the-king-ii-best-class",
+        "file": "for-the-king-ii-best-class"
+      },
+      {
+        "slug": "for-the-king-ii-best-party",
+        "file": "for-the-king-ii-best-party"
+      },
+      {
+        "slug": "for-the-king-ii-characters",
+        "file": "for-the-king-ii-characters"
+      },
+      {
+        "slug": "for-the-king-ii-classes",
+        "file": "for-the-king-ii-classes"
+      },
+      {
+        "slug": "for-the-king-ii-lumberjack",
+        "file": "for-the-king-ii-lumberjack"
+      },
+      {
+        "slug": "for-the-king-ii-monk",
+        "file": "for-the-king-ii-monk"
+      },
+      {
+        "slug": "for-the-king-ii-tier-list",
+        "file": "for-the-king-ii-tier-list"
+      },
+      {
+        "slug": "for-the-king-ii-voidwalker",
+        "file": "for-the-king-ii-voidwalker"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "for-the-king-ii-codes",
+        "file": "for-the-king-ii-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "for-the-king-ii-armor",
+        "file": "for-the-king-ii-armor"
+      },
+      {
+        "slug": "for-the-king-ii-character-stats",
+        "file": "for-the-king-ii-character-stats"
+      },
+      {
+        "slug": "for-the-king-ii-combat-guide",
+        "file": "for-the-king-ii-combat-guide"
+      },
+      {
+        "slug": "for-the-king-ii-focus",
+        "file": "for-the-king-ii-focus"
+      },
+      {
+        "slug": "for-the-king-ii-loadouts",
+        "file": "for-the-king-ii-loadouts"
+      },
+      {
+        "slug": "for-the-king-ii-party-build",
+        "file": "for-the-king-ii-party-build"
+      },
+      {
+        "slug": "for-the-king-ii-weapons",
+        "file": "for-the-king-ii-weapons"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "for-the-king-ii-beginner-guide",
+        "file": "for-the-king-ii-beginner-guide"
+      },
+      {
+        "slug": "for-the-king-ii-chaos-level",
+        "file": "for-the-king-ii-chaos-level"
+      },
+      {
+        "slug": "for-the-king-ii-chosen-one",
+        "file": "for-the-king-ii-chosen-one"
+      },
+      {
+        "slug": "for-the-king-ii-guide",
+        "file": "for-the-king-ii-guide"
+      },
+      {
+        "slug": "for-the-king-ii-hotkeys",
+        "file": "for-the-king-ii-hotkeys"
+      },
+      {
+        "slug": "for-the-king-ii-how-to-get-more-powder-kegs",
+        "file": "for-the-king-ii-how-to-get-more-powder-kegs"
+      },
+      {
+        "slug": "for-the-king-ii-how-to-play",
+        "file": "for-the-king-ii-how-to-play"
+      },
+      {
+        "slug": "for-the-king-ii-tips",
+        "file": "for-the-king-ii-tips"
+      },
+      {
+        "slug": "for-the-king-ii-turn-off-chaos-speed",
+        "file": "for-the-king-ii-turn-off-chaos-speed"
+      },
+      {
+        "slug": "for-the-king-ii-walkthrough",
+        "file": "for-the-king-ii-walkthrough"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "for-the-king-ii-co-op",
+        "file": "for-the-king-ii-co-op"
+      },
+      {
+        "slug": "for-the-king-ii-crossplay",
+        "file": "for-the-king-ii-crossplay"
+      },
+      {
+        "slug": "for-the-king-ii-how-many-players",
+        "file": "for-the-king-ii-how-many-players"
+      },
+      {
+        "slug": "for-the-king-ii-local-co-op",
+        "file": "for-the-king-ii-local-co-op"
+      },
+      {
+        "slug": "for-the-king-ii-multiplayer",
+        "file": "for-the-king-ii-multiplayer"
+      },
+      {
+        "slug": "for-the-king-ii-xbox-pc-crossplay",
+        "file": "for-the-king-ii-xbox-pc-crossplay"
+      },
+      {
+        "slug": "for-the-king-ii-xbox-steam-crossplay",
+        "file": "for-the-king-ii-xbox-steam-crossplay"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "for-the-king-ii-game-pass",
+        "file": "for-the-king-ii-game-pass"
+      },
+      {
+        "slug": "for-the-king-ii-ps5",
+        "file": "for-the-king-ii-ps5"
+      },
+      {
+        "slug": "for-the-king-ii-steam",
+        "file": "for-the-king-ii-steam"
+      },
+      {
+        "slug": "for-the-king-ii-switch",
+        "file": "for-the-king-ii-switch"
+      },
+      {
+        "slug": "for-the-king-ii-xbox",
+        "file": "for-the-king-ii-xbox"
+      }
+    ]
+  },
+  "pt": {
+    "classes": [
+      {
+        "slug": "for-the-king-ii-alchemist",
+        "file": "for-the-king-ii-alchemist"
+      },
+      {
+        "slug": "for-the-king-ii-beekeeper",
+        "file": "for-the-king-ii-beekeeper"
+      },
+      {
+        "slug": "for-the-king-ii-best-class",
+        "file": "for-the-king-ii-best-class"
+      },
+      {
+        "slug": "for-the-king-ii-best-party",
+        "file": "for-the-king-ii-best-party"
+      },
+      {
+        "slug": "for-the-king-ii-characters",
+        "file": "for-the-king-ii-characters"
+      },
+      {
+        "slug": "for-the-king-ii-classes",
+        "file": "for-the-king-ii-classes"
+      },
+      {
+        "slug": "for-the-king-ii-lumberjack",
+        "file": "for-the-king-ii-lumberjack"
+      },
+      {
+        "slug": "for-the-king-ii-monk",
+        "file": "for-the-king-ii-monk"
+      },
+      {
+        "slug": "for-the-king-ii-tier-list",
+        "file": "for-the-king-ii-tier-list"
+      },
+      {
+        "slug": "for-the-king-ii-voidwalker",
+        "file": "for-the-king-ii-voidwalker"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "for-the-king-ii-codes",
+        "file": "for-the-king-ii-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "for-the-king-ii-armor",
+        "file": "for-the-king-ii-armor"
+      },
+      {
+        "slug": "for-the-king-ii-character-stats",
+        "file": "for-the-king-ii-character-stats"
+      },
+      {
+        "slug": "for-the-king-ii-combat-guide",
+        "file": "for-the-king-ii-combat-guide"
+      },
+      {
+        "slug": "for-the-king-ii-focus",
+        "file": "for-the-king-ii-focus"
+      },
+      {
+        "slug": "for-the-king-ii-loadouts",
+        "file": "for-the-king-ii-loadouts"
+      },
+      {
+        "slug": "for-the-king-ii-party-build",
+        "file": "for-the-king-ii-party-build"
+      },
+      {
+        "slug": "for-the-king-ii-weapons",
+        "file": "for-the-king-ii-weapons"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "for-the-king-ii-beginner-guide",
+        "file": "for-the-king-ii-beginner-guide"
+      },
+      {
+        "slug": "for-the-king-ii-chaos-level",
+        "file": "for-the-king-ii-chaos-level"
+      },
+      {
+        "slug": "for-the-king-ii-chosen-one",
+        "file": "for-the-king-ii-chosen-one"
+      },
+      {
+        "slug": "for-the-king-ii-guide",
+        "file": "for-the-king-ii-guide"
+      },
+      {
+        "slug": "for-the-king-ii-hotkeys",
+        "file": "for-the-king-ii-hotkeys"
+      },
+      {
+        "slug": "for-the-king-ii-how-to-get-more-powder-kegs",
+        "file": "for-the-king-ii-how-to-get-more-powder-kegs"
+      },
+      {
+        "slug": "for-the-king-ii-how-to-play",
+        "file": "for-the-king-ii-how-to-play"
+      },
+      {
+        "slug": "for-the-king-ii-tips",
+        "file": "for-the-king-ii-tips"
+      },
+      {
+        "slug": "for-the-king-ii-turn-off-chaos-speed",
+        "file": "for-the-king-ii-turn-off-chaos-speed"
+      },
+      {
+        "slug": "for-the-king-ii-walkthrough",
+        "file": "for-the-king-ii-walkthrough"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "for-the-king-ii-co-op",
+        "file": "for-the-king-ii-co-op"
+      },
+      {
+        "slug": "for-the-king-ii-crossplay",
+        "file": "for-the-king-ii-crossplay"
+      },
+      {
+        "slug": "for-the-king-ii-how-many-players",
+        "file": "for-the-king-ii-how-many-players"
+      },
+      {
+        "slug": "for-the-king-ii-local-co-op",
+        "file": "for-the-king-ii-local-co-op"
+      },
+      {
+        "slug": "for-the-king-ii-multiplayer",
+        "file": "for-the-king-ii-multiplayer"
+      },
+      {
+        "slug": "for-the-king-ii-xbox-pc-crossplay",
+        "file": "for-the-king-ii-xbox-pc-crossplay"
+      },
+      {
+        "slug": "for-the-king-ii-xbox-steam-crossplay",
+        "file": "for-the-king-ii-xbox-steam-crossplay"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "for-the-king-ii-game-pass",
+        "file": "for-the-king-ii-game-pass"
+      },
+      {
+        "slug": "for-the-king-ii-ps5",
+        "file": "for-the-king-ii-ps5"
+      },
+      {
+        "slug": "for-the-king-ii-steam",
+        "file": "for-the-king-ii-steam"
+      },
+      {
+        "slug": "for-the-king-ii-switch",
+        "file": "for-the-king-ii-switch"
+      },
+      {
+        "slug": "for-the-king-ii-xbox",
+        "file": "for-the-king-ii-xbox"
+      }
+    ]
+  },
+  "ru": {
+    "classes": [
+      {
+        "slug": "for-the-king-ii-alchemist",
+        "file": "for-the-king-ii-alchemist"
+      },
+      {
+        "slug": "for-the-king-ii-beekeeper",
+        "file": "for-the-king-ii-beekeeper"
+      },
+      {
+        "slug": "for-the-king-ii-best-class",
+        "file": "for-the-king-ii-best-class"
+      },
+      {
+        "slug": "for-the-king-ii-best-party",
+        "file": "for-the-king-ii-best-party"
+      },
+      {
+        "slug": "for-the-king-ii-characters",
+        "file": "for-the-king-ii-characters"
+      },
+      {
+        "slug": "for-the-king-ii-classes",
+        "file": "for-the-king-ii-classes"
+      },
+      {
+        "slug": "for-the-king-ii-lumberjack",
+        "file": "for-the-king-ii-lumberjack"
+      },
+      {
+        "slug": "for-the-king-ii-monk",
+        "file": "for-the-king-ii-monk"
+      },
+      {
+        "slug": "for-the-king-ii-tier-list",
+        "file": "for-the-king-ii-tier-list"
+      },
+      {
+        "slug": "for-the-king-ii-voidwalker",
+        "file": "for-the-king-ii-voidwalker"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "for-the-king-ii-codes",
+        "file": "for-the-king-ii-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "for-the-king-ii-armor",
+        "file": "for-the-king-ii-armor"
+      },
+      {
+        "slug": "for-the-king-ii-character-stats",
+        "file": "for-the-king-ii-character-stats"
+      },
+      {
+        "slug": "for-the-king-ii-combat-guide",
+        "file": "for-the-king-ii-combat-guide"
+      },
+      {
+        "slug": "for-the-king-ii-focus",
+        "file": "for-the-king-ii-focus"
+      },
+      {
+        "slug": "for-the-king-ii-loadouts",
+        "file": "for-the-king-ii-loadouts"
+      },
+      {
+        "slug": "for-the-king-ii-party-build",
+        "file": "for-the-king-ii-party-build"
+      },
+      {
+        "slug": "for-the-king-ii-weapons",
+        "file": "for-the-king-ii-weapons"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "for-the-king-ii-beginner-guide",
+        "file": "for-the-king-ii-beginner-guide"
+      },
+      {
+        "slug": "for-the-king-ii-chaos-level",
+        "file": "for-the-king-ii-chaos-level"
+      },
+      {
+        "slug": "for-the-king-ii-chosen-one",
+        "file": "for-the-king-ii-chosen-one"
+      },
+      {
+        "slug": "for-the-king-ii-guide",
+        "file": "for-the-king-ii-guide"
+      },
+      {
+        "slug": "for-the-king-ii-hotkeys",
+        "file": "for-the-king-ii-hotkeys"
+      },
+      {
+        "slug": "for-the-king-ii-how-to-get-more-powder-kegs",
+        "file": "for-the-king-ii-how-to-get-more-powder-kegs"
+      },
+      {
+        "slug": "for-the-king-ii-how-to-play",
+        "file": "for-the-king-ii-how-to-play"
+      },
+      {
+        "slug": "for-the-king-ii-tips",
+        "file": "for-the-king-ii-tips"
+      },
+      {
+        "slug": "for-the-king-ii-turn-off-chaos-speed",
+        "file": "for-the-king-ii-turn-off-chaos-speed"
+      },
+      {
+        "slug": "for-the-king-ii-walkthrough",
+        "file": "for-the-king-ii-walkthrough"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "for-the-king-ii-co-op",
+        "file": "for-the-king-ii-co-op"
+      },
+      {
+        "slug": "for-the-king-ii-crossplay",
+        "file": "for-the-king-ii-crossplay"
+      },
+      {
+        "slug": "for-the-king-ii-how-many-players",
+        "file": "for-the-king-ii-how-many-players"
+      },
+      {
+        "slug": "for-the-king-ii-local-co-op",
+        "file": "for-the-king-ii-local-co-op"
+      },
+      {
+        "slug": "for-the-king-ii-multiplayer",
+        "file": "for-the-king-ii-multiplayer"
+      },
+      {
+        "slug": "for-the-king-ii-xbox-pc-crossplay",
+        "file": "for-the-king-ii-xbox-pc-crossplay"
+      },
+      {
+        "slug": "for-the-king-ii-xbox-steam-crossplay",
+        "file": "for-the-king-ii-xbox-steam-crossplay"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "for-the-king-ii-game-pass",
+        "file": "for-the-king-ii-game-pass"
+      },
+      {
+        "slug": "for-the-king-ii-ps5",
+        "file": "for-the-king-ii-ps5"
+      },
+      {
+        "slug": "for-the-king-ii-steam",
+        "file": "for-the-king-ii-steam"
+      },
+      {
+        "slug": "for-the-king-ii-switch",
+        "file": "for-the-king-ii-switch"
+      },
+      {
+        "slug": "for-the-king-ii-xbox",
+        "file": "for-the-king-ii-xbox"
+      }
+    ]
+  }
+}

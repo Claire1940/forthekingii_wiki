@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Multiplayer de For The King II: Guia de Configuração Cooperativa e Crossplay",
+  description: "Aprenda a configurar salas multiplayer em For The King II, configurar o crossplay, gerenciar o cooperativo local e montar as melhores composições de equipe em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/7b41a1/fff?text=Multiplayer+Guide",
+  date: "2026-07-02",
+  author: "Equipe do Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Capacidade do grupo**: Jogue com até quatro jogadores nos modos cooperativo online ou local [00基础信息].
+- **Recursos de Crossplay**: Os ecossistemas Steam e Xbox oferecem suporte a multiplayer multiplataforma [00首页信息-2].
+- **Reconexão à sala**: Salve e saia para o menu principal para permitir que jogadores desconectados voltem à partida [00首页信息-2].
+- **Configuração do cooperativo local**: Conecte vários controles no PC ou console para jogarem juntos offline [00首页信息-2].
+</Callout>
+
+<Section icon={Map} title="Configurando Salas Multiplayer de For The King II">
+
+Configurar uma campanha cooperativa de sucesso em **multiplayer de for the king ii** exige uma boa compreensão da configuração de salas e do gerenciamento de arquivos de salvamento [00首页信息-2]. Como o jogo é baseado em mecânicas de tabuleiro roguelite em turnos, a coordenação começa antes mesmo de os primeiros dados serem sequer rolados [00基础信息]. 
+
+Ao hospedar um jogo multiplayer online, o jogador anfitrião (host) é responsável por criar a sessão e gerenciar o progresso do salvamento [00首页信息-2]. No menu multiplayer, o host pode personalizar as configurações da aventura, escolher a região, dar um nome à sala e definir uma senha para garantir que apenas amigos convidados possam entrar [00首页信息-2]. 
+
+Um de seus aspectos mais críticos do gerenciamento de uma sala é entender como o jogo lida com as conexões dos jogadores. Ao contrário de jogos multiplayer padrão com entrada dinâmica (drop-in), os jogadores não podem entrar em uma partida que já está em andamento [00首页信息-2]. Se um jogador se desconectar ou se você quiser retomar uma campanha salva com seu grupo, deverá seguir o fluxo correto de reconexão [00首页信息-2].
+
+| Recurso | Descrição | Melhor Prática |
+| :--- | :--- | :--- |
+| Controles do Host | Criar aventura, definir região, definir senha | Manter a região idêntica para todos os jogadores |
+| Arquivo de Salvamento | Salvo na máquina do host | O host deve carregar a partir do menu principal |
+| Método de Reconexão | Voltar para a sala, convidar, carregar salvamento | Nunca tente entrar em uma partida ativa |
+
+<Callout type="warning" title="Regra: Primeiro a Sala">
+Se um jogador se desconectar durante uma partida, o host deve salvar o jogo, sair para o menu principal, recriar a sala, esperar que todos os jogadores se reconectem e só então carregar o arquivo de salvamento [00首页信息-2]. Tentar convidar jogadores diretamente para um jogo ativo resultará em erros de conexão [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Compatibilidade de Plataformas e Recursos de Crossplay">
+
+Compreender o cenário das plataformas é essencial ao planejar suas sessões multiplayer [00首页信息-2]. *For The King II* está disponível em várias plataformas importantes, incluindo PC (Steam), Xbox e PlayStation [00基础信息]. No entanto, os recursos de multiplayer e as capacidades de crossplay variam dependendo de onde você e seus amigos adquiriram o jogo [00首页信息-2].
+
+Os ecossistemas Steam e Xbox compartilham recursos robustos de multiplayer e cooperativo multiplataforma [00首页信息-2]. Isso significa que os jogadores de PC no Steam podem se juntar perfeitamente a jogos hospedados por jogadores de console Xbox ou por aqueles que usam o PC Game Pass [00首页信息-2]. Os jogadores de PlayStation, contudo, operam em um ecossistema separado [00首页信息-2]. Embora o PlayStation ofereça suporte para cooperativo online de até 4 jogadores, ele não possui conectividade multiplataforma com o Steam ou Xbox na versão atual de 2026 [00首页信息-2].
+
+| Recurso | PC (Steam) | Xbox | PlayStation |
+| :--- | :--- | :--- | :--- |
+| Número de Jogadores | 1-4 Jogadores | 1-4 Jogadores | 1-4 Jogadores |
+| Cooperativo Online | Suportado | Suportado | Suportado (PS Plus) |
+| Cooperativo Local | Suportado | Suportado | Suportado |
+| Crossplay | Steam para Xbox | Xbox para Steam | Sem suporte multiplataforma |
+
+<Callout type="info" title="Requisitos de Assinatura">
+Jogar o cooperativo online em consoles exige assinaturas ativas das respectivas plataformas [00首页信息-2]. Jogadores de Xbox precisam do Xbox Game Pass (Core ou Ultimate), enquanto jogadores de PlayStation precisam de uma assinatura ativa do PlayStation Plus para acessar salas online [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passos para Configurar o Cooperativo Local e Tela Compartilhada">
+
+Se você preferir jogar com amigos no mesmo sofá, *For The King II* oferece funcionalidades dedicadas de cooperativo local e tela compartilhada [00首页信息-2]. Este modo permite que vários jogadores controlem personagens diferentes no grupo usando um único PC ou console [00首页信息-2]. Siga estes passos para configurar sua sessão multiplayer local [00首页信息-1, 00首页信息-2]:
+
+<Steps>
+  <Step num="1" title="Conecte Seus Controles">
+    Antes de iniciar o jogo, certifique-se de que todos os controles estejam conectados e sejam reconhecidos pelo seu PC ou console [00首页信息-2]. O jogo suporta uma mistura de teclado/mouse e gamepads no PC [00首页信息-2].
+  </Step>
+  <Step num="2" title="Selecione o Modo de Jogo Local">
+    No menu principal, selecione a opção de cooperativo local ou tela compartilhada [00首页信息-2]. Isso abrirá a tela de criação de personagens, onde você poderá montar seu grupo de até quatro personagens [00首页信息-1, 00首页信息-2].
+  </Step>
+  <Step num="3" title="Atribua os Controles aos Personagens">
+    Mapeie cada dispositivo de entrada conectado a um slot de personagem específico [00首页信息-1]. Um único jogador pode controlar vários personagens se você tiver menos de quatro jogadores físicos [00首页信息-1].
+  </Step>
+  <Step num="4" title="Gerencie os Turnos no Mapa e no Combate">
+    No mapa do mundo (overworld), a câmera acompanha dinamicamente o turno do personagem ativo [00首页信息-2]. Durante o combate na Grade de Batalha, o controle muda automaticamente para o gamepad atribuído ao personagem cujo turno está ativo [00首页信息-2].
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Mistura de Controles no PC">
+No PC, você pode jogar o cooperativo local com um jogador usando o teclado e o mouse enquanto os outros usam controles USB ou sem fio, tornando a configuração em casa altamente acessível [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Composições de Grupo para o Cooperativo">
+
+O sucesso nas campanhas multiplayer depende muito da sinergia da equipe [00首页信息-1]. Um grupo mal planejado desmoronará rapidamente sob a pressão do Caos e de encontros de alta dificuldade [00首页信息-1, 00首页信息-2]. Ao jogar com amigos, vocês devem atribuir funções distintas — como tanque de linha de frente, dano físico, dano mágico e suporte de cura — para garantir a sobrevivência [00首页信息-1]. 
+
+Aqui estão as composições de grupo mais eficazes projetadas especificamente para a coordenação multiplayer [00首页信息-1]:
+
+<CardGrid cols={3}>
+  <Card title="Grupo Balanceado para Primeira Vitória">
+    - **Ferreiro**: Tanque de linha de frente e proteção [00首页信息-1]
+    - **Caçador**: Dano físico à distância e exploração [00首页信息-1]
+    - **Erudito**: Dano mágico e recuperação de Foco [00首页信息-1]
+    - **Herborista**: Cura de grupo e suprimento de ervas [00首页信息-1]
+  </Card>
+  <Card title="Divisão para Dois Jogadores">
+    - **Jogador 1**: Controla o Ferreiro e a Herborista [00首页信息-1]
+    - **Jogador 2**: Controla o Caçador e o Erudito [00首页信息-1]
+    - **Sinergia**: Equilibra perfeitamente defesa e ataque [00首页信息-1]
+  </Card>
+  <Card title="Rede de Segurança do Circo Sombrio">
+    - **Ferreiro**: Fixa a linha de frente na grade [00首页信息-1]
+    - **Herborista**: Garante a cura de todo o grupo [00首页信息-1]
+    - **Alquimista**: Fornece dano explosivo em área [00首页信息-1]
+    - **Caçador**: Elimina alvos prioritários de longe [00首页信息-1]
+  </Card>
+</CardGrid>
+
+Para fazer essas composições funcionarem, os jogadores devem coordenar a distribuição de saques [00首页信息-1]. Entregar o equipamento errado para um personagem com atributos principais incompatíveis é uma maneira rápida de estragar a partida [00首页信息-1].
+
+| Classe | Função | Atributo Principal | Prioridade de Saque Principal |
+| :--- | :--- | :--- | :--- |
+| Ferreiro | Tanque de Linha de Frente | Vitalidade | Escudos, armadura pesada, itens de provocação [00首页信息-1, 00首页信息-2] |
+| Caçador | Físico à Distância | Percepção | Arcos, itens de velocidade, armas físicas [00首页信息-1, 00首页信息-2] |
+| Erudito | Dano Mágico | Inteligência | Tomos, cajados, modificadores mágicos [00首页信息-1, 00首页信息-2] |
+| Herborista | Suporte de Cura | Inteligência | Barba de Deus, itens de cura, itens de suporte [00首页信息-1, 00首页信息-2] |
+
+<Callout type="success" title="Troca de Inventário">
+Lembre-se de que os jogadores podem trocar ouro e equipamentos através do menu de inventário [00首页信息-2]. No entanto, seus personagens devem estar em blocos hexágonos adjacentes no mapa do mundo para iniciar uma troca, então planeje seus movimentos adequadamente [00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos e Lista de Verificação da Campanha Multiplayer">
+
+Coordenar o movimento e o gasto de recursos é tão importante quanto vencer batalhas na grade de combate [00首页信息-2]. Em uma campanha multiplayer, os jogadores costumam cometer o erro de se separarem demais no mapa do mundo [00首页信息-1]. Embora a exploração seja útil, afastar-se sozinho expõe personagens individuais a emboscadas mortais de combate individual [00首页信息-1]. 
+
+Mantenha seu grupo alinhado concentrando-se nestes objetivos essenciais de sobrevivência multiplayer [00首页信息-1, 00首页信息-2]:
+
+<Checklist
+  id="multiplayer-survival"
+  title="Objetivos de Sobrevivência Multiplayer:"
+  items={[
+    "Localizar o Santuário do bioma para garantir um bônus de prevenção de morte para a equipe [00首页信息-1, 00首页信息-2]",
+    "Gastar os pontos de Foco sobressalentes antes de ativar um Herói de Pedra para maximizar a recuperação [00首页信息-1, 00首页信息-2]",
+    "Coordenar as visitas às cidades para comprar Barba de Deus e ervas utilitárias antes que se esgotem [00首页信息-1, 00首页信息-2]",
+    "Reunir o grupo fisicamente antes de entrar em qualquer masmorra para evitar deixar alguém para trás [00首页信息-1, 00首页信息-2]",
+    "Trocar imediatamente equipamentos compatíveis com os atributos do personagem correto para otimizar as rolagens de combate [00首页信息-1, 00首页信息-2]"
+  ]}
+/>
+
+<Callout type="warning" title="Regras de Entrada em Masmorras">
+Entrar em uma masmorra puxará automaticamente todos os membros do grupo para a instância, independentemente de quão distantes estejam no mapa do mundo [00首页信息-1, 00首页信息-2]. Certifique-se de que toda a sua equipe esteja totalmente curada e abastecida com ervas antes que alguém inicie a entrada na masmorra [00首页信息-1, 00首页信息-2].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Para ajudar você a resolver problemas de conexão e dúvidas de jogabilidade rapidamente, consulte estas perguntas frequentes sobre as mecânicas do multiplayer [00首页信息-2]:
+
+<FAQ items={[
+  {
+    question: "Um novo jogador pode entrar em uma partida multiplayer que já está em andamento?",
+    answer: "Não, os jogadores não podem entrar diretamente em uma partida ativa. O host deve salvar o jogo, sair para o menu principal, recriar a sala multiplayer, esperar que todos os jogadores entrem e então recarregar o arquivo de salvamento."
+  },
+  {
+    question: "O multiplayer de For The King II suporta crossplay entre PC e PlayStation?",
+    answer: "Não, atualmente o crossplay é suportado entre o Steam e o ecossistema Xbox (incluindo o PC Game Pass). Os jogadores de PlayStation só podem jogar o cooperativo online com outros usuários nos consoles PlayStation."
+  },
+  {
+    question: "Como você troca itens entre jogadores no cooperativo?",
+    answer: "Os jogadores podem trocar ouro e equipamentos através do menu de inventário, desde que seus personagens estejam em blocos hexágonos adjacentes no mapa do mundo, ou durante as fases de preparação de combate."
+  },
+  {
+    question: "O que acontece se um jogador se desconectar durante uma sessão multiplayer?",
+    answer: "O jogo será pausado ou permitirá que o host assuma o controle do personagem do jogador desconectado. Para permitir que o jogador se reconecte, o host deve salvar, sair para a sala e recarregar o jogo."
+  }
+]} />
+
+<Callout type="tip" title="Correspondência de Versão">
+Se você não conseguir encontrar a sala do seu amigo no navegador multiplayer, verifique se todos os jogadores atualizaram o jogo para a exata mesma versão, pois incompatibilidades de versão ocultarão as salas [00首页信息-2].
+</Callout>
+
+</Section>

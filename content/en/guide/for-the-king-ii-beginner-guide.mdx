@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Beginner Guide: 2026 Strategy & Survival Walkthrough",
+  description: "Master Fahrul with our For The King II beginner guide. Learn combat tactics, class tier lists, party builds, and survival tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Beginner+Survival+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **For The King II beginner guide**: Focus on role balance, resource management, and understanding the 2x4 Battle Grid.
+- **Party Composition**: Always include a dedicated healer (Herbalist) and a sturdy tank (Blacksmith) to survive early Chaos.
+- **Focus System**: Use Focus points to guarantee critical rolls during high-stakes combat or movement checks.
+- **Lore Store**: Spend earned Lore currency to unlock powerful new classes, traits, and starting gear for future runs.
+- **Multiplayer**: Coordinate loot and positioning in 4-player co-op to maximize efficiency across Steam and Xbox.
+</Callout>
+
+<Section icon={Swords} title="Mastering the Battle Grid and Combat Fundamentals">
+
+For The King II introduces a sophisticated 2x4 Battle Grid system that transforms traditional turn-based combat into a tactical puzzle. Success in Fahrul depends less on lucky dice rolls and more on how you position your heroes to exploit row and column mechanics. Front-row characters naturally act as shields, while the back row provides safety for fragile casters and ranged specialists.
+
+| Status Effect | Combat Impact | How to Cure |
+| :--- | :--- | :--- |
+| **Dazed** | Removes secondary action (no items/move) | Wait 1 turn / Panax |
+| **Stunned** | Skips target's next full turn | Wait 1 turn / Panax |
+| **Burn** | Fire damage over time (DOT) | Water Cloth / Panax |
+| **Bleed** | Physical damage over time (DOT) | Bandages / Panax |
+| **Acid** | Can permanently dissolve equipment | Acid Sponge / Panax |
+| **Shock** | Next roll automatically fails | Wait 1 turn / Panax |
+
+Effective combat requires managing primary and secondary actions. You can move or use a consumable as a secondary action before committing to a primary attack. This allows you to reposition for a better AOE (Area of Effect) strike or heal a teammate before the enemy acts.
+
+<Callout type="warning" title="Positional Danger">
+Avoid clumping all four heroes in a single row or column. Many enemies utilize splash damage or "Piercing" attacks that hit multiple adjacent tiles. Spacing your party out reduces the effectiveness of enemy AOE spells.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Class Tier List and Party Composition Strategy">
+
+Building a balanced team is the most important decision in any **For The King II beginner guide**. A party that lacks magic damage will struggle against high-armor golems, while a party without a healer will quickly drain their gold on expensive Godsbeard.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Herbalist">
+    - **Role**: Essential Support
+    - **Key Ability**: Party Heal
+    - **Strategy**: Keeps the team alive without wasting individual turns on herbs.
+  </Card>
+  <Card title="A-Tier: Blacksmith">
+    - **Role**: Frontline Tank
+    - **Key Ability**: Steadfast
+    - **Strategy**: Uses shields to absorb damage and protect the backline.
+  </Card>
+  <Card title="A-Tier: Scholar">
+    - **Role**: Magic Damage
+    - **Key Ability**: Refocus
+    - **Strategy**: Restores Focus points to maintain high-accuracy magic attacks.
+  </Card>
+</CardGrid>
+
+For your first clear, we recommend the "Standard Vanguard" build: **Blacksmith, Hunter, Scholar, and Herbalist**. This composition covers physical damage, ranged precision, magical utility, and group sustain.
+
+| Class | Primary Stat | Best Weapon Type | Role Complexity |
+| :--- | :--- | :--- | :--- |
+| **Blacksmith** | Vitality | Hammers / Shields | Low (Tank) |
+| **Hunter** | Awareness | Bows / Spears | Low (DPS) |
+| **Scholar** | Intelligence | Staves / Tomes | Medium (Utility) |
+| **Alchemist** | Intelligence | Bombs / Chemicals | High (Burst) |
+| **Pathfinder** | Awareness | Daggers / Pistols | Medium (Scout) |
+
+<Callout type="tip" title="Stat Alignment">
+Always equip gear that matches your character's highest stat. Giving an Intelligence-based Tome to a Blacksmith is a waste of a turn, as their low Intelligence stat will cause frequent roll failures.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploration, Towns, and Chaos Management">
+
+The overworld of Fahrul is a hex-based map filled with opportunities and deadly traps. As you explore, the "Chaos Meter" at the top of the screen will fill. If Chaos reaches maximum, the world becomes significantly more dangerous, spawning stronger enemies and reducing town services.
+
+<Checklist
+  id="biome-checklist"
+  title="Essential Biome Goals:"
+  items={[
+    "Locate the local Sanctum for a permanent buff and death protection",
+    "Visit the Stone Hero for a free level-up and Focus refill",
+    "Complete at least one Town Quest to lower Chaos or earn gold",
+    "Restock on Godsbeard and Panax before entering the main dungeon",
+    "Identify enemy camps to prevent ambushes during travel"
+  ]}
+/>
+
+Towns are your primary safety hubs. Every first visit to a new town refreshes its inventory. Prioritize buying all available Godsbeard, as the price increases every time the Chaos meter ticks upward.
+
+<Callout type="info" title="Sanctum Benefits">
+Sanctums provide powerful passive bonuses, such as the Sanctum of Haste (extra movement) or Sanctum of Shadow (evasion). Most importantly, they act as a "Second Life." If a hero dies while under a Sanctum's protection, they are revived immediately, though the Sanctum is destroyed.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step Guide to Your First Successful Run">
+
+Following a structured path will help you avoid the common pitfalls that lead to a "Party Wipe" in the early game. Use this sequence to stabilize your economy and power level.
+
+<Steps>
+  <Step num="1" title="Initial Loadout and Traits">
+    Before starting, spend your Lore points in the Lore Store to unlock traits like "Deep Thinker" (restores Focus when ending a turn in a town) or "Nimble" (extra secondary action). Equip your party with basic supplies like a single Godsbeard each.
+  </Step>
+  <Step num="2" title="Early Leveling and Questing">
+    Don't rush the main objective. Spend the first 5-10 turns clearing nearby camps and completing a "Kill Monster" quest from the nearest town. This provides the gold needed for better weapons and essential armor.
+  </Step>
+  <Step num="3" title="Focus and Resource Management">
+    Use Focus points for guaranteed hits on high-value targets. Never enter a dungeon with zero Focus. If you find a Stone Hero, use up your remaining Focus first, then interact with the statue to refill the meter for free.
+  </Step>
+  <Step num="4" title="Dungeon Preparation">
+    Dungeons are gauntlets of 5-8 consecutive fights. You cannot visit towns once inside. Ensure your Herbalist has at least 3 Godsbeard and your damage dealers have repaired gear. Group your party together on the overworld so everyone is pulled into the dungeon simultaneously.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Victory Tip">
+If a fight looks too difficult, use the "Ambush" mechanic. A successful ambush roll allows you to fight a single enemy without their nearby allies joining the battle, effectively turning a 4v4 disaster into a 4v1 slaughter.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression and Multiplayer Coordination">
+
+For The King II is designed for replayability. Even a failed run contributes to your overall progression through the Lore Store. By completing specific achievements and reaching new biomes, you unlock the ability to purchase superior classes like the Alchemist or specialized gear sets.
+
+| Feature | Steam / PC | Xbox / PlayStation |
+| :--- | :--- | :--- |
+| **Max Players** | 4 Players | 4 Players |
+| **Online Co-op** | Supported (Lobby System) | Supported (Xbox Live/PS Plus) |
+| **Local Co-op** | Supported (Multi-controller) | Supported (Split-screen) |
+| **Crossplay** | Steam + Epic + Windows | Xbox + PC (Play Anywhere) |
+| **Save Sharing** | Host-side only | Host-side only |
+
+In multiplayer, communication is vital. Players can trade gold and items if they are standing on adjacent hexes or are in the same combat encounter. Use the "Party Summary" screen to see who needs equipment upgrades the most.
+
+<Callout type="tip" title="Loot Distribution">
+Don't be greedy. A Hunter with a legendary bow is useless if the Blacksmith dies in one hit because they have no armor. Distribute defensive gear to your front-liners first to ensure the whole party survives the long game.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="For The King II FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I unlock new classes in For The King II?",
+    answer: "New classes are unlocked primarily through the Lore Store using Lore currency earned during play. Some classes, like the Monk, were added in free updates, while others like the Toymaker are part of the Tinkerers of Fate DLC."
+  },
+  {
+    question: "What is the best way to restore Focus points?",
+    answer: "You can restore Focus by Meditating in towns, using Golden Root herbs, resting in a player-made camp, or interacting with Stone Heroes found across the map."
+  },
+  {
+    question: "Can I play For The King II solo?",
+    answer: "Yes, a solo player can control all four characters in the party. This allows for perfect tactical coordination but lacks the social fun of 4-player co-op."
+  },
+  {
+    question: "What happens if the Chaos meter reaches the end?",
+    answer: "When Chaos maxes out, powerful 'Chaos Beasts' will spawn, town prices will skyrocket, and your party will face constant, difficult encounters until you complete a quest to reduce the Chaos level."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Remember that For The King II is a roguelite. Failure is part of the learning curve. Each run provides more Lore and more knowledge of enemy patterns, making your next journey into Fahrul that much more successful.
+</Callout>
+
+</Section>

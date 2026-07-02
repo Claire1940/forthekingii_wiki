@@ -1,0 +1,216 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Guide: 2026 Starter Tips & Best Party Builds",
+  description: "Master Fahrul with our For The King II guide. Explore class tier lists, combat grid tactics, party compositions, and DLC strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d1b4e/ffd700?text=For+The+King+II+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **For The King II guide**: Focus on balancing roles (Tank, DPS, Support) rather than picking favorites.
+- **Combat Grid**: Positioning is everything; place high-defense units in the front row to protect fragile casters.
+- **Focus Management**: Spend Focus on high-stakes rolls like finishing off a boss or avoiding a deadly trap.
+- **Lore Store**: Prioritize unlocking new classes and starting items to increase the success rate of future runs.
+- **Co-op Strategy**: Coordinate with teammates to ensure diverse damage types (Physical vs. Magical) are covered.
+</Callout>
+
+<Section icon={Map} title="Getting Started in Fahrul: For The King II Guide">
+
+Embarking on a journey through the procedurally generated lands of Fahrul requires more than just luck; it demands a deep understanding of the game's core systems. This **for the king ii guide** aims to bridge the gap between a novice adventurer and a legendary hero. Unlike its predecessor, the sequel introduces a complex 2x4 battle grid, deeper class customization, and a narrative-driven campaign spanning seven distinct adventures.
+
+**Video Highlights:**
+- **Resistance Mechanics**: Learn how the rebel forces operate against Queen Rosomon.
+- **Grid Combat**: Visual demonstration of movement and positioning on the new battle grid.
+- **Atmosphere**: A look at the upgraded visual style and biomes of Fahrul.
+
+<YouTubeEmbed videoId="TGEnahBwPlE" title="For The King II Trailer | Resistance" />
+
+Before you set foot outside the first town, you must understand the rhythm of a run. Each adventure is a race against time, represented by the encroaching Chaos meter. Managing your resources—Godsbeard for healing, Golden Root for Focus, and Panax for status effects—is the difference between a successful quest and a wiped party.
+
+| Feature | Description | Importance |
+| :--- | :--- | :--- |
+| **Battle Grid** | A 2x4 tactical layout for positioning units | ★★★★★ |
+| **Focus Meter** | Points used to guarantee successful dice rolls | ★★★★★ |
+| **Chaos Meter** | A global timer that increases difficulty over time | ★★★★☆ |
+| **Lore Store** | Meta-progression system for permanent unlocks | ★★★★☆ |
+| **Sanctums** | Rare shrines providing buffs and death protection | ★★★☆☆ |
+
+<Callout type="tip" title="Pro Tip: The First Town Visit">
+Always check the town shop immediately upon arrival. Stock up on at least two Godsbeards per character before heading into the wilderness. Prices increase as the game progresses, so early hoarding is an efficient economic strategy.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Class Tier List and Character Roles">
+
+Success in Fahrul begins at the character selection screen. With over 17 playable characters available in 2026, including base game staples and DLC additions like the Toymaker and Fortune Teller, choosing the right synergy is vital. Each class is defined by its primary stats, which dictate the weapons they use and the success rate of their abilities.
+
+<CardGrid cols={3}>
+  <Card title="The Frontline (Tanks)">
+    - **Blacksmith**: High Vitality, uses shields to Guard allies.
+    - **Fallen Knight**: DLC class with heavy armor focus.
+    - **Monk**: Hybrid tank with internal healing capabilities.
+  </Card>
+  <Card title="The Backline (DPS)">
+    - **Hunter**: High Awareness, excels with bows and ambushes.
+    - **Scholar**: High Intelligence, masters of magic and scrolls.
+    - **Alchemist**: Specialist in bombs and area-of-effect damage.
+  </Card>
+  <Card title="The Support (Utility)">
+    - **Herbalist**: Essential for Party Heal and herb gathering.
+    - **Toymaker**: DLC summoner that manipulates the grid.
+    - **Fortune Teller**: Uses tarot cards to buff allies and debuff foes.
+  </Card>
+</CardGrid>
+
+When building your party, ensure you have a balance of Physical and Magical damage. Enemies often possess high resistance to one type, and a specialized party can find itself hitting a brick wall against certain bosses.
+
+| Class | Primary Stat | Best Role | Unlock Method |
+| :--- | :--- | :--- | :--- |
+| **Blacksmith** | Vitality | Tank / Protector | Base Game |
+| **Hunter** | Awareness | Ranged DPS / Scout | Base Game |
+| **Scholar** | Intelligence | Magic DPS / Support | Base Game |
+| **Herbalist** | Intelligence | Healer / Utility | Base Game |
+| **Alchemist** | Intelligence | Burst / AOE DPS | Lore Store |
+| **Toymaker** | Talent | Summoner / Control | Tinkerers DLC |
+| **Fortune Teller** | Awareness | Support / Debuff | Tinkerers DLC |
+
+<Callout type="info" title="Stat Synergy Check">
+Before equipping a new weapon, check the character's primary stat. A high-damage hammer is useless on a Hunter with low Strength. Always match the weapon's required stat to the character's highest attribute to ensure a high hit probability.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mastery: The Battle Grid and Focus">
+
+Combat in *For The King II* has evolved into a tactical chess match. The 2x4 grid allows for sophisticated positioning. Front-row characters can utilize the "Guard" ability to absorb damage intended for the back row, while certain weapons can hit entire rows or columns.
+
+<Steps>
+  <Step num="1" title="Initial Positioning">
+    Place your Blacksmith or high-Vitality character in the front-center. Keep your Scholar and Herbalist in the back corners to minimize exposure to splash damage.
+  </Step>
+  <Step num="2" title="Analyze Enemy Intents">
+    Hover over enemies to see their targeting reticle. If an enemy is preparing a column attack, move your characters to different vertical lanes during their secondary action.
+  </Step>
+  <Step num="3" title="Focus Allocation">
+    Use Focus points to guarantee hits on high-priority targets (like healers) or to ensure a successful "Stun" or "Freeze" proc that can skip an enemy's turn.
+  </Step>
+  <Step num="4" title="Secondary Actions">
+    Don't forget secondary actions. Use them to consume herbs, swap equipment, or move one tile on the grid before committing to your primary attack.
+  </Step>
+</Steps>
+
+Status effects are more lethal than ever in 2026. A single "Acid" proc can permanently destroy a legendary weapon, while "Daze" can rob you of your crucial secondary actions.
+
+| Status Effect | Impact | Recommended Cure |
+| :--- | :--- | :--- |
+| **Bleed** | Damage over time every turn | Bandages / Godsbeard |
+| **Shock** | Automatic failure on the next roll | Panax / Focus |
+| **Acid** | Chance to dissolve armor/weapons | Panax (Immediate) |
+| **Daze** | Removes secondary action | Panax / Wait it out |
+| **Frozen** | Target takes significantly more damage | Fire damage / Panax |
+
+<Callout type="warning" title="The Danger of Acid">
+Acid is the most dangerous status effect for long-term survival. If a character is hit with Acid, prioritize curing it with Panax immediately. Losing a high-tier shield or weapon in the middle of a dungeon can end a run.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Party Builds for Every Difficulty">
+
+Choosing a cohesive team is the core of any successful **for the king ii guide**. While you can experiment with any combination, certain "shells" have proven highly effective for Apprentice, Journeyman, and Master difficulties.
+
+### The Balanced Starter (Apprentice/Journeyman)
+This build focuses on reliability and survival, making it perfect for new players learning the mechanics.
+- **Blacksmith**: Frontline tanking and physical stuns.
+- **Hunter**: Consistent ranged damage and ambush control.
+- **Scholar**: Magic damage and Focus restoration via "Refocus."
+- **Herbalist**: Mandatory for "Party Heal" to keep everyone alive.
+
+### The Burst Meta (Master Difficulty)
+For players who want to end fights before enemies can react, this build focuses on high damage output and area control.
+- **Blacksmith**: Anchors the grid and provides protection.
+- **Alchemist**: Uses bombs to shred armor and deal massive AOE damage.
+- **Pathfinder**: High speed and Awareness for early initiative.
+- **Herbalist**: Provides the necessary healing to survive accidental spikes.
+
+| Build Name | Difficulty | Core Strategy | Synergy Factor |
+| :--- | :--- | :--- | :--- |
+| **Starter Shell** | Easy | Survival & Healing | 5/5 |
+| **Magic Burst** | Medium | AOE Magic & Debuffs | 4/5 |
+| **DLC Tricksters** | Hard | Summons & Fate Control | 3/5 |
+| **Pure Physical** | Medium | Armor Shred & Stuns | 4/5 |
+
+<Callout type="success" title="Synergy Bonus: Refocus">
+The Scholar's "Refocus" ability is a game-changer. By standing adjacent to allies or simply ending their turn, they have a chance to restore Focus. Pair this with a party that uses Focus-heavy weapons to maintain momentum without constantly consuming Golden Roots.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Campaign Progression and Biome Goals">
+
+Fahrul is divided into several biomes, each with unique hazards and rewards. Whether you are in the lush Grasslands or the treacherous Poison Marshes, your goals remain consistent: level up, gear up, and manage the Chaos.
+
+<Checklist
+  id="biome-checklist"
+  title="Essential Biome Objectives:"
+  items={[
+    "Locate and activate the local Sanctum for a permanent buff.",
+    "Find the Stone Hero to gain a massive XP boost and Focus refill.",
+    "Complete at least two Town Quests for gold and equipment.",
+    "Scout the main objective dungeon but do not enter until fully healed.",
+    "Clear nearby Chaos camps to keep the global timer under control."
+  ]}
+/>
+
+As you progress through the seven adventures, the difficulty scales exponentially. The late-game chapters like "The Castle Gates" require a party with maximum resistances and high-tier weapons. Do not rush to the final boss; instead, spend time farming smaller encounters to ensure your party is at least one level higher than the recommended dungeon level.
+
+| Biome Type | Major Hazard | Recommended Gear |
+| :--- | :--- | :--- |
+| **Grasslands** | Ambush attacks | High Awareness / Shields |
+| **Marshes** | Poison / Disease | Panax / Resistance gear |
+| **Volcanic** | Burn / Fire damage | Fire Resistance / Water |
+| **Dungeons** | Trap rooms / Mimics | Perception / High Focus |
+
+<Callout type="info" title="Chaos Management">
+If the Chaos meter reaches its limit, powerful enemies will spawn on the overworld, and combat encounters will become significantly harder. Use your Focus to reach Chaos camps quickly, or complete town quests that offer "Remove Chaos" as a reward.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="For The King II Guide FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I unlock new classes in For The King II?",
+    answer: "Most classes are unlocked by spending Lore points in the Lore Store. Lore points are earned by completing objectives and finishing runs. Some special classes, like the Monk, were added in free updates, while others like the Toymaker are part of paid DLC packs."
+  },
+  {
+    question: "Is there crossplay between Steam and Xbox?",
+    answer: "Yes, For The King II supports cross-platform multiplayer between Steam and Xbox. However, always ensure all players are on the same game version to avoid lobby connection issues."
+  },
+  {
+    question: "What is the best way to restore Focus in a dungeon?",
+    answer: "Since you cannot visit towns in a dungeon, you must rely on Golden Roots, camping kits, or specific character traits like 'Deep Thinker.' Additionally, using a Stone Hero or finding a Sanctum inside a dungeon will fully restore your Focus meter."
+  },
+  {
+    question: "Can I play For The King II solo?",
+    answer: "Absolutely. In solo mode, a single player controls all four characters in the party. This allows for perfect coordination and strategy, though you lose the social fun of co-op play."
+  }
+]} />
+
+<Callout type="tip" title="Final Word on Strategy">
+This **for the king ii guide** is just the beginning. The beauty of the game lies in its unpredictability. Don't be afraid to fail; every wiped run earns you Lore points that make the next journey slightly easier. Adapt, strategize, and eventually, the crown will be yours.
+</Callout>
+
+</Section>

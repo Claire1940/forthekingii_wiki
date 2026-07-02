@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Steam: 직업, 빌드 및 협동 가이드",
+  description: "직업, 파티 빌드, 전투 그리드 전술, 멀티플레이어 설정 및 로어 상점 해금을 다루는 전문가 가이드를 통해 For The King II Steam을 마스터하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/2e1065/fff?text=For+The+King+II+Steam+Guide",
+  date: "2026-07-02",
+  author: "For The King II 위키 팀",
+  keywords: "For The King II, Steam 가이드, 직업 티어, 파티 빌드, 협동 플레이, 로어 상점"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **For the king ii steam**: PC와 콘솔에서 전술적인 그리드 전투와 절차적으로 생성되는 맵 탐험을 마스터하세요.
+- **최적의 팀 구성**: 탱커 1명, 물리 공격수 1명, 마법 사용자 1명, 전담 힐러 1명을 조합하는 것이 좋습니다.
+- **집중력 관리**: 중요한 전투 공격이나 위험 부담이 큰 오버월드 이동 굴림에 집중력(Focus) 포인트를 투자하세요.
+- **로어 상점 진행**: 게임 플레이 중 로어 화폐를 획득하여 더 강력한 직업과 시작 장비를 영구적으로 해금하세요.
+- **던전 준비**: 다층 던전 전투에 진입하기 전에 신의 수염(Godsbeard)과 상태 이상 치료제를 충분히 비축하세요.
+</Callout>
+
+<Section icon={Map} title="For The King II Steam: 초보자 생존 가이드">
+
+For The King II Steam은 주사위에서 영감을 받은 굴림, 그리드 전투, 그리고 회차별 진행을 중심으로 구축된 턴제 로그라이트 테이블탑 RPG입니다 [base-info, homepage-modules-1]. IronOak Games가 개발하고 Curve Games가 배급하는 이 후속작은 2x4 전투 그리드, 4인 협동 플레이, 그리고 더 깊이 있는 진행 시스템을 도입하여 전작의 인기 메커니즘을 확장했습니다 [base-info, homepage-modules-1]. 아름답지만 위험한 파룰(Fahrul)의 땅을 탐험하려면 세심한 준비, 전술적인 위치 선정, 스마트한 자원 관리가 필요합니다 [homepage-modules-1, homepage-modules-2].
+
+**비디오 하이라이트:**
+- 솔로 플레이 또는 최대 3명의 친구와 함께 파룰의 절차적 세계를 탐험하세요 [base-info, homepage-modules-1].
+- 새로운 2x4 전투 그리드가 전술적 위치 선정과 보호 방식을 어떻게 바꾸는지 알아보세요 [homepage-modules-1, homepage-modules-2].
+- 7개의 고유한 캠페인 챕터에 걸쳐 로소몬 여왕의 폭정 아래 도사린 위험을 발견하세요 [homepage-outline, homepage-modules-2].
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - 전투 참여 - 트레일러" />
+
+기초를 튼튼히 다지기 위해, 플레이어는 오버월드로 뛰어들기 전 핵심 출시 정보와 플랫폼 사양을 이해해야 합니다 [base-info, homepage-modules-2].
+
+| 상세 정보 | 사양 |
+|---|---|
+| PC 플랫폼 | Steam |
+| PC 출시일 | 2023년 11월 2일 |
+| 콘솔 출시일 | 2024년 12월 12일 |
+| 플레이어 수 | 1 ~ 4인 |
+| 플레이 스타일 | 솔로, 온라인 협동, 로컬 화면 공유 |
+| Steam 업적 | 126개 |
+
+파룰에서의 모든 여정은 오버월드 맵을 얼마나 잘 다루느냐에 따라 결정됩니다 [homepage-modules-1, homepage-modules-2]. 모든 마을을 주요 전력 강화 지점으로 간주해야 합니다 [homepage-modules-1, homepage-modules-2]. 마을에 처음 방문하면 상점에서 새로운 장비를 확인하고, 즉각적인 목표에 맞는 마을 퀘스트를 수락하며, 신의 수염(Godsbeard)과 파낙스(Panax) 같은 필수 생존 아이템을 구매하세요 [homepage-modules-1, homepage-modules-2]. 이러한 아이템을 조기에 확보하면 고레벨 지역을 탐험할 때 갑작스러운 파티 전멸을 방지할 수 있습니다 [homepage-modules-1, homepage-modules-2].
+
+오버월드 이동 역시 신중한 계획이 필요합니다 [homepage-modules-2]. 파티를 너무 멀리 떨어뜨리지 마세요. 오버월드에서 전투가 시작되면 특정 반경 내의 아군과 적군이 모두 전투에 휘말리기 때문입니다 [homepage-modules-1, homepage-modules-2]. 영웅들을 적절히 그룹화하면 수적으로 열세인 위험한 상황에 직면하지 않도록 보장할 수 있습니다 [homepage-modules-1, homepage-modules-2].
+
+<Callout type="tip" title="생존 팁">
+각 바이옴을 떠나기 전에 반드시 지역 성소(Sanctum)와 석상 영웅(Stone Hero)을 먼저 찾으세요 [homepage-modules-1, homepage-modules-2]. 성소는 강력한 패시브 버프를 제공하고 생명줄 역할을 하며, 석상 영웅은 막대한 경험치 보너스를 제공하고 집중력 미터를 완전히 채워줍니다 [homepage-modules-1, homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="직업 티어 리스트 및 캐릭터 순위">
+
+For The King II Steam의 직업은 주요 능력치, 무기 유형, 전투 역할이 전체 파티 전략과 일치할 때 최고의 성능을 발휘합니다 [homepage-modules-1]. 이 게임은 무료 업데이트와 캐릭터 팩을 통해 도입된 새로운 얼굴들과 전작의 클래식 캐릭터들을 포함한 다양한 로스터를 제공합니다 [homepage-modules-1].
+
+| 직업 | 역할 | 주요 능력치 | 등급 |
+|---|---|---|---|
+| 약초상 (Herbalist) | 지원 및 치유 | 지능 | ★★★★★ |
+| 연금술사 (Alchemist) | 마법 데미지 및 폭탄 | 지능 | ★★★★★ |
+| 대장장이 (Blacksmith) | 전열 탱커 | 활력 | ★★★★☆ |
+| 사냥꾼 (Hunter) | 원거리 물리 | 인지력 | ★★★★☆ |
+| 학자 (Scholar) | 마법 및 집중력 유틸리티 | 지능 | ★★★★☆ |
+| 수도승 (Monk) | 하이브리드 지원 | 혼합 | ★★★★☆ |
+| 점술가 (Fortune Teller) | 운명 제어 | 인지력 | ★3☆☆☆ |
+| 장난감 제작자 (Toymaker) | 소환사 유틸리티 | 재능 | ★3☆☆☆ |
+
+올바른 직업을 선택하면 다층 던전을 공략하는 동안 파티가 무너지는 것을 방지할 수 있습니다 [homepage-modules-1, homepage-modules-2].
+
+<CardGrid cols={3}>
+  <Card title="약초상 (S-티어)">
+    - **주요 능력치**: 지능
+    - **핵심 능력**: 파티 치유는 인접한 아군의 체력을 회복시킵니다 [homepage-modules-1].
+    - **유지력**: 약초 찾기를 통해 오버월드에서 꾸준한 치유 용품을 제공합니다 [homepage-modules-1].
+  </Card>
+  <Card title="연금술사 (S-티어)">
+    - **주요 능력치**: 지능
+    - **핵심 능력**: 포션 찾기를 통해 정기적으로 전술 폭탄을 생성합니다 [homepage-modules-1].
+    - **공격**: 화학 공격으로 파괴적인 범위 데미지를 입힙니다 [homepage-modules-1].
+  </Card>
+  <Card title="대장장이 (A-티어)">
+    - **주요 능력치**: 활력
+    - **핵심 능력**: 방패 사용 시 불굴(Steadfast) 능력이 치명적인 데미지를 막아줍니다 [homepage-modules-1].
+    - **방어**: 가드(Guard) 능력을 통해 그리드 위의 취약한 후열 아군을 보호합니다 [homepage-modules-1].
+  </Card>
+</CardGrid>
+
+약초상은 파티 치유의 독보적인 유틸리티 덕분에 거의 모든 회차에서 필수적인 선택입니다 [homepage-modules-1]. 단 하나의 약초로 여러 파티원을 치유하면 귀중한 행동 포인트를 절약하고 인벤토리를 넉넉하게 유지할 수 있습니다 [homepage-modules-1]. 캠페인 진행을 통해 해금되는 연금술사는 폭탄 생성과 고데미지 화학 공격을 통해 엄청난 폭발력을 제공합니다 [homepage-modules-1].
+
+한편, 사냥꾼과 같은 물리 직업은 높은 인지력을 활용해 원거리 치명타를 확보하고 오버월드 매복을 성공시킵니다 [homepage-modules-1]. 대장장이는 팀을 대신해 타격을 견뎌내고 방패를 활용해 들어오는 물리 압박을 완화하는 궁극적인 버팀목 역할을 합니다 [homepage-modules-1].
+
+<Callout type="warning" title="직업 해금 경고">
+연금술사나 특수 DLC 직업과 같은 많은 상급 직업은 특정 캠페인 이정표를 달성하거나 로어 상점에서 로어 화폐를 소비해야 해금할 수 있습니다 [homepage-modules-1]. 파티 옵션을 확장하기 위해 해금 계획을 신중히 세우세요 [homepage-modules-1].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="최적의 파티 조합 및 빌드">
+
+For The King II Steam에서 성공적인 파티 구성은 개인적인 선호도보다는 역할 간의 시너지에 달려 있습니다 [homepage-modules-1]. 팀은 후반부의 도전을 견디기 위해 전열 방어, 물리 데미지, 마법 데미지, 그리고 그룹 치유를 모두 갖춰야 합니다 [homepage-modules-1].
+
+| 조합 | 전열 | 데미지 | 지원 | 유틸리티 | 추천 용도 |
+|---|---|---|---|---|---|
+| 첫 클리어 | 대장장이 | 사냥꾼 | 학자 | 약초상 | 초보자용 [homepage-modules-1] |
+| 폭딜 코어 | 대장장이 | 사냥꾼 | 연금술사 | 약초상 | 보스전 [homepage-modules-1] |
+| 협동 분할 | 대장장이 | 사냥꾼 | 학자 | 약초상 | 2인 플레이 [homepage-modules-1] |
+| 트릭스터 코어 | 대장장이 | 점술가 | 장난감 제작자 | 약초상 | DLC 소유자 [homepage-modules-1] |
+
+게임의 가장 어려운 챕터를 클리어할 수 있는 파티를 구성하려면 다음의 전략적 단계를 따르세요 [homepage-outline, homepage-modules-1].
+
+<Steps>
+  <Step num="1" title="전열 방어자 확보">
+    전투 그리드의 앞줄을 차지할 대장장이와 같은 활력이 높은 직업을 선택하세요 [homepage-modules-1]. 방패를 장착하여 패시브 가드 능력을 활성화하고 들어오는 물리 공격을 흡수하세요 [homepage-modules-1].
+  </Step>
+  <Step num="2" title="물리 및 마법 데미지 밸런스">
+    딜러들이 서로 다른 능력치에 기반하도록 구성하세요 [homepage-modules-1]. 사냥꾼은 인지력 기반의 일관된 물리 데미지를 제공하고, 학자나 연금술사는 지능 기반의 마법 주문으로 장갑을 두른 적을 녹입니다 [homepage-modules-1].
+  </Step>
+  <Step num="3" title="그룹 치유 포함">
+    항상 그룹 유지력을 제공할 수 있는 직업을 포함하세요 [homepage-modules-1]. 약초상은 파티 치유 기술 덕분에 전투 중이나 전투 후에 귀중한 행동 포인트와 소모품을 아껴주는 황금 표준입니다 [homepage-modules-1].
+  </Step>
+  <Step num="4" title="능력치 매칭에 따른 장비 분배">
+    해당 무기를 굴리는 데 필요한 능력치가 부족한 캐릭터에게 무기를 주지 마세요 [homepage-modules-1]. 힘 무기는 대장장이에게, 인지력 활은 사냥꾼에게, 지능 마도서는 마법사에게 항상 일치시켜야 합니다 [homepage-modules-1].
+  </Step>
+</Steps>
+
+'운명의 땜장이(Tinkerers of Fate)' 캐릭터 팩을 사용하는 플레이어의 경우, 장난감 제작자와 점술가는 매우 특화된 전술적 플레이스타일을 제공합니다 [homepage-modules-1]. 장난감 제작자는 적의 정수를 포착해 전투 장난감을 소환할 수 있고, 점술가는 타로 카드를 사용해 운명을 조작합니다 [homepage-modules-1]. 이러한 직업들은 더 많은 계획과 보호가 필요하지만, 전투의 흐름을 제어하는 매우 창의적인 방법들을 제시합니다 [homepage-modules-1].
+
+<Callout type="success" title="협동 빌드 성공 팁">
+멀티플레이어에서는 캐릭터 제어권을 균등하게 나누세요 [homepage-modules-1]. 2인 게임에서는 각 플레이어가 전열/딜러 한 명과 지원 직업 한 명씩을 제어하는 것이 좋습니다 [homepage-modules-1]. 이를 통해 두 플레이어 모두 모든 단계에서 몰입감을 유지할 수 있습니다 [homepage-modules-1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="전투 그리드 및 상태 이상">
+
+For The King II Steam의 전투는 2x4 그리드에서 진행되므로 위치 선정이 데미지 출력만큼 중요합니다 [homepage-modules-2]. 앞줄은 후열을 보호할 수 있는 탱커와 근접 전사를 위한 곳이며, 뒷줄은 약한 마법사, 원거리 공격수, 힐러를 보호합니다 [homepage-modules-2].
+
+범위 공격(AOE)은 행이나 열 전체를 타격할 수 있으므로 캐릭터들을 뭉쳐 놓으면 막대한 피해를 입을 수 있습니다 [homepage-modules-2]. 항상 적의 타겟 라인을 미리 확인하고 이동 행동을 사용하여 캐릭터들을 위험 지역에서 벗어나게 배치하세요 [homepage-modules-2].
+
+상태 이상을 이해하는 것 또한 파티의 템포를 유지하는 데 필수적입니다 [homepage-modules-2]. 많은 적들이 치료하지 않으면 여정을 완전히 망칠 수 있는 쇠약 효과를 입힙니다 [homepage-modules-2].
+
+| 상태 이상 | 주요 영향 | 최선의 치료법 |
+|---|---|---|
+| 멍함 (Dazed) | 아이템 사용이나 이동 같은 보조 행동 불가 | 파낙스 (Panax) [homepage-modules-2] |
+| 기절 (Stunned) | 대상의 다음 턴 전체를 건너뜀 | 파낙스 (Panax) [homepage-modules-2] |
+| 산성 (Acid) | 장착된 방어구와 무기를 영구적으로 녹임 | 산성 스펀지 (Acid Sponge) [homepage-modules-2] |
+| 독 (Poison) | 오버월드 데미지를 입히고 모든 전투 능력치 감소 | 파낙스 (Panax) [homepage-modules-2] |
+| 출혈 (Bleed) | 매 턴 종료 시 물리 데미지 발생 | 붕대 (Bandage) [homepage-modules-2] |
+| 저주 (Curse) | 치료될 때까지 단일 능력치를 크게 감소시킴 | 인삼 (Ginseng) [homepage-modules-2] |
+
+집중력(Focus) 포인트 관리는 전투 승리의 또 다른 핵심 요소입니다 [homepage-modules-1, homepage-modules-2]. 집중력은 공격, 치유 또는 중요한 오버월드 이동 체크에서 주사위 굴림 성공을 보장하기 위해 사용될 수 있습니다 [homepage-modules-1, homepage-modules-2]. 던전 내부에서는 집중력을 회복하기 어렵기 때문에, 회피율이 높은 적을 마무리하거나 결정적인 군중 제어 주문을 적중시켜야 하는 중요한 순간을 위해 아껴두세요 [homepage-modules-1, homepage-modules-2].
+
+<Callout type="info" title="그리드 전술">
+2x4 전투 그리드에서의 위치 선정이 타겟 우선순위를 결정합니다 [homepage-modules-2]. 체력이 낮은 마법 사용자는 방패를 든 방어자 바로 뒷줄에 배치하여 직접적인 물리 타격을 최소화하세요 [homepage-modules-1, homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="진행 시스템, 게임 모드 및 FAQ">
+
+For The King II Steam은 로어 상점(Lore Store)을 주요 진행 시스템으로 활용합니다 [homepage-modules-1]. 캠페인 챕터를 완료하거나 패배할 때마다 성과에 따라 로어 화폐를 획득합니다 [homepage-modules-1]. 이 화폐를 사용하면 새로운 직업, 강력한 시작 장비, 고유 특성, 그리고 향후 모든 회차에서 나타날 오버월드 조우 요소들을 영구적으로 해금할 수 있습니다 [homepage-modules-1].
+
+<Checklist
+  id="lore-store-priority"
+  title="로어 상점 우선순위 체크리스트:"
+  items={[
+    "강력한 마법 데미지 옵션을 위해 연금술사 직업 해금",
+    "초반 생존력을 높이기 위해 시작 로드아웃 아이템 구매",
+    "심사숙고(Deep Thinker)와 같은 고유 특성 및 치장 아이템 해금",
+    "향후 회차를 위해 새로운 오버월드 조우 및 무기 세트 획득"
+  ]}
+/>
+
+메인 스토리 캠페인 외에도, 이 게임은 다양한 플레이스타일과 도전에 부합하는 여러 고유 모드를 제공합니다 [homepage-modules-2].
+
+| 모드 | 목표 | 맵 유형 | 고유 메커니즘 |
+|---|---|---|---|
+| 캠페인 | 7개의 스토리 중심 모험 완료 | 절차적 오버월드 | 카오스 압박 [base-info, homepage-modules-2] |
+| 던전 크롤 | 무작위 던전 층 정복 | 다층 던전 | 무작위 보스 [base-info, homepage-modules-2] |
+| 다크 카니발 | 끝없는 전투 도전에서 생존 | 무한 경로 | 죽음의 수레바퀴 [homepage-outline, homepage-modules-2] |
+
+경쟁적인 플레이어를 위해 던전 크롤 건틀릿(Dungeon Crawl Gauntlet)은 시드 기반의 리더보드 도전을 제공합니다 [homepage-modules-2]. 모든 플레이어는 정확히 동일한 맵 레이아웃, 적 조우, 보스 구조를 마주하게 되며, 운보다는 최적의 경로 설정과 전략적 전투 결정에 따라 보상을 받게 됩니다 [homepage-modules-2].
+
+<Callout type="tip" title="진행 팁">
+회차 실패를 걱정하지 마세요 [homepage-modules-1]. 모든 실패한 시도는 진행 상황에 따라 로어 화폐로 변환되며, 이를 통해 다음 회차를 훨씬 쉽게 만들어 줄 더 나은 시작 장비와 직업을 구매할 수 있습니다 [homepage-modules-1].
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Steam용 For The King II에서 크로스플레이를 지원하나요?",
+    answer: "네, Steam PC와 Xbox 에코시스템 간의 크로스 플랫폼 멀티플레이어를 지원하여 서로 다른 기기의 플레이어들이 팀을 이룰 수 있습니다. PlayStation 플레이어는 PlayStation 네트워크 내에서 온라인 협동을 즐길 수 있습니다."
+  },
+  {
+    question: "For The King II Steam에서 코드는 어떻게 사용하나요?",
+    answer: "로어 상점 메뉴 내에 코드 사용(Redeem Code) 필드가 있습니다. 다만, 공개 프로모션 코드는 드물게 배포되며, 이 시스템은 주로 공식 드롭스, 이벤트 또는 계정 지원용으로 예약되어 있습니다."
+  },
+  {
+    question: "Steam 초보자를 위한 최고의 파티 구성은 무엇인가요?",
+    answer: "가장 신뢰할 수 있는 초보자 파티는 대장장이(탱커), 사냥꾼(물리 원거리), 학자(마법 데미지/유틸리티), 그리고 약초상(전담 그룹 힐러)으로 구성됩니다."
+  },
+  {
+    question: "For The King II Steam에서 전투 그리드는 어떻게 작동하나요?",
+    answer: "전투는 2x4 그리드에서 진행됩니다. 튼튼한 캐릭터는 앞줄에 서서 아군을 보호해야 하며, 취약한 딜러와 힐러는 직접적인 근접 공격을 피하기 위해 뒷줄을 차지해야 합니다."
+  }
+]} />
+
+</Section>

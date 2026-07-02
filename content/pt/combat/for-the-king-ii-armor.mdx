@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Armaduras em For The King II: Mecânicas de Defesa e Melhores Equipamentos",
+  description: "Domine os sistemas de armadura de For The King II com nosso guia sobre defesa física, resistência mágica e os melhores equipamentos iniciais para o seu grupo em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Armor+and+Defense+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II",
+  keywords: "armadura, defesa, guia, For The King II, resistências, equipamentos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A armadura em For The King II** é dividida em dois atributos principais: **Defesa Física** e **Resistência Mágica**, que mitigam diferentes tipos de dano.
+- **Personagens da linha de frente**, como o Ferreiro, devem priorizar alta Defesa Física e Escudos para proteger a retaguarda.
+- **Dano de Perfuração** é uma ameaça crítica em 2026, pois ignora completamente os valores de armadura, exigindo alto HP ou Evasão para ser combatido.
+- **Efeitos de status de Ácido** são o maior perigo para o seu equipamento, pois podem dissolver permanentemente suas armaduras e armas equipadas.
+- **Equipamentos iniciais** devem ser gastos em melhorias de armadura e características como **Inabalável** para melhorar a sobrevivência no início do jogo.
+</Callout>
+
+<Section icon={Shield} title="Entendendo as Mecânicas de Armadura e Defesa">
+
+No mundo brutal de Fahrul, a **armadura em For The King II** serve como a principal barreira entre a sobrevivência do seu grupo e uma viagem rápida para o cemitério. Diferente dos RPGs tradicionais onde um único atributo de "Defesa" cobre tudo, este jogo utiliza um sistema de dois atributos que exige um equilíbrio cuidadoso. Seja atravessando o mundo aberto ou explorando as profundezas de uma masmorra, entender como seu equipamento interage com a Grade de Batalha 2x4 é essencial para qualquer jornada de sucesso.
+
+**Destaques do Vídeo:**
+- Visão geral da **Grade de Batalha** e como o posicionamento afeta o dano recebido.
+- Detalhamento visual dos indicadores de dano **Físico vs. Mágico**.
+- Dicas sobre como gerenciar o **Foco** para garantir que as jogadas defensivas tenham sucesso.
+- Explicação de como as habilidades **Guarda** e **Inabalável** interagem com a armadura.
+
+<YouTubeEmbed videoId="TGEnahBwPlE" title="For The King II - Trailer de Resistência" />
+
+A armadura nesta sequência é mais do que apenas um atributo passivo; é um recurso tático. Seu posicionamento na grade determina quais personagens são alvos de ataques inimigos específicos. Geralmente, seus personagens da linha de frente absorverão o impacto dos golpes físicos, enquanto os personagens da retaguarda permanecem vulneráveis a ataques de área (AOE), de coluna e mágicos. Equipar a armadura certa para a posição certa é a diferença entre uma luta controlada e a derrota total do grupo.
+
+<Callout type="tip" title="Dica Profissional: A Vantagem do Escudo">
+Sempre equipe um escudo no seu tanque da linha de frente. Os escudos não apenas fornecem Defesa Física bruta, mas também desbloqueiam a habilidade **Guarda**, que permite ao personagem absorver o dano destinado a aliados adjacentes.
+</Callout>
+
+| Tipo de Defesa | Atributo Principal | Mitiga | Equipamento Principal |
+| :--- | :--- | :--- | :--- |
+| **Defesa Física** | Vitalidade / Força | Físico Corpo a Corpo e à Distância | Placas Pesadas, Escudos, Elmos |
+| **Resistência Mágica** | Inteligência / Resistência | Feitiços e Ataques Elementais | Roupas, Capuzes, Amuletos Mágicos |
+| **Evasão** | Percepção / Velocidade | Todos os ataques não garantidos | Couro Leve, Capas, Botas |
+
+</Section>
+
+<Section icon={Swords} title="Tipos de Defesa: Resistência Física vs. Mágica">
+
+O cerne da sua estratégia defensiva gira em torno da distinção entre Defesa Física e Resistência Mágica. Os inimigos em Fahrul são diversos; um bandido pode brandir uma espada enferrujada (Físico), enquanto um Acólito do Caos lançará energia sombria (Mágico). Se o seu Ferreiro tiver 20 de Defesa Física, mas 0 de Resistência Mágica, um simples feitiço de fogo derreterá sua barra de vida, independentemente de sua pesada armadura de placas.
+
+**Defesa Física** reduz o dano bruto recebido de fontes físicas. Este é o sustento de classes como o Ferreiro e o Estribeiro. Em 2026, armaduras físicas de alto nível costumam vir com uma penalidade de velocidade, então você deve decidir se a proteção extra vale a pena em troca de agir mais tarde na ordem do turno.
+
+**Resistência Mágica** é frequentemente encontrada em equipamentos mais leves usados por Eruditos e Ervanários. Como os ataques mágicos costumam atingir vários alvos ou aplicar efeitos de status como Queimadura ou Congelamento, ter uma base de Resistência em todo o grupo costuma ser mais importante do que acumulá-la em um único personagem.
+
+<Callout type="warning" title="Cuidado com a Perfuração">
+Algumas armas e habilidades inimigas possuem o atributo **Perfuração**. Isso permite que o ataque ignore 100% da armadura e resistência do alvo. Ao enfrentar inimigos com "Perfuração", suas únicas defesas são grandes reservas de vida ou Evasão.
+</Callout>
+
+| Função do Personagem | Atributo Prioritário | Foco de Armadura Recomendado | Papel no Combate |
+| :--- | :--- | :--- | :--- |
+| **Tanque de Linha de Frente** | Vitalidade | **Defesa Física** / HP | Absorver golpes físicos, usar Guarda |
+| **Suporte Mágico** | Inteligência | **Resistência Mágica** / Foco | Sobreviver a feitiços AOE, curar o grupo |
+| **DPS à Distância** | Percepção | **Evasão** / Resistência | Evitar ser alvo, manter-se atrás |
+| **Utilitário/Híbrido** | Talento | Defesa Equilibrada | Posicionamento flexível, uso de itens |
+
+</Section>
+
+<Section icon={Target} title="Equipamentos Iniciais de Armadura e Desbloqueios da Loja de Lore">
+
+Antes mesmo de colocar os pés em uma nova campanha, as escolhas que você faz na **Loja de Lore** e na tela de equipamento inicial ditarão seu sucesso no início do jogo. A progressão de **armadura em For The King II** é uma experiência roguelite; você ganha Lore durante suas partidas, que é então gasto para desbloquear melhores equipamentos iniciais para tentativas futuras.
+
+<Steps>
+  <Step num="1" title="Desbloqueie Itens de Equipamento na Loja de Lore">
+    Gaste o Lore ganho em pacotes de "Equipamento Inicial". Estes frequentemente incluem escudos aprimorados, couro reforçado ou roupas básicas que dão ao seu grupo um aumento significativo de atributos desde o primeiro turno.
+  </Step>
+  <Step num="2" title="Atribua Pontos de Equipamento com Base na Função">
+    Cada personagem começa com uma quantidade definida de Pontos de Equipamento. Não os gaste aleatoriamente. Atribua o conjunto de **Escudo e Martelo** ao seu Ferreiro e o **Cachecol de Inteligência** ou **Poção de Foco** aos seus conjuradores.
+  </Step>
+  <Step num="3" title="Selecione Características Defensivas">
+    Características como **Inabalável** (chance de ignorar dano ao usar um escudo) ou **Pensador Profundo** (restaura Foco) complementam sua armadura, tornando suas ações defensivas mais confiáveis.
+  </Step>
+  <Step num="4" title="Distribua o Equipamento na Primeira Cidade">
+    A visita à primeira cidade é um pico de poder. Verifique a loja em busca de qualquer peça de armadura "quebrada" ou "barata" que ofereça mais defesa do que seus trapos iniciais.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Configuração de Tanque">
+    - **Foco:** Defesa Física
+    - **Item Chave:** Escudo de Torre
+    - **Característica:** Inabalável
+    - **Melhor Para:** Ferreiro
+  </Card>
+  <Card title="Batedor Evasivo">
+    - **Foco:** Percepção/Evasão
+    - **Item Chave:** Manto das Sombras
+    - **Característica:** Ágil
+    - **Melhor Para:** Caçador
+  </Card>
+  <Card title="Guarda Mago">
+    - **Foco:** Resistência Mágica
+    - **Item Chave:** Roupas de Seda
+    - **Característica:** Refocar
+    - **Melhor Para:** Erudito
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Meta: Economia no Início do Jogo">
+Se você encontrar uma peça de armadura de alto nível que ninguém pode usar efetivamente devido aos requisitos de atributos, venda-a imediatamente. O ouro é melhor gasto em **Barba de Deus** e **Raiz Dourada** para manter vivos os seus atuais portadores de equipamentos.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Manutenção da Armadura: Ácido e Efeitos de Status">
+
+ uma das mecânicas mais frustrantes para novos jogadores é a destruição permanente de equipamentos. Em Fahrul, sua **armadura em For The King II** não é apenas um número estático; é um recurso vulnerável. Certos inimigos, particularmente slimes e chefes específicos, utilizam ataques de **Ácido**. O ácido tem uma chance de dissolver permanentemente uma peça da sua armadura, removendo-a do seu inventário para sempre.
+
+| Efeito de Status | Impacto na Defesa | Como Combater |
+| :--- | :--- | :--- |
+| **Ácido** | **Destrói a Armadura** | Use Esponja de Ácido ou Panax |
+| **Atordoado** | Remove Ação Secundária | Alta Defesa Física / Foco |
+| **Congelado** | Aumenta o Dano Recebido | Resistência Mágica / Fogo |
+| **Maldição** | Diminui Atributos Defensivos | Limpeza de Maldição / Santuários |
+
+Além do Ácido, efeitos de status como **Sangramento** e **Queimadura** ignoram a armadura para causar dano ao longo do tempo. Isso torna os itens defensivos que oferecem "Imunidade a Status" incrivelmente valiosos no meio e fim do jogo. Um elmo que concede imunidade a Atordoamento costuma ser melhor do que um elmo com 5 pontos a mais de defesa.
+
+<Callout type="warning" title="O Perigo do Atordoamento">
+O efeito de status **Atordoado** remove sua próxima ação secundária. Isso significa que você não pode se mover na Grade de Batalha ou usar uma erva de cura. Se o seu tanque estiver Atordoado e fora de posição, sua retaguarda frágil ficará exposta, independentemente de seus atributos de armadura.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estratégia de Armadura para Masmorras e Campanhas">
+
+Ao entrar em uma masmorra, sua estratégia de armadura deve mudar de "exploração" para "atrito". No mundo aberto, você pode facilmente visitar uma cidade para se curar ou comprar novos equipamentos. Dentro de uma masmorra, você está limitado ao que carrega. Isso torna a durabilidade da **armadura em For The King II** e a distribuição de itens de suporte críticas.
+
+**Checklist de Sobrevivência em Masmorras:**
+<Checklist
+  id="dungeon-armor-prep"
+  title="Verificação de Equipamento Pré-Masmorra:"
+  items={[
+    "Certifique-se de que a linha de frente tenha escudos reparados e Defesa Física máxima.",
+    "Equipe pelo menos um personagem com alta Resistência Mágica para salas com dano em área.",
+    "Distribua todas as 'Curas de Status' (Panax, Esponja de Ácido) entre o grupo.",
+    "Verifique se cada personagem está usando uma arma que corresponda ao seu melhor atributo defensivo.",
+    "Atribua itens de restauração de Foco ao personagem com mais habilidades defensivas."
+  ]}
+/>
+
+Em capítulos longos de campanha como *As Minas Reais*, você enfrentará uma pressão crescente do Caos. O Caos aumenta o dano e a frequência dos inimigos. Para combater isso, você deve procurar por **Santuários** e **Heróis de Pedra**. Os Santuários fornecem um bônus defensivo permanente a um único personagem e agem como uma rede de segurança de "ressurreição", que é essencialmente a forma definitiva de armadura.
+
+<Callout type="info" title="Posicionamento é Armadura">
+Lembre-se de que você pode mover seus personagens na Grade de Batalha durante o turno deles como uma ação secundária. Se a armadura do seu tanque estiver baixa ou se ele estiver sofrendo de um debuff, mova-o para a linha de trás e traga um personagem mais saudável para a frente para dividir o dano.
+</Callout>
+
+| Nome do Capítulo | Ameaça Principal | Foco de Armadura Recomendado |
+| :--- | :--- | :--- |
+| **A Resistência** | Bandidos / Físico | Defesa Física |
+| **Carvalho Primordial** | Natureza / Veneno | Resistência / Curas |
+| **Minas Reais** | Perfuração / Ácido | Alto HP / Esponja de Ácido |
+| **Portões do Castelo** | Magia / Caos | Resistência Mágica |
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A armadura em For The King II reduz todos os tipos de dano?",
+    answer: "Não. A Defesa Física apenas reduz o dano físico (espadas, flechas), enquanto a Resistência Mágica apenas reduz o dano mágico (feitiços, ataques elementais). O dano de perfuração ignora ambos inteiramente."
+  },
+  {
+    question: "Posso consertar uma armadura que foi atingida por Ácido?",
+    answer: "Não. Se o Ácido 'dissolver' com sucesso uma peça de equipamento, ela será removida permanentemente do seu inventário. Você deve usar uma Esponja de Ácido ou Panax para remover o status de Ácido antes que o equipamento seja destruído."
+  },
+  {
+    question: "Uma Evasão alta é melhor do que uma Defesa Física alta?",
+    answer: "Depende do personagem. Para classes com alta Percepção como o Caçador, a Evasão é mais confiável. No entanto, a Evasão é baseada em probabilidade (RNG), enquanto a Defesa Física fornece redução de dano garantida para cada golpe não perfurante."
+  },
+  {
+    question: "Como consigo armaduras melhores no início do jogo?",
+    answer: "Foque em completar Missões de Cidade e desbloquear 'Equipamento Inicial' na Loja de Lore. A Loja de Lore é a maneira mais consistente de começar uma partida com armaduras de alta qualidade."
+  }
+]} />
+
+</Section>

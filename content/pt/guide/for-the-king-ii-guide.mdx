@@ -1,0 +1,216 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de For The King II: Dicas para Iniciantes de 2026 e Melhores Composições de Grupo",
+  description: "Domine Fahrul com nosso guia de For The King II. Explore listas de nível de classes, táticas de grade de combate, composições de grupo e estratégias de DLC para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2d1b4e/ffd700?text=For+The+King+II+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de for the king ii"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de For The King II**: Foque em equilibrar as funções (Tanque, DPS, Suporte) em vez de apenas escolher seus favoritos.
+- **Grade de Combate**: O posicionamento é tudo; coloque unidades de alta defesa na linha de frente para proteger conjuradores frágeis.
+- **Gerenciamento de Foco**: Gaste Foco em jogadas de alto risco, como finalizar um chefe ou evitar uma armadilha mortal.
+- **Loja de Lore**: Priorize o desbloqueio de novas classes e itens iniciais para aumentar a taxa de sucesso de futuras jornadas.
+- **Estratégia Co-op**: Coordene com seus companheiros de equipe para garantir que diversos tipos de dano (Físico vs. Mágico) sejam cobertos.
+</Callout>
+
+<Section icon={Map} title="Começando em Fahrul: Guia de For The King II">
+
+Embarcar em uma jornada pelas terras geradas proceduralmente de Fahrul exige mais do que apenas sorte; exige uma compreensão profunda dos sistemas centrais do jogo. Este **guia de for the king ii** visa preencher a lacuna entre um aventureiro novato e um herói lendário. Ao contrário de seu antecessor, a sequência introduz uma complexa grade de batalha 2x4, personalização de classes mais profunda e uma campanha baseada em narrativa que abrange sete aventuras distintas.
+
+**Destaques do Vídeo:**
+- **Mecânicas de Resistência**: Saiba como as forças rebeldes operam contra a Rainha Rosomon.
+- **Combate em Grade**: Demonstração visual de movimento e posicionamento na nova grade de batalha.
+- **Atmosfera**: Um olhar sobre o estilo visual aprimorado e os biomas de Fahrul.
+
+<YouTubeEmbed videoId="TGEnahBwPlE" title="For The King II Trailer | Resistance" />
+
+Antes de colocar os pés fora da primeira cidade, você deve entender o ritmo de uma jornada. Cada aventura é uma corrida contra o tempo, representada pelo medidor de Caos que avança. Gerenciar seus recursos — Barba de Deus para cura, Raiz Dourada para Foco e Panax para efeitos de status — é a diferença entre uma missão bem-sucedida e a derrota total do grupo.
+
+| Recurso | Descrição | Importância |
+| :--- | :--- | :--- |
+| **Grade de Batalha** | Um layout tático 2x4 para posicionar unidades | ★★★★★ |
+| **Medidor de Foco** | Pontos usados para garantir jogadas de dados bem-sucedidas | ★★★★★ |
+| **Medidor de Caos** | Um cronômetro global que aumenta a dificuldade ao longo do tempo | ★★★★☆ |
+| **Loja de Lore** | Sistema de meta-progressão para desbloqueios permanentes | ★★★★☆ |
+| **Santuários** | Santuários raros que fornecem bônus e proteção contra a morte | ★★★☆☆ |
+
+<Callout type="tip" title="Dica Profissional: A Primeira Visita à Cidade">
+Sempre verifique a loja da cidade imediatamente ao chegar. Estoque pelo menos duas Barbas de Deus por personagem antes de seguir para a selva. Os preços aumentam conforme o jogo avança, então acumular cedo é uma estratégia econômica eficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Lista de Nível de Classes e Funções dos Personagens">
+
+O sucesso em Fahrul começa na tela de seleção de personagens. Com mais de 17 personagens jogáveis disponíveis em 2026, incluindo os básicos e adições de DLC como o Fabricante de Brinquedos e a Vidente, escolher a sinergia certa é vital. Cada classe é definida por seus atributos primários, que ditam as armas que usam e a taxa de sucesso de suas habilidades.
+
+<CardGrid cols={3}>
+  <Card title="A Linha de Frente (Tanques)">
+    - **Ferreiro**: Alta Vitalidade, usa escudos para Proteger aliados.
+    - **Cavaleiro Caído**: Classe de DLC com foco em armadura pesada.
+    - **Monge**: Tanque híbrido com capacidades de cura interna.
+  </Card>
+  <Card title="A Linha de Trás (DPS)">
+    - **Caçador**: Alta Percepção, excelente com arcos e emboscadas.
+    - **Estudioso**: Alta Inteligência, mestre em magia e pergaminhos.
+    - **Alquimista**: Especialista em bombas e dano em área.
+  </Card>
+  <Card title="O Suporte (Utilitário)">
+    - **Herbalista**: Essencial para Cura de Grupo e coleta de ervas.
+    - **Fabricante de Brinquedos**: Invocador de DLC que manipula a grade.
+    - **Vidente**: Usa cartas de tarô para fortalecer aliados e enfraquecer inimigos.
+  </Card>
+</CardGrid>
+
+Ao montar seu grupo, garanta um equilíbrio entre dano Físico e Mágico. Os inimigos costumam possuir alta resistência a um tipo, e um grupo especializado pode se ver contra uma parede contra certos chefes.
+
+| Classe | Atributo Principal | Melhor Função | Método de Desbloqueio |
+| :--- | :--- | :--- | :--- |
+| **Ferreiro** | Vitalidade | Tanque / Protetor | Jogo Base |
+| **Caçador** | Percepção | DPS à Distância / Batedor | Jogo Base |
+| **Estudioso** | Inteligência | DPS Mágico / Suporte | Jogo Base |
+| **Herbalista** | Inteligência | Curandeiro / Utilitário | Jogo Base |
+| **Alquimista** | Inteligência | Dano Explosivo / Área | Loja de Lore |
+| **Fabricante de Brinquedos** | Talento | Invocador / Controle | DLC Tinkerers |
+| **Vidente** | Percepção | Suporte / Debuff | DLC Tinkerers |
+
+<Callout type="info" title="Verificação de Sinergia de Atributos">
+Antes de equipar uma nova arma, verifique o atributo primário do personagem. Um martelo de alto dano é inútil em um Caçador com Força baixa. Sempre combine o atributo exigido pela arma com o atributo mais alto do personagem para garantir uma alta probabilidade de acerto.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mestria em Combate: A Grade de Batalha e o Foco">
+
+O combate em *For The King II* evoluiu para uma partida de xadrez tática. A grade 2x4 permite um posicionamento sofisticado. Personagens da linha de frente podem utilizar a habilidade "Proteger" para absorver danos destinados à linha de trás, enquanto certas armas podem atingir fileiras ou colunas inteiras.
+
+<Steps>
+  <Step num="1" title="Posicionamento Inicial">
+    Coloque seu Ferreiro ou personagem de alta Vitalidade no centro-frente. Mantenha seu Estudioso e Herbalista nos cantos traseiros para minimizar a exposição a danos colaterais.
+  </Step>
+  <Step num="2" title="Analise as Intenções do Inimigo">
+    Passe o mouse sobre os inimigos para ver sua retícula de mira. Se um inimigo estiver preparando um ataque de coluna, mova seus personagens para diferentes faixas verticais durante sua ação secundária.
+  </Step>
+  <Step num="3" title="Alocação de Foco">
+    Use pontos de Foco para garantir acertos em alvos de alta prioridade (como curandeiros) ou para garantir um efeito de "Atordoamento" ou "Congelamento" bem-sucedido que pode pular o turno de um inimigo.
+  </Step>
+  <Step num="4" title="Ações Secundárias">
+    Não se esqueça das ações secundárias. Use-as para consumir ervas, trocar equipamentos ou mover-se um quadrado na grade antes de realizar seu ataque primário.
+  </Step>
+</Steps>
+
+Os efeitos de status estão mais letais do que nunca em 2026. Um único efeito de "Ácido" pode destruir permanentemente uma arma lendária, enquanto o "Atordoamento" pode roubar suas ações secundárias cruciais.
+
+| Efeito de Status | Impacto | Cura Recomendada |
+| :--- | :--- | :--- |
+| **Sangramento** | Dano ao longo do tempo a cada turno | Bandagens / Barba de Deus |
+| **Choque** | Falha automática na próxima jogada | Panax / Foco |
+| **Ácido** | Chance de dissolver armaduras/armas | Panax (Imediato) |
+| **Atordoamento** | Remove a ação secundária | Panax / Esperar passar |
+| **Congelado** | O alvo recebe significativamente mais dano | Dano de fogo / Panax |
+
+<Callout type="warning" title="O Perigo do Ácido">
+O Ácido é o efeito de status mais perigoso para a sobrevivência a longo prazo. Se um personagem for atingido por Ácido, priorize a cura com Panax imediatamente. Perder um escudo ou arma de alto nível no meio de uma masmorra pode acabar com sua jornada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Composições de Grupo para Cada Dificuldade">
+
+Escolher uma equipe coesa é o cerne de qualquer **guia de for the king ii** de sucesso. Embora você possa experimentar qualquer combinação, certas "bases" provaram ser altamente eficazes para as dificuldades Aprendiz, Viajante e Mestre.
+
+### O Iniciante Equilibrado (Aprendiz/Viajante)
+Esta composição foca em confiabilidade e sobrevivência, sendo perfeita para novos jogadores que estão aprendendo as mecânicas.
+- **Ferreiro**: Tanque de linha de frente e atordoamentos físicos.
+- **Caçador**: Dano à distância consistente e controle de emboscada.
+- **Estudioso**: Dano mágico e restauração de Foco via "Refocar".
+- **Herbalista**: Obrigatória para "Cura de Grupo" para manter todos vivos.
+
+### O Meta de Dano Explosivo (Dificuldade Mestre)
+Para jogadores que desejam encerrar lutas antes que os inimigos possam reagir, esta composição foca em alta produção de dano e controle de área.
+- **Ferreiro**: Ancora a grade e fornece proteção.
+- **Alquimista**: Usa bombas para destruir armaduras e causar dano massivo em área.
+- **Desbravador**: Alta velocidade e Percepção para iniciativa precoce.
+- **Herbalista**: Fornece a cura necessária para sobreviver a picos de dano acidentais.
+
+| Nome da Composição | Dificuldade | Estratégia Principal | Fator de Sinergia |
+| :--- | :--- | :--- | :--- |
+| **Base Iniciante** | Fácil | Sobrevivência e Cura | 5/5 |
+| **Explosão Mágica** | Média | Magia em Área e Debuffs | 4/5 |
+| **Trapaceiros DLC** | Difícil | Invocações e Controle do Destino | 3/5 |
+| **Físico Puro** | Média | Destruição de Armadura e Atordoamentos | 4/5 |
+
+<Callout type="success" title="Bônus de Sinergia: Refocar">
+A habilidade "Refocar" do Estudioso muda o jogo. Ao ficar adjacente a aliados ou simplesmente terminar o turno, eles têm a chance de restaurar Foco. Combine isso com um grupo que usa armas que consomem muito Foco para manter o ritmo sem consumir constantemente Raízes Douradas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão da Campanha e Objetivos de Bioma">
+
+Fahrul é dividida em vários biomas, cada um com perigos e recompensas únicos. Esteja você nas exuberantes Planícies ou nos traiçoeiros Pântanos Venenosos, seus objetivos permanecem consistentes: subir de nível, equipar-se e gerenciar o Caos.
+
+<Checklist
+  id="biome-checklist"
+  title="Objetivos Essenciais de Bioma:"
+  items={[
+    "Localize e ative o Santuário local para um bônus permanente.",
+    "Encontre o Herói de Pedra para ganhar um grande aumento de XP e recarga de Foco.",
+    "Complete pelo menos duas Missões de Cidade para obter ouro e equipamentos.",
+    "Explore a masmorra do objetivo principal, mas não entre até estar totalmente curado.",
+    "Limpe acampamentos de Caos próximos para manter o cronômetro global sob controle."
+  ]}
+/>
+
+À medida que você avança pelas sete aventuras, a dificuldade aumenta exponencialmente. Os capítulos finais, como "Os Portões do Castelo", exigem um grupo com resistências máximas e armas de alto nível. Não se apresse para o chefe final; em vez disso, gaste tempo enfrentando encontros menores para garantir que seu grupo esteja pelo menos um nível acima do nível recomendado da masmorra.
+
+| Tipo de Bioma | Perigo Principal | Equipamento Recomendado |
+| :--- | :--- | :--- |
+| **Planícies** | Ataques de emboscada | Alta Percepção / Escudos |
+| **Pântanos** | Veneno / Doença | Panax / Equipamento de resistência |
+| **Vulcânico** | Queimadura / Dano de Fogo | Resistência a Fogo / Água |
+| **Masmorras** | Salas de armadilhas / Mímicos | Percepção / Foco Alto |
+
+<Callout type="info" title="Gerenciamento de Caos">
+Se o medidor de Caos atingir seu limite, inimigos poderosos surgirão no mapa-múndi e os encontros de combate se tornarão significativamente mais difíceis. Use seu Foco para chegar aos acampamentos de Caos rapidamente ou complete missões de cidade que ofereçam "Remover Caos" como recompensa.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="FAQ do Guia de For The King II">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio novas classes em For The King II?",
+    answer: "A maioria das classes é desbloqueada gastando pontos de Lore na Loja de Lore. Os pontos de Lore são ganhos ao completar objetivos e terminar jornadas. Algumas classes especiais, como o Monge, foram adicionadas em atualizações gratuitas, enquanto outras, como o Fabricante de Brinquedos, fazem parte de pacotes de DLC pagos."
+  },
+  {
+    question: "Existe crossplay entre Steam e Xbox?",
+    answer: "Sim, For The King II suporta multiplayer multiplataforma entre Steam e Xbox. No entanto, certifique-se sempre de que todos os jogadores estejam na mesma versão do jogo para evitar problemas de conexão no lobby."
+  },
+  {
+    question: "Qual é a melhor maneira de restaurar Foco em uma masmorra?",
+    answer: "Como você não pode visitar cidades em uma masmorra, deve contar com Raízes Douradas, kits de acampamento ou características específicas de personagens como 'Pensador Profundo'. Além disso, usar um Herói de Pedra ou encontrar um Santuário dentro de uma masmorra restaurará totalmente seu medidor de Foco."
+  },
+  {
+    question: "Posso jogar For The King II sozinho?",
+    answer: "Com certeza. No modo solo, um único jogador controla todos os quatro personagens do grupo. Isso permite uma coordenação e estratégia perfeitas, embora você perca a diversão social do modo cooperativo."
+  }
+]} />
+
+<Callout type="tip" title="Palavra Final sobre Estratégia">
+Este **guia de for the king ii** é apenas o começo. A beleza do jogo reside em sua imprevisibilidade. Não tenha medo de falhar; cada jornada perdida rende pontos de Lore que tornam a próxima viagem um pouco mais fácil. Adapte-se, crie estratégias e, eventualmente, a coroa será sua.
+</Callout>
+
+</Section>

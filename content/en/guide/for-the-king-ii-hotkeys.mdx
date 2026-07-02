@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Hotkeys: Essential Keyboard Shortcuts",
+  description: "Master your Fahrul adventure with our For The King II hotkeys guide. Learn default keyboard shortcuts, combat controls, and party management tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Hotkeys+and+Controls",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Shortcut**: Use the default **for the king ii hotkeys** to optimize party management and combat speed.
+- **End Turn**: Press the **Delete (DEL)** key to quickly finish a character's turn on the overworld.
+- **Party Summary**: Press the **P** key to inspect all party stats, buffs, and immunities instantly.
+- **Combat Speed**: Hold down the **Left Mouse Button (LMB)** during attacks to fast-forward combat animations.
+- **Focus Spend**: Right-click on a combat skill or overworld movement path to apply **Focus** points.
+</Callout>
+
+<Section icon={Map} title="For The King II Default Hotkeys & Layout">
+
+Understanding the default **for the king ii hotkeys** is crucial for managing your party efficiently and surviving the challenging turn-based tabletop world of Fahrul. Using keyboard shortcuts allows you to quickly navigate menus, inspect status effects, and speed up tedious encounters without relying solely on slow mouse movements.
+
+**Video Highlights:**
+- **Battle Grid Tactics**: Watch how positioning and movement shape turn-based combat.
+- **Overworld Exploration**: See how parties coordinate across procedurally generated maps.
+- **Class and Loadout Planning**: Learn how starting builds influence your run success.
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Join The Fight - Trailer" />
+
+### Default Control Scheme Overview
+The default layout combines standard WASD camera controls with contextual mouse clicks and menu hotkeys. Unlike its predecessor, For The King II optimizes several keybinds to accommodate deeper tactical choices on the battle grid.
+
+<Callout type="tip" title="Key Binding Update">
+The end-turn shortcut has been reassigned to the **Delete (DEL)** key by default. This represents a major change from the first game's Spacebar default, helping players avoid accidental turn skips during intense battles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Controls & Battle Grid Shortcuts">
+
+Combat in For The King II takes place on a 2x4 tactical battle grid [00首页信息-2.md]. Managing your front and back rows requires precise clicking and quick hotkey execution. To make combat flow smoothly, you can utilize specific inputs to trigger skills, target enemies, and spend your valuable Focus points.
+
+### Combat Shortcuts Table
+The table below highlights the most common keyboard and mouse shortcuts used during combat encounters.
+
+| Key | Action | Best Use Case |
+| :--- | :--- | :--- |
+| **Right Click** | Spend Focus | Guarantee rolls for critical hits, heals, or crowd control |
+| **DEL** | End Turn | Instantly end the current hero's turn after moving |
+| **LMB (Hold)** | Fast Forward Combat | Speed up attack animations for faster encounter resolution |
+| **Shift (Hold)** | Inspect Tooltip | View detailed status effects, immunities, or weapon arts |
+| **Esc** | Cancel Action | Deselect a targeted skill or utility item before committing |
+
+<Callout type="warning" title="Status Effects Block Controls">
+Be aware that status effects like **Dazed** and **Stunned** will restrict your control options [00首页信息-2.md]. A Dazed character loses their secondary action, preventing them from moving or using items, while Stunned completely skips their turn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Overworld Navigation & Map Shortcuts">
+
+Exploring the procedurally generated biomes of Fahrul requires careful movement planning to manage the rising Chaos pressure [00首页信息-2.md]. Knowing your navigation hotkeys ensures you do not waste movement points or accidentally walk into a high-level enemy's ambush radius.
+
+### Overworld Shortcuts Table
+Use these default shortcuts to navigate the overworld hex map and coordinate with your party members.
+
+| Key | Action | Best Use Case |
+| :--- | :--- | :--- |
+| **WASD / Arrows** | Camera Movement | Scroll around the overworld map to scout ahead |
+| **M** | Toggle Map | Open or close the full overworld map view for routing |
+| **Right Click** | Spend Focus for Move | Gain extra movement points to reach safe zones |
+| **LMB** | Move Character | Pathfind your active hero to a targeted overworld hex |
+| **Spacebar** | Center Camera | Instantly snap the camera back to the active character |
+
+<Checklist
+  id="overworld-navigation"
+  title="Overworld Survival Checklist:"
+  items={[
+    "Press P to check party gold multipliers before purchasing items in town shops",
+    "Use Right Click to burn excess Focus for extra movement hexes when traveling",
+    "Hold Shift to inspect dangerous biomes, hex hazards, and enemy level ratings",
+    "Ping targets using the map ping system to coordinate routes with online allies"
+  ]}
+/>
+
+<Callout type="info" title="Focus Recovery Tip">
+Always burn your spare Focus points on extra movement before visiting a **Sanctum** or a **Stone Hero**. Interacting with these structures instantly refills your Focus meter to maximum, giving you free exploration value.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="UI & Party Management Shortcuts">
+
+Coordinating a party of up to four characters requires constant stat-checking, item trading, and quest tracking. Instead of manually clicking through multiple HUD menus, you can use UI-specific hotkeys to streamline your inventory management.
+
+### UI & Management Shortcuts Table
+These shortcuts help you manage your inventory, review active quests, and assess your party's combat readiness.
+
+| Key | Action | Best Use Case |
+| :--- | :--- | :--- |
+| **P** | Party Summary | Inspect all active stats, buffs, debuffs, and immunities |
+| **Tab / I** | Open Inventory | Equip weapons, assign armor, or consume healing herbs |
+| **Q** | Open Quest Log | Review active main storyline goals and town quests |
+| **Esc** | Pause Menu | Save your progress, adjust game settings, or quit to menu |
+
+<CardGrid cols={3}>
+  <Card title="Mouse & Keyboard">
+    - **Precision clicking** for grid combat and targeted area-of-effect spells.
+    - Quick access to management menus via keybinds like **P** and **DEL**.
+    - Ideal for multi-tasking and fast inventory sorting during online co-op.
+  </Card>
+  <Card title="Controller & Steam Deck">
+    - Radial menus and analog stick camera movement for comfortable couch play.
+    - **L2 / R2** buttons for quest logs and **Triangle** for inventory screens.
+    - Great for portable sessions, though small text scaling may require UI adjustments.
+  </Card>
+  <Card title="Shared Screen Input">
+    - Players pass a single controller or share one keyboard for local play.
+    - **Shared inputs** keep offline co-op simple without requiring multiple rigs.
+    - Best for casual party setups where physical coordination is part of the fun.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Multiplayer Nudge Feature">
+If an online party member is distracted or slow to take their turn, you can open the Multiplayer Menu and use the **Nudge** button to send them a friendly reminder.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Customizing and Troubleshooting Keybinds">
+
+If the default layout does not fit your playstyle, or if you are using a non-QWERTY keyboard layout (such as AZERTY), you can customize your controls directly in the settings. 
+
+### How to Rebind Your Keys
+Follow these simple steps to customize your layout and resolve common control issues.
+
+<Steps>
+  <Step num="1" title="Open Settings Menu">
+    Press the **Esc** key during gameplay or on the main menu to open the system options, then click on **Settings**.
+  </Step>
+  <Step num="2" title="Navigate to Controls Tab">
+    Click on the **Controls** tab at the top of the settings window to view the current keyboard and mouse layout.
+  </Step>
+  <Step num="3" title="Rebind Key Actions">
+    Select the action you want to change (such as End Turn or Inspect), click the current keybinding, and press your preferred new key.
+  </Step>
+  <Step num="4" title="Save and Apply Changes">
+    Click **Apply** at the bottom of the screen to confirm your new layout and return to your campaign in Fahrul.
+  </Step>
+</Steps>
+
+### Troubleshooting Controller Overlay Bugs
+A common bug in For The King II causes controller button prompts (like Xbox or PlayStation icons) to display on screen even when playing with a mouse and keyboard. This can make it difficult to identify your correct PC keybinds.
+
+<Callout type="warning" title="Fix Displayed Controls Bug">
+To remove the unwanted controller layout from your display, navigate to the **Controls** tab in your Settings and toggle off **Show Footer Controls**. This forces the HUD to display standard PC keyboard prompts.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+Review these common questions regarding controls, shortcuts, and settings adjustments.
+
+<FAQ items={[
+  {
+    question: "How do I speed up combat in For The King II?",
+    answer: "You can hold down the Left Mouse Button (LMB) during any combat action to fast-forward the animation. Alternatively, you can enable fast-forward combat by default under the Gameplay tab in the Settings menu."
+  },
+  {
+    question: "What is the default hotkey to end a turn?",
+    answer: "The default hotkey to end a turn is the Delete (DEL) key. This was changed from the Spacebar used in the original game to prevent accidental turn skipping."
+  },
+  {
+    question: "Can I customize my keybinds for an AZERTY keyboard?",
+    answer: "Yes. You can rebind all movement, combat, and UI controls by pressing Esc, navigating to Settings, and selecting the Controls tab."
+  },
+  {
+    question: "How do I use Focus during combat with my keyboard?",
+    answer: "To apply Focus to an attack or skill roll, select your desired action, hover over your target, and Right-Click before confirming the attack."
+  }
+]} />
+
+<Callout type="tip" title="Access the In-Game Encyclopedia">
+If you ever find yourself confused by a status effect, weapon icon, or combat rule, you can hover over the element or open the **Encyclopedia** from the main menu for quick, detailed explanations.
+</Callout>
+
+</Section>

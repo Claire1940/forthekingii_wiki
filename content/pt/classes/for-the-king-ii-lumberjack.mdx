@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Lenhador: Guia de Desbloqueio e Melhores Builds",
+  description: "Desbloqueie o Lenhador em For The King II. Aprenda as melhores builds de grupo, armas e estratégias de combate para dominar a Grade de Batalha de Fahrul.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Lumberjack+Unlock+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Visão Geral do Lenhador**: Um causador de dano físico de alto impacto focado em Força e armas pesadas de duas mãos.
+- **Condição Principal de Desbloqueio**: Obtido através da progressão na campanha e desbloqueado na Loja de Lore do jogo usando a moeda de Lore.
+- **Passiva Principal**: Possui características de combate poderosas que recompensam jogadas de dados perfeitas e golpes que quebram escudos.
+- **Melhor Função no Grupo**: Atua como causador de dano físico principal na linha de frente ou como um off-tank híbrido ao lado de um Ferreiro.
+</Callout>
+
+<Section icon={Map} title="Como Desbloquear o Lenhador">
+
+Para recrutar o Lenhador para a sua equipe em [For The King II](https://store.steampowered.com/app/1676840/For_The_King_II/), você deve progredir na campanha principal e gastar sua suada moeda de Lore. Ao contrário das classes iniciais, este colosso físico exige participação ativa na campanha antes de se tornar selecionável em suas composições iniciais.
+
+| Passo de Desbloqueio | Requisito | Localização | Recompensa |
+|--- |--- |--- |--- |
+| **1. Obter Lore** | Conclua missões no mapa e capítulos da campanha | Qualquer Aventura | Moeda de Lore |
+| **2. Acessar a Loja** | Abra o menu principal e navegue até a loja de progressão | Loja de Lore | Menu de Desbloqueio |
+| **3. Comprar a Classe** | Gaste os pontos de Lore necessários para resgatar permanentemente a classe | Aba de Personagens | Lenhador Jogável |
+
+<Callout type="success" title="Dica para Farmar Lore">
+Se estiver com pouco Lore, jogue os capítulos iniciais da campanha na dificuldade Aprendiz. Concluir missões nas cidades e derrotar chefes no mapa é a maneira mais rápida de acumular pontos de Lore sem arriscar a derrota total do grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Atributos e Habilidades Passivas do Lenhador">
+
+O Lenhador é um especialista de linha de frente projetado para estraçalhar as defesas inimigas. Com uma Força excepcional e alta Vitalidade, esta classe se destaca no manuseio de armas pesadas e lentas de duas mãos, que causam dano físico massivo a alvos únicos ou a fileiras inteiras.
+
+| Atributo | Valor Base | Avaliação | Uso Tático |
+|--- |--- |--- |--- |
+| **Força** | Muito Alta | ★★★★★ | Escalonamento de dano principal e testes de armas |
+| **Vitalidade** | Alta | ★★★★☆ | Aumenta a vida máxima e a sobrevivência na linha de frente |
+| **Velocidade** | Baixa | ★★☆☆☆ | Atrasa a ordem de turno, exigindo equipamentos de velocidade |
+| **Percepção** | Moderada | ★★★☆☆ | Utilidade física secundária e testes de emboscada |
+
+### Habilidades Passivas
+- **Justiça**: Tem uma chance aleatória de transformar um ataque padrão de alvo único em um ataque de dispersão devastador que causa dano a alvos adjacentes.
+- **Pancada na Porta**: Aumenta o dano físico ao atacar alvos fortificados, barricadas ou linhas de frente protegidas por escudos na Grade de Batalha.
+
+<Callout type="warning" title="Aviso de Penalidade de Velocidade">
+Como o Lenhador tem uma Velocidade base baixa, ele frequentemente agirá por último na ordem de turnos. Junte-o com personagens de suporte ou equipe botas que aumentam a velocidade para evitar que inimigos rápidos o derrotem antes que ele possa atacar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Builds de Grupo para o Lenhador">
+
+Montar uma equipe equilibrada em torno do Lenhador evita que ele seja sobrecarregado na Grade de Batalha 2x4. Uma composição de grupo adequada cobre a defesa da linha de frente, cura confiável, utilidade mágica e manipulação de velocidade.
+
+<CardGrid cols={3}>
+  <Card title="A Vanguarda de Ferro">
+    - **Linha de Frente**: Ferreiro & Lenhador
+    - **Linha de Trás**: Historiador & Ervanária
+    - **Estratégia**: Proteção física máxima e cura constante para o grupo.
+  </Card>
+  <Card title="O Atacante de Explosão">
+    - **Linha de Frente**: Lenhador
+    - **Linha de Trás**: Alquimista & Caçador & Ervanária
+    - **Estratégia**: Alto dano explosivo físico e mágico para encerrar lutas em dois turnos.
+  </Card>
+  <Card title="O Flex Cooperativo">
+    - **Linha de Frente**: Lenhador & Artista de Rua
+    - **Linha de Trás**: Historiador & Ervanária
+    - **Estratégia**: Excelente economia de ouro, controle de grupo e divisão de dano físico.
+  </Card>
+</CardGrid>
+
+| Posição | Classe | Função | Prioridade de Saque Principal |
+|--- |--- |--- |--- |
+| Frente Esquerda | **Ferreiro** | Tanque Principal / Provocar | Escudos Pesados, Armadura de Vitalidade |
+| Frente Direita | **Lenhador** | Dano Físico / Off-Tank | Machados de Duas Mãos, Equipamento de Força |
+| Trás Esquerda | **Ervanária** | Curador do Grupo / Suporte | Barba de Deus, Magia de Inteligência |
+| Trás Direita | **Historiador** | Dano Mágico / Gerador de Foco | Tomos, Acessórios de Recuperação de Foco |
+
+<Callout type="tip" title="Posicionamento na Grade de Batalha">
+Sempre posicione seu Lenhador na linha de frente ao lado de um Ferreiro equipado com escudo. O Ferreiro pode usar a habilidade Proteger para defender o Lenhador enquanto ele se concentra inteiramente em carregar ataques de Força de alto dano.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Combate Passo a Passo">
+
+Maximizar o impacto do Lenhador na Grade de Batalha requer planejamento cuidadoso, gerenciamento de Foco e priorização de alvos. Siga esta rotação tática para transformar este gigante lento em uma força imparável.
+
+<Steps>
+  <Step num="1" title="Verificação de Posicionamento">
+    Antes de iniciar uma luta, certifique-se de que o Lenhador está na linha de frente. Se for pego em uma emboscada, use sua primeira ação secundária para movê-lo para uma posição adjacente ao seu tanque.
+  </Step>
+  <Step num="2" title="Analise as Defesas Inimigas">
+    Identifique alvos com armadura alta. Use o Lenhador para atacar inimigos com baixa Defesa Física ou use habilidades de armas que perfuram armadura para contornar escudos pesados.
+  </Step>
+  <Step num="3" title="Gaste Foco com Sabedoria">
+    Não desperdice Foco em lutas fáceis. Guarde seus pontos de Foco para habilidades de duas mãos de alto dano que atingem vários blocos ou quando precisar garantir uma execução crítica.
+  </Step>
+  <Step num="4" title="Ative a Justiça">
+    Aponte para o inimigo do meio em uma fileira. Se a habilidade passiva **Justiça** for ativada, seu ataque se espalhará para a esquerda e para a direita, causando um dano colateral massivo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Recuperação de Foco">
+Use a habilidade Focar Novamente do seu Historiador ou consuma Raiz Dourada durante as fases de recuperação para manter a barra de Foco do seu Lenhador cheia antes de entrar em masmorras importantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipamentos e Builds Recomendados">
+
+Equipar o Lenhador com as armas e itens utilitários corretos faz a diferença entre um golpe perdido e uma eliminação instantânea. Concentre-se inteiramente em armas que escalam com Força e equipamentos que atenuem sua baixa Velocidade.
+
+### Melhores Armas
+- **Grande Machado**: Alto dano físico bruto com habilidades confiáveis de alvo único e dispersão.
+- **Machado do Lenhador**: Ignora uma parte da armadura inimiga e escala perfeitamente com a Força base.
+- **Martelo de Duas Mãos**: Excelente para atordoar alvos e interromper sua ordem de turnos na Grade de Batalha.
+
+### Prioridade de Equipamento Inicial
+1. **Acessório de Força**: Concede um aumento imediato na taxa de sucesso dos seus testes principais.
+2. **Botas de Velocidade**: Ajuda a compensar a baixa iniciativa natural da classe.
+3. **Panax**: Mantém o Lenhador livre de efeitos de status como Confuso ou Atordoado, que arruínam completamente a economia de turnos.
+
+<Checklist
+  id="lumberjack-prep"
+  title="Lista de Preparação para a Partida com o Lenhador:"
+  items={[
+    "Desbloqueie o Lenhador na Loja de Lore",
+    "Equipe uma arma de Força de alto dano",
+    "Combine com um curador (Ervanária ou Monge)",
+    "Adquira pelo menos um item que aumente a Velocidade",
+    "Carregue curas de status para evitar penalidades de Confusão"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Lenhador é melhor do que o Ferreiro em For The King II?",
+    answer: "Eles servem a propósitos diferentes. O Ferreiro é um tanque puro focado em defesa e proteção, enquanto o Lenhador é um causador de dano físico dedicado com capacidades de off-tank."
+  },
+  {
+    question: "Como faço para ativar a habilidade passiva Justiça de forma consistente?",
+    answer: "A Justiça é ativada aleatoriamente em ataques corpo a corpo. Para maximizar seu valor, sempre mire no inimigo do meio em uma fileira ativa para que o dano de dispersão possa atingir os alvos de ambos os lados."
+  },
+  {
+    question: "Qual é o melhor tipo de arma para o Lenhador?",
+    answer: "Machados de duas mãos e martelos pesados são as melhores opções. Procure por armas que escalem exclusivamente com Força e ofereçam habilidades de perfuração de armadura ou dano de dispersão."
+  },
+  {
+    question: "O Lenhador pode usar um escudo?",
+    answer: "Sim, mas não é recomendado. Equipar um escudo força você a usar armas de uma mão, o que reduz significativamente sua produção de dano físico e limita sua capacidade de ativar ataques de dispersão de alto impacto."
+  }
+]} />
+
+</Section>

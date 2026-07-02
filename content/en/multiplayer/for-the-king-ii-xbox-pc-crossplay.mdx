@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Xbox PC Crossplay: Multiplayer Setup Guide",
+  description: "Learn how to set up For The King II Xbox PC crossplay, manage multiplayer lobbies, and coordinate co-op party builds across platforms.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Xbox+PC+Crossplay+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Crossplay status**: Full **for the king ii xbox pc crossplay** is supported between Steam, Xbox consoles, and the Xbox PC app.
+- **Lobby setup**: Hosts must configure region, room name, and passwords before loading a campaign save.
+- **Rejoin rule**: Mid-game joining is not supported; hosts must return to the main menu to let players reconnect.
+- **Progression**: Campaign progress saves strictly to the host, while Lore Store currency and unlocks remain global for all players.
+- **Party size**: Supports up to four players online, with flexible character distribution options.
+</Callout>
+
+<Section icon={Map} title="Multiplayer and Crossplay Compatibility Overview">
+
+If you are planning to venture into the dangerous lands of Fahrul with friends across different platforms, understanding how **for the king ii xbox pc crossplay** works is essential for a smooth session. The game supports cross-platform multiplayer, allowing PC players on Steam to team up with players on Xbox Series X/S and the Xbox PC app. This unified ecosystem ensures that you do not have to split your gaming group based on store preferences or hardware choices.
+
+The multiplayer architecture relies on a centralized matchmaking backend. When hosting a game, players can customize their lobbies to allow seamless connections across networks. However, platform-specific ecosystem features differ slightly depending on where you purchased the game. For instance, players within the Xbox ecosystem benefit from Xbox Play Anywhere and Cloud Gaming, while Steam players utilize Steam Remote Play Together for local sessions.
+
+| Feature | Steam PC | Xbox Series X/S | PlayStation 5 |
+| :--- | :--- | :--- | :--- |
+| Online Co-op | Supported (1-4 players) | Supported (1-4 players) | Supported (Requires PS Plus) |
+| Local Co-op | Shared/Split Screen | Local Co-op (2-4 players) | Local Co-op (1-4 players) |
+| Crossplay | Supported with Xbox/PC | Supported with PC/Steam | Not officially labeled |
+| Ecosystem Features | Remote Play Together | Play Anywhere, Cloud | Remote Play, Cloud Stream |
+
+While PC and Xbox players enjoy a highly integrated matchmaking experience, PlayStation 5 players operate under different store capability labels. If you are building a cross-network group, prioritize coordinating between Steam and Xbox platforms to ensure maximum compatibility without lobby dropouts.
+
+<Callout type="warning" title="PlayStation Network Notice">
+The PlayStation Store page lists online multiplayer and Remote Play support, but it lacks the cross-platform multiplayer label present on the Steam and Xbox store pages. Always double-check active platform labels if your party includes PlayStation users.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hosting and Joining For The King II Xbox PC Crossplay Lobbies">
+
+Setting up a cross-platform session requires the host to properly configure the lobby parameters before launching the adventure. Because the game does not support dynamic mid-game joining, establishing a stable connection in the pre-game lobby is critical. If a player disconnects during a run, the host must save the game, exit to the main menu, and recreate the lobby to allow them back in.
+
+Follow these structured steps to establish a stable crossplay session between Xbox and PC players.
+
+<Steps>
+  <Step num="1" title="Select Multiplayer Mode">
+    The designated host must navigate to the main menu and select the Multiplayer option. Choose the option to host a new adventure rather than starting a local solo game.
+  </Step>
+  <Step num="2" title="Configure Lobby Settings">
+    Set your matchmaking region to match your teammates. Create a unique Room Name and apply a secure password to prevent random players from occupying character slots.
+  </Step>
+  <Step num="3" title="Share Lobby Details">
+    Provide your teammates with the exact Room Name, password, and chosen server region. Xbox and PC players can use the in-game server browser to search for the room name directly.
+  </Step>
+  <Step num="4" title="Assign Characters and Launch">
+    Once all players have joined the lobby, distribute the party characters among the active players. The host can then safely load an existing save or start a fresh campaign chapter.
+  </Step>
+</Steps>
+
+If a player experiences a connection failure during a long dungeon run, do not panic. Your progress is safe. The host simply needs to save the current state, quit to the main menu, re-host the lobby with the same settings, and let the disconnected player rejoin before reloading the active save file.
+
+<Callout type="tip" title="Version Alignment Rule">
+Ensure that all players have updated their games to the identical version. Because PC and console update certification pipelines sometimes differ, minor version mismatches can temporarily prevent crossplay lobbies from appearing in the server browser.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Co-op Party Composition and Role Distribution">
+
+Success in multiplayer runs depends heavily on cooperative party planning. Throwing four high-damage, fragile classes into a single land vehicle is a fast track to a failed run. A balanced party must distribute defensive duties, physical damage, magical utility, and healing support across the active players.
+
+Depending on the size of your group, you should distribute the four character slots to ensure every player has an active role in combat and overworld exploration.
+
+<CardGrid cols={3}>
+  <Card title="Two-Player Split">
+    - **Player One**: Controls the frontline Tank (Blacksmith) and the primary Support (Herbalist).
+    - **Player Two**: Controls the physical DPS (Hunter) and the magical DPS (Scholar).
+    - **Strategy**: Ensures both players manage one defensive/utility role and one active damage role.
+  </Card>
+  <Card title="Three-Player Split">
+    - **Player One**: Controls the frontline protector.
+    - **Player Two**: Controls the primary damage dealer.
+    - **Player Three**: Controls the support healer and a secondary utility character.
+    - **Strategy**: Balances tactical decision-making while keeping turn times relatively fast.
+  </Card>
+  <Card title="Four-Player Split">
+    - **Player One**: Frontline Tank.
+    - **Player Two**: Physical ranged DPS.
+    - **Player Three**: Magical controller.
+    - **Player Four**: Dedicated support healer.
+    - **Strategy**: Maximum cooperation required; requires strict coordination of items and gold.
+  </Card>
+</CardGrid>
+
+To make the most of your cooperative build, align your gear distribution with the primary stats of each character. Do not let players hoard items that do not benefit their core combat roles.
+
+| Role | Key Stats | Grid Position | Main Responsibility |
+| :--- | :--- | :--- | :--- |
+| **Tank** | Vitality, Strength | Front Row | Absorbs damage, guards allies, uses shields |
+| **Physical DPS** | Awareness, Speed | Back Row | Ranged damage, overworld scouting, ambushes |
+| **Magic DPS** | Intelligence | Back Row | High burst, area control, scroll utilization |
+| **Support** | Intelligence, Talent | Back Row | Healing, party buffs, herb management |
+
+Coordinating your positions on the 2x4 Battle Grid is just as important as your class choices. Keep your fragile spellcasters behind your heavily armored Blacksmith to make use of defensive abilities like Guard.
+
+<Callout type="success" title="Shared Inventory Strategy">
+Remember that gold and gear can be traded freely between adjacent party members on the overworld. Use the party summary screen to review stats and hand off powerful weapons to the character who can roll them with the highest accuracy.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Multiplayer Progression and Save Mechanics">
+
+A common point of confusion in crossplay sessions is how campaign progression and rewards are distributed. In For The King II, campaign save files are tied directly to the host's account. Client players who join a session will not receive a local campaign save file on their own machine. However, all progression currencies, achievements, and Lore Store unlocks are fully retained by every individual player in the session.
+
+This structure allows you to join a friend's campaign, help them conquer a difficult chapter, and still earn valuable Lore currency to spend on your own solo runs later.
+
+| Progression Type | Host Status | Client Status | Key Detail |
+| :--- | :--- | :--- | :--- |
+| **Campaign Save** | Saved on Host PC/Console | Not saved locally | Clients must rejoin Host lobby to continue |
+| **Lore Earned** | Fully retained | Fully retained | Earned based on active gameplay milestones |
+| **Lore Store Unlocks** | Retained globally | Retained globally | Unlocks carry over to solo and other co-op runs |
+| **Achievements** | Unlocked normally | Unlocked normally | Triggers simultaneously for all eligible players |
+
+Before embarking on a long multiplayer session, run through this pre-game checklist to ensure your party is fully prepared for the challenges of Fahrul.
+
+<Checklist
+  id="coop-prep-checklist"
+  title="Multiplayer Session Checklist:"
+  items={[
+    "Confirm all players are on the same game update version",
+    "Designate a host with a stable internet connection to hold the save file",
+    "Coordinate character roles before spending starting Loadout Points",
+    "Select a mutually optimal server region in the lobby settings",
+    "Establish a clear plan for distributing gold and Godsbeard herbs"
+  ]}
+/>
+
+<Callout type="info" title="Lore Store Progression">
+Even if you fail a cooperative run, the Lore currency you accumulated during the play session remains yours. You can immediately spend this in your personal Lore Store to unlock new starting classes, traits, and items for future runs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does For The King II support crossplay between Steam and Xbox Game Pass?",
+    answer: "Yes. Full crossplay is supported between Steam and the Xbox ecosystem, which includes both Xbox consoles and the Xbox PC app. Players can find each other using the in-game room search tool."
+  },
+  {
+    question: "Can a client player continue a multiplayer campaign save in solo play?",
+    answer: "No. Campaign save files are saved exclusively on the host's local storage or cloud profile. Client players must join the original host's lobby to continue that specific campaign progress."
+  },
+  {
+    question: "What happens if a player disconnects during a multiplayer session?",
+    answer: "The game does not support active hot-joining. The host should save the game, exit to the main menu, host a new lobby, wait for the disconnected player to join, and then reload the save file."
+  },
+  {
+    question: "Do all players earn Lore currency during a cooperative crossplay run?",
+    answer: "Yes. All players in the session earn Lore currency based on active gameplay achievements and milestones. This currency is tied to your global profile and can be spent in your personal Lore Store."
+  }
+]} />
+
+</Section>

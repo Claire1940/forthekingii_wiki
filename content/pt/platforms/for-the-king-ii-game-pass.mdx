@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Gamepad2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II no Game Pass: Guia de Configuração e Dicas de Co-op",
+  description: "Domine For The King II no Game Pass com o nosso guia de crossplay, configuração de multiplayer, tier list de classes e estratégias essenciais de sobrevivência para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Game+Pass+Setup+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **For The King II no Game Pass**: Disponível para Xbox, PC e Cloud Gaming com suporte total a crossplay entre Xbox e Steam.
+- **Configuração de Multiplayer**: Suporta co-op de até **4 jogadores** localmente ou online; lembre-se de que os jogadores devem entrar no lobby antes de o anfitrião iniciar a sessão.
+- **Melhor Grupo Inicial**: Uma equipe equilibrada com **Ferreiro, Caçador, Erudito e Herbalista** é altamente recomendada para jogadores de primeira viagem no Game Pass.
+- **Progressão Principal**: Use a **Loja de Lore** para desbloquear novas classes e itens usando a moeda obtida em campanhas bem-sucedidas ou fracassadas.
+- **Estratégia de Combate**: Domine o posicionamento na **Grade de Batalha** e gerencie seus pontos de **Foco** para garantir jogadas críticas durante confrontos difíceis.
+</Callout>
+
+<Section icon={Shield} title="Disponibilidade e Recursos de For The King II no Game Pass">
+
+For The King II juntou-se oficialmente à biblioteca do Xbox Game Pass, oferecendo aos assinantes acesso ao roguelite em turnos no Xbox Series X|S, Windows PC e através do Xbox Cloud Gaming. Esta inclusão permite que um novo e enorme público experimente a profundidade tática de Fahrul sem a necessidade de uma compra imediata. A versão do Game Pass inclui todo o conteúdo do jogo base, incluindo a campanha de sete aventuras e as atualizações gratuitas de Dungeon Crawl.
+
+**Destaques do Vídeo:**
+- Visão geral das mecânicas de RPG de mesa em turnos.
+- Introdução à campanha de Resistência e à luta contra a Rainha Rosomon.
+- Prévia da jogabilidade cooperativa para até 4 jogadores e da Grade de Batalha estratégica.
+- Demonstração do sistema diversificado de classes e da geração procedural de mapas.
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Join The Fight - Trailer" />
+
+| Recurso | Xbox Game Pass (Console) | PC Game Pass (Windows) | Xbox Cloud Gaming |
+| :--- | :--- | :--- | :--- |
+| **Crossplay** | Sim (com PC/Steam) | Sim (com Xbox/Steam) | Sim |
+| **Co-op Local** | 1 a 4 Jogadores | 1 a 4 Jogadores | Não suportado |
+| **Co-op Online** | 2 a 4 Jogadores | 2 a 4 Jogadores | 2 a 4 Jogadores |
+| **Conquistas** | 126 Conquistas | 126 Conquistas | Progresso Compartilhado |
+| **Play Anywhere** | Suportado | Suportado | Suportado |
+
+<Callout type="success" title="Vantagem Cross-Platform">
+For The King II suporta **Xbox Play Anywhere**. Se você começar uma campanha no seu console Xbox via Game Pass, poderá continuar exatamente de onde parou no seu PC usando o mesmo arquivo de salvamento e conquistas.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Como Configurar o Multiplayer e o Crossplay">
+
+Configurar uma sessão em For The King II no Game Pass é simples, mas requer passos específicos para garantir que todos os membros do grupo estejam sincronizados. O jogo foi feito para cooperação e, embora o modo solo seja possível (controlando todos os quatro personagens), a verdadeira experiência brilha quando os jogadores dividem as funções.
+
+<Steps>
+  <Step num="1" title="Crie um Lobby Multiplayer">
+    O anfitrião deve selecionar 'Multiplayer' no menu principal e criar uma nova aventura. Você pode definir a sala como Pública, Apenas Amigos ou Privada com uma senha.
+  </Step>
+  <Step num="2" title="Convide Amigos de Outras Plataformas">
+    Jogadores do Game Pass podem convidar amigos através do menu do Xbox (Win+G no PC). Para crossplay com usuários da Steam, forneça o Nome da Sala e certifique-se de que a opção 'Crossplay' esteja ativada nas configurações.
+  </Step>
+  <Step num="3" title="Atribua os Espaços de Personagem">
+    Assim que todos os 2 a 4 jogadores estiverem no lobby, o anfitrião atribui os espaços de personagem. Em um jogo de 2 jogadores, cada jogador normalmente controla dois personagens para manter um grupo completo de 4 pessoas.
+  </Step>
+  <Step num="4" title="Finalize os Equipamentos e Inicie">
+    Cada jogador seleciona sua classe, característica inicial e itens iniciais usando Pontos de Equipamento. Assim que todos clicarem em 'Pronto', o anfitrião poderá iniciar a campanha.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Regras de Entrada">
+Os jogadores **não podem entrar em um jogo que já está em andamento**. Se um jogador se desconectar, o anfitrião deve salvar o jogo, voltar ao menu principal, recriar o lobby e fazer com que todos entrem novamente antes de carregar o arquivo de salvamento.
+</Callout>
+
+| Modo Multiplayer | Tipo de Conexão | Limite de Jogadores | Requisitos |
+| :--- | :--- | :--- | :--- |
+| **Co-op Online** | Internet / Servidor | 4 Jogadores | Xbox Game Pass Core/Ultimate |
+| **Co-op Local** | Tela Compartilhada | 4 Jogadores | Controles Adicionais |
+| **Remote Play** | Steam/Ecossistema | 4 Jogadores | Velocidade de Upload Estável |
+| **Co-op em Nuvem** | Servidores Microsoft | 4 Jogadores | Xbox Game Pass Ultimate |
+
+</Section>
+
+<Section icon={Swords} title="Tier List de Classes para Iniciantes no Game Pass">
+
+Escolher a composição certa é a diferença entre uma rebelião bem-sucedida e a derrota total do grupo. Em For The King II, as classes são definidas por seus atributos principais: Força, Percepção, Inteligência, Talento e Vitalidade. Para a sua primeira campanha no Game Pass, foque em um grupo que cubra todas as funções essenciais.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Herbalista">
+    - **Função**: Curandeiro Dedicado
+    - **Atributo Principal**: Inteligência
+    - **Habilidade Chave**: Cura de Grupo (consome uma Barba-de-gorgona para curar todo o grupo).
+  </Card>
+  <Card title="A-Tier: Ferreiro">
+    - **Função**: Tanque de Linha de Frente
+    - **Atributo Principal**: Vitality
+    - **Habilidade Chave**: Firmeza (ignora o dano ao usar um escudo).
+  </Card>
+  <Card title="A-Tier: Erudito">
+    - **Função**: Dano Mágico
+    - **Atributo Principal**: Inteligência
+    - **Habilidade Chave**: Refocar (chance de recuperar pontos de Foco no final do turno).
+  </Card>
+</CardGrid>
+
+| Classe | Função | Atributo Principal | Dificuldade | Método de Desbloqueio |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ferreiro** | Tanque / Defesa | Vitalidade | Fácil | Padrão |
+| **Caçador** | DPS à Distância | Percepção | Fácil | Padrão |
+| **Erudito** | Magia / Utilidade | Inteligência | Fácil | Padrão |
+| **Herbalista** | Cura / Suporte | Inteligência | Fácil | Padrão |
+| **Alquimista** | Explosão / Bombas | Inteligência | Médio | Loja de Lore |
+| **Monge** | Suporte Híbrido | Misto | Médio | Atualização Gratuita |
+
+<Callout type="tip" title="A Regra de Ouro para Composição de Grupo">
+Sempre inclua pelo menos um personagem com alta **Inteligência** (Erudito ou Herbalista) e um com alta **Vitalidade** ou **Força** (Ferreiro). Sem um curandeiro e um tanque, seu grupo terá dificuldades para sobreviver aos picos de dificuldade no meio do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecânicas de Combate: Dominando a Grade de Batalha">
+
+A Grade de Batalha é uma nova adição à sequência, introduzindo um layout tático de 2x4. O posicionamento determina quem pode ser alvo e quem pode proteger seus aliados. Entender como usar a grade de forma eficaz é essencial para sobreviver aos capítulos mais difíceis disponíveis no Game Pass.
+
+- **Linha de Frente**: Reservada para tanques como o Ferreiro. Eles podem usar a habilidade **Proteger** para defender aliados que estão diretamente atrás deles.
+- **Linha de Trás**: Ideal para conjuradores frágeis e atacantes à distância. A maioria dos inimigos corpo a corpo precisa eliminar a linha de frente antes de alcançar esses alvos.
+- **Área de Efeito (AOE)**: Alguns ataques atingem fileiras ou colunas inteiras. Evite agrupar todos os personagens em uma única linha vertical se o inimigo possuir ataques que perfuram colunas.
+- **Pontos de Foco**: Use o Foco para garantir jogadas bem-sucedidas em ataques ou habilidades. Nunca entre em uma batalha de chefe com zero de Foco.
+
+| Efeito de Status | Descrição | Contra-ataque / Cura |
+| :--- | :--- | :--- |
+| **Atordoado (Dazed)** | Remove a ação secundária (movimento/itens) | Panax / Aguardar 1 turno |
+| **Nocauteado (Stunned)** | Pula totalmente o próximo turno | Sal / Alta Resistência |
+| **Sangramento (Bleed)** | Dano contínuo a cada turno | Bandagens / Cura |
+| **Ácido (Acid)** | Dissolve os equipamentos equipados ao longo do tempo | Esponja / Eliminação Rápida |
+| **Choque (Shock)** | A próxima jogada falha automaticamente | Panax / Alta Resistência |
+
+<Callout type="info" title="Restauração de Foco">
+Você pode restaurar o Foco ao **Meditar** em cidades, usando **Raiz Dourada** ou encontrando um **Herói de Pedra** no mapa do mundo. Use seu Foco agressivamente durante encontros difíceis, pois um grupo morto não pode usar os recursos economizados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão da Campanha e Marcos">
+
+A campanha principal de For The King II consiste em sete aventuras distintas. Cada jornada, seja ela bem-sucedida ou não, contribui para a sua progressão geral através da Loja de Lore. Conforme joga a versão do Game Pass, tenha em mente estes marcos para maximizar sua eficiência.
+
+<Checklist
+  id="game-pass-progression"
+  title="Marcos Essenciais de Progressão:"
+  items={[
+    "Complete 'A Resistência' para desbloquear as opções básicas da Loja de Lore",
+    "Desbloqueie a classe Alquimista para obter alto dano mágico explosivo",
+    "Encontre e ative pelo menos 5 Heróis de Pedra em diferentes biomas",
+    "Conclua com sucesso uma campanha do modo Dungeon Crawl Gauntlet",
+    "Desbloqueie todas as 12 classes do jogo base usando a moeda de Lore"
+  ]}
+/>
+
+| Aventura | Foco Principal | Dificuldade | Recompensas Principais |
+| :--- | :--- | :--- | :--- |
+| **A Resistência** | Mecânicas Básicas | Fácil | Lore Inicial / Desbloqueios |
+| **Carvalho Primordial** | Movimento / Caos | Médio | Equipamentos Avançados |
+| **Minas Reais** | Exploração de Masmorras | Médio | Armas de Alto Nível |
+| **Carnaval Sombrio** | Sobrevivência Infinita | Escalonável | Status no Placar de Líderes |
+
+<Callout type="success" title="Estratégia para a Loja de Lore">
+Priorize o desbloqueio de **Classes** e **Itens Iniciais** na Loja de Lore primeiro. Itens cosméticos são bonitos, mas não vão ajudar você a sobreviver à dificuldade brutal das campanhas no nível Mestre.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "For The King II tem crossplay entre o Game Pass e a Steam?",
+    answer: "Sim, For The King II suporta crossplay total entre o Xbox Game Pass (tanto no console quanto no PC) e a Steam. Certifique-se de que todos os jogadores tenham a mesma versão do jogo instalada."
+  },
+  {
+    question: "Posso jogar For The King II sozinho no Game Pass?",
+    answer: "Com certeza. No modo solo, você controla todos os quatro personagens do grupo. Isso permite total controle tático sobre cada movimento e distribuição de itens."
+  },
+  {
+    question: "Como faço para desbloquear novas classes em For The King II?",
+    answer: "Novas classes são desbloqueadas na Loja de Lore usando os Livros de Lore obtidos durante a jogabilidade. Algumas classes também estão inclusas em pacotes de DLC, como 'Tinkerers of Fate'."
+  },
+  {
+    question: "A versão do Game Pass inclui os pacotes de DLC?",
+    answer: "A versão padrão do Game Pass inclui o jogo base e todas as atualizações de conteúdo gratuitas (como Dungeon Crawl). Pacotes de DLC pagos, como 'Into The Wild', devem ser adquiridos separadamente."
+  }
+]} />
+
+</Section>

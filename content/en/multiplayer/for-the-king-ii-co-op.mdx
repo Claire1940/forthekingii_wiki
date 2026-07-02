@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Co-op: Setup Guide & Multiplayer Tips",
+  description: "Master For The King II co op with our guide on crossplay, local multiplayer setup, best party builds for 4 players, and battle grid strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Co-op+Multiplayer+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **For The King II co op** supports up to **four players** across online and local play modes.
+- **Crossplay labels** vary by platform; Steam and Xbox explicitly list cross-platform support.
+- **Save files** are hosted by one player; all participants must be in the lobby before loading.
+- **Party roles** should be split between frontline tanks, healers, and ranged damage dealers.
+- **Resource management** is shared, meaning communication on gold and herb usage is critical.
+</Callout>
+
+<Section icon={Users} title="For The King II Co-op: Platform Support and Crossplay">
+
+Engaging in **for the king ii co op** transforms the challenging roguelite experience into a tactical social event. Whether you are playing with friends on the couch or connecting across different continents, understanding the technical limitations and requirements of each platform is the first step toward reclaiming Fahrul from Queen Rosomon. The game supports a maximum of four characters in a party, which can be controlled by a single player or distributed among a full group of four.
+
+The multiplayer architecture differs slightly between PC and console versions. While the core gameplay remains identical, the networking features such as Remote Play and Cloud Gaming are platform-specific. In 2026, the community remains active across Steam, Xbox Game Pass, and PlayStation ecosystems, making it easier than ever to find a group.
+
+| Feature | Steam (PC) | Xbox Series X/S | PlayStation 5 |
+| :--- | :--- | :--- | :--- |
+| **Max Players** | 4 Players | 4 Players | 4 Players |
+| **Online Co-op** | Supported | Supported (Xbox Live) | Supported (PS Plus) |
+| **Local Co-op** | Shared/Split Screen | Local Multiplayer | 1-4 Players Local |
+| **Crossplay** | Listed Support | Xbox Cross-Platform | Remote Play Only |
+| **Remote Play** | Remote Play Together | Cloud Gaming | Remote Play Supported |
+
+<Callout type="tip" title="Ecosystem Tip">
+If you are playing via Xbox Game Pass, you can utilize Xbox Play Anywhere to transition your co-op progress between your PC and console seamlessly.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="How to Set Up Your Multiplayer Session">
+
+Setting up a session for **for the king ii co op** requires the host to manage the adventure settings and lobby privacy. Unlike some modern drop-in titles, this game requires all players to be present in the lobby before the adventure begins or before a saved game is resumed. This ensures that character assignments are handled correctly before the map data loads.
+
+Follow these steps to initiate a new game or resume a campaign with your team:
+
+<Steps>
+  <Step num="1" title="Initialize the Multiplayer Lobby">
+    The host must select 'Multiplayer' from the main menu. Here, you can choose to host a 'New Adventure' or 'Load Game'. Set a room name and a password to prevent random players from occupying slots intended for your friends.
+  </Step>
+  <Step num="2" title="Select Region and Privacy">
+    Ensure all players are searching in the same geographical region (e.g., North America, Europe). If your friends cannot see the room, verify that the host's NAT type is open and the game version matches across all devices.
+  </Step>
+  <Step num="3" title="Assign Characters and Roles">
+    Once all players have joined the lobby, the host can assign specific characters to each player. In a two-player game, each person typically controls two characters. In a four-player game, everyone manages one hero.
+  </Step>
+  <Step num="4" title="Configure House Rules">
+    Before starting, use the 'House Rules' menu to adjust the difficulty. You can modify Chaos speed, life pools, and starting loadout points to suit your group's skill level.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Rejoining Rule">
+Players cannot join a session that is already in progress. If a player disconnects, the host must save the game, return to the main menu, recreate the lobby, and have everyone rejoin before loading the save.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Party Compositions for Co-op Play">
+
+In **for the king ii co op**, party synergy is more important than individual power. A group of four "glass cannons" will likely fail in the first dungeon because they lack the defensive utility to survive the Battle Grid's mechanics. You must balance your team to cover physical defense, magical resistance, and healing.
+
+The following table breaks down the essential roles for a successful multiplayer run:
+
+| Role | Recommended Classes | Primary Stat | Co-op Value |
+| :--- | :--- | :--- | :--- |
+| **Frontline Tank** | Blacksmith, Fallen Knight | Vitality | Protects backline with Guard skills |
+| **Healer/Support** | Herbalist, Monk | Intelligence | Provides Party Heal and herb economy |
+| **Physical DPS** | Hunter, Angler | Awareness | High crit chance and overworld scouting |
+| **Magic/Utility** | Scholar, Alchemist | Intelligence | Focus restoration and AOE burst |
+
+<CardGrid cols={2}>
+  <Card title="The Balanced Four-Player Shell">
+    - **Blacksmith**: Anchors the front row.
+    - **Herbalist**: Ensures the party stays healthy.
+    - **Hunter**: Picks off priority targets from range.
+    - **Scholar**: Manages crowd control and scrolls.
+  </Card>
+  <Card title="The DLC Specialist Group">
+    - **Fallen Knight**: High-risk, high-reward tanking.
+    - **Toymaker**: Uses summons to distract enemies.
+    - **Fortune Teller**: Manipulates fate and tarot buffs.
+    - **Alchemist**: Provides explosive area damage.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategy Tip">
+When playing with only two players, try the 'Split Responsibility' build. Player one controls the Tank and Healer (Survival), while Player two controls the Archer and Mage (Offense). This keeps both players engaged in every phase of the fight.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cooperative Combat and Battle Grid Tactics">
+
+Combat in **for the king ii co op** takes place on a 2x4 grid. Cooperation is essential here because positioning affects which allies you can protect and which enemies you can hit. Unlike the first game, the sequel's grid system introduces "Guard" mechanics and "Splash" damage that can punish a poorly positioned team.
+
+Effective communication during a battle should focus on Focus spending and target prioritization. Since Focus is a limited resource, players should discuss who will use their Focus to land a killing blow or a crucial stun.
+
+| Combat Mechanic | How it Works in Co-op | Best Practice |
+| :--- | :--- | :--- |
+| **Guard/Protect** | Frontline units can absorb hits for the backline. | Keep your Blacksmith directly in front of the Herbalist. |
+| **AOE/Splash** | Attacks can hit adjacent tiles or entire rows. | Spread out if the enemy has powerful row-based attacks. |
+| **Focus Sharing** | Focus is individual, but its use benefits the whole team. | Use Focus on high-percentage rolls to prevent damage spikes. |
+| **Secondary Actions** | Items and movement don't end the turn. | Use a potion or move to a better tile before attacking. |
+
+<Checklist
+  id="dungeon-prep"
+  title="Dungeon Entry Checklist for Teams:"
+  items={[
+    "Distribute all Godsbeard herbs to the Herbalist or characters with high priority.",
+    "Ensure the frontline has the best available shields and armor.",
+    "Trade gold so one player can afford a crucial gear upgrade at the next town.",
+    "Check that everyone has at least 2 points of Focus before entering.",
+    "Assign one player to carry status cures (Panax) for the whole group."
+  ]}
+/>
+
+<Callout type="info" title="Battle Grid Note">
+Remember that movement on the grid costs a secondary action. If you are Dazed, you lose this action, effectively locking you in your current tile. Always prioritize clearing the Dazed status from your tank.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression, Lore Store, and DLC Content">
+
+Success in a co-op run earns you Lore, a currency used to unlock new classes, items, and traits for future attempts. While the campaign progress is tied to the host's save file, the Lore you earn is added to your individual account. This means even a failed run contributes to your long-term power.
+
+In 2026, the variety of content available for **for the king ii co op** has expanded significantly through character packs. These additions provide new tactical layers for veteran groups looking to experiment with non-traditional builds.
+
+| Content Type | Name | Key Features |
+| :--- | :--- | :--- |
+| **Base Game** | The Resistance | 12 starting classes and 7 main chapters |
+| **Free Update** | Dungeon Crawl | Infinite mode with seeded leaderboards |
+| **Character Pack** | Tinkerers of Fate | Toymaker and Fortune Teller classes |
+| **Character Pack** | Into The Wild | Angler and Beekeeper classes |
+| **Character Pack** | Fallen Oaths | Fallen Knight and Voidwalker classes |
+
+<Callout type="warning" title="DLC Compatibility">
+Only the host needs to own the campaign DLC for the group to play through new chapters, but individual players must own the Character Packs to select those specific classes in the lobby.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Co-op Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does For The King II have crossplay between Steam and consoles?",
+    answer: "As of 2026, crossplay is officially supported between Steam and Xbox. PlayStation users can play together across PS4 and PS5 versions, but mixed-platform play with PC/Xbox is restricted based on current store labels."
+  },
+  {
+    question: "How do we rejoin a co-op game after a crash?",
+    answer: "The host must save the game and exit to the main menu. They then recreate the multiplayer lobby. All players must join this lobby before the host loads the save file to ensure everyone is assigned their correct characters."
+  },
+  {
+    question: "Is gold shared between all players in multiplayer?",
+    answer: "Gold is collected individually by the character who lands the killing blow or interacts with a chest. However, players can trade gold and items freely as long as their characters are on adjacent hexes or in the same town/dungeon."
+  },
+  {
+    question: "Can we play local co-op and online co-op at the same time?",
+    answer: "Yes, For The King II supports a 'combo' setup where two players on the same PC or console can join an online lobby to play with two other friends remotely."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,163 @@
+import { Swords, Shield, Target, Sparkles, Trophy, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Weapons: Best Scaling Types & Combat Builds",
+  description: "Master the best weapon scaling, Battle Grid targeting, and combat builds in For The King II. Explore Strength, Intelligence, and Awareness weapon tier lists.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2b1845/fff?text=Weapons+and+Combat+Loadouts+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Equipping the correct **for the king ii weapons** is the single most important factor in scaling your party's damage and survival.
+- **Key mechanic**: Weapons scale directly with character stats, meaning a weapon's effectiveness depends on matching its required stat to your hero's highest attribute.
+- **Best strategy**: Always maintain a balance of physical defense-penetrating weapons and magic resistance-shredding tomes across your active combat grid.
+- **Critical tip**: Keep a backup physical weapon with a Cleave or Splash attack in your inventory to handle tightly packed enemy formations.
+- **Top choice**: Weapons with fewer dice rolls (pips) are generally superior as they offer much higher reliability during critical turns.
+</Callout>
+
+<Section icon={Swords} title="Understanding Weapon Scaling and Attributes">
+
+In **For The King II**, your weaponry dictates not just how much damage you deal, but also your attack patterns, speed penalties, and tactical utility on the Battle Grid. Unlike traditional RPGs, any character can technically equip any weapon, but their success rate is tied entirely to their primary stats. 
+
+Using a weapon that does not align with your character's highest stat is a quick way to miss crucial attacks. The table below outlines how weapon types align with core stats and their typical combat behaviors.
+
+| Weapon Category | Primary Stat | Damage Type | Typical Grid Targeting | Key Combat Utility |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bows & Muskets** | Awareness | Physical | Ranged / Column | High critical chance, armor pierce |
+| **Swords & Axes** | Strength | Physical | Single Target / Splash | High raw damage, shield shredding |
+| **Staves & Tomes** | Intelligence | Magical | Row / AOE Splash | Status ailments, resistance ignore |
+| **Lutes & Instruments** | Talent | Physical/Magic | Buff Aura / Splash | Party buffs, gold multipliers, daze |
+| **Daggers & Sais** | Speed / Talent | Physical | Single Target / Piercing | Fast turn recovery, high bleed chance |
+
+<Callout type="tip" title="Accuracy vs. Raw Damage">
+A weapon with fewer dice rolls (pips) is significantly more reliable than one with five or six pips. If your character has an 80% stat rating, a 2-pip weapon has a much higher chance of scoring a perfect roll than a 5-pip weapon, ensuring your special status effects trigger consistently.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Top-Tier Strength and Vitality Weapons">
+
+Strength-scaled **for the king ii weapons** are the cornerstone of any frontline build, such as the Blacksmith or the Fallen Knight. These weapons focus on high raw physical damage, taunting capabilities, and breaking enemy shields. 
+
+For characters relying on Vitality, defensive shields paired with one-handed hammers are essential for anchoring the front row of the Battle Grid.
+
+<CardGrid cols={3}>
+  <Card title="Two-Handed Greataxes">
+    - **High raw physical damage**
+    - Features Heavy Attack options (+50% damage)
+    - Best for secondary frontline damage dealers
+  </Card>
+  <Card title="Hammers & Shields">
+    - **High physical defense**
+    - Enables Guard and Steadfast abilities
+    - Essential for protecting fragile backline casters
+  </Card>
+  <Card title="Dual-Wielded Hatchets">
+    - **Fast physical burst**
+    - High scaling with Speed and Strength
+    - Great for stripping enemy armor quickly
+  </Card>
+</CardGrid>
+
+| Weapon Name | Stat Required | Base Damage | Target Pattern | Special Effects |
+| :--- | :--- | :--- | :--- | :--- |
+| **Iron Cannon** | Strength | High | Single Target | Heavy Attack, High splash damage |
+| **Greatsword** | Strength | Medium-High | Single / Swipe | Armor Pierce, Bleed status |
+| **Bronze Cannon** | Strength | Medium | Row / Column | Fire damage, high knockback |
+| **Dual Hammers** | Strength | Medium | Single Target | Daze, high shield damage |
+
+<Callout type="warning" title="Heavy Attack Accuracy Penalty">
+Heavy attacks on large Strength weapons can boost your base damage by up to +50%, but they carry a flat -15% to -20% accuracy penalty. Avoid using Heavy attacks if you absolutely need a perfect roll to finish off an evasive target.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Top-Tier Intelligence and Awareness Weapons">
+
+Intelligence and Awareness weapons dominate the backline of the Battle Grid. While Intelligence weapons like Tomes and Staves focus on applying massive magical status effects across entire rows, Awareness weapons specialize in long-range physical piercing and single-target elimination.
+
+### Best Intelligence Weapons (Magic Damage & Control)
+- **Tomes of Arcane Power**: Excel at row attacks and applying Shock, Burn, or Freeze to multiple enemies simultaneously.
+- **Healing Staves**: Essential for classes like the Herbalist to scale their Party Heal capabilities.
+- **Wands**: Great for high-frequency single-target magic damage that ignores enemy physical armor.
+
+### Best Awareness Weapons (Ranged Physical Damage)
+- **Muskets & Blunderbusses**: Massive physical damage output, but often require a reload turn unless paired with specific traits.
+- **Recurve Bows**: High speed, low pip count, and frequent Called Shot critical strikes.
+- **Spears & Polearms**: Allow melee characters to strike from the back row or hit column targets.
+
+| Weapon Name | Stat Required | Damage Type | Target Pattern | Special Effects |
+| :--- | :--- | :--- | :--- | :--- |
+| **Blunderbuss** | Talent / Awareness | Physical | Row / Blast | High raw damage, Daze effect |
+| **Golden Gun** | Talent | Physical | Single Target | +20% Gold Multiplier support |
+| **Volcano Tome** | Intelligence | Magical | Row / Splash | Ignite, high magic burn |
+| **Rusty Musket** | Awareness | Physical | Single Target | High armor penetration, reload required |
+
+<Callout type="success" title="The Power of Shock Ailments">
+Always keep an Intelligence Tome that inflicts the Shock status in your inventory. Shock forces the target's next action roll to automatically fail, which is incredibly potent against high-damage bosses.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="How to Upgrade and Acquire Weapons">
+
+<Steps>
+  <Step num="1" title="Slay Regional Monsters">
+    Weapon damage and tier levels scale directly with the level of the monsters in the region. Slaying higher-level overland bosses is the most reliable way to secure rare drops.
+  </Step>
+  <Step num="2" title="Check New Town Inventories">
+    Every time you enter a new biome or town, check the local market. The minimum level of monsters in that town's region dictates the tier of **for the king ii weapons** available for purchase.
+  </Step>
+  <Step num="3" title="Unlock Gear in the Lore Store">
+    Spend your earned Lore currency in the main menu's Lore Store to unlock powerful starting weapons and high-tier drop options for future campaigns.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame Weapon Checklist">
+
+<Checklist
+  id="endgame-weapon-milestones"
+  title="Optimal Weapon Setup Checklist:"
+  items={[
+    "Equip your primary tank with a high-block shield and a dazing hammer [1.1.2].",
+    "Secure an Intelligence Tome with row-based Shock or Freeze capabilities.",
+    "Provide your ranged physical attacker with an armor-penetrating Bow or Musket.",
+    "Keep at least one backup weapon per character to avoid getting shut down by Acid dissolves.",
+    "Unlock the legendary character-specific weapons by completing their respective campaigns."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does weapon level scaling work in For The King II?",
+    answer: "Weapon damage scales with the level of the region where you acquired it. Starter towns offer Level 0 weapons (6-9 max damage), while Level 6 regions and towns offer endgame weapons dealing 20-30+ base damage."
+  },
+  {
+    question: "Which are the best for the king ii weapons for dealing with heavily armored enemies?",
+    answer: "Awareness-based weapons like Muskets and bows with the 'Ignore Armor' attribute are the best choices for physical damage dealers. Alternatively, use magic-scaling weapons like Wands and Tomes, as they target Magic Resistance instead of Physical Defence."
+  },
+  {
+    question: "Can weapons break permanently during combat?",
+    answer: "Yes, certain glass or cheap starter weapons have the 'Breakable' attribute and can shatter on a failed roll. Additionally, enemy Acid attacks can permanently dissolve your equipped weapons if you do not have immunity."
+  },
+  {
+    question: "What is the benefit of using dual-wielded weapons?",
+    answer: "Dual-wielded weapons typically scale with Speed and Strength or Talent. They offer faster turn recovery times and are excellent for applying rapid status effects like Bleed or Poison over multiple quick strikes."
+  }
+]} />
+
+</Section>

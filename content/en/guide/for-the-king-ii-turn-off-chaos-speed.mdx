@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Turn Off Chaos Speed: Setup & Strategy Guide",
+  description: "Learn how to turn off or lower Chaos Speed in For The King II. Master custom difficulty sliders, overworld mitigation, and gameplay strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Chaos+Speed+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Chaos Speed** is the core ticking clock mechanic in For The King II that drives overworld pressure.
+- **Turn off Chaos Speed** completely by using the custom House Rules sliders when starting a new adventure.
+- **Custom settings** allow you to slow down the Chaos timeline to a crawl so you can freely explore.
+- **Steam achievements** for Master difficulty will be disabled if you modify difficulty sliders.
+- **Overworld options** like Chaos Devices, Side Quests, and Cult Devices let you reduce Chaos during active runs.
+</Callout>
+
+<Section icon={Map} title="How to Turn Off Chaos Speed in For The King II">
+
+For The King II is a turn-based roguelite tabletop RPG where the ticking clock of Queen Rosomon's Chaos timeline dictates your every move. For players who prefer to explore Fahrul without constant time pressure, the game features a suite of custom difficulty options. While you cannot technically delete the Chaos UI altogether from the campaign, you can adjust the **Chaos Speed** slider down to a level where it is practically nonexistent. 
+
+This allows you to enjoy the overworld, complete side quests, and gear up your party at your own leisure.
+
+| Difficulty Selection | Chaos Speed Modifier | Recommended For | Achievement Eligibility |
+| | | | |
+| **Apprentice** | 75% Speed | New players learning basic systems | Fully Eligible |
+| **Journeyman** | 100% Speed | Balanced standard experience | Fully Eligible |
+| **Master** | 150%+ Speed | Hardcore veterans seeking a brutal challenge | Fully Eligible |
+| **House Rules (Custom)** | Adjustable (0% - 200%) | Chill exploration or custom challenge | Partially Disabled (Master Achievements) |
+
+<Callout type="warning" title="Achievement Warning">
+Modifying the Chaos Speed or other difficulty sliders under House Rules is completely supported for progression and unlocks. However, if you are attempting to earn Steam achievements specifically tied to beating adventures on **Master** difficulty, modifying the sliders will disable those achievements.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Custom Game Setup">
+
+To adjust the time pressure before beginning a run, you must configure your campaign using the House Rules menu. Follow these steps to customize your timeline speed:
+
+<Steps>
+  <Step num="1" title="Select Your Adventure">
+    Go to the main menu, choose Single Player or Multiplayer, and select your desired campaign chapter.
+  </Step>
+  <Step num="2" title="Choose Difficulty Mode">
+    Click on the difficulty selection screen. Instead of choosing a preset like Journeyman or Master, click on the **House Rules** or **Custom** option.
+  </Step>
+  <Step num="3" title="Adjust the Chaos Speed Slider">
+    Locate the **Chaos Speed** slider. Drag it all the way to its lowest setting. This slows down the frequency of Chaos ticks to a point where you can complete the entire game without experiencing a single overworld Chaos event.
+  </Step>
+  <Step num="4" title="Fine-Tune Other Rules">
+    You can also adjust other sliders here, such as the initial **Life Pool** size, starting **Loadout Points**, and **Market Inflation** rates to perfectly match your preferred playstyle.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Co-op Host Controls">
+If you are playing in online co-op, only the lobby host can adjust these sliders. Make sure to discuss your preferred timeline speed with your party before launching the lobby.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Overworld Mechanics to Manage and Reduce Chaos">
+
+If you choose to play on standard preset difficulties, you cannot turn off the timeline via sliders mid-run. Instead, you must utilize in-game tactics and overworld mechanics to actively reduce Chaos and keep the timeline clean.
+
+<CardGrid cols={3}>
+  <Card title="Chaos Generators">
+    - Found in each of Fahrul's regions.
+    - Disabling a **Chaos Generator** allows the party to make tactical choices.
+    - Can choose to directly reduce the current Chaos level by 1.
+  </Card>
+  <Card title="Cult Devices">
+    - Hidden structures scattered across biomes.
+    - Interacting with a **Cult Device** immediately drops Chaos by 1.
+    - Essential targets to scout during early exploration.
+  </Card>
+  <Card title="Town Side Quests">
+    - Visit local towns to view the job board.
+    - Look for **Chaos Acolyte Camp** hunting quests.
+    - Defeating the camp rewards you with a Chaos reduction of 1.
+  </Card>
+</CardGrid>
+
+### Active Chaos Reduction Strategies
+
+Using overworld mechanics efficiently is the key to surviving standard difficulties without getting overwhelmed by high-level enemies and unwanted Queensguard ambushes.
+
+| Method | Chaos Reduction Value | Risk Level | Resource Requirement |
+| | | | |
+| **Disable Chaos Generator** | Reduces Chaos by 1 | Medium (requires combat) | High (dungeon run) |
+| **Destroy Cult Device** | Reduces Chaos by 1 | Low (scouting required) | None |
+| **Complete Side Quest** | Reduces Chaos by 1 | Medium (overworld combat) | Movement turns |
+| **Dark Carnival Carousel** | Reduces Chaos by 1 or 2 | High (failed rolls increase Chaos) | Carnival Tickets & Luck |
+
+<Callout type="success" title="The Invisible Chaos Buffer">
+If you reduce Chaos when your visible timeline meter is completely empty, the game registers an \"invisible buffer\". The very next incoming instance of Chaos that would normally tick onto your timeline will be completely negated.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Campaign Survival Checklist">
+
+Managing your movement and party pacing is just as important as interacting with Chaos-reducing devices. Use this checklist to optimize your overworld turns:
+
+<Checklist
+  id="chaos-survival-checklist"
+  title="Overworld Pacing Goals:"
+  items={[
+    "Prioritize scouting biomes for Cult Devices before advancing main quests [1.1.1].",
+    "Use Focus points on overworld movement checks to cover more ground per turn.",
+    "Accept town side quests that target Chaos Acolytes as soon as they appear.",
+    "Only gamble at the Dark Carnival Chaos Carousel if you have high-luck characters.",
+    "Regroup your party before entering dungeons so no one is left behind."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I completely disable the Chaos timeline UI in For The King II?",
+    answer: "No, the visual timeline remains on the screen as it is a core thematic element of the game. However, by setting the Chaos Speed slider to its lowest setting under House Rules, the timeline will progress so slowly that you can play without ever triggering a Chaos event."
+  },
+  {
+    question: "Does turning down Chaos Speed affect Steam achievements?",
+    answer: "Yes, but only for Master difficulty achievements. You can still unlock general campaign progression, character cosmetics, and other achievements on custom difficulties, but the specific Master difficulty achievements require the default, unmodified Master slider settings."
+  },
+  {
+    question: "What happens when the Chaos meter fills up completely?",
+    answer: "When Chaos reaches maximum, the game does not instantly end. Instead, it triggers severe negative states, such as significantly buffing enemy stats, spawning elite overworld encounters, and generating aggressive waves of enemies that make survival extremely difficult."
+  },
+  {
+    question: "Can I change the Chaos Speed mid-game if my run is too hard?",
+    answer: "No, difficulty parameters and House Rules must be set at the very beginning of an adventure. Once a campaign run has started, you cannot adjust the speed sliders. You must manage Chaos using in-game methods like Cult Devices and Side Quests."
+  }
+]} />
+
+</Section>

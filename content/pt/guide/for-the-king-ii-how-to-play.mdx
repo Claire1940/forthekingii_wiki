@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Como Jogar For The King II: Guia Passo a Passo e Dicas de Combate",
+  description: "Domine as mecânicas de jogo de For The King II com nosso guia de 2026. Aprenda sobre a Grade de Batalha, builds de classes, composições de grupo e estratégias de campanha.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=For+The+King+II+How+To+Play",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II",
+  keywords: "For The King II, como jogar, guia de combate, dicas para iniciantes, Fahrul"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Como jogar For The King II**: Foque na construção de grupos baseada em funções e no domínio do sistema de Grade de Batalha 2x4.
+- **Gerenciamento de Recursos**: Sempre priorize o **Foco** para rolagens críticas, como ataques de alto dano ou movimentos que salvam vidas.
+- **Posicionamento**: Coloque personagens com alta **Vitalidade** na fileira da frente para ativar a **Guarda** e proteger conjuradores frágeis.
+- **Progressão**: Use a **Loja de Saber (Lore Store)** entre as partidas para desbloquear classes avançadas, itens e equipamentos iniciais.
+- **Exploração**: Explore os biomas em busca de **Santuários** e **Heróis de Pedra** para garantir bônus e revives extras antes de lutas importantes.
+</Callout>
+
+<Section icon={Map} title="Primeiros Passos: O Básico de Como Jogar For The King II">
+
+Dominar as mecânicas de **como jogar For The King II** exige uma mudança de mentalidade dos RPGs tradicionais para um roguelite inspirado em jogos de tabuleiro. Cada ação na terra de Fahrul é determinada por rolagens de dados influenciadas pelos atributos do seu personagem. Esteja você navegando pelo mundo ou envolvido em um combate tático, entender como mitigar o RNG (aleatoriedade) através de equipamentos e Foco é a chave para uma campanha de sucesso em 2026.
+
+**Destaques do Vídeo:**
+- **Funções do Grupo**: Entendendo a importância de cobrir danos físicos e mágicos.
+- **Grade de Batalha**: Um olhar visual sobre como a grade 2x4 impacta o alvo e a defesa.
+- **Mecânicas de Foco**: Como gastar e repor seu recurso mais valioso.
+- **Fluxo da Campanha**: Navegando pelas sete aventuras ligadas narrativamente.
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Junte-se à Luta - Trailer" />
+
+Antes de colocar os pés na Resistência, você deve entender os atributos principais que governam seu sucesso. Cada personagem possui um atributo primário que determina sua proficiência com tipos específicos de armas e testes no mundo.
+
+| Atributo | Uso Principal | Classes Recomendadas |
+| :--- | :--- | :--- |
+| **Força** | Armas corpo a corpo pesadas, testes físicos | Ferreiro, Cavaleiro |
+| **Inteligência** | Dano mágico, cajados, pergaminhos | Estudioso, Ervanário, Alquimista |
+| **Percepção** | Armas à distância, arcos, exploração | Caçador, Vidente |
+| **Talento** | Instrumentos musicais, barcos, truques | Artista de Rua, Fabricante de Brinquedos |
+| **Vitalidade** | HP Máximo, defesa física, tancagem | Ferreiro, Fazendeiro |
+
+<Callout type="success" title="Dica para Iniciantes">
+Sempre monte seu grupo com uma mistura de atributos. Um grupo de quatro personagens baseados em Força terá dificuldades com enigmas mágicos e inimigos à distância, levando a um "Game Over" rápido nos capítulos iniciais.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate Tático e Domínio da Grade de Batalha">
+
+O combate nesta sequência evoluiu com a introdução da **Grade de Batalha**. Este layout 2x4 adiciona uma camada de estratégia espacial que estava ausente no jogo original. Sua posição determina quem você pode proteger e quais inimigos você pode alcançar com padrões de armas específicos.
+
+<CardGrid cols={2}>
+  <Card title="Fileira da Frente: O Escudo">
+    - **Mecânica de Guarda**: Personagens da linha de frente podem proteger aqueles atrás deles.
+    - **Alta Vitalidade**: Essencial para absorver golpes físicos.
+    - **Foco em Combate Próximo**: A maioria das armas de Força exige estar na frente.
+  </Card>
+  <Card title="Fileira de Trás: O Dano">
+    - **Segurança**: Mais difícil para inimigos corpo a corpo mirarem diretamente.
+    - **Distância/Magia**: Ideal para Caçadores e Estudiosos.
+    - **Suporte**: Mantenha seu Ervanário aqui para garantir que ele sobreviva para curar.
+  </Card>
+</CardGrid>
+
+Entender os efeitos de status é igualmente importante. Em For The King II, um único debuff pode causar a derrota total do grupo se não for gerenciado corretamente.
+
+| Efeito de Status | Mecânica | Como Curar |
+| :--- | :--- | :--- |
+| **Atordoado (Dazed)** | Remove a próxima ação secundária (sem itens) | Panax ou esperar 1 turno |
+| **Aturdido (Stunned)** | Pula o próximo turno completo do alvo | Noz Salgada ou esperar 1 turno |
+| **Ácido** | Dissolve permanentemente equipamentos ao longo do tempo | Esponja de Ácido (Imediato) |
+| **Sangramento** | Causa dano a cada turno de combate | Bandagens ou Cura de Grupo |
+| **Maldição** | Penalidade massiva de atributos até ser removida | Ruína da Bruxa ou Curandeiro da Cidade |
+
+<Callout type="warning" title="Aviso Crítico">
+**Ácido** é o efeito de status mais perigoso para a sobrevivência a longo prazo. Se sua arma lendária for dissolvida, o nível de poder da sua partida cai drasticamente. Sempre carregue Esponjas de Ácido no meio e fim do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Classes e Builds de Grupo para 2026">
+
+Escolher as classes certas é a parte mais importante de aprender **como jogar For The King II** em dificuldades mais altas. Embora o jogo base ofereça 12 classes, atualizações gratuitas e DLCs como "Into The Wild" expandiram o elenco para mais de 17 personagens jogáveis.
+
+| Tier | Classe | Função | Por que é Top Tier |
+| :--- | :--- | :--- | :--- |
+| **S** | **Ervanário** | Suporte/Cura | **Cura de Grupo** e **Encontrar Erva** são essenciais para sustentação. |
+| **S** | **Alquimista** | Magia de Explosão | **Encontrar Poção** gera bombas grátis para dano em área massivo. |
+| **A** | **Ferreiro** | Tanque | **Inabalável (Steadfast)** permite bloqueios de dano zero com um escudo. |
+| **A** | **Caçador** | DPS à Distância | **Emboscada de Elite** controla os confrontos no mapa múndi. |
+| **B** | **Fabricante de Brinquedos** | Especialista | Evoca brinquedos para distrair inimigos (Requer DLC). |
+
+Ao formar uma equipe, busque sinergia em vez de apenas poder bruto. Aqui estão as composições mais eficazes para diferentes estilos de jogo:
+
+| Nome da Build | Composição | Estratégia |
+| :--- | :--- | :--- |
+| **O Clássico** | Ferreiro, Caçador, Estudioso, Ervanário | Equilíbrio entre defesa, dano físico, mágico e cura. |
+| **Esquadrão Antibomba** | Ferreiro, Alquimista, Alquimista, Ervanário | Foco em dano mágico em área massivo e utilidade de poções. |
+| **Trapaceiros de DLC** | Ferreiro, Fabricante de Brinquedos, Vidente, Ervanário | Usa invocações e cartas de tarô para manipular o RNG. |
+
+<Callout type="tip" title="Estratégia Pro">
+No modo cooperativo para dois jogadores, divida as funções para que cada jogador controle um causador de dano "ativo" e um personagem de "suporte" ou "tanque". Isso garante que ambos os jogadores permaneçam engajados em todas as fases da luta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Roteiro da Campanha e Progressão">
+
+A campanha consiste em sete aventuras distintas. Ao contrário do primeiro jogo, estas são narrativas mais curtas e focadas que permitem uma progressão mais rápida e o uso mais frequente da Loja de Saber.
+
+<Steps>
+  <Step num="1" title="A Resistência">
+    Aprenda o básico das missões de cidade e navegação de bioma. Foque em desbloquear o Alquimista.
+  </Step>
+  <Step num="2" title="O Carvalho Primordial">
+    Gerencie a pressão do Caos completando os objetivos principais rapidamente. Explore em busca do primeiro Santuário.
+  </Step>
+  <Step num="3" title="As Minas Reais">
+    Prepare-se para longas explorações de masmorras. Estoque Barba de Deus e itens de restauração de Foco.
+  </Step>
+  <Step num="4" title="Os Portões do Castelo">
+    Reta final. Finalize seu equipamento e use todo o Saber economizado para comprar arsenais de alto nível.
+  </Step>
+</Steps>
+
+Para garantir que você esteja pronto para o chefe final, siga este checklist essencial para cada aventura:
+
+<Checklist
+  id="campaign-milestones"
+  title="Checklist de Sucesso da Aventura:"
+  items={[
+    "Encontre e ative o Santuário local para um bônus de salvamento de morte",
+    "Visite cada Herói de Pedra para aumentar o nível dos personagens e repor o Foco",
+    "Complete pelo menos duas missões de cidade por bioma para melhorias de equipamento",
+    "Tenha pelo menos 3 Barbas de Deus por personagem antes de entrar em uma masmorra",
+    "Atribua equipamentos com base nos atributos (Força para o Ferreiro, etc.)"
+  ]}
+/>
+
+<Callout type="info" title="Progressão na Loja de Saber">
+Não desanime com uma derrota. Use o **Saber (Lore)** ganho durante sua tentativa para desbloquear melhores armas iniciais e características como **Pensador Profundo** (restaura Foco ao terminar um turno em uma cidade).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guia de Multiplayer e Crossplay">
+
+For The King II é melhor aproveitado com amigos. O jogo suporta várias formas de jogar junto, embora a compatibilidade de plataforma seja um ponto comum de confusão para novos jogadores.
+
+| Recurso | Steam (PC) | Xbox Series X/S | PlayStation 5 |
+| :--- | :--- | :--- | :--- |
+| **Co-op Online** | Sim (Até 4) | Sim (Requer Gold) | Sim (Requer Plus) |
+| **Co-op Local** | Sim (Tela Compartilhada) | Sim | Sim |
+| **Crossplay** | Sim (PC/Xbox/PS) | Sim (Console/PC) | Sim (Console/PC) |
+| **Remote Play** | Sim (Together) | Não | Sim |
+
+<Callout type="tip" title="Dica de Conexão">
+Se você não conseguir encontrar o lobby do seu amigo, certifique-se de que todos estejam na mesma configuração de **Região** no menu multiplayer e que todos os jogadores tenham a mesma versão do jogo instalada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como uso o Foco de forma eficaz no For The King II?",
+    answer: "O Foco deve ser usado para garantir rolagens em ações de alto impacto. Use-o para ataques críticos contra inimigos Evasivos, curas que salvam vidas ou rolagens de movimento quando o cronômetro de Caos estiver alto. Nunca o acumule; reponha-o em cidades ou Heróis de Pedra."
+  },
+  {
+    question: "Posso mudar minha classe no meio da campanha?",
+    answer: "Não, sua escolha de classe é bloqueada pela duração daquela aventura específica. No entanto, você pode desbloquear novas classes na Loja de Saber para usar em sua próxima partida."
+  },
+  {
+    question: "Qual é a melhor maneira de lidar com a pressão do Caos?",
+    answer: "O Caos aumenta com o tempo e torna os inimigos mais fortes. Reduza-o completando objetivos da missão principal ou missões secundárias específicas encontradas nas cidades. Usar Foco para se mover mais rápido pelo mapa é uma parte fundamental das estratégias de gerenciamento de Caos."
+  },
+  {
+    question: "O que acontece quando um personagem morre?",
+    answer: "Se você ainda tiver uma Reserva de Vidas (Life Pool), o personagem pode ser revivido. Se a reserva estiver vazia, o personagem morre permanentemente naquela partida, a menos que você tenha um bônus de Santuário ou um item específico como uma Pedra do Coração."
+  }
+]} />
+
+<Callout type="success" title="Conselho Final">
+A regra mais importante em Fahrul é estar preparado. Nunca entre em uma masmorra com medidores de Foco vazios ou sem ervas de cura. Alguns turnos extras gastos fazendo compras na cidade podem salvar uma campanha de 10 horas do desastre.
+</Callout>
+
+</Section>

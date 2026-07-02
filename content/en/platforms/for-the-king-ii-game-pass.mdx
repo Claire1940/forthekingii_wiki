@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Gamepad2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Game Pass: Setup Guide & Co-op Tips",
+  description: "Master For The King II on Game Pass with our guide to crossplay, multiplayer setup, class tier lists, and essential survival strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Game+Pass+Setup+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **For The King II Game Pass**: Available on Xbox, PC, and Cloud Gaming with full cross-platform support between Xbox and Steam.
+- **Multiplayer Setup**: Supports up to **4-player co-op** locally or online; remember that players must join the lobby before the host starts the session.
+- **Best Starter Party**: A balanced team of **Blacksmith, Hunter, Scholar, and Herbalist** is highly recommended for first-time Game Pass players.
+- **Core Progression**: Use the **Lore Store** to unlock new classes and items using currency earned from failed and successful runs.
+- **Combat Strategy**: Master the **Battle Grid** positioning and manage your **Focus** points to guarantee critical rolls during difficult encounters.
+</Callout>
+
+<Section icon={Shield} title="For The King II Game Pass Availability and Features">
+
+For The King II has officially joined the Xbox Game Pass library, offering subscribers access to the turn-based roguelite on Xbox Series X|S, Windows PC, and via Xbox Cloud Gaming. This inclusion allows a massive new audience to experience the tactical depth of Fahrul without an upfront purchase. The Game Pass version includes all base game content, including the seven-adventure campaign and the free Dungeon Crawl updates.
+
+**Video Highlights:**
+- Overview of the turn-based tabletop RPG mechanics.
+- Introduction to the Resistance campaign and the struggle against Queen Rosomon.
+- Preview of the 4-player co-op gameplay and strategic Battle Grid.
+- Showcase of the diverse class system and procedural map generation.
+
+<YouTubeEmbed videoId="9l4neyX7a90" title="For The King II - Join The Fight - Trailer" />
+
+| Feature | Xbox Game Pass (Console) | PC Game Pass (Windows) | Xbox Cloud Gaming |
+| :--- | :--- | :--- | :--- |
+| **Crossplay** | Yes (with PC/Steam) | Yes (with Xbox/Steam) | Yes |
+| **Local Co-op** | 1-4 Players | 1-4 Players | Not Supported |
+| **Online Co-op** | 2-4 Players | 2-4 Players | 2-4 Players |
+| **Achievements** | 126 Achievements | 126 Achievements | Shared Progress |
+| **Play Anywhere** | Supported | Supported | Supported |
+
+<Callout type="success" title="Cross-Platform Advantage">
+For The King II supports **Xbox Play Anywhere**. If you start a run on your Xbox console via Game Pass, you can pick up exactly where you left off on your PC using the same save file and achievements.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="How to Setup Multiplayer and Crossplay">
+
+Setting up a session in For The King II on Game Pass is straightforward, but it requires specific steps to ensure all party members are synchronized. The game is built for cooperation, and while solo play is possible (controlling all four characters), the true experience shines when players split the roles.
+
+<Steps>
+  <Step num="1" title="Create a Multiplayer Lobby">
+    The host must select 'Multiplayer' from the main menu and create a new adventure. You can set the room to Public, Friends Only, or Private with a password.
+  </Step>
+  <Step num="2" title="Invite Friends Across Platforms">
+    Game Pass players can invite friends through the Xbox overlay (Win+G on PC). For crossplay with Steam users, provide the Room Name and ensure the 'Crossplay' toggle is enabled in the settings.
+  </Step>
+  <Step num="3" title="Assign Character Slots">
+    Once all 2-4 players are in the lobby, the host assigns character slots. In a 2-player game, each player typically controls two characters to maintain a full 4-person party.
+  </Step>
+  <Step num="4" title="Finalize Loadouts and Start">
+    Every player selects their class, starting trait, and initial items using Loadout Points. Once everyone clicks 'Ready,' the host can launch the campaign.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Joining Rules">
+Players **cannot join a game already in progress**. If a player disconnects, the host must save the game, return to the main menu, recreate the lobby, and have everyone rejoin before loading the save file.
+</Callout>
+
+| Multiplayer Mode | Connection Type | Player Limit | Requirements |
+| :--- | :--- | :--- | :--- |
+| **Online Co-op** | Internet / Server | 4 Players | Xbox Game Pass Core/Ultimate |
+| **Local Co-op** | Shared Screen | 4 Players | Multiple Controllers |
+| **Remote Play** | Steam/Ecosystem | 4 Players | Stable Upload Speed |
+| **Cloud Co-op** | Microsoft Servers | 4 Players | Xbox Game Pass Ultimate |
+
+</Section>
+
+<Section icon={Swords} title="Class Tier List for Game Pass Beginners">
+
+Choosing the right composition is the difference between a successful rebellion and a total party wipe. In For The King II, classes are defined by their primary stats: Strength, Awareness, Intelligence, Talent, and Vitality. For your first Game Pass run, focus on a party that covers all essential roles.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Herbalist">
+    - **Role**: Dedicated Healer
+    - **Primary Stat**: Intelligence
+    - **Key Ability**: Party Heal (uses one Godsbeard to heal the whole group).
+  </Card>
+  <Card title="A-Tier: Blacksmith">
+    - **Role**: Frontline Tank
+    - **Primary Stat**: Vitality
+    - **Key Ability**: Steadfast (ignores damage when using a shield).
+  </Card>
+  <Card title="A-Tier: Scholar">
+    - **Role**: Magic Damage
+    - **Primary Stat**: Intelligence
+    - **Key Ability**: Refocus (chance to regain Focus points at end of turn).
+  </Card>
+</CardGrid>
+
+| Class | Role | Main Stat | Difficulty | Unlock Method |
+| :--- | :--- | :--- | :--- | :--- |
+| **Blacksmith** | Tank / Defense | Vitality | Easy | Default |
+| **Hunter** | Ranged DPS | Awareness | Easy | Default |
+| **Scholar** | Magic / Utility | Intelligence | Easy | Default |
+| **Herbalist** | Healing / Support | Intelligence | Easy | Default |
+| **Alchemist** | Burst / Bombs | Intelligence | Medium | Lore Store |
+| **Monk** | Hybrid Support | Mixed | Medium | Free Update |
+
+<Callout type="tip" title="The Golden Rule of Party Comp">
+Always include at least one character with high **Intelligence** (Scholar or Herbalist) and one with high **Vitality** or **Strength** (Blacksmith). Without a healer and a tank, your party will struggle to survive the mid-game difficulty spikes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Combat Mechanics: Mastering the Battle Grid">
+
+The Battle Grid is a new addition to the sequel, introducing a 2x4 tactical layout. Positioning determines who can be targeted and who can protect their allies. Understanding how to use the grid effectively is essential for surviving the harder chapters available on Game Pass.
+
+- **Front Row**: Reserved for tanks like the Blacksmith. They can use the **Guard** ability to protect allies directly behind them.
+- **Back Row**: Ideal for fragile casters and ranged attackers. Most melee enemies must clear the front row before reaching these targets.
+- **Area of Effect (AOE)**: Some attacks hit entire rows or columns. Avoid clumping all characters in one vertical lane if the enemy has column-piercing attacks.
+- **Focus Points**: Use Focus to guarantee successful rolls on attacks or skills. Never enter a boss fight with zero Focus.
+
+| Status Effect | Description | Counter / Cure |
+| :--- | :--- | :--- |
+| **Dazed** | Removes secondary action (movement/items) | Panax / Wait 1 turn |
+| **Stunned** | Skips the entire next turn | Salt / High Resistance |
+| **Bleed** | Damage over time every turn | Bandages / Healing |
+| **Acid** | Dissolves equipped gear over time | Sponge / Quick Kill |
+| **Shock** | Next roll automatically fails | Panax / High Resistance |
+
+<Callout type="info" title="Focus Restoration">
+You can restore Focus by **Meditating** in towns, using **Golden Root**, or finding a **Stone Hero** on the overworld map. Use your Focus aggressively during difficult encounters, as a dead party cannot use saved resources.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Campaign Progression and Milestones">
+
+The main campaign of For The King II consists of seven distinct adventures. Each run, whether successful or not, contributes to your overall progression through the Lore Store. As you play the Game Pass version, keep these milestones in mind to maximize your efficiency.
+
+<Checklist
+  id="game-pass-progression"
+  title="Essential Progression Milestones:"
+  items={[
+    "Complete 'The Resistance' to unlock basic Lore Store options",
+    "Unlock the Alchemist class for high-burst magic damage",
+    "Find and activate at least 5 Stone Heroes across different biomes",
+    "Successfully complete a Dungeon Crawl Gauntlet run",
+    "Unlock all 12 base-game classes using Lore currency"
+  ]}
+/>
+
+| Adventure | Primary Focus | Difficulty | Key Rewards |
+| :--- | :--- | :--- | :--- |
+| **The Resistance** | Basic Mechanics | Easy | Initial Lore / Unlocks |
+| **Primordial Oak** | Movement / Chaos | Medium | Advanced Gear |
+| **Royal Mines** | Dungeon Crawling | Medium | High Tier Weapons |
+| **Dark Carnival** | Infinite Survival | Scaling | Leaderboard Status |
+
+<Callout type="success" title="Lore Store Strategy">
+Prioritize unlocking **Classes** and **Starting Items** in the Lore Store first. Cosmetic items look great, but they won't help you survive the brutal difficulty of the Master level campaigns.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is For The King II crossplay between Game Pass and Steam?",
+    answer: "Yes, For The King II supports full crossplay between Xbox Game Pass (both console and PC) and Steam. Ensure all players have the same game version installed."
+  },
+  {
+    question: "Can I play For The King II solo on Game Pass?",
+    answer: "Absolutely. In solo mode, you control all four characters in the party. This allows for total tactical control over every move and item distribution."
+  },
+  {
+    question: "How do I unlock new classes in For The King II?",
+    answer: "New classes are unlocked via the Lore Store using Lore Book currency earned during gameplay. Some classes are also included in DLC packs like 'Tinkerers of Fate'."
+  },
+  {
+    question: "Does the Game Pass version include the DLC packs?",
+    answer: "The standard Game Pass version includes the base game and all free content updates (like Dungeon Crawl). Paid DLC packs such as 'Into The Wild' must be purchased separately."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Atributos de Personagem em For The King II: Guia de Atributos Principais e Mecânicas de Combate",
+  description: "Domine os atributos de personagem em For The King II. Saiba como Força, Velocidade e Vitalidade afetam as rolagens de dados, a precisão no combate e os desafios no mapa do mundo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/274445/fff?text=Character+Stats+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Compreender os **atributos de personagem em for the king ii** é essencial para dominar as rolagens de dados, a precisão das armas e a navegação pelo mapa.
+- **Mecânica principal**: Cada valor de atributo representa uma chance direta em porcentagem de sucesso em um único teste de dados.
+- **Limite de precisão**: A precisão em combate escala com o atributo principal da sua arma até um limite máximo de **95%**.
+- **Otimização de Foco**: Use Foco para garantir rolagens bem-sucedidas em ataques críticos, curas de status ou movimentação no mapa do mundo.
+- **Parâmetros de atributos**: Uma pontuação de **80+** indica uma classe especialista, enquanto **75+** é uma base altamente confiável.
+</Callout>
+
+<Section icon={Map} title="Como os Atributos Controlam Fahrul: O Sistema de Rolagem de Dados">
+
+No mundo de tabuleiro em turnos de *For The King II*, cada ação — desde golpear com um martelo de guerra gigante até desarmar uma armadilha de espinhos — é determinada por rolagens de dados. Seus **atributos de personagem em for the king ii** não são números passivos; eles representam a chance direta em porcentagem de sucesso para cada espaço (slot) em um teste de rolagem de ação. 
+
+Por exemplo, se um personagem com 78 de Inteligência usa uma magia que requer três testes de espaço, cada espaço tem uma **chance básica de 78%** de sucesso. Acumular seus atributos principais é a maneira mais eficaz de eliminar o azar e garantir um desempenho de combate consistente.
+
+| Faixa de Atributo | Nível de Desempenho | Aplicação Estratégica |
+| :--- | :--- | :--- |
+| **80 ou Superior** | **Especialista** | Dano principal, testes de alta confiabilidade |
+| **75 a 79** | **Confiável** | Função secundária sólida, suporte dependente |
+| **60 a 74** | **Medíocre** | Use apenas com suporte de Foco ou equipamentos de reserva |
+| **Abaixo de 60** | **Inutilizável** | Evite equipar armas ou enfrentar desafios associados a este atributo |
+
+<Callout type="tip" title="Dica de Mestre: Verifique o Resumo do seu Grupo Instantaneamente">
+Você pode pressionar a **tecla 'P'** a qualquer momento no mapa do mundo para abrir o menu do Resumo do Grupo. Esta tela exibe os atributos ativos de cada personagem, bônus de equipamentos, efeitos ativos e imunidades, facilitando a decisão de quem deve receber os novos equipamentos saqueados.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Explicação dos Atributos Principais de Personagem">
+
+O jogo apresenta sete atributos principais que ditam como seu grupo interage com os inimigos e o ambiente. Combinar a arma certa com o atributo correto é a diferença entre uma vitória limpa e uma derrota total da equipe.
+
+### Atributos Físicos e Defensivos
+
+*   **Força (FOR):** Governa a precisão com armas pesadas de corte e impacto. Também é testada durante desafios físicos no mapa do mundo, como arrombar portas trancadas em masmorras ou puxar espadas lendárias de monumentos de pedra.
+*   **Vitalidade (VIT):** Determina diretamente seus Pontos de Vida (PV) máximos e resistência física. Uma alta Vitalidade é necessária para sobreviver a perigos ambientais, como poços de veneno, e é o principal fator de escala para habilidades defensivas de escudo.
+*   **Velocidade (VEL):** Determina sua ordem de iniciativa no início do combate e a frequência com que seu personagem joga. A Velocidade também dita sua taxa de sucesso ao passar furtivamente por acampamentos inimigos ou tentar fugir de uma emboscada.
+
+### Atributos de Utilidade e Magia
+
+*   **Inteligência (INT):** Governa a precisão mágica com cajados, varinhas e pergaminhos. Uma Inteligência alta é crítica para causadores de dano mágico e curadores de suporte, além de controlar sua taxa de sucesso em quebra-cabeças mentais.
+*   **Atenção (ATE):** Representa o estado de alerta do seu personagem e a precisão com arcos de longo alcance, armas de haste e armas de fogo. É altamente valorizada para causadores de dano na linha de trás que precisam eliminar alvos prioritários.
+*   **Talento (TAL):** Dicta sua habilidade com instrumentos musicais, bombas e armas especializadas de trapaceiro. Também afeta diretamente a velocidade de movimento do barco em blocos de água e sua taxa de sucesso ao desarmar armadilhas no mapa.
+*   **Sorte (SOR):** Um atributo estático que não pode ser aumentado ao subir de nível normalmente. A Sorte governa jogos de azar, eventos aleatórios e desafios caóticos como os encontrados no Carnaval Negro. A maioria das classes começa com uma Sorte básica de 55.
+
+| Atributo | Tipos de Armas Principais | Utilidade Principal no Mapa |
+| :--- | :--- | :--- |
+| **Força** | Espadas, Machados, Clavas, Martelos | Arrombar portas, testes físicos |
+| **Vitalidade** | Escudos, Lanças Pesadas | Resistência a veneno, escala de PV |
+| **Inteligência** | Cajados, Varinhas, Tomos | Quebra-cabeças mágicos, uso de pergaminhos |
+| **Atenção** | Arcos, Bestas de Mão, Mosquetes | Controle de emboscadas, exploração |
+| **Talento** | Alaúdes, Bombas, Chicotes, Pistolas | Desarmar armadilhas, velocidade do barco |
+| **Velocidade** | Adagas, Rapieiras, Armas de Punho | Furtividade, fuga, ordem de turno |
+
+<Callout type="warning" title="Aviso de Evasão vs. Velocidade">
+Embora a Velocidade influencie sua ordem de turno, a Evasão é uma classificação defensiva separada que pode ser acumulada até **100%**. Tanques de evasão no fim do jogo (combinando equipamentos de alta Atenção/Velocidade com bônus de Evasão) podem se esquivar de quase todos os ataques físicos recebidos, tornando-os incrivelmente poderosos na dificuldade Mestre.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Atributos Iniciais de Todas as Classes Principais">
+
+Ao montar seu grupo, você deve equilibrar a distribuição de atributos para garantir que consiga lidar com qualquer desafio que Fahrul apresentar. Confiar em um único arquétipo de atributo deixará sua equipe altamente vulnerável a resistências específicas de inimigos ou tipos de armadilhas.
+
+<CardGrid cols={3}>
+  <Card title="O Tanque de Força">
+    - **Ferreiro**: 74 FOR / 78 VIT
+    - **Cavalariço**: 79 FOR / 83 VEL
+    - **Frade**: 73 FOR / 81 VIT / 81 INT
+  </Card>
+  <Card title="O Especialista Arcano">
+    - **Estudioso**: 78+ INT / Alto Refoco
+    - **Alquimista**: 81 INT / 75 TAL / 81 VEL
+    - **Herbalista**: 76 INT / 76 ATE
+  </Card>
+  <Card title="O Atirador de Utilidade">
+    - **Caçador**: ATE de Elite / Alta VEL
+    - **Fazendeiro**: 74 VIT / 74 ATE
+    - **Menestrel**: 83 TAL / 79 VEL
+  </Card>
+</CardGrid>
+
+| Classe | FOR | VIT | INT | ATE | TAL | VEL | SOR |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Alquimista** | 55 | 59 | **81** | 65 | 75 | **81** | 55 |
+| **Ferreiro** | 74 | **78** | 55 | 60 | 60 | 58 | 55 |
+| **Menestrel** | 55 | 69 | 69 | 61 | **83** | 79 | 55 |
+| **Cavalariço** | 79 | 65 | 55 | 73 | 61 | **83** | 55 |
+| **Frade** | 73 | **81** | **81** | 55 | 61 | 65 | 55 |
+| **Fazendeiro** | 70 | 74 | 55 | 74 | 65 | 68 | 55 |
+| **Herbalista** | 55 | 58 | 76 | 76 | 65 | 62 | 55 |
+| **Mendigo** | 70 | 70 | 70 | 70 | 70 | 70 | 70 |
+
+<Callout type="success" title="O Versátil Mendigo">
+A classe secreta desbloqueável do Mendigo começa com um valor fixo de **70 em cada atributo**. Embora eles não tenham atributos especializados de nível S logo de início, eles são altamente responsivos a doces que aumentam atributos (como Quebra-queixos Salgados ou Caramelo Preto) e podem ser desenvolvidos para qualquer função que falte ao seu grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo: Como Otimizar seus Atributos Durante uma Partida">
+
+Desenvolver um personagem poderoso requer o gerenciamento ativo de saques, consumíveis e objetivos do mapa. Siga esta estratégia de progressão para maximizar os atributos do seu grupo antes de enfrentar os chefes do fim do jogo.
+
+<Steps>
+  <Step num="1" title="Inspecione a Compatibilidade do Saque">
+    Nunca equipe itens automaticamente. Quando um item cair, revise os ícones de pré-visualização de atributos para ver qual personagem se beneficia mais. Dar uma varinha baseada em Inteligência para um Ferreiro focado em Força é um desperdício de espaço.
+  </Step>
+  <Step num="2" title="Acumule Doces nos seus Especialistas">
+    Doces e caramelos fornecem aumentos permanentes e altamente perceptíveis de atributos. Dê doces de aumento de Força exclusivamente ao seu tanque e guloseimas de Inteligência ao seu mago principal para aproximá-los do limite de 95% de precisão.
+  </Step>
+  <Step num="3" title="Garanta os Santuários de Bioma e Heróis de Pedra">
+    Procure por Santuários e Heróis de Pedra em cada novo bioma. Os Santuários concedem bônus massivos de personagem e uma rede de segurança vital de ressurreição, enquanto os Heróis de Pedra concedem pontos de experiência instantâneos para ajudar a escalar seus atributos.
+  </Step>
+  <Step num="4" title="Gerencie o Foco para Ignorar Atributos Ruins">
+    Se um personagem precisar rolar um teste em um atributo fraco (como um Ferreiro desarmando uma armadilha baseada em Talento), gaste seus pontos de Foco. O Foco garante espaços bem-sucedidos, mitigando o risco de falhas críticas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Atributos para o Fim de Jogo">
+
+Use esta lista de verificação para verificar se os atributos e equipamentos do seu grupo estão totalmente otimizados antes de entrar nas masmorras da campanha final ou nos andares profundos do Carnaval Negro.
+
+<Checklist
+  id="endgame-stat-verification"
+  title="Lista de Verificação de Atributos Pré-Masmorra:"
+  items={[
+    "Pelo menos um causador de dano principal atingiu o limite de mais de 90% de precisão de atributos [1.1.5].",
+    "Seu tanque da linha de frente acumulou Vitalidade e armadura suficientes para usar Provocar com segurança.",
+    "Seu personagem mais rápido tem Velocidade suficiente para agir primeiro no combate e aplicar controle de grupo.",
+    "Todos os personagens gastaram seus pontos temporários de Foco antes de tocar em um Herói de Pedra ou Santuário para receber uma recarga gratuita.",
+    "Todos os membros do grupo estão carregando pelo menos uma cura de status para evitar que efeitos de Atordoamento ou Aturdimento arruínem as ordens de turno."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o limite máximo para os atributos de personagem em For The King II?",
+    answer: "Atributos padrão como Força e Inteligência podem ser aumentados ao longo de uma partida, mas as rolagens de precisão em combate têm um limite máximo de 95%. Acumular atributos além desse limite ajuda a contra-atacar penalidades e maldições dos inimigos."
+  },
+  {
+    question: "Como a Velocidade afeta minha estratégia de combate?",
+    answer: "A Velocidade determina a iniciativa e a frequência dos turnos. Personagens de alta velocidade, como o Alquimista ou o Cavalariço, podem agir primeiro para aplicar efeitos de status, lançar bombas ou derrotar inimigos frágeis antes que eles possam atacar."
+  },
+  {
+    question: "Por que meu personagem está errando ataques apesar de ter atributos altos?",
+    answer: "Certos efeitos de status, como Raio, fazem com que sua próxima rolagem de dados falhe automaticamente. Além disso, inimigos com alta Evasão podem se esquivar de ataques totalmente bem-sucedidos."
+  },
+  {
+    question: "Posso aumentar o atributo base de Sorte do meu personagem?",
+    answer: "A Sorte é um atributo estático definido em 55 para classes padrão e 70 para o Mendigo. Ela não pode ser aumentada ao subir de nível, mas pode ser temporariamente aprimorada usando equipamentos ou características específicas."
+  }
+]} />
+
+</Section>

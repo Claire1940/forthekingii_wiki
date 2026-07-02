@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "For The King II Character Stats: Core Attributes & Combat Mechanics Guide",
+  description: "Master character stats in For The King II. Learn how Strength, Speed, and Vitality affect dice rolls, combat accuracy, and overworld challenges.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/274445/fff?text=Character+Stats+Guide",
+  date: "2026-07-02",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Understanding **for the king ii character stats** is essential for mastering dice rolls, weapon accuracy, and map navigation.
+- **Core mechanic**: Every stat value represents a direct percentage chance to succeed on a single dice check.
+- **Accuracy cap**: Combat accuracy scales with your primary weapon stat up to a hard cap of **95%**.
+- **Focus optimization**: Use Focus to guarantee successful rolls on critical attacks, status cures, or overworld movement.
+- **Stat benchmarks**: A score of **80+** denotes a specialist class, while **75+** is a highly reliable baseline.
+</Callout>
+
+<Section icon={Map} title="How Stats Control Fahrul: The Dice Roll System">
+
+In the turn-based tabletop world of *For The King II*, every action—from swinging a giant warhammer to disarming a spike trap—is determined by dice rolls. Your **for the king ii character stats** are not passive numbers; they are the direct percentage chance of success for each slot on an action's roll check. 
+
+For instance, if a character with 78 Intelligence uses a spell that requires three slot checks, each slot has a baseline **78% chance** to succeed. Stacking your primary attributes is the single most effective way to eliminate bad luck and ensure consistent combat performance.
+
+| Stat Range | Performance Tier | Strategic Application |
+| :--- | :--- | :--- |
+| **80 or Higher** | **Specialist** | Primary damage output, high-reliability checks |
+| **75 to 79** | **Reliable** | Solid secondary role, dependable support |
+| **60 to 74** | **Mediocre** | Use only with Focus support or backup gear |
+| **Below 60** | **Unusable** | Avoid matching weapons or challenges to this stat |
+
+<Callout type="tip" title="Pro Tip: Check Your Party Summary Instantly">
+You can press the **'P' key** at any time on the overworld to open the Party Summary overlay. This screen displays every character's active stats, equipment bonuses, active buffs, and immunities, making it easy to decide who should receive newly looted gear.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Core Character Stats Explained">
+
+The game features seven primary attributes that dictate how your party interacts with enemies and the environment. Matching the right weapon to the right attribute is the difference between a clean victory and a wiped run.
+
+### Physical and Defensive Attributes
+
+*   **Strength (STR):** Governs accuracy with heavy bladed and blunt weapons. It is also tested during physical overworld challenges, such as breaking down locked doors in dungeons or pulling legendary swords from stone markers.
+*   **Vitality (VIT):** Directly determines your maximum Health Points (HP) and physical endurance. High Vitality is required to survive environmental hazards like poison wells and is the primary scaling factor for defensive shield abilities.
+*   **Speed (SPD):** Determines your initiative order at the start of combat and how frequently your character takes turns. Speed also dictates your success rate when sneaking past enemy camps or attempting to flee from an ambush.
+
+### Utility and Magic Attributes
+
+*   **Intelligence (INT):** Governs magic accuracy with staves, wands, and scrolls. High Intelligence is critical for magical damage dealers and support healers, and it controls your success rate on mental puzzles.
+*   **Awareness (AWA):** Represents your character's alertness and accuracy with ranged bows, polearms, and firearms. It is highly valued for backline damage dealers who need to snipe priority targets.
+*   **Talent (TAL):** Dictates your skill with musical instruments, bombs, and specialized trickster weapons. It also directly impacts boat movement speed on water tiles and your success rate when disarming overworld traps.
+*   **Luck (LUK):** A static attribute that cannot be boosted by standard level-ups. Luck governs games of chance, random events, and chaotic challenges like those found in the Dark Carnival. Most classes start with a base Luck of 55.
+
+| Attribute | Primary Weapon Types | Key Overworld Utility |
+| :--- | :--- | :--- |
+| **Strength** | Swords, Axes, Clubs, Hammers | Breaking doors, physical tests |
+| **Vitality** | Shields, Heavy Spears | Poison resistance, HP scaling |
+| **Intelligence** | Staves, Wands, Tomes | Magical puzzles, scroll use |
+| **Awareness** | Bows, Hand Crossbows, Muskets | Ambush control, scouting |
+| **Talent** | Lutes, Bombs, Whips, Pistols | Trap disarming, boat movement |
+| **Speed** | Daggers, Rapiers, Fist Weapons | Sneaking, fleeing, turn order |
+
+<Callout type="warning" title="Evasion vs. Speed Warning">
+While Speed influences your turn order, Evasion is a separate defensive rating that can be stacked up to **100%**. Late-game evasion tanks (combining high Awareness/Speed gear with Evasion buffs) can dodge almost all incoming physical attacks, making them incredibly powerful on Master difficulty.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Starting Stats for All Major Classes">
+
+When assembling your party, you must balance your attribute distribution to ensure you can handle any challenge Fahrul throws at you. Relying on a single stat archetype will leave your team highly vulnerable to specific enemy resistances or trap types.
+
+<CardGrid cols={3}>
+  <Card title="The Strength Tank">
+    - **Blacksmith**: 74 STR / 78 VIT
+    - **Stablehand**: 79 STR / 83 SPD
+    - **Friar**: 73 STR / 81 VIT / 81 INT
+  </Card>
+  <Card title="The Arcane Specialist">
+    - **Scholar**: 78+ INT / High Refocus
+    - **Alchemist**: 81 INT / 75 TAL / 81 SPD
+    - **Herbalist**: 76 INT / 76 AWA
+  </Card>
+  <Card title="The Utility Marksman">
+    - **Hunter**: Elite AWA / High SPD
+    - **Farmer**: 74 VIT / 74 AWA
+    - **Minstrel**: 83 TAL / 79 SPD
+  </Card>
+</CardGrid>
+
+| Class | STR | VIT | INT | AWA | TAL | SPD | LUK |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Alchemist** | 55 | 59 | **81** | 65 | 75 | **81** | 55 |
+| **Blacksmith** | 74 | **78** | 55 | 60 | 60 | 58 | 55 |
+| **Minstrel** | 55 | 69 | 69 | 61 | **83** | 79 | 55 |
+| **Stablehand** | 79 | 65 | 55 | 73 | 61 | **83** | 55 |
+| **Friar** | 73 | **81** | **81** | 55 | 61 | 65 | 55 |
+| **Farmer** | 70 | 74 | 55 | 74 | 65 | 68 | 55 |
+| **Herbalist** | 55 | 58 | 76 | 76 | 65 | 62 | 55 |
+| **Hobo** | 70 | 70 | 70 | 70 | 70 | 70 | 70 |
+
+<Callout type="success" title="The Versatile Hobo">
+The secret unlockable Hobo class starts with a flat **70 in every single stat**. While they lack specialized S-tier stats out of the box, they are highly responsive to stat-boosting candies (like Salted Jawbreakers or Black Taffy) and can be built into any role your party lacks.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: How to Optimize Your Stats During a Run">
+
+Building a powerful character requires active management of loot, consumables, and map objectives. Follow this progression strategy to maximize your party's attributes before facing late-game bosses.
+
+<Steps>
+  <Step num="1" title="Inspect Loot Compatibility">
+    Never auto-equip gear. When an item drops, review the stat-preview icons to see which character benefits most. Giving an Intelligence-based wand to a Strength-focused Blacksmith is a waste of a slot.
+  </Step>
+  <Step num="2" title="Stack Candies on Your Specialists">
+    Candies and taffies provide permanent, highly noticeable stat boosts. Feed Strength-boosting candies exclusively to your tank and Intelligence treats to your primary mage to push them toward the 95% accuracy cap.
+  </Step>
+  <Step num="3" title="Secure Biome Sanctums and Stone Heroes">
+    Search each new biome for Sanctums and Stone Heroes. Sanctums grant massive character buffs and a vital revive safety net, while Stone Heroes grant instant experience points to help your attributes scale.
+  </Step>
+  <Step num="4" title="Manage Focus to Bypass Bad Stats">
+    If a character must roll a check on a weak attribute (such as a Blacksmith disarming a Talent-based trap), spend your Focus points. Focus guarantees successful slots, mitigating the risk of critical failures.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame Stat Checklist">
+
+Use this checklist to verify that your party's attributes and gear are fully optimized before entering final campaign dungeons or deep floors in the Dark Carnival.
+
+<Checklist
+  id="endgame-stat-verification"
+  title="Pre-Dungeon Stat Checklist:"
+  items={[
+    "At least one primary damage dealer has reached the 90%+ stat accuracy threshold [1.1.5].",
+    "Your front-line tank has accumulated enough Vitality and armor to reliably use Taunt.",
+    "Your fastest character has sufficient Speed to act first in combat and apply crowd control.",
+    "All characters have spent their temporary Focus points before touching a Stone Hero or Sanctum to receive a free refill.",
+    "Every party member is carrying at least one status cure to prevent Dazed or Stunned effects from ruining turn orders."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the maximum limit for character stats in For The King II?",
+    answer: "Standard attributes like Strength and Intelligence can be boosted throughout a run, but combat accuracy rolls are hard-capped at 95%. Stacking stats beyond this cap helps counter enemy debuffs and curses."
+  },
+  {
+    question: "How does Speed affect my combat strategy?",
+    answer: "Speed determines initiative and turn frequency. High-speed characters like the Alchemist or Stablehand can act first to deploy status effects, throw bombs, or defeat fragile enemies before they can attack."
+  },
+  {
+    question: "Why is my character missing attacks despite having high stats?",
+    answer: "Certain status effects like Lightning cause your next dice roll to automatically fail. Additionally, enemies with high Evasion can dodge fully successful attacks."
+  },
+  {
+    question: "Can I increase my character's base Luck stat?",
+    answer: "Luck is a static attribute set at 55 for standard classes and 70 for the Hobo. It cannot be increased during level-ups, but it can be temporarily boosted using specific equipment or traits."
+  }
+]} />
+
+</Section>
