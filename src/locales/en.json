@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "For The King II - Classes, Builds & Co-op Guide",
+      "description": "For The King II covers classes, builds, weapons, quests, DLC, achievements, co-op tips, and beginner guides for Steam, Xbox, and PlayStation.",
+      "keywords": "For The King II, Steam, Xbox, PlayStation, classes, builds, weapons, co-op, DLC",
+      "ogTitle": "For The King II - Classes, Builds & Co-op Guide",
+      "ogDescription": "For The King II covers classes, builds, weapons, quests, DLC, achievements, co-op tips, and beginner guides for Steam, Xbox, and PlayStation.",
+      "twitterTitle": "For The King II - Classes, Builds & Co-op Guide",
+      "twitterDescription": "For The King II wiki: classes, builds, gear, co-op, DLC, and achievements for Steam, Xbox, and PlayStation."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Turn-Based Roguelite Tabletop RPG",
+    "title": "For The King II Wiki",
+    "description": "Build a party, explore procedurally generated Fahrul, master Battle Grid tactics, unlock classes, clear campaigns, and survive co-op dungeon runs.",
+    "getFreeCodesCTA": "View Guides",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
+        "value": "623",
         "label": "Players Online"
       },
       "stat2": {
-        "value": "1,986",
+        "value": "28,528",
         "label": "Peak CCU"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "15K+",
+        "label": "Steam Reviews"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "126",
+        "label": "Steam Achievements"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Explore For The King II?",
+    "description": "Join the For The King II community on Discord for guides, updates, and discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "For The King II Wiki",
+    "description": "Your complete resource hub for For The King II classes, builds, gear, campaigns, dungeons, multiplayer, DLC, and achievements.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
+    "reddit": "Reddit",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "youtube": "YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 For The King II Wiki. Not affiliated with IronOak Games or Curve Games.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
