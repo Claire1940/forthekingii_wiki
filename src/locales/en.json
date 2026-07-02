@@ -10,14 +10,7 @@
       "twitterDescription": "For The King II wiki: classes, builds, gear, co-op, DLC, and achievements for Steam, Xbox, and PlayStation."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
