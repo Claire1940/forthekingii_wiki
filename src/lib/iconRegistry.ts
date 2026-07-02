@@ -28,6 +28,14 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // For The King II 主题导航卡片图标
+  Crown: LucideIcons.Crown,
+  Gift: LucideIcons.Gift,
+  Swords: LucideIcons.Swords,
+  Globe: LucideIcons.Globe,
+  Map: LucideIcons.Map,
+  Skull: LucideIcons.Skull,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,

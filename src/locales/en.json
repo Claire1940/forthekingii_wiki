@@ -51,697 +51,809 @@
       }
     }
   },
-  "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
-  },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "For The King II",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to master classes, builds, combat, campaigns, and co-op dungeon runs.",
     "cards": [
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Party roles, Focus, Sanctums, and the first-run rhythm"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Crown",
+        "title": "Class Tier List",
+        "description": "Best classes by role, stat, and unlock stage"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Users",
+        "title": "Best Party Builds",
+        "description": "Compositions for campaign, co-op, and Dark Carnival"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Gift",
+        "title": "Lore Store & Codes",
+        "description": "Redeem entry, Lore progression, and DLC unlocks"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Swords",
+        "title": "Combat & Loadouts",
+        "description": "Battle Grid, Focus, weapons, and status effects"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Globe",
+        "title": "Multiplayer & Crossplay",
+        "description": "Co-op, local play, Remote Play, and platforms"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Map",
+        "title": "Campaign Chapters",
+        "description": "Adventures, town quests, biomes, and Chaos pressure"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Skull",
+        "title": "Dark Carnival",
+        "description": "Infinite dungeon, Dungeon Crawl, and Into The Wild"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "forTheKingIIBeginnerGuide": {
+      "title": "For The King II Beginner Guide",
+      "intro": "For The King II is a turn-based roguelite tabletop RPG built around dice-inspired rolls, grid combat, and run-to-run progression. This beginner path focuses on the habits that keep a new party alive long enough to turn early chaos into actual progress.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Build a Party Around Roles, Not Favorites",
+          "goal": "Cover frontline defense, ranged damage, magic damage, and support before chasing advanced unlocks.",
+          "details": [
+            "Blacksmith protects the formation and anchors the front row.",
+            "Hunter handles Awareness-based physical damage and overworld scouting.",
+            "Scholar covers Intelligence-based magic, scrolls, and crowd control.",
+            "Herbalist keeps the group supplied with Party Heal and herb economy."
+          ],
+          "tip": "A balanced four-role party forgives more mistakes than four damage dealers stacked into the same wagon of bad decisions."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Spend Focus Where Failure Hurts Most",
+          "goal": "Use Focus on dangerous attacks, key movement rolls, quest objectives, and rolls that protect party tempo.",
+          "details": [
+            "Focus improves roll consistency before the action resolves.",
+            "Perfect rolls matter most against enemies that punish partial rolls or dodge weak hits.",
+            "Scholar can regain Focus through Refocus, making the class forgiving for new players."
+          ],
+          "tip": "Do not hoard Focus until the run collapses. Spend it before a Sanctum or Stone Hero, because those can refill the meter."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Find the Sanctum and Stone Hero in Each Biome",
+          "goal": "Secure the local revive safety net and level boost before pushing into the next dangerous area.",
+          "details": [
+            "Sanctum grants a useful buff and can protect a character from death once.",
+            "Stone Hero helps the party level quickly and refills Focus.",
+            "Scout the biome before rushing the main objective."
+          ],
+          "tip": "A party that skips free safety tools is just speedrunning regret."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Treat Every Town as a Power Spike",
+          "goal": "Use towns for quests, gear, healing, mercenaries, and supplies before entering dungeons or story fights.",
+          "details": [
+            "Check fresh town inventory on first visit.",
+            "Pick town quests with rewards that match your party needs.",
+            "Stock Godsbeard, Panax, and other survival items.",
+            "Hire mercenaries or followers when the party is underpowered."
+          ],
+          "tip": "Some early town quests are harsh for low-level parties. Pick rewards that solve an immediate weakness."
+        },
+        {
+          "title": "Use Pull Rules to Control Fights",
+          "goal": "Enter battles on your terms instead of dragging the whole neighborhood into a disaster pile.",
+          "details": [
+            "Dungeons pull every party member into the encounter.",
+            "Overworld fights can pull nearby allies and nearby enemies unless the party ambushes correctly.",
+            "Positioning before a fight can matter as much as the first attack roll."
+          ],
+          "tip": "Regroup before dungeons, split only when scouting is safe, and avoid starting fights beside extra enemies."
+        },
+        {
+          "title": "Give Gear to the Stat That Actually Rolls It",
+          "goal": "Match weapons and utility items to the character whose core stat supports them.",
+          "details": [
+            "Blacksmith: shields, defensive gear, and Strength tools.",
+            "Hunter: Awareness weapons and ranged damage upgrades.",
+            "Scholar: Intelligence tomes, staves, wands, and scroll synergy.",
+            "Herbalist: support gear, healing value, and Intelligence magic options.",
+            "Alchemist: Intelligence tools, bombs, and area damage utility."
+          ],
+          "tip": "Use the party summary and stat preview before handing out loot. A great weapon on the wrong character is just expensive furniture."
+        },
+        {
+          "title": "Play Chapters as Progression, Not One Perfect Save",
+          "goal": "Use each run to unlock better starting options, learn enemy patterns, and improve future loadouts.",
+          "details": [
+            "The campaign is split into separate adventures with roguelite progression.",
+            "Lore unlocks improve future starting options and loadout planning.",
+            "Dark Carnival offers an endless dungeon-style mode for repeatable challenge."
+          ],
+          "tip": "A failed run still teaches enemy behavior and helps build toward stronger future attempts."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Spend Focus before using a Sanctum or Stone Hero, because those can refill the meter.",
+        "Scout each biome before rushing the main objective so free safety tools are not wasted.",
+        "Match weapons to the stat that actually rolls them instead of handing loot to whoever looks heroic.",
+        "Treat a failed run as progression: unlocks and learned patterns strengthen the next attempt."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+    "forTheKingIIClassTierList": {
+      "title": "For The King II Class Tier List",
+      "intro": "Classes in For The King II are strongest when their stat, weapon type, and combat role match the party plan. This tier grid favors practical run value, beginner friendliness, and team utility over flashy chaos that looks clever right before the party dies.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Top Utility and Run Control",
+          "description": "These classes solve major party problems and fit into most reliable team compositions.",
+          "classes": [
+            {
+              "name": "Herbalist",
+              "role": "Support healer and magic utility",
+              "stat": "Intelligence",
+              "unlock": "Base game class",
+              "difficulty": "Easy",
+              "strengths": [
+                "Party Heal gives strong group sustain.",
+                "Find Herb improves long-run supply value.",
+                "Can support the party in combat and during recovery phases."
+              ],
+              "bestFor": "New players, long campaigns, and safer co-op runs",
+              "watchOut": "Needs protection from frontline pressure."
+            },
+            {
+              "name": "Alchemist",
+              "role": "Magic damage and bomb utility",
+              "stat": "Intelligence",
+              "unlock": "Base game unlockable class",
+              "difficulty": "Medium",
+              "strengths": [
+                "Find Potion can discover bombs while traveling.",
+                "Chemical attacks add strong area and burst options.",
+                "Works well when the party already has frontline protection."
+              ],
+              "bestFor": "Players who want higher burst, item utility, and flexible damage",
+              "watchOut": "Requires more item and timing awareness than starter classes."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Reliable Core Classes",
+          "description": "These classes are easy to build around and remain useful across campaign and co-op play.",
+          "classes": [
+            {
+              "name": "Blacksmith",
+              "role": "Frontline tank and protector",
+              "stat": "Vitality",
+              "unlock": "Base game class",
+              "difficulty": "Easy",
+              "strengths": [
+                "Starts with a shield-and-hammer tank identity.",
+                "Steadfast and Guard help protect the backline.",
+                "Excellent first pick for learning battle grid positioning."
+              ],
+              "bestFor": "Beginner parties, four-player co-op, and defensive team comps",
+              "watchOut": "Lower speed can delay key actions."
+            },
+            {
+              "name": "Hunter",
+              "role": "Ranged physical damage and scouting",
+              "stat": "Awareness",
+              "unlock": "Base game class",
+              "difficulty": "Easy",
+              "strengths": [
+                "Elite Ambush and Elite Sneak help control overworld engagements.",
+                "Called Shot rewards perfect rolls with critical hits.",
+                "Strong ranged pressure from the back row."
+              ],
+              "bestFor": "Safe damage, ambush-focused play, and beginner-friendly ranged roles",
+              "watchOut": "Needs good Awareness weapons to keep damage scaling."
+            },
+            {
+              "name": "Scholar",
+              "role": "Magic damage, control, and scroll economy",
+              "stat": "Intelligence",
+              "unlock": "Base game class",
+              "difficulty": "Easy",
+              "strengths": [
+                "Uses tomes, staves, and wands well.",
+                "Find Scroll improves utility access.",
+                "Refocus can restore Focus at the end of a turn."
+              ],
+              "bestFor": "Magic damage, crowd control, and parties that spend Focus often",
+              "watchOut": "Fragile if the frontline collapses."
+            },
+            {
+              "name": "Monk",
+              "role": "Support hybrid",
+              "stat": "Hybrid support",
+              "unlock": "Free update class",
+              "difficulty": "Medium",
+              "strengths": [
+                "Adds another support-oriented option beyond Herbalist.",
+                "Fits parties that want healing and utility without one support slot.",
+                "Works best in balanced groups that already have damage covered."
+              ],
+              "bestFor": "Support-heavy co-op groups and flexible campaign teams",
+              "watchOut": "Needs a clear party role to avoid overlapping with existing support."
+            },
+            {
+              "name": "Fortune Teller",
+              "role": "Awareness damage and fate manipulation",
+              "stat": "Awareness",
+              "unlock": "Tinkerers of Fate Character Pack",
+              "difficulty": "Medium",
+              "strengths": [
+                "Elite Awareness profile suits ranged combat.",
+                "Tarot cards alter the flow of combat and party fortune.",
+                "Pairs well with parties that can protect a specialist backline."
+              ],
+              "bestFor": "DLC owners, Awareness-based teams, and tactical utility players",
+              "watchOut": "Less straightforward than standard damage classes."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Specialist Picks",
+          "description": "These classes can be powerful, but they ask more from the player or need a specific party plan.",
+          "classes": [
+            {
+              "name": "Toymaker",
+              "role": "Talent-based summoner and trickster",
+              "stat": "Talent",
+              "unlock": "Tinkerers of Fate Character Pack",
+              "difficulty": "Hard",
+              "strengths": [
+                "Captures enemy essence into toys.",
+                "Can summon toys to reshape combat pressure.",
+                "Adds a unique playstyle built around preparation and tactical timing."
+              ],
+              "bestFor": "DLC owners, summon-focused teams, and experienced players",
+              "watchOut": "Needs planning and party protection to reach full value."
+            }
+          ]
+        }
+      ]
+    },
+    "forTheKingIIBestPartyBuilds": {
+      "title": "For The King II Best Party Builds",
+      "intro": "The best For The King II party is not just four strong classes thrown into the same wagon of bad decisions. A good composition covers defense, damage types, healing, Focus usage, and battle grid positioning before the first dungeon starts collecting bodies.",
+      "builds": [
+        {
+          "name": "First Clear Balanced Party",
+          "party": ["Blacksmith", "Hunter", "Scholar", "Herbalist"],
+          "difficulty": "Easy",
+          "bestFor": ["New players", "Solo play", "First campaign chapters"],
+          "roles": [
+            { "label": "Frontline", "text": "Blacksmith absorbs pressure and protects the row structure." },
+            { "label": "Physical Damage", "text": "Hunter handles ranged Awareness damage and safer overworld engagement." },
+            { "label": "Magic Damage", "text": "Scholar brings Intelligence-based magic, scroll utility, and Focus recovery." },
+            { "label": "Support", "text": "Herbalist supplies Party Heal and herb economy." }
+          ],
+          "gamePlan": "Keep Blacksmith forward, protect Scholar and Herbalist, use Hunter to pick off priority targets, and spend Focus on rolls that prevent damage spikes.",
+          "lootPriority": [
+            "Defensive shields and armor to Blacksmith",
+            "Awareness bows or ranged weapons to Hunter",
+            "Intelligence magic tools to Scholar",
+            "Healing and support gear to Herbalist"
+          ]
+        },
+        {
+          "name": "Developer Example Flex Party",
+          "party": ["Blacksmith", "Hunter", "Herbalist", "Busker"],
+          "difficulty": "Easy",
+          "bestFor": ["Four-player co-op", "Balanced campaign runs", "Groups that want utility over pure magic"],
+          "roles": [
+            { "label": "Frontline", "text": "Blacksmith anchors the battle grid." },
+            { "label": "Damage", "text": "Hunter provides dependable ranged pressure." },
+            { "label": "Support", "text": "Herbalist keeps the party supplied and healed." },
+            { "label": "Utility", "text": "Busker adds a flexible fourth slot for support and party value." }
+          ],
+          "gamePlan": "Use this as a stable co-op shell: one clear tank, one clear ranged attacker, one dedicated healer, and one utility slot that can adapt to the run.",
+          "lootPriority": [
+            "Tank gear first",
+            "Hunter damage upgrades second",
+            "Godsbeard and support items for Herbalist",
+            "Utility and economy gear for Busker"
+          ]
+        },
+        {
+          "name": "Unlockable Burst Core",
+          "party": ["Blacksmith", "Hunter", "Herbalist", "Alchemist"],
+          "difficulty": "Medium",
+          "bestFor": ["Players who unlocked Alchemist", "Boss fights", "Runs that need stronger burst and area damage"],
+          "roles": [
+            { "label": "Frontline", "text": "Blacksmith gives the Alchemist time to set up damage." },
+            { "label": "Ranged Damage", "text": "Hunter handles consistent target pressure." },
+            { "label": "Support", "text": "Herbalist protects the party through longer fights." },
+            { "label": "Burst Damage", "text": "Alchemist adds bomb utility, chemical attacks, and explosive turns." }
+          ],
+          "gamePlan": "Let Blacksmith and Herbalist stabilize the fight while Hunter and Alchemist remove high-value targets quickly.",
+          "lootPriority": [
+            "Bomb and potion value to Alchemist",
+            "Survival items to Herbalist",
+            "Defensive gear to Blacksmith",
+            "Awareness weapons to Hunter"
+          ]
+        },
+        {
+          "name": "Two-Player Co-op Split",
+          "party": ["Blacksmith", "Herbalist", "Hunter", "Scholar"],
+          "difficulty": "Easy",
+          "bestFor": ["Two-player online co-op", "Local planning with two heroes per player", "Balanced role control"],
+          "roles": [
+            { "label": "Player One", "text": "Blacksmith plus Herbalist controls survival, positioning, and healing decisions." },
+            { "label": "Player Two", "text": "Hunter plus Scholar controls ranged damage, magic pressure, and Focus spending." }
+          ],
+          "gamePlan": "Split responsibilities so each player controls one defensive or support role and one active combat role. This keeps both players useful every turn instead of turning one person into the designated potion intern.",
+          "lootPriority": [
+            "Player one prioritizes defense and healing stock",
+            "Player two prioritizes Awareness and Intelligence weapons"
+          ]
+        },
+        {
+          "name": "Dark Carnival Safety Net",
+          "party": ["Blacksmith", "Herbalist", "Alchemist", "Hunter"],
+          "difficulty": "Medium",
+          "bestFor": ["Dark Carnival", "Longer dungeon-style runs", "Players who want sustain plus burst"],
+          "roles": [
+            { "label": "Survival", "text": "Blacksmith and Herbalist reduce the chance of a fast collapse." },
+            { "label": "Burst", "text": "Alchemist handles explosive damage windows." },
+            { "label": "Cleanup", "text": "Hunter removes weakened or dangerous targets from range." }
+          ],
+          "gamePlan": "Prioritize sustain and mixed damage. Dark Carnival rewards parties that can survive repeated rooms while still ending dangerous fights quickly.",
+          "lootPriority": [
+            "Healing and defensive tools first",
+            "Bomb and area damage tools second",
+            "Ranged upgrades third"
+          ]
+        },
+        {
+          "name": "Tinkerers DLC Trickster Core",
+          "party": ["Blacksmith", "Herbalist", "Toymaker", "Fortune Teller"],
+          "difficulty": "Hard",
+          "bestFor": ["Tinkerers of Fate owners", "Summon-focused play", "Players who want a specialist party"],
+          "roles": [
+            { "label": "Frontline", "text": "Blacksmith protects the specialist backline." },
+            { "label": "Support", "text": "Herbalist keeps the party stable." },
+            { "label": "Summons", "text": "Toymaker uses captured essence and toys to change combat pressure." },
+            { "label": "Fate Control", "text": "Fortune Teller adds Awareness-based pressure and tarot utility." }
+          ],
+          "gamePlan": "Use Blacksmith and Herbalist to buy time while Toymaker and Fortune Teller create unusual tactical advantages.",
+          "lootPriority": [
+            "Talent gear to Toymaker",
+            "Awareness gear to Fortune Teller",
+            "Healing gear to Herbalist",
+            "Defensive gear to Blacksmith"
+          ]
+        }
+      ]
+    },
+    "forTheKingIILoreStoreCodes": {
+      "title": "For The King II Lore Store Codes and Unlocks",
+      "intro": "For The King II uses the Lore Store as a long-term roguelite progression layer. The important distinction is simple: Lore unlocks are normal progression, Character Packs are official DLC content, and random third-party cheat shortcuts are not redeem codes.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Public Lore Store Codes",
+          "type": "Redeem Code Status",
+          "status": "No public freebie code list",
+          "location": "Lore Store > Redeem Code",
+          "rewards": [],
+          "details": "The Redeem Code field exists in-game, but regular public reward codes are not distributed as a standard For The King II feature. Special code use is reserved for cases such as official drops, competitions, or account support situations."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Lore Currency",
+          "type": "Progression Currency",
+          "status": "Core progression",
+          "location": "Lore Store",
+          "rewards": [
+            "Loadout items",
+            "New starting options",
+            "Weapons",
+            "Cosmetics",
+            "Future-run upgrades"
+          ],
+          "details": "Lore is earned through play and spent in the Lore Store to improve future run preparation. Unlocking new items and loadout options is part of normal campaign progression."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Base-Game Class Unlocks",
+          "type": "Class Progression",
+          "status": "Base game content",
+          "location": "Lore Store and campaign progression",
+          "rewards": [
+            "Additional playable classes",
+            "Expanded party-building options",
+            "More starting build variety"
+          ],
+          "details": "For The King II launched with 12 playable classes, including returning roles such as Blacksmith, Hunter, Scholar, and Herbalist, plus new classes such as Alchemist and Stablehand."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "title": "Free Update Character Content",
+          "type": "Official update unlock",
+          "status": "Free update content",
+          "location": "Game update content and progression",
+          "rewards": [
+            "Monk",
+            "Child of Chaos update content"
+          ],
+          "details": "The Monk returned as part of the free Child of Chaos update, expanding support-focused party options beyond the original launch roster."
+        },
+        {
+          "title": "Tinkerers of Fate Character Pack",
+          "type": "Paid DLC unlocks",
+          "status": "Available DLC",
+          "location": "Steam DLC purchase and in-game progression",
+          "rewards": [
+            "Toymaker",
+            "Fortune Teller",
+            "Rapier Set",
+            "Orb Set",
+            "Gold-tier Trait",
+            "Gold-tier Merc",
+            "Gold-tier Pet",
+            "Gold-tier Cosmetic Skin"
+          ],
+          "details": "This pack adds a Talent-based Toymaker who captures essence into toys and an Awareness-focused Fortune Teller who uses tarot cards to alter fortune."
+        },
+        {
+          "title": "Fallen Oaths Character Pack",
+          "type": "Paid DLC unlocks",
+          "status": "Available DLC",
+          "location": "Steam DLC purchase and in-game progression",
+          "rewards": [
+            "Fallen Knight",
+            "Voidwalker",
+            "Lance Set",
+            "Rifle Set",
+            "Gold-tier Trait",
+            "Gold-tier Merc",
+            "Gold-tier Pet",
+            "Gold-tier Cosmetic Skin"
+          ],
+          "details": "This pack expands the roster with the Fallen Knight and Voidwalker, plus themed weapon sets and gold-tier progression rewards."
+        },
+        {
+          "title": "Into The Wild Character Pack",
+          "type": "Paid DLC unlocks",
+          "status": "Available DLC",
+          "location": "Steam DLC purchase and in-game progression",
+          "rewards": [
+            "Beekeeper",
+            "Angler",
+            "Bludgeon Set",
+            "Harpoon Set",
+            "Gold-tier Trait",
+            "Gold-tier Merc",
+            "Gold-tier Pet",
+            "Gold-tier Cosmetic Skin"
+          ],
+          "details": "This pack adds the Beekeeper and Angler, with nature-themed class mechanics and new official unlockable content."
+        },
+        {
+          "title": "Cheat Tools Are Not Codes",
+          "type": "Safety Rule",
+          "status": "Not official rewards",
+          "location": "Not applicable",
+          "rewards": [],
+          "details": "Save edits, third-party unlock tools, trainers, and unofficial generators are not Lore Store codes and should not be presented as redeemable rewards."
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "forTheKingIICombatLoadouts": {
+      "title": "For The King II Combat and Loadouts Guide",
+      "intro": "For The King II combat is not just dice luck. Positioning, Focus spending, defense type, item timing, and loadout planning decide whether a fight is controlled or becomes another heroic group embarrassment.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "label": "Battle Grid Positioning",
+          "summary": "Combat uses a 2x4 grid where position changes what characters can protect, target, avoid, or suffer from.",
+          "rules": [
+            "Front-row characters can protect back-row allies with defensive tools such as Guard and Tower Shield style play.",
+            "Back-row characters are safer for ranged, magic, and support roles, but they are still vulnerable to row, column, and splash attacks.",
+            "Enemies also use the grid, so clumping the whole party together can invite area damage.",
+            "Movement can dodge hazards, protect fragile allies, or set up better lines for attacks."
+          ],
+          "bestUse": "Put durable characters in front, keep fragile ranged or support characters behind them, and move before attacking when the grid position creates a better outcome."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "label": "AOE, Row, and Column Attacks",
+          "summary": "Area attacks can hit more than one tile, which makes party spacing as important as raw damage.",
+          "rules": [
+            "Row attacks can target every unit on a horizontal line.",
+            "Column attacks can hit front and back positions in the same vertical lane.",
+            "Magic weapons often use AOE patterns, but physical weapons can also have multi-target attacks.",
+            "Some special attacks cover larger or unusual shapes, so preview targeting before committing Focus."
+          ],
+          "bestUse": "Spread the party before enemy AOE turns, then use your own row or column attacks when enemies line up badly."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "label": "Focus Spending",
+          "summary": "Focus adds guaranteed rolls to combat checks, skill checks, and overworld movement.",
+          "rules": [
+            "Spend Focus to secure key attacks, taunts, heals, AOE spells, and urgent movement.",
+            "Focus can be restored by Meditating in towns or camps, using Golden Root, or through traits such as Deep Thinker.",
+            "In dungeons, Focus is harder to restore because towns and camps are unavailable.",
+            "Before using a Sanctum or Stone Hero, spend spare Focus first because these points can refill the Focus meter."
+          ],
+          "bestUse": "Save Focus for clutch actions, evasive targets, dangerous boss turns, and objectives where wasted movement would cost the party Chaos pressure."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "label": "Primary and Secondary Actions",
+          "summary": "A turn usually ends after a primary action, while secondary actions handle movement and item use.",
+          "rules": [
+            "Primary actions usually include attacking, using a major skill, or applying a combat ability.",
+            "Secondary actions can include moving, using herbs, drinking potions, throwing bombs, or using certain consumables.",
+            "The Nimble trait allows up to two secondary actions in a turn.",
+            "Dazed removes the next secondary action, which can block movement and item use at the worst possible time."
+          ],
+          "bestUse": "Use secondary actions first when movement, items, or positioning can improve the primary action that follows."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "label": "Damage and Defense Types",
+          "summary": "Physical Defence and Magical Resistance reduce different kinds of incoming damage.",
+          "rules": [
+            "Physical Defence reduces physical damage.",
+            "Magical Resistance reduces magical damage.",
+            "Pierce bypasses armor and can punish heavily defended targets.",
+            "Weapon choice should match the user's best stat and the enemy's weaker defense type."
+          ],
+          "bestUse": "Give Strength weapons to Strength characters, Intelligence weapons to casters, Talent weapons to Talent users, and keep at least one way to handle armored enemies."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "label": "Status Effects",
+          "summary": "Status effects can remove turns, block attacks, lower stats, break equipment, or increase incoming damage.",
+          "rules": [
+            "Dazed — disables the target's next secondary action, blocking item use and movement.",
+            "Stunned — skips the target's next turn.",
+            "Burn — deals fire damage over time after one turn and can come from burning tiles.",
+            "Entangled — prevents physical attacks and movement.",
+            "Lightning — makes one roll automatically fail.",
+            "Curse — greatly lowers one stat until cured.",
+            "Confusion — can trigger random actions, including using gear, consumables, or fleeing.",
+            "Poison — deals damage over time on the overworld and lowers stats.",
+            "Acid — can dissolve valuable gear permanently.",
+            "Fear — can force a character to flee and disrupt backline positioning.",
+            "Frozen — makes the target take extra damage.",
+            "Bleed — deals damage over time during combat."
+          ],
+          "bestUse": "Carry cures for long routes and dungeons, because losing a turn or a weapon to a status effect is a very For The King II way to discover consequences."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "label": "Starting Loadouts and Gear Priority",
+          "summary": "Loadout points, traits, weapons, armor, and consumables should be assigned by role instead of dumped randomly into whoever looks heroic.",
+          "rules": [
+            "Starting loadouts can include improved weapons, armor, traits, and essential items unlocked through progression.",
+            "Front-row characters should get survivability first: armor, shields, defensive tools, and reliable taunt or guard options.",
+            "Damage dealers should get stat-matched weapons before decorative upgrades.",
+            "Support characters should carry herbs, Focus restoration, and items that protect the run from bad timing.",
+            "Gear and gold can be traded through the inventory when party members are close enough, and items can be passed through adjacent party members."
+          ],
+          "bestUse": "Assign the best weapon to the character with the right stat, then distribute armor, cures, Golden Root, and healing items around the party before entering dungeons."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "forTheKingIIMultiplayerCrossplay": {
+      "title": "For The King II Multiplayer and Crossplay Guide",
+      "intro": "For The King II supports solo play, online co-op, and local co-op, but platform labels matter. This comparison helps players know who can join before the party spends 20 minutes blaming the lobby.",
+      "platforms": ["Steam / PC", "Xbox", "PlayStation"],
+      "rows": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "feature": "Player Count",
+          "steam": "Solo play and co-op with a party of up to four characters are supported.",
+          "xbox": "1-4 players, with online co-op and local co-op listed for 2-4 players.",
+          "playstation": "1-4 players listed, with online play for up to 4 players.",
+          "note": "A solo player controls the whole party. In co-op, players can control their own characters."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "feature": "Online Co-op",
+          "steam": "Online Co-op is listed on Steam. Hosts create an adventure from the multiplayer menu and can use region, room name, privacy, and password settings.",
+          "xbox": "Online co-op and online multiplayer are listed for 2-4 players.",
+          "playstation": "Online play supports up to 4 players and requires PlayStation Plus.",
+          "note": "Players need to join from the lobby before the host loads the save."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "feature": "Local Co-op",
+          "steam": "Shared or split-screen co-op is listed. Curve also describes offline co-op on the same PC with multiple-controller support.",
+          "xbox": "Xbox local co-op and local multiplayer are listed for 2-4 players.",
+          "playstation": "The PlayStation Store lists 1-4 players on PS4 and PS5.",
+          "note": "Offline co-op on the same PC can let multiple controllers input on everyone's turn."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "feature": "Crossplay and Cross-Platform Labels",
+          "steam": "Steam lists Cross-Platform Multiplayer.",
+          "xbox": "Xbox lists Xbox cross-platform multiplayer and Xbox cross-platform co-op.",
+          "playstation": "The PlayStation Store page lists online multiplayer and Remote Play support, without a cross-platform label.",
+          "note": "Mixed-platform parties should be planned around the store capability labels for the exact platform being used."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "feature": "Remote Play, Cloud, and Ecosystem Features",
+          "steam": "Steam Remote Play Together is listed.",
+          "xbox": "Xbox Cloud Gaming, Xbox Play Anywhere, Smart Delivery, and Xbox Live cross-gen multiplayer are listed.",
+          "playstation": "Remote Play is supported. PS5 cloud streaming is listed with PlayStation Plus Premium.",
+          "note": "These features help when one player is remote, using another device, or playing across console and PC ecosystems."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "feature": "Rejoin and Save Flow",
+          "steam": "Players cannot join a game already in progress. The host should save, quit to the adventure selector or campaign map, let everyone rejoin, then load the save.",
+          "xbox": "Use the same lobby-first rule when rebuilding a group before continuing a save.",
+          "playstation": "Use the same lobby-first rule when rebuilding a group before continuing a save.",
+          "note": "If a room does not appear, check region selection, game version, and whether the host is still inside an active run."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "forTheKingIICampaignChapters": {
+      "title": "For The King II Campaign Chapters and Quests",
+      "intro": "The campaign is a long chain of linked adventures, not a straight hallway with confetti. Players need to manage towns, quests, Sanctums, Stone Heroes, dungeons, and Chaos before the map starts collecting their mistakes.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Start with the Seven-Adventure Campaign Structure",
+          "summary": "For The King II presents a campaign of over 30 hours split into seven narratively linked adventures.",
+          "details": [
+            "Choose Apprentice, Journeyman, Master, or custom House Rules before the run begins.",
+            "Use House Rules to adjust Chaos Speed, Life Pool, Economy, and Loadout Points.",
+            "Treat failed runs as progression because unlocks and knowledge improve future starting loadouts."
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Follow the Named Story Adventure Spine",
+          "summary": "The story route pushes the party through Queen Rosomon's Fahrul across named adventures and escalating map objectives.",
+          "details": [
+            "The Resistance — learn party roles, town shopping, combat positioning, and safe early quest choices.",
+            "The Primordial Oak — move efficiently between objectives and avoid wasting turns while Chaos pressure rises.",
+            "The Royal Mines — prepare for longer dungeon chains with healing, Focus recovery, and mixed damage types.",
+            "The Hangman's Noose — keep the party supplied, regroup before major pushes, and avoid entering fights underleveled.",
+            "The Castle Gates — commit saved resources, finalize weapons, and enter late objectives with cures, armor, and Focus tools."
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Clear Each Biome Before Rushing Forward",
+          "summary": "Each biome can contain key support points that make the next region safer.",
+          "details": [
+            "Find the biome Sanctum before leaving the area.",
+            "Use Sanctums for powerful buffs and an extra revive safety net.",
+            "Find Stone Heroes because they help characters level up quickly.",
+            "Spend spare Focus before using a Sanctum or Stone Hero because these can refill the Focus meter."
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Use Towns for Quests, Gear, and Recovery",
+          "summary": "The first visit to a town gives fresh shops, quests, and possible mercenaries.",
+          "details": [
+            "Check town goods before starting nearby fights.",
+            "Use town quests to gain useful rewards, but avoid early quests that pull the party into fights it cannot handle.",
+            "Hire mercenaries or followers early when the party needs more bodies, damage, or protection.",
+            "Meditate in towns or camps to restore Focus before major objectives."
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Control Enemy Pulls and Dungeon Entry",
+          "summary": "The overworld can drag nearby enemies into battle unless the party controls the approach.",
+          "details": [
+            "Watch the red enemy radius before starting a fight.",
+            "Use ambushes to stop nearby enemies from joining.",
+            "Dungeons pull every party member in regardless of overworld distance.",
+            "Use dungeon entry to regroup, but do not enter without herbs, cures, Focus recovery, and repaired gear."
+          ]
+        },
+        {
+          "title": "Assign Rewards by Role, Not by Vibes",
+          "summary": "Loot choices matter because classes, traits, stats, and Battle Grid roles need different equipment.",
+          "details": [
+            "Use Party Summary to check stats, buffs, debuffs, and immunities before assigning loot.",
+            "Use the loot preview information to decide who benefits most from a weapon or item.",
+            "Give front-line characters defensive gear first.",
+            "Give stat-matched weapons to the characters most likely to land reliable attacks.",
+            "Trade gear and gold through the inventory when characters are close enough, or pass items through nearby party members."
+          ]
+        },
+        {
+          "title": "Spend Focus and Movement Around Chaos Pressure",
+          "summary": "Focus can add movement spaces on the overworld, which makes it a campaign tool, not just a combat panic button.",
+          "details": [
+            "Spend Focus to reach urgent objectives before Chaos pressure gets worse.",
+            "Save Focus in dungeons where recovery is limited.",
+            "Use Golden Root and Focus traits to keep key characters ready for difficult checks.",
+            "Avoid unnecessary side fights when the map timer is already punishing the party."
+          ]
+        }
+      ]
+    },
+    "forTheKingIIDarkCarnival": {
+      "title": "For The King II Dark Carnival and Dungeon Crawl Guide",
+      "intro": "Dark Carnival and Dungeon Crawl give returning players fresh reasons to suffer productively: endless floors, seeded leaderboards, new bosses, new classes, and more ways to prove that planning beats optimism.",
+      "modes": [
+        {
+          "name": "Dark Carnival",
+          "type": "Infinite Dungeon Mode",
+          "objective": "Conquer as many floors as possible before the party falls.",
+          "mechanics": [
+            "The mode is led by the Ringmaster.",
+            "Players collect Carnival Tickets to explore paths through the carnival.",
+            "Runs include themed rooms and unpredictable route choices.",
+            "The Wheel of Death can appear as part of the carnival's risk and reward structure."
+          ],
+          "preparation": [
+            "Bring a durable front line.",
+            "Keep healing and Focus recovery distributed across the party.",
+            "Use AOE and crowd-control tools for long chains of fights.",
+            "Avoid spending all cures early because long-form dungeon modes punish sloppy item use."
+          ]
+        },
+        {
+          "name": "Dungeon Crawl",
+          "type": "Free Roguelite Mode",
+          "objective": "Push through a dungeon-focused roguelite run with randomized maps, bosses, encounters, and escalating threats.",
+          "mechanics": [
+            "Dungeon Crawl returns as a free update for For The King II.",
+            "The mode uses randomly generated maps and rotating bosses.",
+            "It is built around deeper roguelite-style routing, dungeon pressure, and repeated combat preparation.",
+            "The update adds new bosses, enemies, weapons, cosmetics, traits, and companion content alongside the mode."
+          ],
+          "preparation": [
+            "Use a party with both physical and magical damage.",
+            "Carry status cures before entering long dungeon chains.",
+            "Prioritize armor and survival on front-row characters.",
+            "Keep at least one character ready for Focus-heavy checks or clutch AOE turns."
+          ]
+        },
+        {
+          "name": "Dungeon Crawl Gauntlet",
+          "type": "Seeded Leaderboard Challenge",
+          "objective": "Compete on a seeded monthly map where players face the same layout, dungeon pressure, and boss structure.",
+          "mechanics": [
+            "The Gauntlet format uses a seeded map for leaderboard competition.",
+            "Leaderboard runs reward consistency, routing, and clean combat more than lucky wandering.",
+            "Top leaderboard players can be honored with Stone Hero statue placements.",
+            "Because the seed is shared, route planning and party optimization become the main advantage."
+          ],
+          "preparation": [
+            "Build a reliable team before chasing leaderboard attempts.",
+            "Record which routes, fights, and rewards produce the safest progress.",
+            "Use Focus on high-impact checks instead of low-value convenience rolls.",
+            "Treat every resource as part of the final score path."
+          ]
+        },
+        {
+          "name": "Into The Wild Character Pack",
+          "type": "Paid Character Pack",
+          "objective": "Add new playable classes, weapons, companion content, and cosmetic options to the base game.",
+          "mechanics": [
+            "Adds the Angler class, built around fishing up treats, meals, riches, and movement-based combat mechanics.",
+            "Adds the Beekeeper class, built around sweet treats, stings, and a pet pollinator.",
+            "Adds Bludgeon and Harpoon weapon sets.",
+            "Includes a Gold-tier Trait, a new Merc, a new Pet, and a Cosmetic Skin."
+          ],
+          "preparation": [
+            "Use the Angler when the party benefits from movement tricks and resource utility.",
+            "Use the Beekeeper when the party benefits from pet-driven pressure and support tools.",
+            "Test the new weapon sets against different front-row and back-row builds.",
+            "Pair new classes with stable defensive roles until their skill flow is familiar."
+          ]
+        },
+        {
+          "name": "Free Update Content",
+          "type": "New Tools and Encounters",
+          "objective": "Refresh party building and dungeon routing with free additions released alongside the Dungeon Crawl update.",
+          "mechanics": [
+            "The Treasure Hunter returns with new play options.",
+            "The Pathfinder receives updated abilities.",
+            "The update adds the Blunderbuss weapon set.",
+            "Bee and Bear enemies join the encounter pool.",
+            "Additional cosmetic, companion, and trait content expands run variety."
+          ],
+          "preparation": [
+            "Recheck party roles after updates because new weapons and traits can change optimal builds.",
+            "Use the Encyclopedia and party summary tools to confirm unfamiliar mechanics.",
+            "Expect new enemies to punish old habits, because even game monsters believe in professional development."
+          ]
         }
       ]
     }
@@ -749,31 +861,39 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about For The King II",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is For The King II?",
+        "answer": "For The King II is a turn-based roguelite tabletop RPG with dice-inspired rolls, a Battle Grid combat system, procedurally generated Fahrul, and run-to-run progression through the Lore Store."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is For The King II multiplayer?",
+        "answer": "Yes. For The King II supports solo play, online co-op, and local co-op for up to four players, with one player controlling the whole party in solo mode."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What platforms is For The King II on?",
+        "answer": "For The King II is available on Steam for PC, Xbox, and PlayStation. Xbox lists cross-platform multiplayer and Xbox Play Anywhere support."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does For The King II support crossplay?",
+        "answer": "Steam and Xbox list cross-platform multiplayer labels for For The King II. PlayStation lists online multiplayer and Remote Play, so mixed-platform parties should follow each store's capability labels."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Are there active redeem codes in For The King II?",
+        "answer": "For The King II has an in-game Redeem Code field, but it does not distribute a public freebie code list. Long-term rewards come through the Lore Store, free updates, and official character packs."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How many classes are in For The King II?",
+        "answer": "For The King II launched with 12 playable classes and adds more through free updates like the Monk and paid character packs such as Tinkerers of Fate, Fallen Oaths, and Into The Wild."
+      },
+      {
+        "question": "What is the Lore Store in For The King II?",
+        "answer": "The Lore Store is For The King II's roguelite progression layer. Lore earned through play unlocks new starting loadouts, weapons, cosmetics, and class options that strengthen future runs."
+      },
+      {
+        "question": "Does For The King II have an endgame mode?",
+        "answer": "Yes. For The King II includes the Dark Carnival infinite dungeon and the free Dungeon Crawl update with randomized maps, rotating bosses, and a seeded Gauntlet leaderboard."
       }
     ]
   },
@@ -800,126 +920,5 @@
     "copyright": "© 2026 For The King II Wiki. Not affiliated with IronOak Games or Curve Games.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
-  }
+  "pages": {}
 }
