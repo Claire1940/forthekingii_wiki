@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Laptop, Settings, Monitor, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II no Mac: Guia de Compatibilidade e Dicas de Configuração",
+  description: "Saiba como jogar For The King II no Mac em 2026. Descubra as melhores ferramentas de virtualização, opções de cloud gaming e configurações de desempenho para Apple Silicon.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=For+The+King+II+Mac+Guide",
+  date: "2026-07-03",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **For The King II Mac** atualmente não possui uma versão nativa para macOS disponível na Steam ou Epic Games Store.
+- **Softwares de virtualização** como o Parallels Desktop continuam sendo a forma mais confiável de rodar o jogo em chips Apple Silicon (M1/M2/M3/M4).
+- **Cloud Gaming** através de serviços como o GeForce Now oferece uma alternativa de alto desempenho sem sobrecarregar o hardware local.
+- **Ajustes de desempenho** são essenciais para uma experiência fluida, especificamente em relação à escala de resolução e configurações do DirectX.
+- Usuários de **Apple Silicon** têm resultados significativamente melhores em comparação com modelos de Mac mais antigos baseados em Intel.
+</Callout>
+
+<Section icon={Laptop} title="For The King II no Mac: Status de Compatibilidade">
+
+Embora o jogo original contasse com uma versão nativa para macOS, muitos fãs buscam uma maneira de jogar **for the king ii mac** desde a sua estreia inicial no PC. Em 2026, os desenvolvedores focaram seus recursos principais nas versões de Windows e consoles. Com isso, a comunidade do Mac precisa recorrer a soluções alternativas inteligentes e camadas de compatibilidade de terceiros para vivenciar esta aventura de tabuleiro em turnos.
+
+**Destaques do Vídeo:**
+- Cinemática oficial de estreia mostrando a atmosfera e o estilo artístico do jogo.
+- Representação visual dos sistemas de combate e movimentação baseados em hexágonos.
+- Visão geral das novas mecânicas de barcos terrestres e gerenciamento de grupo.
+
+<YouTubeEmbed videoId="q462DyRIm78" title="For The King II [PC] Debut Trailer" />
+
+Apesar da falta de um executável nativo, o jogo está longe de ser injogável para donos de Mac. A transição para o Apple Silicon forneceu poder bruto suficiente para forçar a compatibilidade por meio de camadas de tradução. Usuários nos fóruns da comunidade Steam confirmaram que, embora uma versão nativa não esteja em desenvolvimento no momento, o jogo roda surpreendentemente bem quando configurado corretamente via virtualização.
+
+| Tipo de Plataforma | Status | Desempenho | Estabilidade |
+| :--- | :--- | :--- | :--- |
+| **macOS Nativo** | Não Disponível | N/A | N/A |
+| **Parallels Desktop** | Compatível | Alto | Excelente |
+| **CrossOver** | Parcial | Médio | Moderado |
+| **GeForce Now** | Compatível | Ultra | Alto |
+| **Boot Camp (Intel)** | Compatível | Médio | Alto |
+
+<Callout type="warning" title="Nota do Desenvolvedor">
+A equipe de desenvolvimento declarou no início do ciclo de vida do jogo que não estava buscando ativamente desenvolver uma versão nativa para macOS. Sempre verifique a página oficial da Steam para atualizações surpresa sobre o suporte de plataformas.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Melhores Métodos para Jogar no Mac">
+
+A escolha do método ideal para jogar **for the king ii mac** depende bastante do seu hardware. Se você estiver usando um MacBook Pro moderno com chip da série M, terá mais flexibilidade do que aqueles em máquinas Intel mais antigas. Abaixo estão as três principais maneiras de acessar o jogo em 2026.
+
+<CardGrid cols={3}>
+  <Card title="Parallels Desktop">
+    - **Melhor em Estabilidade**
+    - Cria um ambiente Windows completo
+    - Suporta otimização para Apple Silicon
+    - Requer uma assinatura
+  </Card>
+  <Card title="GeForce Now">
+    - **Melhor em Gráficos**
+    - Transmite o jogo de PCs de alto desempenho
+    - Não requer instalação local
+    - Depende da velocidade da internet
+  </Card>
+  <Card title="CrossOver">
+    - **Melhor em Eficiência**
+    - Traduz as APIs do Windows diretamente
+    - Menor consumo de recursos que o Parallels
+    - Pode oscilar dependendo das atualizações
+  </Card>
+</CardGrid>
+
+Para a maioria dos usuários, o Parallels Desktop oferece a experiência mais prática no estilo "plug-and-play". Ele gerencia os requisitos complexos de DirectX 11/12 do jogo melhor do que as camadas de tradução padrão. No entanto, se você tiver uma conexão de fibra óptica estável, o cloud gaming é a única maneira de jogar nas configurações Máximas em um MacBook Air sem fazer o dispositivo esquentar significativamente.
+
+| Recurso | Parallels | CrossOver | Cloud Gaming |
+| :--- | :--- | :--- | :--- |
+| **Dificuldade de Configuração** | Fácil | Médio | Muito Fácil |
+| **Jogar Offline** | Sim | Sim | Não |
+| **Input Lag** | Mínimo | Nenhum | Variável |
+| **Desgaste do Hardware** | Alto | Médio | Muito Baixo |
+| **Custo** | Assinatura | Compra única/Sub | Grátis/Mensal |
+
+<Callout type="tip" title="Dica de Mestre">
+Se escolher o Parallels, certifique-se de alocar pelo menos 4 núcleos de CPU e 8 GB de RAM para a máquina virtual Windows para evitar travamentos durante as transições do mapa de hexágonos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo de Configuração via Parallels">
+
+Se você quiser rodar **for the king ii mac** localmente, siga estes passos para configurar um ambiente virtualizado. Este método é o mais consistente para jogadores que querem levar sua campanha para qualquer lugar sem depender de uma conexão constante com a internet.
+
+<Steps>
+  <Step num="1" title="Instale o Parallels Desktop">
+    Baixe e instale a versão mais recente do Parallels. Em 2026, certifique-se de usar uma versão compatível com as atualizações mais recentes do macOS. Siga o assistente automático para baixar e instalar o Windows 11 para ARM.
+  </Step>
+  <Step num="2" title="Otimize as Configurações da VM">
+    Antes de iniciar o Windows, acesse a configuração da Máquina Virtual. Em 'Hardware', defina os 'Gráficos' como 'Melhor para Jogos'. Aloque pelo menos metade da memória RAM total do seu sistema para a VM para obter o melhor desempenho.
+  </Step>
+  <Step num="3" title="Instale a Steam e o FTK2">
+    Inicie o ambiente Windows, baixe o cliente Steam e faça login. Localize o For The King II na sua biblioteca e inicie a instalação. O Parallels cuidará da instalação do DirectX automaticamente.
+  </Step>
+  <Step num="4" title="Configuração Dentro do Jogo">
+    Assim que o jogo iniciar, vá para as configurações de Vídeo. Desative o 'Motion Blur' (Desfoque de Movimento) e defina a 'Qualidade das Sombras' para Médio. Se estiver em uma tela Retina de alta resolução, ajuste a escala para 80% para manter uma taxa estável de 60 FPS.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Aumento de Desempenho">
+Ativar o "Modo de Jogo" no macOS (disponível no Sonoma e versões posteriores) enquanto o Parallels estiver em tela cheia priorizará os recursos de CPU e GPU para a máquina virtual, reduzindo a latência em segundo plano.
+</Callout>
+
+</Section>
+
+<Section icon={Monitor} title="Requisitos de Hardware e Expectativas">
+
+Rodar um título moderno como **for the king ii mac** através de uma camada de compatibilidade exige mais recursos do que executá-lo nativamente. Você deve comparar as especificações do seu Mac com os requisitos virtualizados recomendados para garantir uma experiência jogável.
+
+| Componente | Mínimo (Virtualizado) | Recomendado (Virtualizado) |
+| :--- | :--- | :--- |
+| **Processador** | Apple M1 ou Intel i7 | Apple M2 Pro / M3 / M4 |
+| **Memória** | 8 GB de Memória Unificada | 16 GB de Memória Unificada ou mais |
+| **Armazenamento** | 20 GB de Espaço em SSD | 20 GB de Espaço em SSD |
+| **Versão do macOS** | Ventura 13.0+ | Versão mais recente do macOS de 2026 |
+| **Gráficos** | GPU de 7 núcleos | GPU de 10 núcleos ou superior |
+
+Jogadores em modelos básicos de MacBook Air M1 com 8 GB de RAM podem sofrer travamentos durante batalhas em grande escala ou quando o mapa estiver muito denso. Para esses usuários, é altamente recomendável reduzir a resolução para 1080p ou 900p. O design artístico estilizado do jogo se mantém muito bem mesmo em resoluções mais baixas, então a perda visual é mínima comparada ao ganho de estabilidade.
+
+<Callout type="info" title="Usuários de Mac Intel">
+Se você ainda estiver usando um Mac baseado em Intel, usar o Boot Camp para instalar uma partição nativa do Windows é significativamente mais eficiente do que usar o Parallels. Isso permite que o jogo acesse o hardware diretamente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Preparação Pré-Jogo">
+
+Antes de mergulhar nas perigosas terras de Fahrul, certifique-se de que sua configuração está otimizada. Use esta lista de verificação para garantir que você não enfrente problemas técnicos no meio da campanha.
+
+<Checklist
+  id="mac-gaming-prep"
+  title="Lista de Verificação Final:"
+  items={[
+    "Atualize o macOS com o patch de segurança mais recente",
+    "Verifique a integridade dos arquivos do For The King II na Steam",
+    "Desative aplicativos desnecessários em segundo plano no Mac (Chrome, Creative Cloud)",
+    "Conecte o carregador (a virtualização consome bateria rapidamente)",
+    "Conecte um controle compatível ou verifique as configurações de aceleração do mouse"
+  ]}
+/>
+
+<Callout type="tip" title="Suporte a Controles">
+A maioria dos controles modernos (PS5, Xbox Series X, Switch Pro) funciona nativamente no macOS e é repassada para a máquina virtual. Se o seu controle não for reconhecido, verifique o menu 'Dispositivos' no Parallels para garantir que ele esteja conectado ao lado do Windows.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Existe uma data de lançamento nativa de For The King II para Mac?",
+    answer: "Até julho de 2026, não há uma data de lançamento oficial nativa. Os desenvolvedores não anunciaram planos para uma versão de macOS, focando em vez disso no Windows e nas plataformas de console."
+  },
+  {
+    question: "O For The King II funciona nos chips M3 e M4 do Mac?",
+    answer: "Sim, o jogo funciona muito bem nos chips M3 e M4 usando o Parallels Desktop ou o CrossOver. O maior número de núcleos de GPU nesses chips mais novos permite usar configurações gráficas mais altas."
+  },
+  {
+    question: "Posso jogar em modo multijogador com amigos do PC no meu Mac?",
+    answer: "Sim! Como você está usando um ambiente Windows (via Parallels ou Cloud Gaming), você está tecnicamente jogando a versão de PC e tem acesso total ao cross-play e aos recursos de multijogador da Steam."
+  },
+  {
+    question: "Por que meu Mac esquenta tanto enquanto jogo?",
+    answer: "Rodar um jogo por meio de virtualização exige muito processamento. Usar um suporte para notebook ou garantir que as saídas de ar estejam livres é essencial. Para uma experiência mais fria e silenciosa, considere usar a transmissão por nuvem do GeForce Now."
+  }
+]} />
+
+</Section>

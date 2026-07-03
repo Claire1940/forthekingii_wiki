@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Vidente em For The King II: Build de Classe & Guia de Estratégia",
+  description: "Domine a classe Vidente em For The King II. Aprenda as melhores builds, habilidades passivas, progressão de atributos e composições de grupo para a DLC Tinkerers of Fate.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/581c87/fff?text=Fortune+Teller+Guide",
+  date: "2026-07-03",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Função Principal da Classe**: A **vidente de For The King II** funciona como uma maga de utilidade na retaguarda, especializada em alta escala de Percepção (Awareness) e Inteligência (Intelligence).
+- **Mecânicas-Chave**: Aproveite as habilidades passivas **Destino (Fate)** e **Fortuna (Fortune)** para manipular rolagens de dados e obter bônus poderosos do Baralho de Tarot.
+- **Equipamento Inicial**: Começa com uma **Bola de Cristal** (arma do tipo Orbe) e um acessório **Carta de Tarot** para iniciar a progressão de utilidade.
+- **Requisito de DLC**: Desbloqueada automaticamente através da expansão de DLC **Tinkerers of Fate**.
+- **Melhor Posicionamento**: Sempre posicione esta classe na **retaguarda (backline)** devido à baixa armadura inicial e vida base.
+</Callout>
+
+<Section icon={Map} title="Introdução à Classe Vidente">
+
+A **vidente de For The King II** é uma classe de conjuradora altamente versátil introduzida na DLC Tinkerers of Fate. Reverenciada em Fahrul por canalizar o poder dos Orbes e reger os fios do destino, esta personagem se destaca em mudar o rumo das batalhas. Ao dobrar a realidade à sua vontade, ela garante que os membros do seu grupo raramente sofram com resultados desastrosos de rolagens baixas.
+
+**Destaques do Vídeo:**
+- Visão geral dos personagens e mecânicas da DLC Tinkerers of Fate.
+- Dicas de posicionamento estratégico para classes de conjuradores frágeis.
+- Demonstração da escala de utilidade na retaguarda em ação.
+
+<YouTubeEmbed videoId="YW7eEhJ01tg" title="For The King II - Tinkerers Of Fate DLC" />
+
+Historicamente encontrada nos salões sombrios de Fahrul, a Vidente agora vaga livremente para enxergar além do véu. Embora sua arrogância possa ocasionalmente levá-la à ruína, sua habilidade de manipular a linha do tempo dos turnos e redirecionar os resultados dos slots faz dela um recurso inestimável para qualquer campanha de alta dificuldade.
+
+<Callout type="tip" title="Posicionamento da Função">
+Sempre mantenha sua Vidente na retaguarda. Ela possui vida base e defesas físicas baixas, tornando-se um alvo fácil para atacantes físicos da linha de frente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Atributos e Progressão da Classe">
+
+A **vidente de For The King II** apresenta uma escala excepcional em Percepção, Inteligência e Talento. Isso a torna altamente adaptável, capaz de empunhar tanto orbes mágicos quanto armas de percepção de alta iniciativa.
+
+| Dificuldade | Vida | Força | Vitalidade | Inteligência | Percepção | Talento | Velocidade | Sorte | Armadura | Resistência |
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
+| Aprendiz | 30 | 55 | 59 | 75 | 83 | 75 | 69 | 55 | 0 | 2 |
+| Viajante | 30 | 50 | 54 | 70 | 78 | 70 | 64 | 50 | 0 | 2 |
+| Mestre | 30 | 50 | 54 | 70 | 78 | 70 | 64 | 50 | 0 | 2 |
+
+Como mostrado nos dados, seus atributos base diminuem ligeiramente à medida que você aumenta a dificuldade da campanha. No entanto, a relação principal permanece idêntica: Percepção é seu atributo ofensivo primário, seguido de perto por Inteligência e Talento.
+
+<Callout type="warning" title="Aviso de Defesa">
+Com 0 de Armadura base e apenas 2 de Resistência base em todas as dificuldades, ataques físicos no início do jogo podem facilmente esgotar sua reserva de 30 de Vida. Priorize equipamentos que aumentem a armadura logo cedo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades Especiais e Atributos">
+
+A força única da **vidente de For The King II** reside em suas habilidades passivas. Ao contrário dos magos tradicionais que se concentram apenas em dano bruto, esta classe manipula as mecânicas de RNG (geração de números aleatórios) do jogo.
+
+<CardGrid cols={2}>
+  <Card title="Habilidade Destino (Fate)">
+    - **Gatilho**: Turno de combate ativo.
+    - **Efeito**: Compra uma carta do seu Baralho de Tarot.
+    - **Benefício**: Concede bônus direcionados aos membros do grupo ou aplica penalidades aos inimigos.
+  </Card>
+  <Card title="Habilidade Fortuna (Fortune)">
+    - **Gatilho**: Rolagem passiva de slot de aliado.
+    - **Efeito**: Chance de conceder uma segunda tentativa de rolagem.
+    - **Benefício**: Economiza pontos de foco e evita falhas críticas em ataques.
+  </Card>
+</CardGrid>
+
+Essas habilidades permitem que você use armas de alto risco e alta recompensa em seus atacantes pesados, já que a Vidente age como uma rede de segurança confiável para rolagens de dados ruins.
+
+| Nome da Habilidade | Tipo de Ativação | Efeito Primário | Valor Estratégico |
+|--- |--- |--- |--- |
+| **Destino (Fate)** | Passiva/Ativa | Compra cartas do Baralho de Tarot para bufar aliados ou debufar inimigos | Alta utilidade, manipulação de turno |
+| **Fortuna (Fortune)** | Passiva | Concede aos aliados uma segunda chance em rolagens de slot malsucedidas | Economia de recursos, mitiga o RNG ruim |
+
+<Callout type="success" title="Dica de Sinergia">
+Combine a Vidente com classes que dependem de ataques de múltiplos slots, como o Caçador (Hunter) ou o Gladiador (Gladiator), para maximizar o valor da rolagem passiva da Fortuna.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo de Build e Equipamentos">
+
+Para maximizar o impacto da sua **vidente de For The King II**, siga este caminho de progressão para otimizar seus equipamentos, atributos e posicionamento ao longo da sua campanha.
+
+<Steps>
+  <Step num="1" title="Equipar Equipamento Inicial">
+    Equipe sua Bola de Cristal padrão e sua Carta de Tarot. Use seus ataques mágicos básicos para atingir as vulnerabilidades dos inimigos enquanto permanece na retaguarda.
+  </Step>
+  <Step num="2" title="Priorizar Iniciativa e Velocidade">
+    Adquira equipamentos que aumentem a Velocidade e a Percepção. Agir cedo na ordem dos turnos permite que você aplique os bônus de Tarot antes que seus causadores de dano principais ajam.
+  </Step>
+  <Step num="3" title="Transição para Armas de Meio de Jogo">
+    Procure por Orbes ou Arcos avançados que escalem com sua alta Percepção base (83 no Aprendiz). Fique atento a equipamentos que adicionem regeneração passiva de Foco.
+  </Step>
+  <Step num="4" title="Otimizar Camadas Defensivas">
+    Equipe armaduras leves de nível médio que ofereçam Armadura física sem penalizar sua Velocidade. Seu objetivo é alcançar pelo menos 8 a 10 de Armadura no meio do jogo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Escolhas de Armas">
+Embora a Vidente comece com um Orbe mágico, sua alta Percepção base a torna uma excelente candidata para arcos e armas de fogo se o seu grupo carecer de dano físico à distância.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Composições de Grupo Ideais">
+
+Montar uma equipe equilibrada em torno da Vidente garante alta sobrevivência e confrontos de combate eficientes. Aqui estão três estruturas de grupo recomendadas.
+
+| Arquétipo de Grupo | Tanque de Linha de Frente | DPS Principal | Suporte/Utilidade | Escolha Flexível |
+|--- |--- |--- |--- |--- |
+| **A Rede de Segurança** | Ferreiro (Blacksmith) | Caçador (Hunter) | Vidente (Fortune Teller) | Herbalista (Herbalist) |
+| **Caos Mágico** | Monge (Monk) | Estudioso (Scholar) | Vidente (Fortune Teller) | Desbravador (Pathfinder) |
+| **Especial da DLC** | Frade (Friar) | Fabricante de Brinquedos (Toymaker) | Vidente (Fortune Teller) | Lenhador (Woodcutter) |
+
+### Marcos Recomendados
+
+Para garantir que sua build esteja no caminho certo conforme você progride por Fahrul, tente alcançar estes marcos da lista de verificação.
+
+<Checklist
+  id="fortune-teller-milestones"
+  title="Objetivos de Progressão:"
+  items={[
+    "Alcançar 90+ de Percepção através de modificações de equipamentos",
+    "Obter um Orbe ou Arco de Nível 3 antes de entrar no Capítulo 3",
+    "Equipar pelo menos um item que forneça regeneração passiva de Foco",
+    "Manter um atributo de Velocidade de 75 ou superior para garantir a ordem de turno inicial"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear a Vidente em For The King II?",
+    answer: "A Vidente é desbloqueada automaticamente e fica disponível na tela de seleção de personagens assim que você adquire e instala a DLC Tinkerers of Fate."
+  },
+  {
+    question: "Qual atributo é o mais importante para a Vidente?",
+    answer: "A Percepção é o atributo base mais alto dela (83 no Aprendiz), tornando-se o atributo primário para a escala de armas. Inteligência e Velocidade também são muito importantes para builds de utilidade."
+  },
+  {
+    question: "A Vidente pode atuar como curadora principal?",
+    answer: "Não. Embora ela ofereça excelente utilidade e bônus de status através de seu Baralho de Tarot, ela carece de habilidades dedicadas de cura para o grupo. É melhor combiná-la com um Herbalista ou Frade para cura."
+  },
+  {
+    question: "Qual é a melhor posição de combate para esta classe?",
+    answer: "Sempre a posicione na retaguarda. Sua vida base excepcionalmente baixa (30 HP) e a falta de Armadura inicial a tornam altamente vulnerável a ataques corpo a corpo da linha de frente."
+  }
+]} />
+
+</Section>

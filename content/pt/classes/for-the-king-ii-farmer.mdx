@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fazendeiro em For The King II: Guia de Desbloqueio, Atributos e Melhores Builds",
+  description: "Domine a classe Fazendeiro em For The King II. Saiba como desbloquear o Fazendeiro, otimizar atributos básicos, aproveitar a habilidade Último Recurso e criar as melhores builds.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/854d0e/fff?text=Farmer+Class+Guide",
+  date: "2026-07-03",
+  author: "Equipe do Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: O **fazendeiro em for the king ii** é uma classe física versátil e de alta energia que faz sua estreia na sequência.
+- **Mecânica-chave**: Possui a passiva exclusiva **Último Recurso** (Last Straw), que permite a criação de espantalhos para absorver ataques inimigos.
+- **Perfil de atributos**: Equilíbrio excepcional entre **Força**, **Vitalidade** e **Percepção**, tornando-o altamente flexível.
+- **Como desbloquear**: Conclua com sucesso a campanha da história **A Resistência** pela primeira vez.
+- **Melhor função**: Excelente causador de dano na linha de frente ou off-tank capaz de empunhar espadas, lanças, arcos ou armas de fogo.
+</Callout>
+
+<Section icon={Map} title="Como Desbloquear o Fazendeiro em For The King II">
+
+O **fazendeiro em for the king ii** não está disponível imediatamente quando você inicia sua primeira campanha. Em vez disso, este rebelde trabalhador deve ser recrutado para a causa ao concluir marcos narrativos específicos.
+
+Para adicionar este lutador versátil à sua equipe, você deve enfrentar o governo tirânico da guarda da Rainha e concluir o primeiro grande capítulo da aventura.
+
+| Requisito de Desbloqueio | Capítulo da Campanha | Custo de Lore |
+| --- | --- | --- |
+| **Concluir Campanha** | Capítulo 1: A Resistência | 0 Lore (Desbloqueio Automático) |
+
+<Callout type="success" title="Dica de Desbloqueio">
+Assim que você derrotar o chefe final da campanha "A Resistência", a classe Fazendeiro será desbloqueada permanentemente. Você não precisa gastar pontos do Livro de Lore para comprar esta classe na Loja de Lore, ao contrário de outras classes de especialidade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Atributos Básicos do Fazendeiro e Escalonamento de Dificuldade">
+
+O **fazendeiro em for the king ii** é caracterizado por uma distribuição de atributos físicos notavelmente equilibrada. Ao contrário de classes especializadas que se concentram puramente em um único atributo, o Fazendeiro possui valores iniciais altos em Força, Vitalidade e Percepção. Essa distribuição única o torna altamente adaptável a quaisquer armas físicas que você encontrar durante sua jornada.
+
+A tabela abaixo outlines como os atributos iniciais do Fazendeiro escalam nas três dificuldades do jogo: Aprendiz, Viajante e Mestre.
+
+| Tipo de Atributo | Aprendiz | Viajante | Mestre |
+| --- | --- | --- | --- |
+| **Vida Máxima** | 38 | 38 | 38 |
+| **Força** | 79 | 74 | 74 |
+| **Vitalidade** | 79 | 74 | 74 |
+| **Percepção** | 79 | 74 | 74 |
+| **Talento** | 61 | 56 | 56 |
+| **Velocidade** | 65 | 60 | 60 |
+| **Sorte** | 55 | 50 | 50 |
+| **Armadura / Resistência** | 0 / 0 | 0 / 0 | 0 / 0 |
+
+<Callout type="warning" title="Aviso de Velocidade">
+Com uma Velocidade básica de 60 nas dificuldades Viajante e Mestre, o Fazendeiro é um pouco lento. Você deve priorizar equipamentos que aumentem a Velocidade ou ter personagens de suporte que manipulem a ordem dos turnos para garantir que seu Fazendeiro não fique para trás em combates de ritmo acelerado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidade Única de Classe: Último Recurso">
+
+O que realmente diferencia o **fazendeiro em for the king ii** de outras classes marciais físicas é sua habilidade passiva assinatura, **Último Recurso** (Last Straw). Essa habilidade permite que o Fazendeiro transforme ferramentas agrícolas em defesas táticas no campo de batalha.
+
+### Detalhes da Habilidade: Último Recurso
+- **Mecânica de Ativação**: Tem uma chance aleatória de ser ativada no início do turno do Fazendeiro durante o combate.
+- **Efeito**: Evoca um **Espantalho** em um bloco de combate vazio na linha de frente ou de trás.
+- **Escalonamento**: A taxa de ativação e a eficácia desta passiva escalam diretamente com os atributos de **Força**, **Vitalidade**, **Percepção** e **Sorte** do Fazendeiro.
+- **Valor Tático**: O Espantalho atua como um tanque temporário, atraindo ataques de alvo único dos inimigos para longe dos membros do seu grupo.
+
+<CardGrid cols={3}>
+  <Card title="Distração na Linha de Frente">
+    Colocar um Espantalho na linha de frente absorve golpes físicos pesados, salvando seus heróis mais frágeis da linha de trás.
+  </Card>
+  <Card title="Sem Custo de Ação">
+    Como o Último Recurso é uma ativação passiva, evocar um Espantalho não consome seu slot de ação primária.
+  </Card>
+  <Card title="Sinergia de Vários Atributos">
+    Como a habilidade escala com três atributos principais, melhorar quase qualquer peça de equipamento físico aumenta naturalmente suas chances de invocação.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Sinergia">
+Equipar equipamentos que aumentam a Sorte é uma ótima maneira de aumentar a frequência de ativação do Último Recurso, especialmente durante lutas difíceis contra chefes, onde alvos extras no campo podem salvar vidas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Armas e Estratégias de Build">
+
+Como o **fazendeiro em for the king ii** tem proficiência igual em Força, Vitalidade e Percepção, ele é o generalista físico definitivo. Você pode mudar a build dele perfeitamente no meio da jornada, dependendo das armas de alto nível que seu grupo saquear.
+
+### Principais Arquétipos de Build
+
+| Caminho da Build | Atributo Principal | Armas Recomendadas | Função no Grupo |
+| --- | --- | --- | --- |
+| **O Ceifador** | Força | Espadas Grandes, Martelos, Forcados | Causador de dano explosivo na linha de frente |
+| **A Vanguarda** | Vitalidade | Lanças, Escudos, Escudos de Torre | Tanque principal e âncora defensiva |
+| **O Batedor** | Percepção | Arcos, Rifles, Armas de Haste | Dano à distância e perfuração de armadura |
+
+<Steps>
+  <Step num="1" title="Selecione sua Arma Inicial">
+    Comece com o **Forcado** padrão, que utiliza sua alta Força e Percepção iniciais para causar dano confiável no início do jogo.
+  </Step>
+  <Step num="2" title="Identifique Lacunas no Grupo">
+    Avalie quais armas seus companheiros de equipe estão usando. Se o seu grupo carecer de opções à distância, mude seu Fazendeiro para um usuário de arco focado em Percepção. Se faltar um tanque, equipe um escudo e uma lança para aproveitar a Vitalidade.
+  </Step>
+  <Step num="3" title="Otimize os Espaços de Equipamento">
+    Concentre-se em equipamentos que oferecem defesa física bruta junto com aumentos de Velocidade para compensar a baixa iniciativa básica do Fazendeiro.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Flexibilidade de Build">
+Não se sinta preso a uma única linha de atributos. Uma build híbrida de Força/Percepção é incrivelmente viável, permitindo que você alterne entre armas de curto e longo alcance conforme as situações de combate exigirem.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Progressão do Fazendeiro">
+
+Maximize a eficiência da sua jornada seguindo esta lista de progressão adaptada especificamente para otimizar a classe Fazendeiro em suas campanhas.
+
+<Checklist
+  id="farmer-progression"
+  title="Marcos de Jornada Ideais para o Fazendeiro:"
+  items={[
+    "Desbloqueie a classe ao concluir a campanha 'A Resistência'",
+    "Adquira uma arma que corresponda ao seu atributo físico atual mais alto (74+)",
+    "Obtenha pelo menos uma peça de equipamento que aumente a Velocidade básica em 5 ou mais",
+    "Ative o Espantalho do Último Recurso em um confronto importante contra um chefe",
+    "Equipe um conjunto de armadura pesada de alto nível para aproveitar sua enorme reserva básica de Vitalidade"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear o fazendeiro em for the king ii?",
+    answer: "Você desbloqueia o Fazendeiro ao concluir a primeira campanha de aventura principal, 'A Resistência'. Depois de concluída, a classe fica instantaneamente disponível para seleção na configuração da sua próxima campanha, sem custo de Lore."
+  },
+  {
+    question: "Qual é a melhor arma inicial para o Fazendeiro?",
+    answer: "O Fazendeiro começa com o Forcado, que é uma arma física sólida. À medida que avança, procure armas que se alinhem com as necessidades do seu grupo, como Espadas Grandes para Força pura, Arcos para Percepção ou Lanças com Escudos para Vitalidade."
+  },
+  {
+    question: "O Fazendeiro é um tanque ou um causador de dano?",
+    answer: "O Fazendeiro pode facilmente desempenhar ambas as funções. Graças à sua alta Vitalidade básica e à passiva Último Recurso, ele é um excelente off-tank. No entanto, sua Força e Percepção iniciais de 74 também permitem que ele cause um enorme dano físico."
+  },
+  {
+    question: "Como funciona a habilidade Último Recurso?",
+    answer: "O Último Recurso é uma habilidade passiva que tem uma chance aleatória de ser ativada no início do turno do Fazendeiro. Ela evoca um Espantalho temporário no grid de combate para atrair os ataques inimigos para longe do seu grupo."
+  }
+]} />
+
+</Section>

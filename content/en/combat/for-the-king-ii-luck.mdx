@@ -1,0 +1,162 @@
+import { Map, Swords, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II Luck: Stat Mechanics & Chance Optimization",
+  description: "Master the Luck stat in For The King II. Learn how Luck influences overworld encounters, games of chance, skill activation rates, and blunt weapon scaling.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Luck+Stat+Mechanics+Guide",
+  date: "2026-07-03",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Luck Stat**: Determines success in overworld games of chance and challenges where Focus cannot be used.
+- **Skill Activation**: Directly impacts the proc rates of character passive skills, such as the Fortune Teller's Fate.
+- **Weapon Scaling**: Primarily scales with **Blunt** weapon types, making it essential for specific physical builds.
+- **Focus Restriction**: Unlike other stats, Luck-based overworld encounters strictly prohibit the use of Focus points.
+- **Stat Cap**: Core stats, including Luck, are capped at a maximum value of **95**.
+</Callout>
+
+<Section icon={Map} title="Understanding For The King II Luck Mechanics">
+
+In the brutal turn-based roguelike world of Fahrul, stats govern almost every action you take. While primary combat stats like Strength, Intelligence, and Awareness dictate your accuracy with standard gear, **for the king ii luck** operates as a unique parameter. It primarily influences games of chance, specific overworld challenges, and the activation rates of powerful character skills. 
+
+Unlike other attributes, Luck is notoriously difficult to raise. Most classes start with a baseline of 55 Luck on Apprentice difficulty, which drops to 50 on Journeyman and Master difficulties. 
+
+**Video Highlights:**
+- **Lore Store Rewards**: Unlocking powerful items like the Armored Ring and cosmetics to bolster early-game survival.
+- **Ship Navigation**: Upgrading from a basic raft to a sailboat to gain movement bonuses and avoid the dreaded Kraken.
+- **Dungeon Progression**: Clearing a Level 4 Sea Cave and managing status effects like Poison and Shock.
+
+<YouTubeEmbed videoId="q_-jP3JG57I" title="For The King II - Ch 4 - Lucky & New Cave - Episode 9" />
+
+Understanding how Luck operates in the background is crucial for optimizing your runs, surviving random encounters, and maximizing your party's passive abilities.
+
+<Callout type="warning" title="No Focus Allowed">
+The most dangerous aspect of Luck-based overworld challenges is that **Focus cannot be used** to guarantee rolls. You must rely entirely on your raw stat percentage.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="How Luck Affects Gameplay and Skills">
+
+While many players initially dismiss Luck as a secondary or "useless" combat stat, it plays a vital role in several passive mechanics. Aside from overworld dice rolls, Luck directly influences the activation rate of character-specific passive skills. For instance, characters like the Fortune Teller rely on their Luck stat to trigger abilities like **Fate**. 
+
+| Mechanic | How Luck Influences It | Focus Allowed? |
+| :--- | :--- | :--- |
+| **Games of Chance** | Increases success rates in taverns, wheels of fortune, and carnivals. | **No** |
+| **Passive Skills** | Higher Luck increases the activation frequency of skills like Fate. | **N/A** (Passive) |
+| **Blunt Weapons** | Determines the hit accuracy and roll success for Luck-based Blunt weapons. | **Yes** (In Combat) |
+| **Overworld Events** | Improves success rates in rare overworld encounters and stat-check events. | **No** |
+
+Increasing your Luck shifts the math of Fahrul in your favor, turning run-ending failures into narrow successes.
+
+<Callout type="tip" title="Skill Proc Scaling">
+Data mining and community testing confirm that passive skills do not use a flat activation rate. Boosting your Luck stat directly scales the probability of these abilities triggering during combat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparing Luck with Other Core Stats">
+
+To build an optimized party, you must understand how Luck fits alongside the other six core attributes. Each class typically specializes in one or two primary stats, leaving Luck as a universal secondary factor.
+
+<CardGrid cols={3}>
+  <Card title="Physical Stats">
+    - **Strength**: Scales Blunt/Bladed weapons.
+    - **Vitality**: Dictates base HP and stamina checks.
+    - **Awareness**: Governs Bows, Polearms, and ambushes.
+  </Card>
+  <Card title="Utility & Magic">
+    - **Intelligence**: Scales Wands, Staves, and magic puzzles.
+    - **Talent**: Governs Instruments, boat speed, and trap disarming.
+    - **Speed**: Controls combat initiative and evasion.
+  </Card>
+  <Card title="The Wildcard">
+    - **Luck**: Governs uncontrolled chance.
+    - No Focus allowed on overworld checks.
+    - Maxes out at **95** like all core stats.
+  </Card>
+</CardGrid>
+
+To visualize how these stats compare in terms of general utility, refer to the table below:
+
+| Stat | Primary Weapon Types | Key Overworld Utility | Focus Utility |
+| :--- | :--- | :--- | :--- |
+| **Strength** | Blades, Blunt | Breaking doors, physical challenges | High |
+| **Intelligence** | Wands, Staves, Tomes | Solving puzzles, arcane encounters | High |
+| **Awareness** | Bows, Polearms | Launching & preventing ambushes | High |
+| **Talent** | Instruments, Grenades | Disarming traps, piloting boats | High |
+| **Speed** | Daggers, Light Weapons | Fleeing, sneaking, overworld movement | High |
+| **Luck** | Blunt (Toy Hammer, etc.) | Taverns, wheels of fortune, games of chance | **None** (On map events) |
+
+<Callout type="info" title="The 95 Cap">
+No matter how many stat-boosting items, candies, or gear pieces you equip, your Luck stat (and all other core stats) cannot exceed the hard cap of **95**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Increase Your Luck Stat">
+
+Because you do not gain stat points naturally when leveling up, you must actively seek out specific gear, consumables, and world locations to increase your Luck.
+
+<Steps>
+  <Step num="1" title="Equip Luck-Boosting Gear">
+    Look for specific armor sets and accessories in markets or dungeon drops. The **Merling Set** is a notable gear path that offers statistical adjustments to your Luck and evasion.
+  </Step>
+  <Step num="2" title="Consume Stat Candies">
+    Keep an eye out for rare candies in town markets or as quest rewards. These single-use consumables permanently boost a specific stat by 1 to 3 points.
+  </Step>
+  <Step num="3" title="Visit Overworld Sanctums and Trainers">
+    Locate special points of interest on the overworld map, such as the Trainer or specific Sanctums. Succeeding in their challenges or paying gold can grant permanent stat increases.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Luck Optimization Checklist">
+
+Use this checklist to ensure your party is prepared to handle the RNG-heavy elements of your campaign:
+
+<Checklist
+  id="luck-optimization"
+  title="RNG Management Steps:"
+  items={[
+    "Identify which character will hold Luck-scaling items like the Toy Hammer",
+    "Avoid using low-Luck characters to trigger mysterious overworld events",
+    "Hoard stat candies to push key character stats toward the 95 cap",
+    "Equip passive-heavy gear (like the Arena Set) to guarantee combat utility regardless of rolls"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does the Luck stat affect critical hit chances in combat?",
+    answer: "No. Critical hit chance is determined by weapon-specific bonuses and specialized gear (such as the Pirate Boots or Horsebow), not by your character's Luck stat."
+  },
+  {
+    question: "Can I use Focus to guarantee a Luck roll on the overworld map?",
+    answer: "No. Luck-based challenges and games of chance specifically restrict the use of Focus. You must rely entirely on your raw Luck stat percentage."
+  },
+  {
+    question: "What is the maximum limit for the Luck stat in For The King II?",
+    answer: "Like all other core stats in the game, Luck is hard-capped at a maximum value of 95."
+  },
+  {
+    question: "Which weapons scale directly with the Luck stat?",
+    answer: "Luck primarily scales with specific Blunt weapons, such as the Toy Hammer and other specialty joke or carnival-themed weapons."
+  }
+]} />
+
+</Section>

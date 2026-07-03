@@ -1,0 +1,163 @@
+import { Map, Swords, Shield, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sorte em For The King II: Mecânicas de Atributos e Otimização de Chances",
+  description: "Domine o atributo de Sorte em For The King II. Aprenda como a Sorte influencia encontros no mapa-múndi, jogos de azar, taxas de ativação de habilidades e o escalonamento de armas contundentes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Luck+Stat+Mechanics+Guide",
+  date: "2026-07-03",
+  author: "Equipe da Wiki de For The King II",
+  keywords: "for the king ii, sorte, atributos, guia, mecânicas, foco"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Atributo de Sorte**: Determina o sucesso em jogos de azar no mapa-múndi e desafios onde o Foco não pode ser usado.
+- **Ativação de Habilidades**: Impacta diretamente as taxas de ativação (proc) das habilidades passivas dos personagens, como o Destino da Vidente.
+- **Escalonamento de Armas**: Escala principalmente com tipos de armas **Contundentes**, tornando-o essencial para builds físicas específicas.
+- **Restrição de Foco**: Ao contrário de outros atributos, encontros no mapa-múndi baseados em Sorte proíbem estritamente o uso de pontos de Foco.
+- **Limite de Atributo**: Os atributos principais, incluindo a Sorte, são limitados a um valor máximo de **95**.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas de Sorte em For The King II">
+
+No brutal mundo roguelike em turnos de Fahrul, os atributos governam quase todas as ações que você toma. Enquanto os atributos primários de combate, como Força, Inteligência e Percepção, ditam sua precisão com equipamentos padrão, a **sorte em for the king ii** opera como um parâmetro único. Ela influencia principalmente jogos de azar, desafios específicos no mapa-múndi e as taxas de ativação de habilidades poderosas dos personagens.
+
+Ao contrário de outros atributos, a Sorte é notoriamente difícil de aumentar. A maioria das classes começa com uma base de 55 de Sorte na dificuldade Aprendiz, que cai para 50 nas dificuldades Jornaleiro e Mestre.
+
+**Destaques do Vídeo:**
+- **Recompensas da Loja de Lore**: Desbloqueio de itens poderosos como o Anel Blindado e cosméticos para reforçar a sobrevivência no início do jogo.
+- **Navegação de Navios**: Atualização de uma jangada básica para um veleiro para ganhar bônus de movimento e evitar o temido Kraken.
+- **Progressão de Masmorra**: Limpeza de uma Caverna Marinha de Nível 4 e gerenciamento de efeitos de status como Veneno e Choque.
+
+<YouTubeEmbed videoId="q_-jP3JG57I" title="For The King II - Cap 4 - Sorte e Nova Caverna - Episódio 9" />
+
+Entender como a Sorte opera nos bastidores é crucial para otimizar suas jornadas, sobreviver a encontros aleatórios e maximizar as habilidades passivas do seu grupo.
+
+<Callout type="warning" title="Foco Não Permitido">
+O aspecto mais perigoso dos desafios de mapa-múndi baseados em Sorte é que **o Foco não pode ser usado** para garantir rolagens. Você deve confiar inteiramente na sua porcentagem bruta do atributo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Como a Sorte Afeta a Jogabilidade e Habilidades">
+
+Embora muitos jogadores inicialmente descartem a Sorte como um atributo de combate secundário ou "inútil", ela desempenha um papel vital em várias mecânicas passivas. Além das rolagens de dados no mapa-múndi, a Sorte influencia diretamente a taxa de ativação de habilidades passivas específicas de cada personagem. Por exemplo, personagens como a Vidente dependem de seu atributo de Sorte para ativar habilidades como **Destino**.
+
+| Mecânica | Como a Sorte a Influencia | Foco Permitido? |
+| :--- | :--- | :--- |
+| **Jogos de Azar** | Aumenta as taxas de sucesso em tabernas, rodas da fortuna e carnavais. | **Não** |
+| **Habilidades Passivas** | Sorte mais alta aumenta a frequência de ativação de habilidades como Destino. | **N/A** (Passiva) |
+| **Armas Contundentes** | Determina a precisão do acerto e o sucesso da rolagem para armas Contundentes baseadas em Sorte. | **Sim** (Em Combate) |
+| **Eventos de Mapa** | Melhora as taxas de sucesso em encontros raros no mapa-múndi e eventos de teste de atributo. | **Não** |
+
+Aumentar sua Sorte muda a matemática de Fahrul a seu favor, transformando falhas que acabariam com a partida em sucessos apertados.
+
+<Callout type="tip" title="Escalonamento de Ativação de Habilidade">
+A mineração de dados e os testes da comunidade confirmam que as habilidades passivas não usam uma taxa de ativação fixa. Aumentar seu atributo de Sorte escala diretamente a probabilidade de essas habilidades serem ativadas durante o combate.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparando a Sorte com Outros Atributos Principais">
+
+Para construir um grupo otimizado, você deve entender como a Sorte se encaixa ao lado dos outros seis atributos principais. Cada classe normalmente se especializa em um ou dois atributos primários, deixando a Sorte como um fator secundário universal.
+
+<CardGrid cols={3}>
+  <Card title="Atributos Físicos">
+    - **Força**: Escala armas Contundentes/Cortantes.
+    - **Vitalidade**: Dita o HP base e testes de vigor.
+    - **Percepção**: Governa Arcos, Armas de Haste e emboscadas.
+  </Card>
+  <Card title="Utilidade e Magia">
+    - **Inteligência**: Escala Varinhas, Cajados e enigmas mágicos.
+    - **Talento**: Governa Instrumentos, velocidade do barco e desarmamento de armadilhas.
+    - **Velocidade**: Controla a iniciativa de combate e evasão.
+  </Card>
+  <Card title="O Curinga">
+    - **Sorte**: Governa o acaso descontrolado.
+    - Foco não permitido em testes no mapa-múndi.
+    - Limite máximo de **95**, como todos os atributos principais.
+  </Card>
+</CardGrid>
+
+Para visualizar como esses atributos se comparam em termos de utilidade geral, consulte a tabela abaixo:
+
+| Atributo | Tipos de Armas Primárias | Utilidade Principal no Mapa | Utilidade do Foco |
+| :--- | :--- | :--- | :--- |
+| **Força** | Lâminas, Contundentes | Quebrar portas, desafios físicos | Alta |
+| **Inteligência** | Varinhas, Cajados, Tomos | Resolver enigmas, encontros arcanos | Alta |
+| **Percepção** | Arcos, Armas de Haste | Lançar e prevenir emboscadas | Alta |
+| **Talento** | Instrumentos, Granadas | Desarmar armadilhas, pilotar barcos | Alta |
+| **Velocidade** | Adagas, Armas Leves | Fugir, esgueirar-se, movimento no mapa | Alta |
+| **Sorte** | Contundentes (Martelo de Brinquedo, etc.) | Tabernas, rodas da fortuna, jogos de azar | **Nenhuma** (Em eventos do mapa) |
+
+<Callout type="info" title="O Limite de 95">
+Não importa quantos itens de aumento de atributo, doces ou peças de equipamento você equipe, seu atributo de Sorte (e todos os outros atributos principais) não pode exceder o limite rígido de **95**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Aumentar seu Atributo de Sorte">
+
+Como você não ganha pontos de atributo naturalmente ao subir de nível, deve procurar ativamente por equipamentos específicos, consumíveis e locais no mundo para aumentar sua Sorte.
+
+<Steps>
+  <Step num="1" title="Equipe Itens que Aumentam a Sorte">
+    Procure por conjuntos de armadura específicos e acessórios em mercados ou espólios de masmorras. O **Conjunto Merling** é um caminho de equipamento notável que oferece ajustes estatísticos para sua Sorte e evasão.
+  </Step>
+  <Step num="2" title="Consuma Doces de Atributo">
+    Fique atento a doces raros nos mercados das cidades ou como recompensas de missões. Esses consumíveis de uso único aumentam permanentemente um atributo específico em 1 a 3 pontos.
+  </Step>
+  <Step num="3" title="Visite Santuários e Treinadores no Mapa">
+    Localize pontos de interesse especiais no mapa-múndi, como o Treinador ou Santuários específicos. Ter sucesso em seus desafios ou pagar ouro pode conceder aumentos permanentes de atributos.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Otimização de Sorte">
+
+Use este checklist para garantir que seu grupo esteja preparado para lidar com os elementos pesados de RNG da sua campanha:
+
+<Checklist
+  id="luck-optimization"
+  title="Passos para Gerenciamento de RNG:"
+  items={[
+    "Identificar qual personagem usará itens que escalam com Sorte, como o Martelo de Brinquedo",
+    "Evitar usar personagens com baixa Sorte para ativar eventos misteriosos no mapa-múndi",
+    "Acumular doces de atributo para levar os atributos dos personagens principais ao limite de 95",
+    "Equipar equipamentos focados em passivas (como o Conjunto de Arena) para garantir utilidade em combate independentemente das rolagens"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O atributo de Sorte afeta as chances de acerto crítico no combate?",
+    answer: "Não. A chance de acerto crítico é determinada por bônus específicos da arma e equipamentos especializados (como as Botas de Pirata ou o Arco de Cavalo), não pelo atributo de Sorte do seu personagem."
+  },
+  {
+    question: "Posso usar Foco para garantir uma rolagem de Sorte no mapa-múndi?",
+    answer: "Não. Desafios baseados em Sorte e jogos de azar restringem especificamente o uso de Foco. Você deve confiar inteiramente na sua porcentagem bruta de Sorte."
+  },
+  {
+    question: "Qual é o limite máximo para o atributo de Sorte em For The King II?",
+    answer: "Como todos os outros atributos principais no jogo, a Sorte tem um limite máximo de 95."
+  },
+  {
+    question: "Quais armas escalam diretamente com o atributo de Sorte?",
+    answer: "A Sorte escala principalmente com armas Contundentes específicas, como o Martelo de Brinquedo e outras armas temáticas de piada ou carnaval."
+  }
+]} />
+
+</Section>

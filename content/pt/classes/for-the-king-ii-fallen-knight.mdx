@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Build e Equipamentos do Cavaleiro Decaído em For The King II",
+  description: "Domine a classe Cavaleiro Decaído em For The King II com nosso guia sobre atributos básicos, habilidades especiais como o Juramento do Cavaleiro e as melhores builds de armas para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fallen+Knight+Build+Guide",
+  date: "2026-07-03",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Função do Cavaleiro Decaído**: Um combatente de linha de frente de alta durabilidade, capaz de causar enorme dano físico em área (AoE) e proteger o grupo.
+- **Mecânica Principal**: Usa a habilidade **Juramento do Cavaleiro** para carregar ataques poderosos que concedem bônus defensivos.
+- **Atributos-Chave**: Foque bastante em **Força** e **Vitalidade** para maximizar o dano causado e a sobrevivência.
+- **Melhor Equipamento**: Utilize o Martelo das Estrelas ou o Velho Fiel para escalamento baseado em Vitalidade e controle de grupo.
+- **Como Desbloquear**: Esta classe está disponível por padrão para os jogadores que possuem a **DLC Fallen Oaths**.
+</Callout>
+
+<Section icon={Shield} title="Visão Geral da Classe e Atributos Básicos">
+
+O **Cavaleiro Decaído (Fallen Knight) em For The King II** ergue-se como um testamento ao legado duradouro de Fahrul. Ao contrário do Ferreiro padrão, que foca puramente em defesa, o Cavaleiro Decaído é um veterano das guerras do caos, projetado para preencher a lacuna entre um tanque e um causador de dano físico de alto impacto. Eles são \"limitados por códigos mais antigos que a própria terra\", trazendo sabedoria e proeza marcial bruta para qualquer grupo de aventureiros.
+
+Ao selecionar sua dificuldade em 2026, é importante notar como os atributos iniciais do Cavaleiro Decaído escalam. Em *For The King II*, seus atributos iniciais são ligeiramente mais altos em dificuldades mais baixas para ajudar na curva de aprendizado.
+
+| Categoria de Atributo | Aprendiz | Viajante | Mestre |
+| :--- | :--- | :--- | :--- |
+| **Vida** | 38 | 38 | 38 |
+| **Força** | **83** | 78 | 78 |
+| **Vitalidade** | **81** | 76 | 76 |
+| **Inteligência** | 55 | 50 | 50 |
+| **Percepção** | 65 | 60 | 60 |
+| **Talento** | 59 | 54 | 54 |
+| **Velocidade** | 73 | 68 | 68 |
+| **Sorte** | 55 | 50 | 50 |
+
+<Callout type="success" title="Análise de Atributos">
+O Cavaleiro Decaído possui algumas das maiores bases de Força e Vitalidade do jogo. Com um atributo de Velocidade de 73 no Aprendiz, eles são surpreendentemente móveis para uma classe de armadura pesada, permitindo que ajam antes de muitos inimigos de nível médio.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades Especiais: Juramento do Cavaleiro e Ataque Carregado">
+
+O verdadeiro poder do **Cavaleiro Decaído em For The King II** reside em seu conjunto de habilidades únicas. Essas técnicas permitem que o Cavaleiro manipule a linha do tempo e a grade de batalha, fornecendo utilidade que vai além do dano simples.
+
+### Juramento do Cavaleiro
+Esta é a mecânica de combate assinatura da classe. Quando ativada, o Cavaleiro Decaído segura seu turno para \"carregar\" um golpe mais poderoso. Isso não é apenas um atraso; transforma a habilidade da arma selecionada em uma versão de Área de Efeito (AoE).
+
+| Nome da Habilidade | Ativação | Efeito Principal | Bônus Secundários |
+| :--- | :--- | :--- | :--- |
+| **Juramento do Cavaleiro** | Menu de Combate | Carrega o turno para ataque em área | Proteção / Aumento de Armadura |
+| **Ataque Carregado** | Aliado com Vida Crítica | Protege aliados adjacentes | Concede Chamariz / Cobertura |
+
+Enquanto carrega, o Cavaleiro recebe bônus defensivos, tornando-se um excelente alvo para atrair a atenção do inimigo (\"aggro\") enquanto se prepara para desferir um golpe devastador. Se o alvo original da carga morrer antes do Cavaleiro agir, o jogo redirecionará automaticamente o ataque para um novo inimigo principal, garantindo que nenhum dano seja desperdiçado.
+
+<Callout type="tip" title="Carregamento Tático">
+Use o Juramento do Cavaleiro ao enfrentar grupos de três ou mais inimigos. O dano colateral gerado pela carga geralmente supera o dano de dois ataques padrão separados, especialmente quando combinado com armas de alto dano como Lanças ou Martelos.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Melhores Equipamentos e Recomendações de Itens">
+
+Escolher os equipamentos certos para o seu **Cavaleiro Decaído em For The King II** é crucial para otimizar seus altos atributos físicos. Embora comecem com o \"Velho Confiável\", você deve buscar melhorias para armas que escalam com Vitalidade ou fornecem imunidades a estados negativos.
+
+<CardGrid cols={3}>
+  <Card title="Velho Fiel">
+    - **Escalamento**: Vitalidade
+    - **Habilidades**: Interromper e Empurrar
+    - **Melhor para**: Builds focadas em interrupção que priorizam a manipulação da ordem dos turnos.
+  </Card>
+  <Card title="Martelo das Estrelas">
+    - **Escalamento**: Vitalidade
+    - **Habilidades**: Confusão, Atordoamento
+    - **Melhor para**: Conteúdo de fim de jogo onde CC (Controle de Grupo) é obrigatório para a sobrevivência.
+  </Card>
+  <Card title="Doce Preto">
+    - **Tipo**: Consumível
+    - **Efeito**: Aumento de Dano Puro
+    - **Melhor para**: Encontros com chefes onde o Cavaleiro Decaído precisa eliminar lacaios com um único golpe.
+  </Card>
+</CardGrid>
+
+### Progressão Recomendada de Equipamentos
+
+| Nível do Item | Nome da Arma | Benefício Principal | Atributo de Escalamento |
+| :--- | :--- | :--- | :--- |
+| **Inicial** | Velho Confiável | Dano físico confiável | Força |
+| **Meio de Jogo** | Velho Fiel | Adiciona capacidades de Interrupção | Vitality |
+| **Fim de Jogo** | Martelo das Estrelas | +1 de Foco, Atordoamento, Imunidade a Aturdido | Vitalidade |
+
+<Callout type="warning" title="Gerenciamento de Foco">
+O Cavaleiro Decaído tem um Foco básico relativamente baixo. O Martelo das Estrelas é altamente recomendado porque fornece um bônus de +1 de Foco, ajudando a mitigar uma das poucas fraquezas significativas da classe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Combate e Posicionamento">
+
+Para maximizar a eficácia do **Cavaleiro Decaído em For The King II**, você precisa entender a grade de batalha. O Cavaleiro é mais eficaz quando posicionado para aproveitar suas ativações passivas de \"Chamariz\" e \"Proteção\".
+
+<Steps>
+  <Step num="1" title="Posicionamento Inicial">
+    Coloque o Cavaleiro Decaído no centro da fileira da frente. Isso garante que ele fique adjacente ao maior número possível de aliados, permitindo que seu escudo passivo seja ativado se um aliado ficar com vida crítica.
+  </Step>
+  <Step num="2" title="O Ciclo de Carga">
+    Identifique grupos de inimigos de alta prioridade. Use o Juramento do Cavaleiro no seu primeiro turno se os inimigos tiverem muita vida. Isso prepara o seu dano em área para a segunda rodada de combate.
+  </Step>
+  <Step num="3" title="Utilização de Foco">
+    Guarde seus pontos de Foco para a liberação do \"Ataque Carregado\". Como a carga leva um turno inteiro para ser preparada, garantir que o golpe final acerte (e potencialmente cause um crítico) é vital para a eficiência do grupo.
+  </Step>
+  <Step num="4" title="Sinergia com Suporte">
+    Combine o Cavaleiro com um Ervanário ou Alquimista. Como o Cavaleiro receberá a maior parte do dano enquanto carrega seu ataque, ele precisa de cura consistente ou bônus de armadura vindos da linha de trás.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Dica de Grade de Batalha">
+Ficar posicionado nas laterais frontais permite que o Cavaleiro Decaído proteja os aliados de forma mais eficaz. Se um companheiro de equipe estiver prestes a morrer, o Cavaleiro fornecerá \"Chamariz\", atraindo o ataque para si em vez do membro enfraquecido do grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desbloqueio e Objetivos de Progressão">
+
+O Cavaleiro Decaído é uma adição premium ao elenco de *For The King II*. Ao contrário das classes básicas que exigem compras na Loja de Lore, esta classe está atrelada a atualizações de conteúdo específicas.
+
+<Checklist
+  id="fallen-knight-goals"
+  title="Lista de Maestria do Cavaleiro Decaído:"
+  items={[
+    "Verificar se a DLC Fallen Oaths está ativa no menu principal",
+    "Alcançar o Nível 10 em uma única campanha",
+    "Ativar o Juramento do Cavaleiro com sucesso 50 vezes",
+    "Equipar uma arma Lendária que escale com Vitalidade",
+    "Completar uma aventura na dificuldade 'Mestre' com o Cavaleiro"
+  ]}
+/>
+
+### Comparação de Escalamento de Dificuldade
+
+| Dificuldade | Vida dos Inimigos | Desempenho do Cavaleiro | Foco da Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Aprendiz** | 100% | Dominante | Dano bruto bruto |
+| **Viajante** | 125% | Equilibrado | Gerenciamento de bônus |
+| **Mestre** | 150%+ | Focado em Tanque | Posicionamento e CC |
+
+<Callout type="tip" title="Acesso à DLC">
+Se você não vir o Cavaleiro Decaído na sua tela de seleção de personagem, certifique-se de que o cliente do seu jogo esteja atualizado para a versão mais recente de 2026 e que a DLC Fallen Oaths esteja devidamente instalada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear o Cavaleiro Decaído em For The King II?",
+    answer: "O Cavaleiro Decaído é desbloqueado por padrão para todos os jogadores que adquiriram e instalaram a DLC Fallen Oaths. Não requer pontos da Loja de Lore."
+  },
+  {
+    question: "Qual é a melhor arma para o Cavaleiro Decaído?",
+    answer: "O Martelo das Estrelas é amplamente considerado a melhor arma para o fim de jogo devido ao seu escalamento com Vitalidade, bônus de +1 de Foco e imunidades a Confusão, Atordoamento e Aturdido."
+  },
+  {
+    question: "O Juramento do Cavaleiro funciona com qualquer arma?",
+    answer: "O Juramento do Cavaleiro funciona com os ataques principais da arma atualmente equipada. Ele transforma a habilidade selecionada em uma versão de área (AoE) enquanto concede Proteção/Aumento de Armadura ao Cavaleiro."
+  },
+  {
+    question: "O Cavaleiro Decaído é melhor do que o Ferreiro?",
+    answer: "O Cavaleiro Decaído oferece mais utilidade ofensiva e dano em área, enquanto o Ferreiro é um 'tanque puro' mais tradicional. O Cavaleiro é melhor para jogadores que desejam encerrar as lutas rapidamente com alto dano."
+  }
+]} />
+
+</Section>
