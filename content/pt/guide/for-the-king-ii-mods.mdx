@@ -1,0 +1,189 @@
+import { Map, Sparkles, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mods de For The King II: melhores escolhas do Nexus e dicas de configuração",
+  description: "Explore os mods de For The King II por categoria, compare as melhores escolhas do Nexus e aprenda uma ordem de instalação segura para runs mais limpas em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=For+The+King+II+Mods",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia rápido">
+- **os mods de For The King II** funcionam melhor quando você começa com uma biblioteca de configurações e depois adiciona uma mudança de jogabilidade.
+- **Mods de utilidade** como Combat Log e Camera Unlock melhoram o controle e a clareza sem reformular cada run.
+- **Mods de overhaul** como Enhanced Overhaul Remix e Enhanced Classes são melhor testados em saves novos.
+- **Unlockers** e mods de segurança de itens são escolhas focadas em conveniência, então decida cedo o quanto de desafio você quer.
+</Callout>
+
+<Section icon={Map} title="mods de For The King II por prioridade">
+
+Os mods de For The King II são mais fáceis de gerenciar quando você pensa em camadas em vez de navegar por popularidade aleatória. Monte sua configuração de baixo para cima: suporte de configurações, ferramentas de qualidade de vida, ajustes de jogabilidade e, só então, mudanças focadas em conveniência ou desbloqueio. Essa ordem mantém sua run legível, facilita identificar conflitos e permite remover uma única camada sem quebrar toda a pilha.
+
+Acesse o atual [hub de Mods de For The King II no Nexus Mods](https://next.nexusmods.com/games/fortheking2) sempre que quiser conferir os uploads e descrições mais recentes.
+
+<CardGrid cols={4}>
+  <Card title="Camada de utilidade">
+    - **Mod Settings (library)**
+    - Combat Log
+    - Camera Unlock
+    - Melhor para menus estáveis e feedback mais claro
+  </Card>
+  <Card title="Overhaul de jogabilidade">
+    - **Enhanced Overhaul**
+    - Enhanced Overhaul Remix
+    - Enhanced Classes
+    - Melhor quando você quer um conjunto de regras maior
+  </Card>
+  <Card title="Ajuste de mundo">
+    - **Enhanced Cities**
+    - Enhanced Loot
+    - Enhanced Mercenaries
+    - Melhor para um ritmo de campanha mais suave
+  </Card>
+  <Card title="Conveniência">
+    - **Lore Store Unlocker**
+    - Never Lose Items
+    - Melhor para objetivos de coleção e menor atrito
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Comece pequeno">
+Se quiser um primeiro teste mais limpo, instale um mod de utilidade e um mod de jogabilidade, depois jogue uma run curta antes de expandir a pilha.
+</Callout>
+
+| Categoria | Exemplos | Melhor uso | Prioridade |
+|---|---|---|---|
+| Utilidade | Mod Settings, Combat Log, Camera Unlock | Mais controle, informações mais claras | Mais alta |
+| Overhaul | Enhanced Overhaul, Enhanced Overhaul Remix, Enhanced Classes | Builds maiores, novas classes, novos sistemas | Alta |
+| Ajuste | Enhanced Loadout Points, Enhanced Loot, Enhanced Cities, Enhanced Mercenaries | Progressão e recompensas mais suaves | Média |
+| Conveniência | Lore Store Unlocker, Never Lose Items | Coleta mais rápida e menor perda de itens | Opcional |
+
+</Section>
+
+<Section icon={Sparkles} title="Melhores mods para instalar primeiro">
+
+A configuração mais forte de 2026 não é a lista mais longa; é a que resolve o problema certo para a sua campanha. Se o jogo parecer vazio ou repetitivo, comece com um mod de conteúdo. Se você quer informações mais claras e menos pontos cegos, comece com um mod de utilidade. Se quiser reduzir o atrito sem mudar a identidade inteira de uma run, escolha primeiro um mod de ajuste.
+
+<Callout type="info" title="Melhores primeiras escolhas">
+Uma combinação pequena de um mod de utilidade com um mod de conteúdo oferece o feedback inicial mais útil. Assim fica mais fácil saber se o restante da pilha vale a complexidade extra.
+</Callout>
+
+| Mod | Mudança principal | Melhor para | Observações |
+|---|---|---|---|
+| **Mod Settings (library)** | Registra as configurações dos mods no menu nativo de opções com salvamentos persistentes e limites | Qualquer pilha que precise de configuração mais limpa | Instalação inicial muito forte |
+| **Combat Log** | Adiciona um log de combate avançado e um resumo pós-combate com recompensas e MVP | Jogadores que querem melhor feedback das batalhas | Escolha leve de qualidade de vida |
+| **Camera Unlock** | Permite pressionar F6 para mudar a posição e o ângulo da câmera durante o combate | Jogadores táticos e fãs de capturas de tela | Use como ferramenta de controle |
+| **Enhanced Classes** | Adiciona 34 classes balanceadas, incluindo uma opção de alta sorte, totalizando 50 | Jogadores que querem variedade sem um overhaul completo | Boa escolha intermediária |
+| **Enhanced Loot** | Melhora o fluxo de recompensas, a consistência dos drops e a variedade de armas | Campanhas que parecem muito econômicas ou irregulares | Mantém uma sensação próxima da vanilla |
+| **Enhanced Cities** | Amplia a variedade das lojas, a atividade dos painéis e a progressão das cidades | Jogadores que passam muito tempo em assentamentos | Ajuda as cidades a parecerem menos estáticas |
+| **Enhanced Mercenaries** | Aumenta o custo de mercenários e estende a duração dos contratos | Planejamento de equipe de longo prazo | Melhor para runs mais duradouras |
+| **Lore Store Unlocker** | Desbloqueia o conteúdo da Lore Store, incluindo personagens, loadouts e mercenários | Jogadores focados em coleção | Mais voltado à conveniência do que ao desafio |
+
+Uma regra prática: evite empilhar vários mods que miram exatamente o mesmo sistema no primeiro teste. Por exemplo, se você estiver experimentando um overhaul completo, limite as outras mudanças para que o resultado continue legível.
+
+</Section>
+
+<Section icon={Target} title="Instalação passo a passo e ordem de carregamento">
+
+Quando você instala mods de For The King II, uma sequência limpa importa mais do que uma lista longa. A maioria dos problemas vem de testar mudanças de jogabilidade demais ao mesmo tempo ou de pular a configuração básica. Trate cada mod adicionado como uma camada separada e teste após cada mudança significativa.
+
+<Callout type="warning" title="Proteja a base">
+Faça backup do seu save antes de mudar a pilha. Se um mod se comportar de forma estranha, você quer remover uma camada e testar de novo em vez de adivinhar qual arquivo causou o problema.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Defina sua base">
+    Decida primeiro o que você quer da run: mais conteúdo, progressão mais fácil, melhor clareza ou conveniência. Essa escolha evita instalações aleatórias.
+  </Step>
+  <Step num="2" title="Instale primeiro os mods de suporte">
+    Adicione o Mod Settings (library) ou qualquer ajudante de configuração semelhante antes de mudanças mais pesadas. Ferramentas de suporte são mais fáceis de depurar quando entram cedo.
+  </Step>
+  <Step num="3" title="Adicione um mod de jogabilidade">
+    Escolha um único overhaul ou um único mod de ajuste e então inicie uma run curta de teste. Verifique se menus, combate e recompensas se comportam como esperado.
+  </Step>
+  <Step num="4" title="Expanda com cuidado">
+    Adicione o próximo mod somente depois que o primeiro estiver estável. Se algo quebrar, você saberá qual camada introduziu o problema.
+  </Step>
+</Steps>
+
+<Checklist
+  id="mod-install-basics"
+  title="Checklist antes de iniciar:"
+  items={[
+    "Faça backup da pasta do save",
+    "Instale primeiro os mods de suporte ou configuração",
+    "Adicione apenas uma grande mudança de jogabilidade por vez",
+    "Teste uma run curta antes de se comprometer com uma campanha longa",
+    "Anote o que mudou entre os lançamentos"
+  ]}
+/>
+
+| Etapa da ordem de carregamento | Coloque aqui | Por que pertence aqui |
+|---|---|---|
+| 1 | Bibliotecas de configurações e suporte | Outros mods podem depender dos hooks de configuração |
+| 2 | Mods de utilidade | Eles melhoram a clareza sem reescrever o jogo inteiro |
+| 3 | Overhauls principais | Eles alteram a maior quantidade de sistemas |
+| 4 | Mods de ajuste | Use-os depois que a base parecer estável |
+| 5 | Unlockers e mods de conveniência | São fáceis de isolar se você quiser removê-los depois |
+
+</Section>
+
+<Section icon={Shield} title="Compatibilidade e solução de problemas">
+
+A abordagem mais segura é tratar mods grandes de jogabilidade como builds alternativas, não como ingredientes que você deve combinar automaticamente. Isso vale especialmente quando dois mods empurram a mesma parte do jogo em direções diferentes. Se você quer uma experiência mais limpa, mantenha um overhaul principal e então adicione ferramentas menores ao redor dele.
+
+<Callout type="success" title="Regra da pilha estável">
+Um overhaul mais uma camada de utilidade normalmente é mais fácil de manter do que várias edições de jogabilidade concorrentes. Adicione complexidade só depois que a primeira versão parecer sólida.
+</Callout>
+
+| Sintoma | Causa provável | Correção rápida |
+|---|---|---|
+| As configurações não aparecem no menu | Biblioteca de suporte ausente ou instalada tarde demais | Reinstale a biblioteca e mova-a para mais cedo na pilha |
+| O combate parece inconsistente | Dois overhauls de jogabilidade estão competindo | Mantenha um overhaul, desative o outro e teste de novo |
+| Recompensas ou loot parecem estranhos | Ajustes de loot ou economia mudaram o equilíbrio | Remova o mod de ajuste mais recente e compare os resultados |
+| Os controles da câmera agem de forma estranha | Camera Unlock entra em conflito com outra edição de controles | Teste o Camera Unlock sozinho em um perfil limpo |
+| Os desbloqueios não aparecem | Incompatibilidade de versão ou instalação ruim | Use a build compatível e reinstale o mod |
+
+Alguns hábitos práticos ajudam bastante:
+
+- Mantenha o seu mod mais experimental no menor grupo de teste possível.
+- Altere uma coisa de cada vez e então inicie um encontro curto ou uma visita à cidade.
+- Se um save ficar bagunçado, volte para a última combinação estável em vez de forçar mais edições.
+
+Você não precisa evitar builds ambiciosas; só precisa de uma forma limpa de descobrir o que cada mod está fazendo.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Use isto antes de se comprometer">
+Se você não tiver certeza de onde começar, o FAQ abaixo pode ajudar a escolher entre caminhos de conteúdo, utilidade e conveniência sem sobrecarregar sua primeira run.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor primeiro mod para os mods de For The King II?",
+    answer: "Comece com Mod Settings (library) ou Combat Log se quiser um primeiro passo mais seguro. Se quiser mais conteúdo, Enhanced Classes é uma ótima próxima opção porque amplia a variedade de builds sem reescrever todos os sistemas."
+  },
+  {
+    question: "Posso misturar vários mods de overhaul em uma única configuração?",
+    answer: "Você pode testá-los, mas a abordagem mais limpa é tratar grandes mods de overhaul como builds separadas. Instale um, verifique a estabilidade e só então adicione ferramentas menores ao redor dele."
+  },
+  {
+    question: "Lore Store Unlocker e Never Lose Items são bons para campanhas normais?",
+    answer: "Eles são úteis se o seu objetivo for conveniência, coleção ou menos frustração com itens. Se você quer um desafio mais rígido, deixe-os fora da primeira versão da sua pilha."
+  },
+  {
+    question: "O que devo fazer se um mod quebrar minha run?",
+    answer: "Remova primeiro a mudança de jogabilidade mais recente, mantenha os mods de suporte instalados e teste um save limpo ou uma run curta. Esse processo é a forma mais rápida de encontrar o conflito."
+  }
+]} />
+
+</Section>

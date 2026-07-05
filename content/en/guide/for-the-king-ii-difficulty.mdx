@@ -1,0 +1,202 @@
+import { Map, Shield, Sparkles, Swords, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "for the king ii difficulty: Mode Comparison and Tips",
+  description: "Learn how for the king ii difficulty changes run pacing, how to pick the right preset, and how to tune challenge without wrecking your campaign.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Difficulty+Guide",
+  date: "2026-07-06",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **for the king ii difficulty** rewards steady parties more than reckless damage racing.
+- **Start one notch easier** if your group still misses key turns or wastes healing.
+- **Higher modes** are best after you can clear early fights with resources left.
+- **Custom modifiers** should solve one weakness at a time, not stack every penalty.
+</Callout>
+
+<Section icon={Map} title="How Difficulty Shapes a Run">
+
+for the king ii difficulty is more than a simple enemy damage slider. It changes how much room your squad has to recover, how aggressively you can travel, and how quickly small mistakes turn into a failed campaign. The most useful way to judge a preset is to ask a simple question: can your party survive the opening stretch without spending every resource?
+
+<Callout type="tip" title="What Matters Most">
+Play for consistency first. A clean early game with modest rewards usually beats a harsher preset that ends before your build comes online.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Safer Start">
+    - **More forgiving openings**
+    - Better for learning routes
+    - Lets new players practice roles
+  </Card>
+  <Card title="Balanced Run">
+    - **Steady pressure**
+    - Good for most squads
+    - Best for learning real pacing
+  </Card>
+  <Card title="Challenge Run">
+    - **Tighter resource control**
+    - Demands cleaner combat
+    - Rewards confident decision-making
+  </Card>
+</CardGrid>
+
+| Difficulty Profile | What It Feels Like | Best For | Main Tradeoff |
+| --- | --- | --- | --- |
+| Safer Start | Lower pressure, more recovery room | New players, mixed-skill groups | Slower learning of advanced habits |
+| Balanced Run | Fair but still demanding | Most first-time campaigns | Less room for sloppy mistakes |
+| Challenge Run | Punishing, fast snowball potential | Veterans, coordinated squads | Early wipes can end good builds |
+
+A good rule is to treat the first campaign as a calibration run. If your team barely survives the opening area, the setting is too harsh for current execution. If your squad cruises through fights without using tactics, it may be time to raise the pressure.
+
+</Section>
+
+<Section icon={Shield} title="Choosing the Right Starting Mode">
+
+The best starting mode depends on your weakest link. In solo play, that is usually your own route planning and resource timing. In co-op, it is often the player who takes the most damage, spends the most healing, or misses the most high-value turns. Build the preset around that reality instead of chasing the hardest option on day one.
+
+<Callout type="warning" title="Common Mistake">
+Do not choose a harder preset just because the group wants faster rewards. If you cannot survive the opening loop, the reward rate does not matter.
+</Callout>
+
+<TableCaption />
+
+| Player Type | Recommended Approach | Why It Works | Watch Out For |
+| --- | --- | --- | --- |
+| Brand-new players | Start on the most forgiving preset available | Lets you learn combat and travel without constant restarts | Overconfidence after one good fight |
+| Returning players | Use a balanced preset first | Refreshes the basics while keeping tension high enough to matter | Rushing without relearning pacing |
+| Mixed-skill parties | Choose for the least experienced player | Prevents one weak link from collapsing the whole run | Hard carry attempts that ignore teamwork |
+| Veteran squads | Raise difficulty only after a clean clear | Keeps the challenge high without turning the campaign into guesswork | Greedy route choices and wasted recovery |
+
+If your group wants a more competitive run, increase difficulty only after you can reliably finish early encounters with healing still available. That is the clearest sign that the squad can handle a higher ceiling.
+
+<CardGrid cols={3}>
+  <Card title="New Players">
+    - Focus on survival
+    - Learn turn timing
+    - Keep positioning simple
+  </Card>
+  <Card title="Returning Players">
+    - Rebuild consistency
+    - Test party synergy
+    - Avoid reckless routing
+  </Card>
+  <Card title="Veteran Teams">
+    - Push for tighter clears
+    - Trade safety for speed
+    - Track every resource
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Fine-Tuning the Rules Without Overcorrecting">
+
+If your campaign setup includes custom rule toggles, treat them like precision tools rather than a full difficulty overhaul. One small change can fix a problem; three small changes stacked together can create a run that feels unfair instead of interesting.
+
+<Callout type="info" title="Tuning Rule of Thumb">
+Adjust the setting that causes the most failures. If you die to attrition, lower recovery pressure. If fights drag, improve damage planning before touching anything else.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Set a Baseline">
+    Start from a preset your squad can already clear. Do not tune from a mode you barely understand.
+  </Step>
+  <Step num="2" title="Change One Lever">
+    Adjust only one pressure point at a time, such as recovery, encounter pace, or combat speed.
+  </Step>
+  <Step num="3" title="Test the Opening">
+    Play the early game before deciding. Most tuning mistakes show up long before the midgame.
+  </Step>
+  <Step num="4" title="Keep or Revert">
+    If the run feels better and still fair, keep it. If it feels chaotic, roll the change back.
+  </Step>
+</Steps>
+
+| Tuning Goal | Safer Adjustment | Avoid |
+| --- | --- | --- |
+| Faster progress | Improve combat efficiency | Adding harder penalties at the same time |
+| Less attrition | Give the team more recovery room | Nerfing recovery and increasing enemy pressure together |
+| Shorter battles | Strengthen damage planning | Cutting both defense and healing too far |
+| Better consistency | Lower one random failure point | Changing multiple systems before testing |
+
+The cleanest difficulty tuning is usually boring in the best way. You should feel the campaign become clearer, not more confusing. When a single adjustment makes the run better, that is the one worth keeping.
+
+</Section>
+
+<Section icon={Swords} title="Combat Habits That Make Hard Mode Easier">
+
+Higher difficulty becomes much easier when your habits are disciplined. Most failed runs do not collapse because of one impossible battle; they collapse because of two or three small errors that compound over time. Focus on repeatable habits instead of highlight-reel plays.
+
+<Callout type="success" title="Good News">
+You do not need perfect execution. You just need fewer wasted turns, fewer unnecessary fights, and fewer bad resource trades.
+</Callout>
+
+<Checklist
+  id="combat-habits"
+  title="Priority Habits:"
+  items={[
+    "Focus fire on the most dangerous enemy first",
+    "Keep emergency healing for real emergencies",
+    "Protect the party member who enables your plan",
+    "Avoid unnecessary battles when your resources are low",
+    "Leave bad fights early if the route allows it"
+  ]}
+/>
+
+| Situation | Best Action | Why It Matters |
+| --- | --- | --- |
+| Opening turn | Remove the biggest threat | Reduces incoming damage immediately |
+| One ally is exposed | Stabilize that unit first | Prevents a chain of damage and panic |
+| Enemy backline is dangerous | Break the backline plan | Stops support units from snowballing |
+| Party is low on resources | Slow down and reset | Saves the run from a forced collapse |
+| Battle looks inefficient | Skip it if possible | Not every fight is worth the cost |
+
+On harder settings, clean positioning is often worth more than raw damage. A slightly slower turn that protects the whole squad usually produces a better result than a flashy burst that leaves the team exposed.
+
+</Section>
+
+<Section icon={Trophy} title="Best Practices for Long-Term Progress">
+
+Difficulty mastery is really campaign mastery. Once your squad understands the early game, the rest is about applying the same standards over and over: protect resources, reduce risk, and keep the run moving toward a stable win condition.
+
+<Callout type="warning" title="Do Not Chase Ego Picks">
+A harder preset is not a badge of honor if the run becomes less fun. The right difficulty is the one that creates good decisions, not repeated frustration.
+</Callout>
+
+| Progress Check | What Success Looks Like | What Needs Work |
+| --- | --- | --- |
+| Early fights | You finish with usable resources | You are forced to heal after every encounter |
+| Route choice | You can pick battles intentionally | You are reacting to every threat |
+| Team coordination | Roles stay clear in combat | Everyone competes for the same job |
+| Recovery | The squad can reset between fights | One bad turn ruins the whole map |
+
+A practical way to improve is to review one thing after each run: did the difficulty feel too easy, just right, or too punishing? That single question will give you better information than trying to judge the whole campaign at once. Over time, you will learn which settings create the best pace for your group.
+
+<FAQ items={[
+  {
+    question: "What is the best for the king ii difficulty for new players?",
+    answer: "Start with the most forgiving option available and learn the opening loop first. Once your group clears early fights with resources left, move up one step."
+  },
+  {
+    question: "Should I always pick the hardest preset?",
+    answer: "No. The best preset is the one that matches your squad's consistency. Harder is only better if it still produces a stable, readable campaign."
+  },
+  {
+    question: "Can custom modifiers make a run easier?",
+    answer: "Yes, if you use them carefully. Adjust one pressure point at a time so you fix a real problem instead of reshaping the whole campaign."
+  },
+  {
+    question: "What if my group has different skill levels?",
+    answer: "Build the run around the least experienced player. for the king ii difficulty works best when everyone understands the pace, not when one person is carrying the entire decision tree."
+  }
+]} />
+
+</Section>

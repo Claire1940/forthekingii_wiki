@@ -1,0 +1,202 @@
+import { Map, Shield, Sparkles, Swords, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dificuldade em For The King II: Comparação de Modos e Dicas",
+  description: "Aprenda como a dificuldade em For The King II altera o ritmo da campanha, como escolher a predefinição certa e como ajustar o desafio sem destruir sua jornada.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Difficulty+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **a dificuldade em For The King II** recompensa grupos consistentes mais do que corridas imprudentes por dano.
+- **Comece um nível mais fácil** se seu grupo ainda perde turnos decisivos ou desperdiça cura.
+- **Modos mais altos** são melhores depois que você conseguir vencer lutas iniciais com recursos sobrando.
+- **Modificadores personalizados** devem resolver um ponto fraco por vez, e não empilhar todas as penalidades.
+</Callout>
+
+<Section icon={Map} title="Como a Dificuldade Molda uma Campanha">
+
+A dificuldade em For The King II é mais do que um simples controle de dano dos inimigos. Ela altera o quanto seu grupo tem para se recuperar, o quão agressivamente você pode viajar e a rapidez com que pequenos erros viram uma campanha fracassada. A melhor forma de avaliar uma predefinição é fazer uma pergunta simples: seu grupo consegue sobreviver ao trecho inicial sem gastar todos os recursos?
+
+<Callout type="tip" title="O Que Mais Importa">
+Jogue priorizando consistência primeiro. Um começo limpo com recompensas modestas geralmente vale mais do que uma predefinição mais brutal que termina antes da sua build ganhar forma.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Início Mais Seguro">
+    - **Aberturas mais tolerantes**
+    - Melhor para aprender rotas
+    - Permite que novos jogadores pratiquem funções
+  </Card>
+  <Card title="Campanha Equilibrada">
+    - **Pressão constante**
+    - Boa para a maioria dos grupos
+    - Ideal para aprender o ritmo real
+  </Card>
+  <Card title="Campanha de Desafio">
+    - **Controle de recursos mais apertado**
+    - Exige combate mais limpo
+    - Recompensa decisões confiantes
+  </Card>
+</CardGrid>
+
+| Perfil de Dificuldade | Como Parece | Melhor Para | Principal Compromisso |
+| --- | --- | --- | --- |
+| Início Mais Seguro | Menor pressão, mais espaço para recuperação | Novos jogadores, grupos com níveis mistos | Aprendizado mais lento de hábitos avançados |
+| Campanha Equilibrada | Justa, mas ainda exigente | A maioria das primeiras campanhas | Menos espaço para erros descuidados |
+| Campanha de Desafio | Punitiva, com forte potencial de efeito bola de neve | Veteranos, grupos coordenados | Wipes iniciais podem encerrar boas builds |
+
+Uma boa regra é tratar a primeira campanha como um teste de calibração. Se seu time mal sobrevive à área inicial, o ajuste está duro demais para a execução atual. Se seu grupo passa pelas lutas sem usar táticas, talvez seja hora de aumentar a pressão.
+
+</Section>
+
+<Section icon={Shield} title="Como Escolher o Modo Inicial Certo">
+
+O melhor modo inicial depende do seu elo mais fraco. No solo, isso costuma ser seu próprio planejamento de rota e o timing dos recursos. No cooperativo, muitas vezes é o jogador que toma mais dano, gasta mais cura ou perde os turnos de maior valor. Monte a predefinição com base nessa realidade em vez de buscar a opção mais difícil logo no primeiro dia.
+
+<Callout type="warning" title="Erro Comum">
+Não escolha uma predefinição mais difícil só porque o grupo quer recompensas mais rápidas. Se você não consegue sobreviver ao ciclo inicial, a taxa de recompensa não importa.
+</Callout>
+
+<TableCaption />
+
+| Tipo de Jogador | Abordagem Recomendada | Por Que Funciona | O Que Observar |
+| --- | --- | --- | --- |
+| Jogadores totalmente novos | Comece na predefinição mais tolerante disponível | Permite aprender combate e deslocamento sem reinícios constantes | Excesso de confiança depois de uma luta boa |
+| Jogadores que estão voltando | Use primeiro uma predefinição equilibrada | Repassa o básico sem tirar a tensão necessária | Avançar sem reaprender o ritmo |
+| Grupos com níveis mistos | Escolha pensando no jogador menos experiente | Evita que um ponto fraco derrube a campanha inteira | Tentativas de “hard carry” que ignoram o trabalho em equipe |
+| Grupos veteranos | Aumente a dificuldade só depois de uma conclusão limpa | Mantém o desafio alto sem transformar a campanha em chute | Escolhas gananciosas de rota e recuperação desperdiçada |
+
+Se seu grupo quer uma campanha mais competitiva, aumente a dificuldade apenas depois que vocês conseguirem terminar os encontros iniciais de forma consistente, ainda com cura disponível. Esse é o sinal mais claro de que o grupo aguenta um teto mais alto.
+
+<CardGrid cols={3}>
+  <Card title="Novos Jogadores">
+    - Foque em sobreviver
+    - Aprenda o tempo dos turnos
+    - Mantenha o posicionamento simples
+  </Card>
+  <Card title="Jogadores que Estão Voltando">
+    - Reconstrua a consistência
+    - Teste a sinergia do grupo
+    - Evite rotas imprudentes
+  </Card>
+  <Card title="Times Veteranos">
+    - Busque conclusões mais apertadas
+    - Troque segurança por velocidade
+    - Acompanhe todos os recursos
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Ajustando as Regras Sem Exagerar na Correção">
+
+Se a configuração da sua campanha inclui alternadores de regras personalizadas, trate-os como ferramentas de precisão, e não como uma reformulação completa da dificuldade. Uma pequena mudança pode corrigir um problema; três pequenas mudanças empilhadas podem criar uma campanha que parece injusta em vez de interessante.
+
+<Callout type="info" title="Regra Geral de Ajuste">
+Ajuste o ponto que causa mais falhas. Se você perde por desgaste, reduza a pressão sobre a recuperação. Se as lutas se arrastam, melhore o planejamento de dano antes de mexer em qualquer outra coisa.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Defina uma Base">
+    Comece com uma predefinição que seu grupo já consiga vencer. Não ajuste a partir de um modo que você mal entende.
+  </Step>
+  <Step num="2" title="Mude Uma Alavanca">
+    Ajuste apenas um ponto de pressão por vez, como recuperação, ritmo dos encontros ou velocidade de combate.
+  </Step>
+  <Step num="3" title="Teste o Início">
+    Jogue o começo antes de decidir. A maioria dos erros de ajuste aparece muito antes do meio da campanha.
+  </Step>
+  <Step num="4" title="Mantenha ou Reverta">
+    Se a campanha ficar melhor e ainda justa, mantenha. Se parecer caótica, volte atrás na mudança.
+  </Step>
+</Steps>
+
+| Objetivo de Ajuste | Ajuste Mais Seguro | Evite |
+| --- | --- | --- |
+| Progresso mais rápido | Melhorar a eficiência de combate | Adicionar penalidades mais pesadas ao mesmo tempo |
+| Menos desgaste | Dar mais espaço para recuperação ao grupo | Nerfar a recuperação e aumentar a pressão inimiga juntos |
+| Lutas mais curtas | Fortalecer o planejamento de dano | Cortar defesa e cura em excesso ao mesmo tempo |
+| Melhor consistência | Reduzir um ponto aleatório de falha | Mudar vários sistemas antes de testar |
+
+O ajuste de dificuldade mais limpo costuma ser chato no melhor sentido. Você deve sentir a campanha ficar mais clara, não mais confusa. Quando uma única mudança melhora a run, essa é a que vale manter.
+
+</Section>
+
+<Section icon={Swords} title="Hábitos de Combate Que Tornam o Modo Difícil Mais Fácil">
+
+A dificuldade mais alta fica muito mais fácil quando seus hábitos são disciplinados. A maioria das campanhas fracassadas não desmorona por causa de uma única batalha impossível; elas caem por dois ou três erros pequenos que se acumulam com o tempo. Foque em hábitos repetíveis em vez de jogadas espetaculares.
+
+<Callout type="success" title="Boa Notícia">
+Você não precisa de execução perfeita. Só precisa desperdiçar menos turnos, entrar em menos lutas desnecessárias e fazer menos trocas ruins de recursos.
+</Callout>
+
+<Checklist
+  id="combat-habits"
+  title="Hábitos Prioritários:"
+  items={[
+    "Foque fogo primeiro no inimigo mais perigoso",
+    "Guarde a cura de emergência para emergências reais",
+    "Proteja o membro do grupo que viabiliza seu plano",
+    "Evite batalhas desnecessárias quando seus recursos estiverem baixos",
+    "Saia cedo de lutas ruins se a rota permitir"
+  ]}
+/>
+
+| Situação | Melhor Ação | Por Que Importa |
+| --- | --- | --- |
+| Primeiro turno | Remova a maior ameaça | Reduz o dano recebido imediatamente |
+| Um aliado está exposto | Estabilize essa unidade primeiro | Evita uma cadeia de dano e pânico |
+| A retaguarda inimiga é perigosa | Quebre o plano da retaguarda | Impede que unidades de suporte cresçam demais |
+| O grupo está com poucos recursos | Desacelere e redefina | Salva a campanha de um colapso forçado |
+| A luta parece ineficiente | Pule se for possível | Nem toda batalha vale o custo |
+
+Em configurações mais difíceis, um posicionamento limpo costuma valer mais do que dano bruto. Um turno um pouco mais lento, mas que protege o grupo inteiro, geralmente traz um resultado melhor do que uma explosão chamativa que deixa o time exposto.
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Práticas para o Progresso de Longo Prazo">
+
+Dominar a dificuldade é, na verdade, dominar a campanha. Depois que seu grupo entende o início do jogo, o resto é aplicar os mesmos padrões repetidamente: proteger recursos, reduzir risco e manter a campanha avançando rumo a uma condição de vitória estável.
+
+<Callout type="warning" title="Não Caia na Armadilha do Ego">
+Uma predefinição mais difícil não é um distintivo de honra se a campanha ficar menos divertida. A dificuldade certa é a que gera boas decisões, não frustração repetida.
+</Callout>
+
+| Verificação de Progresso | Como É o Sucesso | O Que Precisa Melhorar |
+| --- | --- | --- |
+| Lutas iniciais | Você termina com recursos utilizáveis | Você é forçado a curar após todo encontro |
+| Escolha de rota | Você consegue escolher as batalhas de propósito | Você está reagindo a toda ameaça |
+| Coordenação do time | As funções permanecem claras em combate | Todo mundo disputa a mesma tarefa |
+| Recuperação | O grupo consegue se reorganizar entre lutas | Um turno ruim arruína todo o mapa |
+
+Uma forma prática de melhorar é revisar uma coisa após cada campanha: a dificuldade pareceu fácil demais, adequada ou punitiva demais? Essa pergunta única vai lhe dar informações melhores do que tentar julgar a campanha inteira de uma vez. Com o tempo, você vai aprender quais ajustes criam o melhor ritmo para o seu grupo.
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor dificuldade de For The King II para novos jogadores?",
+    answer: "Comece com a opção mais tolerante disponível e aprenda primeiro o ciclo inicial. Quando seu grupo conseguir vencer as lutas iniciais com recursos sobrando, suba um nível."
+  },
+  {
+    question: "Devo sempre escolher a predefinição mais difícil?",
+    answer: "Não. A melhor predefinição é a que combina com a consistência do seu grupo. Mais difícil só é melhor se ainda produzir uma campanha estável e legível."
+  },
+  {
+    question: "Modificadores personalizados podem deixar a campanha mais fácil?",
+    answer: "Sim, se forem usados com cuidado. Ajuste um ponto de pressão por vez para corrigir um problema real em vez de remodelar a campanha inteira."
+  },
+  {
+    question: "E se meu grupo tiver níveis de habilidade diferentes?",
+    answer: "Construa a campanha em torno do jogador menos experiente. A dificuldade em For The King II funciona melhor quando todos entendem o ritmo, e não quando uma pessoa está carregando toda a tomada de decisão."
+  }
+]} />
+
+</Section>

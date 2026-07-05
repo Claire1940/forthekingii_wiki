@@ -1,0 +1,189 @@
+import { Map, Sparkles, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "for the king ii mods: Best Nexus Picks and Setup Tips",
+  description: "Browse for the king ii mods by category, compare the best Nexus picks, and learn a safe install order for cleaner runs in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=For+The+King+II+Mods",
+  date: "2026-07-06",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **for the king ii mods** work best when you start with a settings library, then add one gameplay change.
+- **Utility mods** like Combat Log and Camera Unlock improve control and clarity without reshaping every run.
+- **Overhaul mods** such as Enhanced Overhaul Remix and Enhanced Classes are better tested on fresh saves.
+- **Unlockers** and item-safety mods are convenience-first choices, so decide early how much challenge you want.
+</Callout>
+
+<Section icon={Map} title="for the king ii mods by Priority">
+
+for the king ii mods are easier to manage when you think in layers instead of browsing by random popularity. Build your setup from the bottom up: settings support, quality-of-life tools, gameplay tuning, and only then convenience or unlock-focused changes. That order keeps your run readable, makes conflicts easier to spot, and lets you remove a single layer without breaking the whole stack.
+
+Browse the current [For The King II Mods hub on Nexus Mods](https://next.nexusmods.com/games/fortheking2) whenever you want to check the latest uploads and descriptions.
+
+<CardGrid cols={4}>
+  <Card title="Utility Layer">
+    - **Mod Settings (library)**
+    - Combat Log
+    - Camera Unlock
+    - Best for stable menus and cleaner feedback
+  </Card>
+  <Card title="Gameplay Overhaul">
+    - **Enhanced Overhaul**
+    - Enhanced Overhaul Remix
+    - Enhanced Classes
+    - Best when you want a bigger ruleset
+  </Card>
+  <Card title="World Tuning">
+    - **Enhanced Cities**
+    - Enhanced Loot
+    - Enhanced Mercenaries
+    - Best for smoother campaign pacing
+  </Card>
+  <Card title="Convenience">
+    - **Lore Store Unlocker**
+    - Never Lose Items
+    - Best for collection goals and lower friction
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Start Small">
+If you want the cleanest first test, install one utility mod and one gameplay mod, then play a short run before expanding the stack.
+</Callout>
+
+| Category | Examples | Best Use | Priority |
+|---|---|---|---|
+| Utility | Mod Settings, Combat Log, Camera Unlock | Better control, clearer information | Highest |
+| Overhaul | Enhanced Overhaul, Enhanced Overhaul Remix, Enhanced Classes | Bigger builds, new classes, new systems | High |
+| Tuning | Enhanced Loadout Points, Enhanced Loot, Enhanced Cities, Enhanced Mercenaries | Smoother progression and rewards | Medium |
+| Convenience | Lore Store Unlocker, Never Lose Items | Faster collection and lower item loss | Optional |
+
+</Section>
+
+<Section icon={Sparkles} title="Best Mods to Install First">
+
+The strongest 2026 setup is not the longest list; it is the one that solves the right problem for your campaign. If your game feels bare or repetitive, start with a content mod. If you want cleaner information and fewer blind spots, start with a utility mod. If you want to soften friction without changing the whole identity of a run, choose a tuning mod first.
+
+<Callout type="info" title="Best First Picks">
+A small mix of one utility mod and one content mod gives you the most useful early feedback. That makes it easier to tell whether the rest of the stack is worth the added complexity.
+</Callout>
+
+| Mod | Main Change | Best For | Notes |
+|---|---|---|---|
+| **Mod Settings (library)** | Registers mod settings in the native options menu with persistent saves and boundaries | Any stack that needs cleaner configuration | Strong first install |
+| **Combat Log** | Adds an advanced combat log and post-combat overview with rewards and MVP | Players who want better battle feedback | Lightweight quality-of-life choice |
+| **Camera Unlock** | Lets you press F6 to change camera position and angle during combat | Tactical players and screenshot fans | Use it as a control tool |
+| **Enhanced Classes** | Adds 34 balanced classes, including a high-luck option, for a total of 50 | Players who want variety without a full overhaul | Good middle-ground pick |
+| **Enhanced Loot** | Improves reward flow, drop consistency, and weapon variety | Campaigns that feel too stingy or uneven | Keeps a vanilla-friendly feel |
+| **Enhanced Cities** | Broadens shop variety, board activity, and town progression | Players who spend a lot of time in settlements | Helps towns feel less static |
+| **Enhanced Mercenaries** | Raises mercenary cost and extends contract duration | Long-term party planning | Better for sustained runs |
+| **Lore Store Unlocker** | Unlocks Lore Store content, including characters, loadouts, and mercenaries | Collection-focused players | Convenience-first, not challenge-first |
+
+A practical rule: avoid stacking multiple mods that aim at the exact same system on your first test. For example, if you are trying a full overhaul, keep your other changes limited so the outcome stays readable.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Install and Load Order">
+
+When you install for the king ii mods, a clean sequence matters more than a long checklist. Most problems come from testing too many gameplay edits at once or skipping the baseline setup. Treat each added mod as a separate layer, and test after every meaningful change.
+
+<Callout type="warning" title="Protect the Baseline">
+Back up your save before changing the stack. If a mod behaves strangely, you want to remove one layer and retest instead of guessing which file caused the issue.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Set your baseline">
+    Decide what you want from the run first: more content, easier progression, better clarity, or convenience. That choice prevents random installs.
+  </Step>
+  <Step num="2" title="Install support mods first">
+    Add Mod Settings (library) or any similar configuration helper before heavier changes. Support tools are easier to troubleshoot when they are placed early.
+  </Step>
+  <Step num="3" title="Add one gameplay mod">
+    Pick a single overhaul or a single tuning mod, then launch a short test run. Verify that menus, combat, and rewards all behave as expected.
+  </Step>
+  <Step num="4" title="Expand carefully">
+    Add the next mod only after the first one is stable. If something breaks, you will know which layer introduced the issue.
+  </Step>
+</Steps>
+
+<Checklist
+  id="mod-install-basics"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Back up your save folder",
+    "Install support or settings mods first",
+    "Add only one big gameplay change at a time",
+    "Test a short run before committing to a long campaign",
+    "Keep notes on what changed between launches"
+  ]}
+/>
+
+| Load Order Stage | Put Here | Why It Belongs Here |
+|---|---|---|
+| 1 | Settings and support libraries | Other mods can rely on their config hooks |
+| 2 | Utility mods | They improve clarity without rewriting the whole game |
+| 3 | Major overhauls | These change the largest number of systems |
+| 4 | Tuning mods | Use them after the baseline feels stable |
+| 5 | Unlockers and convenience mods | Easy to isolate if you want to remove them later |
+
+</Section>
+
+<Section icon={Shield} title="Compatibility and Troubleshooting">
+
+The safest approach is to treat big gameplay mods as alternate builds, not as ingredients you should automatically combine. That is especially true when two mods push the same part of the game in different directions. If you want a cleaner experience, keep one major overhaul, then layer smaller tools around it.
+
+<Callout type="success" title="Stable Stack Rule">
+One overhaul plus one utility layer is usually easier to maintain than several competing gameplay edits. Add complexity only after the first version feels solid.
+</Callout>
+
+| Symptom | Likely Cause | Fast Fix |
+|---|---|---|
+| Settings do not appear in the menu | Support library missing or installed too late | Reinstall the library and move it earlier in the stack |
+| Combat feels inconsistent | Two gameplay overhauls are competing | Keep one overhaul, disable the other, and retest |
+| Rewards or loot feel off | Loot or economy tuning changed the balance | Remove the newest tuning mod and compare results |
+| Camera controls act strangely | Camera Unlock conflicts with another control edit | Test Camera Unlock alone in a clean profile |
+| Unlocks do not show up | Version mismatch or a bad install | Match the supported build and reinstall the mod |
+
+A few practical habits help a lot:
+
+- Keep your most experimental mod in the smallest possible test group.
+- Change one thing at a time, then launch a short encounter or town visit.
+- If a save becomes messy, move back to the last stable combination instead of forcing more edits.
+
+You do not need to avoid ambitious builds; you just need a clean way to learn what each mod is doing.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Use This Before You Commit">
+If you are unsure where to start, the FAQ below can help you choose between content, utility, and convenience paths without overloading your first run.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best first mod for for the king ii mods?",
+    answer: "Start with Mod Settings (library) or Combat Log if you want a safer first step. If you want more content, Enhanced Classes is a strong next option because it expands build variety without rewriting every system."
+  },
+  {
+    question: "Can I mix multiple overhaul mods in one setup?",
+    answer: "You can test them, but the cleaner approach is to treat major overhaul mods as separate builds. Install one, check stability, and only add smaller tools around it."
+  },
+  {
+    question: "Are Lore Store Unlocker and Never Lose Items good for normal campaigns?",
+    answer: "They are useful if your goal is convenience, collection, or lower item frustration. If you want a stricter challenge, keep them out of the first version of your stack."
+  },
+  {
+    question: "What should I do if a mod breaks my run?",
+    answer: "Remove the newest gameplay change first, keep support mods in place, and test a clean save or short run. That process is the fastest way to find the conflict."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "for the king ii a new age: Guia da Atualização Dungeon Crawl",
+  description: "Um guia prático de for the king ii a new age sobre a atualização Dungeon Crawl, o modo Dark Carnival, opções de co-op e requisitos para PC.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/312e81/fff?text=Dungeon+Crawl+Guide",
+  date: "2026-07-06",
+  author: "Equipe de Wiki de for the king ii"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **for the king ii a new age** gira em torno da atualização gratuita Dungeon Crawl e da leva atual de pacotes de personagens.
+- **Dark Carnival** é o modo infinito para corridas de masmorra de alto risco e alta recompensa.
+- **Battle Grid** faz com que posição, efeitos de empurrão e controle de linha importem a cada turno.
+- **O suporte a co-op** inclui jogo solo, co-op online, co-op local, tela dividida e multiplayer entre plataformas.
+- **Steam Deck Verified** e 126 conquistas facilitam revisitar o jogo.
+</Callout>
+
+<Section icon={Map} title="for the king ii a new age: Visão Geral da Atualização">
+
+for the king ii a new age é melhor entendido como uma atualização de sistemas construída em torno da atualização gratuita Dungeon Crawl e da atual leva de pacotes de personagens. A identidade central continua sendo um RPG tático roguelite de mesa, mas a nova onda de conteúdo dá aos jogadores que estão voltando um motivo mais forte para começar outra run e oferece aos novos jogadores um ponto de entrada mais limpo.
+
+A página oficial da Steam enquadra o jogo em estratégia de grupo, mapas procedurais e combate movido a dados. Essa combinação ainda importa, mas o ciclo de atualizações ao vivo empurra a experiência para um loop de masmorra mais repetível. Se você quiser a página da loja ao vivo para preços, pacotes e visibilidade de patches, mantenha a [listagem oficial da Steam](https://store.steampowered.com/app/1676840/For_The_King_II/) aberta enquanto planeja a compra.
+
+| Item da Atualização | O Que Adiciona | Por Que Importa |
+|---|---|---|
+| Atualização gratuita Dungeon Crawl | Uma nova leva de conteúdo centrada em masmorras | Dá aos veteranos um novo ciclo de desafio |
+| Pacote de personagens Into The Wild | Novo conteúdo de pacote de personagens | Expande a construção de grupo e as escolhas de função |
+| Dark Carnival | Modo de masmorra infinita | Cria runs de replay de longa duração |
+| Promoção atual da Steam | O jogo base e os pacotes estão em desconto | Reduz o custo para entrar agora |
+| Resumo das avaliações | Predominantemente positivas no geral e recentemente | Sugere confiança estável dos jogadores |
+
+<Callout type="tip" title="No Que Focar">
+Se você estiver voltando depois de uma pausa, priorize primeiro o loop de masmorra. Ele mostra a nova fase do jogo mais rápido do que rejogar a campanha inteira do zero.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Montagem do Grupo, Co-op e Battle Grid">
+
+Para a maioria dos jogadores, a melhor forma de abordar este ciclo de atualização é pensar em funções, não apenas em personagens. A sequência é fácil de começar, mas o Battle Grid recompensa quem respeita espaçamento, ordem de turnos e efeitos do terreno. Um grupo forte não causa só dano; ele força as unidades inimigas a ficarem em posições ruins e mantém os aliados frágeis da retaguarda seguros.
+
+<CardGrid cols={3}>
+  <Card title="Comando Solo">
+    - **Controle total do grupo**
+    - Decisões táticas mais limpas
+    - Melhor para aprender todos os sistemas
+  </Card>
+
+  <Card title="Grupo de Quatro">
+    - **Tomada de decisão compartilhada**
+    - Forte potencial de sinergia
+    - Melhor quando todos se comunicam
+  </Card>
+
+  <Card title="Dark Carnival">
+    - **Pressão infinita de masmorra**
+    - Escalada sala por sala
+    - Melhor para jogadores focados em replay
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Regra do Co-op">
+No co-op para quatro jogadores, o maior erro é apressar os turnos. O Battle Grid recompensa a paciência, então confirme a prioridade do alvo antes de comprometer o movimento.
+</Callout>
+
+| Estilo de Jogo | Ponto Forte | Principal Risco |
+|---|---|---|
+| Solo | Controle total sobre o grupo inteiro | Mais carga mental em cada turno |
+| Co-op online | Fácil coordenar com amigos | Falta de comunicação atrasa o combate |
+| Co-op local | Configuração rápida em um único PC | O espaço na tela e o ritmo podem ficar apertados |
+| Dark Carnival | Desafio infinito de replay | A dificuldade sobe quanto mais você sobrevive |
+
+O Battle Grid transforma o combate de uma simples troca de turnos em um jogo de posicionamento. Empurrões, defesa de linha e controle de terreno podem render tanto quanto dano bruto. Use escudos torre para ancorar a linha de trás, force os inimigos para o fogo e trate os efeitos das armas como ferramentas táticas, não apenas como atributos.
+
+<Steps>
+  <Step num="1" title="Monte um grupo equilibrado">
+    Busque uma mistura de defesa na linha de frente, dano consistente e controle. Um time equilibrado oferece mais respostas quando o mapa complica.
+  </Step>
+  <Step num="2" title="Comece com consciência do terreno">
+    Antes de atacar, procure fogo, gargalos e corredores arriscados. Um bom posicionamento costuma criar a primeira vantagem.
+  </Step>
+  <Step num="3" title="Gaste movimento com cuidado">
+    O movimento importa porque o Battle Grid pode recompensar ou punir cada casa. Guarde a mobilidade para turnos em que ela mude toda a luta.
+  </Step>
+  <Step num="4" title="Finalize com ferramentas de controle">
+    Empurre, prenda e bloqueie inimigos sempre que puder. Vencer com limpeza é melhor do que vencer por pouco.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão da Campanha e Valor de Replay">
+
+<Callout type="success" title="Retorno da Progressão">
+Mesmo quando uma run falha, o jogo te empurra para frente. Itens iniciais melhores e um loadout mais sábio tornam a próxima tentativa mais eficiente.
+</Callout>
+
+A campanha continua sendo o coração da experiência. Você tem mais de 30 horas ao longo de sete aventuras conectadas, e a estrutura foi feita para suportar tentativas repetidas, em vez de uma única marcha linear longa. Isso importa porque a geração procedural impede que o caminho pareça resolvido cedo demais.
+
+| Elemento da Campanha | Detalhe | Principal Aprendizado |
+|---|---|---|
+| Sete aventuras conectadas | Campanha narrativa dividida em vários capítulos | Pense no progresso como uma cadeia de runs |
+| 30+ horas | Duração total da campanha | Espere um RPG de estratégia longo, não uma masmorra curta |
+| Mapa procedural | Nenhuma jogada é idêntica à outra | O planejamento de rota continua relevante sempre |
+| Itens iniciais melhores após falhar | A próxima run começa mais forte e mais sábia | O fracasso ainda alimenta o progresso futuro |
+| Modo Dark Carnival | Desafio de masmorra infinita | Melhor para quem quer valor infinito de replay |
+
+O design do mundo também sustenta esse loop de replay. Fahrul vai de florestas exuberantes e pântanos tóxicos a terras devastadas por lava e mares tropicais. Essa variedade não é só visual; ela muda como você se move, onde luta e com que cuidado gerencia o risco pelo mapa.
+
+| Bioma | Perfil de Ameaça | Resposta Prática |
+|---|---|---|
+| Florestas | Variedade inicial, decisões de rota | Aprenda o básico de movimento e reconhecimento |
+| Pântanos | Encontros mais lentos e bagunçados | Preserve ferramentas de cura e de status |
+| Terras devastadas por lava | Espaços de alta pressão no fim do jogo | Respeite as zonas de dano e o posicionamento |
+| Mares tropicais | Configurações amplas e incomuns de encontros | Mantenha funções flexíveis no grupo |
+
+<Checklist
+  id="early-run-goals"
+  title="Objetivos do Início da Run:"
+  items={[
+    "Garantir um grupo equilibrado antes da primeira luta importante",
+    "Tratar cada combate como um quebra-cabeça de posicionamento",
+    "Usar as runs fracassadas para melhorar a próxima seleção de itens iniciais",
+    "Manter uma ferramenta de controle pronta para turnos de emergência",
+    "Planejar com base no próximo bioma, e não na sala atual"
+  ]}
+/>
+
+<Callout type="info" title="Dica de Replay">
+Mapas procedurais só são uma vantagem se você continuar adaptável. A rota mais segura nem sempre é a mais inteligente quando o tabuleiro muda o tempo todo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de Sistema e Observações de Plataforma">
+
+<Callout type="info" title="Observações de Plataforma">
+O jogo já é amigável para um público amplo: ele oferece suporte a jogo solo, co-op online, jogo compartilhado ou em tela dividida, e multiplayer entre plataformas.
+</Callout>
+
+Se você está avaliando desempenho e portabilidade, os requisitos oficiais são modestos pelos padrões atuais. O jogo pede 7 GB de armazenamento, e a especificação recomendada menciona explicitamente o uso de SSD. Isso é um bom sinal para quem quer tempos de carregamento menores e troca de sessões mais fluida.
+
+| Especificação | Mínimo | Recomendado |
+|---|---|---|
+| SO | Windows 10 x64 | Windows 10 x64 |
+| CPU | Intel Core i5-4670K ou AMD FX-8350 | Intel Core i7-6700K ou AMD Ryzen 5 1500X |
+| RAM | 8 GB | 16 GB |
+| GPU | GeForce GTX 960 4 GB ou Radeon RX 550 4 GB | GeForce RTX 2060 Super 8 GB ou Radeon RX 5700 XT 8 GB |
+| Armazenamento | 7 GB de espaço disponível | 7 GB de espaço disponível, SSD recomendado |
+
+| Detalhe da Plataforma | Suporte |
+|---|---|
+| Steam Deck | Verified |
+| Conquistas | 126 |
+| Itens da Points Shop | 41 |
+| Idiomas da interface | Inglês, Francês, Italiano, Alemão, Espanhol - Espanha, Japonês, Coreano, Polonês, Português - Brasil, Russo, Chinês Simplificado, Chinês Tradicional, Ucraniano |
+| Acessibilidade | Dificuldade ajustável, salvar a qualquer momento, tamanho de texto ajustável, conforto de câmera, controles de volume personalizados, apenas teclado, apenas mouse |
+| Recursos online | Chat no jogo, interatividade online |
+
+A lista de acessibilidade é especialmente útil para quem quer uma sessão de estratégia mais relaxada. Dificuldade ajustável e salvar a qualquer momento reduzem a fricção, enquanto as opções de apenas teclado e apenas mouse tornam a configuração de PC mais flexível.
+
+<Callout type="tip" title="Verificação do Comprador">
+Se você quer o melhor custo-benefício, compare o jogo base com os preços atuais dos pacotes antes de comprar. A página da Steam mostra vários caminhos de desconto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<Callout type="tip" title="Foco do FAQ">
+Estas respostas cobrem as perguntas de planejamento mais importantes: o que a atualização enfatiza, como o co-op funciona e se o jogo está pronto para jogar no PC.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "A que for the king ii a new age se refere?",
+    answer: "Refere-se à fase atual do jogo guiada por atualizações, liderada pela atualização gratuita Dungeon Crawl, por Dark Carnival e pelo conteúdo mais recente do pacote de personagens."
+  },
+  {
+    question: "Dark Carnival faz parte da campanha principal?",
+    answer: "Não. Dark Carnival é um modo de masmorra infinita feito para sessões longas de replay, enquanto a campanha é dividida em sete aventuras conectadas."
+  },
+  {
+    question: "Posso jogar for the king ii a new age sozinho?",
+    answer: "Sim. O jogo suporta solo, e você pode controlar o grupo inteiro sozinho se preferir um controle tático mais preciso."
+  },
+  {
+    question: "O que devo observar primeiro ao aprender o sistema de combate?",
+    answer: "Foque no Battle Grid. Posicionamento, proteção de linha e efeitos de empurrão importam tanto quanto o dano causado."
+  }
+]} />
+
+<Callout type="success" title="Resumo Final">
+Este é um ótimo momento para revisitar o jogo se você gosta de roguelites táticos, coordenação de grupo e loops infinitos de replay.
+</Callout>
+
+</Section>
