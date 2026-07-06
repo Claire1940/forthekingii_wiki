@@ -1,0 +1,206 @@
+import { Map, Shield, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "for the king ii: Xbox One 협동 설정 가이드 및 접근 안내",
+  description: "Xbox One의 for the king ii는 2~4인 협동, 크로스 플레이, 클라우드 접근을 지원합니다. 이 가이드는 설정, 파티 밸런스, Game Pass 관련 안내를 다룹니다.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Xbox+One+Co-op+Guide",
+  date: "2026-07-06",
+  author: "for the king ii 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **for the king ii**는 Xbox One, Series X/S, PC, 클라우드 플레이에서 실행됩니다.
+- **협동 지원**은 로컬, 온라인, 분할 화면 옵션으로 2~4인까지 가능합니다.
+- **Game Pass 접근**에는 Premium과 Ultimate의 클라우드 플레이가 포함되며, Essential은 스트리밍 규칙이 다릅니다.
+- **최적의 구성**은 전열 1명, 지원 1명, 딜러 1명을 두는 것입니다.
+</Callout>
+
+<Section icon={Map} title="for the king ii 출시 개요 및 지원 플랫폼">
+
+for the king ii는 유연성을 포기하지 않으면서 전술적 협동을 즐기고 싶은 Xbox One 플레이어에게 잘 맞습니다. 이 게임을 가장 깔끔하게 이해하는 방법은 어디에서 실행되는지, 어떻게 접근할 수 있는지, 그리고 어떤 플랫폼이 여러분의 파티에 가장 잘 맞는지를 파악하는 것입니다.
+
+**영상 하이라이트:**
+- 공식 트레일러가 이 게임의 Xbox 출시를 확인해 줍니다.
+- 발표는 게임의 협동 중심 정체성에 초점을 맞춥니다.
+- 파티를 꾸리기 전에 트레일러로 빠르게 시각적 확인을 해보세요.
+
+<YouTubeEmbed videoId="8z-xCkMWbYM" title="For The King II | Announcement Trailer" />
+
+<CardGrid cols={3}>
+  <Card title="Xbox One">
+    - **콘솔 네이티브 플레이**
+    - 소파 협동 세션에 적합
+    - 안정적인 저장 공간과 함께 사용할 때 가장 좋음
+  </Card>
+  <Card title="Xbox Series X/S 및 PC">
+    - **최적화된 하드웨어**
+    - 장기 캠페인이 더 부드러움
+    - 더 높은 성능에 유리함
+  </Card>
+  <Card title="클라우드 및 휴대용">
+    - **빠른 접근**
+    - 짧은 세션에 유용함
+    - 휴대성이 필요할 때 좋음
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="가장 먼저 할 일">
+어떤 기기를 고를지 고민 중이라면, 가장 자주 함께 사용하는 플랫폼부터 시작하세요. for the king ii는 설정을 지나치게 고민하는 것보다 일관성을 더 높게 평가합니다.
+</Callout>
+
+| 플랫폼 | 제공 기능 | 최적의 용도 |
+|---|---|---|
+| Xbox One | 네이티브 플레이, 협동, Smart Delivery | 소파 팀과 구형 콘솔 |
+| Xbox Series X/S | 최적화된 성능, 더 빠른 로딩 | 긴 플레이와 더 부드러운 전투 |
+| PC | 전체 캠페인 접근, 크로스 플랫폼 유연성 | 키보드/마우스 또는 더 높은 설정 |
+| Xbox Cloud Gaming | 스트리밍 접근, 빠른 시작 | 이동 중 세션과 낮은 진입 장벽 |
+| 휴대용 | 휴대 가능한 접근 | 짧은 일일 플레이 |
+
+현재 플랫폼과 지원 기능 목록을 확인하려면 공식 스토어 페이지가 가장 좋습니다: [Official Xbox Store page](https://www.xbox.com/en-US/games/store/for-the-king-ii/9NVC9KWJVLT0).
+
+</Section>
+
+<Section icon={Shield} title="협동 모드, 크로스 플레이, 접근 규칙">
+
+for the king ii의 진짜 강점은 그룹 플레이를 지원하는 방식이 얼마나 다양한가에 있습니다. 로컬로 즐길 수도 있고, 온라인으로 즐길 수도 있으며, 파티가 여러 기기에 나뉘어 있어도 플랫폼을 섞어 함께할 수 있습니다.
+
+<Callout type="warning" title="온라인 플레이 안내">
+콘솔 온라인 멀티플레이에는 활성화된 Xbox Game Pass Essential, Premium 또는 Ultimate 구독이 필요합니다. 클라우드 플레이는 Premium과 Ultimate에 포함되며, Essential 사용자는 스트리밍하려면 게임을 소유해야 합니다.
+</Callout>
+
+| 모드 | 플레이어 수 | 적합한 대상 | 비고 |
+|---|---|---|---|
+| 싱글 플레이 | 1 | 시스템 학습 | 계획과 실험에 강함 |
+| 로컬 협동 | 2~4 | 소파 파티 | 공유 화면 또는 분할 화면 지원 |
+| 온라인 협동 | 2~4 | 멀리 있는 친구 | 정기적인 그룹 플레이에 적합 |
+| 로컬 멀티플레이 | 2~4 | 같은 공간 플레이 | 모두가 함께 있을 때 가장 좋음 |
+| 크로스 플랫폼 협동 | 2~4 | 혼합 기기 그룹 | 플랫폼 장벽을 줄여 줌 |
+
+| 접근 경로 | 제공 내용 | 실용적 가치 |
+|---|---|---|
+| Game Pass Premium | 클라우드 플레이 포함 | 가장 빠르게 시작 가능 |
+| Game Pass Ultimate | 클라우드 플레이 포함 | 이미 클라우드 게임을 쓴다면 최적 |
+| Game Pass Essential | 콘솔 온라인 멀티플레이 접근 | 게임을 소유하고 있다면 잘 맞음 |
+| 직접 구매 | 완전 소유 | 가장 안정적인 장기 옵션 |
+
+<Callout type="info" title="크로스 플레이의 장점">
+플랫폼이 섞인 파티일수록 크로스 플랫폼 지원의 가치가 큽니다. 모두를 하나의 기기로 강제하지 않고 파티를 그대로 유지할 수 있습니다.
+</Callout>
+
+매번 같은 모드로 세션을 계획하면 보통 흐름을 끊어 버리는 작은 설정 지연을 피할 수 있습니다. 이런 점은 빠른 아케이드 게임보다 전술 RPG에서 더 중요합니다.
+
+</Section>
+
+<Section icon={Swords} title="최적의 파티 구성과 단계별 시작 방법">
+
+균형 잡힌 팀은 Xbox One에서 for the king ii를 시작하는 가장 안전한 방법입니다. 전열 1명, 딜러 1명, 그리고 유틸리티나 회복을 담당할 유연한 슬롯 1개 이상을 갖추고 싶습니다.
+
+<Callout type="success" title="추천 파티 형태">
+순수한 딜보다 역할 중심으로 구성하세요. 안정적인 전열이 있어야 나머지 인원이 행동하고, 회복하고, 전투를 깔끔하게 끝낼 여유가 생깁니다.
+</Callout>
+
+<Steps>
+  <Step num="1" title="전열 캐릭터를 고르기">
+    압박을 견디고, 자리를 지키며, 초반 실수로부터 나머지 파티를 보호할 수 있는 캐릭터를 선택하세요.
+  </Step>
+  <Step num="2" title="안정적인 딜을 추가하기">
+    최소 한 명은 적을 빠르게 처치할 수 있어야 전투가 길어지지 않고 위험도 누적되지 않습니다.
+  </Step>
+  <Step num="3" title="유틸리티 슬롯 하나를 남기기">
+    이 슬롯은 회복, 지원, 군중 제어에 사용해 나쁜 주사위 결과나 힘든 전투 뒤에 팀이 복구할 수 있게 하세요.
+  </Step>
+  <Step num="4" title="짧은 런으로 테스트하기">
+    짧은 세션으로 시작해 실패한 부분을 검토하고, 더 긴 캠페인에 들어가기 전에 역할을 조정하세요.
+  </Step>
+</Steps>
+
+| 역할 | 주요 임무 | 중점 | 도움이 되는 이유 |
+|---|---|---|---|
+| 전열 | 공격을 받아 내고 자리를 지킴 | 방어구, 체력, 방어 | 약한 유닛을 살려 줌 |
+| 딜러 | 전투를 빠르게 끝냄 | 공격력, 치명타, 사거리 | 전투가 짧아질수록 위험이 줄어듦 |
+| 지원 | 회복하고 안정화함 | 유틸리티, 기동성, 집중 | 실수 후 파티를 회복시킴 |
+| 유연 슬롯 | 런에 맞게 대응함 | 균형 잡힌 능력치 | 팀의 빈틈을 메움 |
+
+<Callout type="tip" title="간단한 규칙">
+완벽한 빌드에 의견이 모이지 않는다면, 가장 생존력이 높은 선택부터 고르세요. 장기 캠페인에서는 새로움보다 안정성이 더 중요합니다.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="캠페인 우선순위 및 진행 체크리스트">
+
+파티가 갖춰지면 다음은 속도 조절입니다. for the king ii는 자원을 잘 관리하고, 맵 선택을 깔끔하게 유지하며, 불필요한 소모전을 피하는 팀에 보상을 줍니다.
+
+<Callout type="info" title="진행 우선순위">
+층층이 생각하세요. 초반을 살아남고, 자원을 지키고, 그 다음에 더 강한 전투로 성장하는 것이지, 위험한 경로를 억지로 밀어붙이는 것이 아닙니다.
+</Callout>
+
+<Checklist
+  id="campaign-priorities"
+  title="초반 캠페인 체크리스트:"
+  items={[
+    "첫 장기 런 전에 파티 역할을 확정하기",
+    "팀에 최소 한 가지 회복 수단을 유지하기",
+    "경로와 전투 타이밍을 익히기 위해 짧은 세션을 활용하기",
+    "자원을 너무 빨리 쓰지 말고 업그레이드를 위해 아껴 두기",
+    "어떤 역할이 겹쳐 보인다면 구성을 다시 시험하기"
+  ]}
+/>
+
+| 우선순위 | 할 일 | 효과 |
+|---|---|---|
+| 맵 제어 | 초반에는 더 안전한 경로를 택하기 | 소모 감소 |
+| 경제 | 유용한 업그레이드를 위해 자원 저장 | 중반 전력 강화 |
+| 회복 | 회복 수단을 항상 유지하기 | 전투 안정성 향상 |
+| 파티 동기화 | 역할을 명확히 공유하기 | 전투 턴이 더 깔끔해짐 |
+| 세션 길이 | 나쁜 런 후에는 쉬기 | 의사결정 개선 |
+
+| 기능 | 중요한 이유 |
+|---|---|
+| Smart Delivery | 지원되는 Xbox 하드웨어에 맞는 올바른 빌드를 유지해 줌 |
+| 클라우드 저장 | 세션과 기기 사이를 오가게 해 줌 |
+| Xbox Play Anywhere | 콘솔과 PC를 오갈 때 유용함 |
+| 업적 | 완성도를 중시하는 플레이어에게 좋음 |
+
+<Callout type="warning" title="서두르지 마세요">
+가장 빨라 보이는 경로가 항상 최선은 아닙니다. 이 게임에서는 신중한 이동보다 잘못된 경로 선택이 더 많은 시간을 잡아먹을 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ 및 최종 구매 참고 사항">
+
+for the king ii를 Xbox One 라이브러리에 넣을지 아직 고민 중이라면, 파티 규모, 접근 방식, 그리고 실제로 같은 사람들과 얼마나 자주 플레이하는지 이 세 가지에 집중하세요.
+
+<Callout type="tip" title="구매 팁">
+실제 플레이 습관에 맞는 버전을 고르세요. 소파 협동, 온라인 협동, 클라우드 접근은 모두 서로 다른 문제를 해결합니다.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "for the king ii는 Xbox One에서 실행되나요?",
+    answer: "네. for the king ii는 Xbox Series X/S, PC, 클라우드 플레이와 함께 Xbox One을 지원합니다."
+  },
+  {
+    question: "크로스 플레이를 지원하나요?",
+    answer: "네. 이 게임은 Xbox 크로스 플랫폼 멀티플레이와 크로스 플랫폼 협동을 지원해, 서로 다른 기기를 쓰는 파티도 함께 유지할 수 있습니다."
+  },
+  {
+    question: "온라인 플레이에 Game Pass가 필요한가요?",
+    answer: "콘솔 온라인 멀티플레이에는 Xbox Game Pass Essential, Premium 또는 Ultimate가 필요합니다. 클라우드 플레이는 Premium과 Ultimate에 포함됩니다."
+  },
+  {
+    question: "초보자에게 가장 안전한 팀 구성은 무엇인가요?",
+    answer: "전열 1명, 딜러 1명, 그리고 지원 또는 유틸리티 슬롯 1개로 시작하세요. 그런 균형이 초반 캠페인을 안정적으로 유지해 줍니다."
+  }
+]} />
+
+</Section>

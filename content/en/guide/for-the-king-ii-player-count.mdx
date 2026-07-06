@@ -1,0 +1,256 @@
+import { Map, Users, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "for the king ii player count: solo, duo, and 4-player co-op",
+  description: "Learn For The King II player count limits, best party sizes, solo vs co-op tradeoffs, and the run-planning tips that keep parties alive.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Player+Count+Guide",
+  date: "2026-07-06",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **for the king ii player count** supports solo play and scales best when you match party size to your route plan.
+- **Solo runs** punish mistakes harder because every turn, item, and life decision matters more.
+- **Duo and trio** usually offer the best balance of speed, safety, and role coverage.
+- **Four-player co-op** gives maximum flexibility, but coordination becomes part of the challenge.
+- **Fine distance** and clean role splitting often matter more than raw damage in larger parties.
+</Callout>
+
+<Section icon={Users} title="for the king ii player count at a glance">
+
+This guide focuses on the question most players ask first: how many people should join a run, and what changes when the party gets bigger? The clean answer is that **For The King II** works from solo play up to four-player co-op, but each headcount changes tempo, risk, and resource pressure.
+
+**Video Highlights:**
+- Shared lives make every mistake more expensive
+- Turn order scales across the full party
+- Sanctums and followers can save a rough run
+- Fine distance reveals more of the map
+- Clear role splits make co-op smoother
+
+<YouTubeEmbed videoId="awsHAbKaG24" title="For The King II Basics Guide" />
+
+<CardGrid cols={4}>
+  <Card title="Solo">
+    - **Highest control**
+    - Fast decisions
+    - Least forgiving
+  </Card>
+  <Card title="Duo">
+    - **Best balance**
+    - Easy coordination
+    - Strong role split
+  </Card>
+  <Card title="Trio">
+    - **Flexible team**
+    - Strong coverage
+    - Slightly slower turns
+  </Card>
+  <Card title="Four-Player">
+    - **Full coverage**
+    - More tactical options
+    - Needs communication
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Shared Life Pool Matters">
+Every party member draws from the same life pool. When a character drops to zero and has no sanctum, the whole run feels it immediately.
+</Callout>
+
+| Party Size | Best Use | Main Benefit | Main Risk |
+|---|---|---|---|
+| Solo | Learning routes, testing builds | Full control over every decision | No backup when a fight goes bad |
+| Duo | Most efficient casual co-op | Quick turns and easy planning | Limited coverage if one build is weak |
+| Trio | Balanced group progression | Strong coverage without chaos | Slightly more downtime between turns |
+| Four-Player | Full party coordination | Maximum utility and role overlap | Slower planning if players disagree |
+
+| Turn Factor | Solo | Duo | Trio | Four-Player |
+|---|---|---|---|---|
+| Decision speed | Very fast | Fast | Moderate | Slowest |
+| Error recovery | Low | Medium | Medium-high | Highest |
+| Team coverage | Low | Good | Very good | Excellent |
+| Coordination need | Low | Medium | High | Highest |
+
+<Callout type="tip" title="Fast Rule of Thumb">
+If you want the smoothest first run, start with duo or trio. If you want maximum control and faster learning, solo is the cleanest format.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="best party size for your goal">
+
+The best party size depends on what you want the run to do for you. If you want to learn the map, solo teaches you every consequence. If you want to clear fights efficiently, duo and trio tend to shine because you can specialize without slowing the game down too much. Four-player groups can be great, but only if everyone understands their job.
+
+<Callout type="tip" title="Match Size to Goal">
+Do not choose the largest party just because it sounds stronger. A smaller, disciplined team can often move faster and waste fewer turns.
+</Callout>
+
+| Goal | Recommended Size | Why It Works | When to Avoid It |
+|---|---|---|---|
+| Learn basics | Solo or duo | Fewer moving parts | If you want relaxed recovery |
+| Farm progress | Duo | Clean pace and strong control | If your partner is unfamiliar |
+| Balanced co-op | Trio | Enough coverage for most threats | If you hate slower planning |
+| Full social run | Four-player | Best for group play and roles | If communication is inconsistent |
+
+| Party Size | Strength | Weakness | Best For |
+|---|---|---|---|
+| Solo | Total control | Punishes mistakes | Route practice |
+| Duo | Efficient teamwork | Limited backup | Most co-op groups |
+| Trio | Reliable balance | More turns to manage | General progression |
+| Four-Player | Broadest coverage | Slowest coordination | Organized squads |
+
+**What usually wins in practice:**
+- **Solo** if you like tight execution and full responsibility.
+- **Duo** if you want the cleanest overall co-op experience.
+- **Trio** if you want room for one support-style slot.
+- **Four-player** if your group likes planning ahead and talking through turns.
+
+<Callout type="warning" title="Avoid Overloading One Build">
+Big parties fail when every player builds the same way. Spread damage, defense, and utility instead of stacking only one stat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="how to plan a run by party size">
+
+Once you know the player count, planning gets easier. The source material makes one thing clear: turns, lives, sanctums, and item choices all become more important when the party has more moving parts. Use a simple plan before the first fight so nobody wastes resources on duplicate jobs.
+
+<Steps>
+  <Step num="1" title="Pick your headcount first">
+    Decide whether the run is solo, duo, trio, or four-player before you start optimizing loadouts. Party size changes the value of survival, speed, and utility.
+  </Step>
+  <Step num="2" title="Assign one clear job per player">
+    Make sure someone handles frontline pressure, someone handles damage, and someone handles utility when the party is large enough.
+  </Step>
+  <Step num="3" title="Use focus and safe attacks early">
+    The transcript shows how focus can improve attack reliability. In co-op, removing bad rolls matters because missed turns waste the whole party's tempo.
+  </Step>
+  <Step num="4" title="Save resources for the right fights">
+    Bigger parties can afford more tactical flexibility, but they also burn time. Use your strongest tools on important fights, not random clutter.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Do Not Waste Party Turns">
+A four-player group can spend too much time debating every move. Keep decisions short and assign a leader for route calls when the map starts branching.
+</Callout>
+
+| Job | Solo | Duo | Trio | Four-Player |
+|---|---|---|---|---|
+| Frontline | Self-cover only | One dedicated slot | Shared responsibility | Easy to assign |
+| Damage | Must be efficient | Strong burst matters | Balanced output | Can specialize heavily |
+| Utility | Extremely valuable | Very valuable | Essential | Best when layered |
+| Recovery | Hard to recover | Moderate recovery | Better recovery | Easiest recovery |
+
+| Planning Step | What to Lock In | Why It Helps |
+|---|---|---|
+| Headcount | Solo to four players | Sets the whole run tempo |
+| Role split | Damage, defense, utility | Prevents duplicate builds |
+| Route choice | Main quest first or side quest first | Stops wasted movement |
+| Resource use | Focus, heals, sanctums | Preserves lives longer |
+
+**Practical co-op setup tips:**
+- Give one player the job of keeping the team on route.
+- Avoid overlapping item roles unless the build is intentionally hybrid.
+- Use secondary quests only when the reward justifies the extra time.
+- In larger groups, short turns are usually stronger than perfect turns.
+
+<Callout type="success" title="Best Habit to Build">
+Before each chapter, decide who covers damage, who covers survival, and who handles utility. That one habit keeps parties stable at every player count.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="systems that matter more as the party grows">
+
+Several game systems become more important as the party gets larger. Lives are shared, sanctums act like extra lives for one character, followers can add temporary support, and fine distance reveals more of the map. These systems do not replace good play, but they can swing a difficult run in your favor.
+
+<Callout type="info" title="Utility Scales Well">
+The bigger the party, the more valuable map vision, extra lives, and temporary allies become. Raw damage helps, but utility keeps the run moving.
+</Callout>
+
+| System | What It Does | Why It Matters More With Party Size |
+|---|---|---|
+| Shared lives | All characters pull from one pool | Every loss hurts the whole run |
+| Sanctum | Gives one character an extra life | Lets a key unit survive longer |
+| Mercenary | Temporary helper for a set number of rounds | Adds bodies when you need coverage |
+| Follower | Companion that travels with the party | Useful extra value in longer runs |
+| Fine distance | Reveals more surrounding tiles | Finds events, loot, and fights sooner |
+
+| Stat or Feature | Solo Value | Group Value | Best Use Case |
+|---|---|---|---|
+| Fine distance | Very high | Very high | Map scouting and event hunting |
+| Sanctum | High | High | Protecting a carry unit |
+| Mercenary | Moderate | High | Filling a missing role |
+| Follower | Moderate | High | Extra pressure in fights |
+
+If you want a simple priority list, use it like this:
+
+- **Solo:** survival, movement, and reliable damage.
+- **Duo:** one damage dealer, one flexible support.
+- **Trio:** one frontline slot, one damage slot, one utility slot.
+- **Four-player:** dedicate one player to the route, one to burst, one to sustain, and one to flex.
+
+<Callout type="tip" title="Fine Distance Is Easy to Miss">
+Fine distance can reveal more tiles around your character and help you find extra encounters, loot, and dungeons before the party wanders past them.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="faq and player count checklist">
+
+Use this section as a quick reference before your next run. The goal is not to memorize every mechanic at once. It is to make a better party-size decision, then build around that choice instead of fighting it.
+
+<Callout type="info" title="Quick Run Check">
+If the party is large, keep turns short. If the party is small, keep every resource efficient. That rule alone prevents a lot of bad runs.
+</Callout>
+
+<Checklist
+  id="player-count-checklist"
+  title="Before You Start:"
+  items={[
+    "Choose solo, duo, trio, or four-player before planning builds",
+    "Assign one main job to each player",
+    "Keep a backup plan for missed attacks or bad rolls",
+    "Use fine distance when you want better map visibility",
+    "Treat shared lives and sanctums as run-saving resources"
+  ]}
+/>
+
+| Common Mistake | Why It Hurts | Better Fix |
+|---|---|---|
+| Everyone plays the same role | Weakens party coverage | Split damage, defense, and utility |
+| Too many side quests | Burns time and turns | Prioritize the main objective |
+| Overusing weak attacks | Wastes action economy | Save focus for key turns |
+| Ignoring visibility stats | Misses useful map nodes | Value fine distance early |
+
+<FAQ items={[
+  {
+    question: "What is the for the king ii player count?",
+    answer: "The game is designed for solo play and co-op up to four players. The best choice depends on whether you want speed, safety, or role coverage."
+  },
+  {
+    question: "Is solo play worth it in For The King II?",
+    answer: "Yes. Solo is great for learning routes and making fast decisions, but it is less forgiving because every mistake matters more."
+  },
+  {
+    question: "What party size is best for most players?",
+    answer: "Duo or trio usually gives the best balance. You get strong team synergy without the planning slowdown that can happen in a four-player run."
+  },
+  {
+    question: "Why do shared lives matter so much?",
+    answer: "Because every character draws from the same pool. When one unit dies, the whole party feels the loss, so survival planning becomes more important at every player count."
+  }
+]} />
+
+<Callout type="success" title="Best Final Takeaway">
+For the king ii player count is not just a headcount question. It changes pace, resource use, and how much each decision matters, so choose the smallest group that still fits your goal.
+</Callout>
+
+</Section>

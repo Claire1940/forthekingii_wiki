@@ -1,0 +1,256 @@
+import { Map, Users, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "contagem de jogadores de for the king ii: solo, duo e coop para 4 jogadores",
+  description: "Aprenda os limites de contagem de jogadores em For The King II, os melhores tamanhos de grupo, os trade-offs entre solo e coop e as dicas de planejamento de run que mantêm o grupo vivo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Player+Count+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A contagem de jogadores de For The King II** suporta jogo solo e escala melhor quando você ajusta o tamanho do grupo ao seu plano de rota.
+- **Runs solo** punem os erros com mais força porque cada turno, item e decisão de vida importa mais.
+- **Duo e trio** geralmente oferecem o melhor equilíbrio entre velocidade, segurança e cobertura de funções.
+- **Coop para quatro jogadores** dá a máxima flexibilidade, mas a coordenação passa a fazer parte do desafio.
+- **Distância fina** e uma divisão clara de funções costumam importar mais do que dano bruto em grupos maiores.
+</Callout>
+
+<Section icon={Users} title="contagem de jogadores de For The King II em um relance">
+
+Este guia foca na pergunta que a maioria dos jogadores faz primeiro: quantas pessoas devem entrar em uma run e o que muda quando o grupo fica maior? A resposta direta é que **For The King II** funciona do solo até o coop para quatro jogadores, mas cada quantidade de jogadores altera o ritmo, o risco e a pressão sobre os recursos.
+
+**Destaques do vídeo:**
+- Vidas compartilhadas tornam cada erro mais caro
+- A ordem dos turnos escala com o grupo inteiro
+- Santuários e seguidores podem salvar uma run difícil
+- A distância fina revela mais do mapa
+- Divisões claras de função deixam o coop mais fluido
+
+<YouTubeEmbed videoId="awsHAbKaG24" title="Guia Básico de For The King II" />
+
+<CardGrid cols={4}>
+  <Card title="Solo">
+    - **Maior controle**
+    - Decisões rápidas
+    - Menos permissivo
+  </Card>
+  <Card title="Duo">
+    - **Melhor equilíbrio**
+    - Coordenação fácil
+    - Boa divisão de funções
+  </Card>
+  <Card title="Trio">
+    - **Equipe flexível**
+    - Boa cobertura
+    - Turnos um pouco mais lentos
+  </Card>
+  <Card title="Quatro Jogadores">
+    - **Cobertura total**
+    - Mais opções táticas
+    - Exige comunicação
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="A Pool de Vidas Compartilhada Importa">
+Cada membro do grupo usa a mesma pool de vidas. Quando um personagem chega a zero e não tem santuário, toda a run sente isso imediatamente.
+</Callout>
+
+| Tamanho do Grupo | Melhor Uso | Principal Benefício | Principal Risco |
+|---|---|---|---|
+| Solo | Aprender rotas, testar builds | Controle total de cada decisão | Não há apoio quando uma luta dá errado |
+| Duo | Coop casual mais eficiente | Turnos rápidos e planejamento fácil | Cobertura limitada se uma build for fraca |
+| Trio | Progressão de grupo equilibrada | Boa cobertura sem caos | Um pouco mais de tempo parado entre turnos |
+| Quatro Jogadores | Coordenação total do grupo | Máxima utilidade e sobreposição de funções | Planejamento mais lento se houver discordância |
+
+| Fator de Turno | Solo | Duo | Trio | Quatro Jogadores |
+|---|---|---|---|---|
+| Velocidade de decisão | Muito rápida | Rápida | Moderada | A mais lenta |
+| Recuperação de erros | Baixa | Média | Médio-alta | A mais alta |
+| Cobertura da equipe | Baixa | Boa | Muito boa | Excelente |
+| Necessidade de coordenação | Baixa | Média | Alta | A mais alta |
+
+<Callout type="tip" title="Regra Rápida">
+Se você quer a primeira run mais suave possível, comece com duo ou trio. Se quiser máximo controle e aprendizado mais rápido, solo é o formato mais limpo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="melhor tamanho de grupo para o seu objetivo">
+
+O melhor tamanho de grupo depende do que você quer que a run faça por você. Se você quer aprender o mapa, jogar solo te ensina cada consequência. Se você quer limpar lutas com eficiência, duo e trio costumam brilhar porque permitem especialização sem deixar o jogo lento demais. Grupos de quatro podem ser ótimos, mas só se todo mundo entender sua função.
+
+<Callout type="tip" title="Combine o Tamanho com o Objetivo">
+Não escolha o maior grupo só porque ele parece mais forte. Uma equipe menor e disciplinada muitas vezes avança mais rápido e desperdiça menos turnos.
+</Callout>
+
+| Objetivo | Tamanho Recomendado | Por Que Funciona | Quando Evitar |
+|---|---|---|---|
+| Aprender o básico | Solo ou duo | Menos partes móveis | Se você quer recuperação mais tranquila |
+| Farmar progresso | Duo | Ritmo limpo e bom controle | Se seu parceiro ainda não conhece bem o jogo |
+| Coop equilibrado | Trio | Cobertura suficiente para a maioria das ameaças | Se você odeia planejamento mais lento |
+| Run social completa | Quatro jogadores | Melhor para jogo em grupo e funções | Se a comunicação for inconsistente |
+
+| Tamanho do Grupo | Força | Fraqueza | Melhor Para |
+|---|---|---|---|
+| Solo | Controle total | Erros são punidos com força | Prática de rotas |
+| Duo | Trabalho em equipe eficiente | Apoio limitado | A maioria dos grupos de coop |
+| Trio | Equilíbrio confiável | Mais turnos para gerenciar | Progressão geral |
+| Quatro Jogadores | Cobertura mais ampla | Coordenação mais lenta | Esquadrões organizados |
+
+**O que geralmente vence na prática:**
+- **Solo** se você gosta de execução precisa e responsabilidade total.
+- **Duo** se você quer a experiência de coop mais limpa no geral.
+- **Trio** se você quer espaço para um slot com foco em suporte.
+- **Quatro jogadores** se o seu grupo gosta de planejar com antecedência e conversar durante os turnos.
+
+<Callout type="warning" title="Evite Sobrecarregar Uma Só Build">
+Grupos grandes falham quando todos os jogadores montam o personagem do mesmo jeito. Distribua dano, defesa e utilidade em vez de acumular só um atributo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="como planejar uma run por tamanho de grupo">
+
+Depois que você sabe a contagem de jogadores, planejar fica mais fácil. O material de origem deixa uma coisa clara: turnos, vidas, santuários e escolhas de itens ficam mais importantes quando o grupo tem mais partes móveis. Use um plano simples antes da primeira luta para que ninguém desperdice recursos em funções duplicadas.
+
+<Steps>
+  <Step num="1" title="Escolha primeiro a quantidade de jogadores">
+    Decida se a run será solo, duo, trio ou para quatro jogadores antes de começar a otimizar as builds. O tamanho do grupo muda o valor de sobrevivência, velocidade e utilidade.
+  </Step>
+  <Step num="2" title="Atribua uma função clara para cada jogador">
+    Garanta que alguém cuide da pressão na linha de frente, alguém cuide do dano e alguém cuide da utilidade quando o grupo for grande o suficiente.
+  </Step>
+  <Step num="3" title="Use foco e ataques seguros no início">
+    A transcrição mostra como o foco pode melhorar a confiabilidade dos ataques. No coop, reduzir jogadas ruins importa porque turnos perdidos desperdiçam o ritmo de toda a equipe.
+  </Step>
+  <Step num="4" title="Guarde recursos para as lutas certas">
+    Grupos maiores podem se dar ao luxo de ter mais flexibilidade tática, mas também gastam tempo. Use suas ferramentas mais fortes em lutas importantes, não em qualquer coisa aleatória.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Não Desperdice Turnos do Grupo">
+Um grupo de quatro jogadores pode gastar tempo demais discutindo cada movimento. Mantenha as decisões curtas e escolha um líder para as chamadas de rota quando o mapa começar a se ramificar.
+</Callout>
+
+| Função | Solo | Duo | Trio | Quatro Jogadores |
+|---|---|---|---|---|
+| Linha de frente | Só cobertura própria | Um slot dedicado | Responsabilidade compartilhada | Fácil de atribuir |
+| Dano | Precisa ser eficiente | Burst forte é importante | Saída equilibrada | Pode se especializar bastante |
+| Utilidade | Extremamente valiosa | Muito valiosa | Essencial | Melhor quando combinada em camadas |
+| Recuperação | Difícil de recuperar | Recuperação moderada | Melhor recuperação | Recuperação mais fácil |
+
+| Etapa do Planejamento | O Que Travar | Por Que Ajuda |
+|---|---|---|
+| Quantidade de jogadores | De solo a quatro jogadores | Define o ritmo geral da run |
+| Divisão de funções | Dano, defesa, utilidade | Evita builds duplicadas |
+| Escolha da rota | Missão principal primeiro ou missão secundária primeiro | Evita movimento desperdiçado |
+| Uso de recursos | Foco, curas, santuários | Preserva vidas por mais tempo |
+
+**Dicas práticas para montar o coop:**
+- Dê a um jogador a função de manter a equipe na rota.
+- Evite sobreposição de papéis em itens, a menos que a build seja propositalmente híbrida.
+- Use missões secundárias só quando a recompensa justificar o tempo extra.
+- Em grupos maiores, turnos curtos geralmente são mais fortes do que turnos perfeitos.
+
+<Callout type="success" title="Melhor Hábito para Criar">
+Antes de cada capítulo, decida quem cobre dano, quem cobre sobrevivência e quem cuida da utilidade. Esse único hábito mantém os grupos estáveis em qualquer quantidade de jogadores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="sistemas que importam mais conforme o grupo cresce">
+
+Vários sistemas do jogo ficam mais importantes conforme o grupo aumenta. As vidas são compartilhadas, os santuários funcionam como vidas extras para um personagem, seguidores podem adicionar suporte temporário e a distância fina revela mais do mapa. Esses sistemas não substituem uma boa execução, mas podem virar uma run difícil a seu favor.
+
+<Callout type="info" title="A Utilidade Escala Bem">
+Quanto maior o grupo, mais valiosos ficam a visão do mapa, as vidas extras e os aliados temporários. Dano bruto ajuda, mas é a utilidade que mantém a run andando.
+</Callout>
+
+| Sistema | O Que Faz | Por Que Importa Mais Com Grupos Maiores |
+|---|---|---|
+| Vidas compartilhadas | Todos os personagens usam uma única pool | Cada perda machuca a run inteira |
+| Santuário | Dá uma vida extra a um personagem | Permite que uma unidade-chave sobreviva por mais tempo |
+| Mercenário | Aliado temporário por um número definido de rodadas | Adiciona corpos quando você precisa de cobertura |
+| Seguidor | Companheiro que viaja com o grupo | Valor extra útil em runs mais longas |
+| Distância fina | Revela mais tiles ao redor | Encontra eventos, loot e lutas mais cedo |
+
+| Atributo ou Recurso | Valor no Solo | Valor em Grupo | Melhor Caso de Uso |
+|---|---|---|---|
+| Distância fina | Muito alto | Muito alto | Exploração do mapa e caça a eventos |
+| Santuário | Alto | Alto | Proteger uma unidade de carry |
+| Mercenário | Moderado | Alto | Preencher uma função ausente |
+| Seguidor | Moderado | Alto | Pressão extra nas lutas |
+
+Se você quiser uma lista simples de prioridade, use assim:
+
+- **Solo:** sobrevivência, movimento e dano confiável.
+- **Duo:** um causador de dano, um suporte flexível.
+- **Trio:** um slot de linha de frente, um de dano, um de utilidade.
+- **Quatro jogadores:** dedique um jogador à rota, um ao burst, um à sustentação e um à flexibilidade.
+
+<Callout type="tip" title="A Distância Fina é Fácil de Esquecer">
+A distância fina pode revelar mais tiles ao redor do seu personagem e ajudar a encontrar encontros extras, loot e dungeons antes que o grupo passe direto por eles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="faq e checklist da contagem de jogadores">
+
+Use esta seção como referência rápida antes da próxima run. O objetivo não é memorizar todos os mecanismos de uma vez. É tomar uma decisão melhor sobre o tamanho do grupo e construir em torno dela, em vez de lutar contra essa escolha.
+
+<Callout type="info" title="Verificação Rápida da Run">
+Se o grupo for grande, mantenha os turnos curtos. Se o grupo for pequeno, mantenha cada recurso eficiente. Só essa regra já evita muitas runs ruins.
+</Callout>
+
+<Checklist
+  id="player-count-checklist"
+  title="Antes de Começar:"
+  items={[
+    "Escolha solo, duo, trio ou quatro jogadores antes de planejar as builds",
+    "Atribua uma função principal para cada jogador",
+    "Tenha um plano reserva para ataques perdidos ou rolagens ruins",
+    "Use distância fina quando quiser melhor visibilidade do mapa",
+    "Trate vidas compartilhadas e santuários como recursos que salvam a run"
+  ]}
+/>
+
+| Erro Comum | Por Que Prejudica | Melhor Solução |
+|---|---|---|
+| Todo mundo joga na mesma função | Enfraquece a cobertura do grupo | Divida dano, defesa e utilidade |
+| Missões secundárias demais | Consome tempo e turnos | Priorize o objetivo principal |
+| Uso excessivo de ataques fracos | Desperdiça a economia de ações | Guarde o foco para turnos importantes |
+| Ignorar atributos de visibilidade | Perde nós úteis do mapa | Valorize a distância fina cedo |
+
+<FAQ items={[
+  {
+    question: "O que é a contagem de jogadores em For The King II?",
+    answer: "O jogo foi criado para solo e coop de até quatro jogadores. A melhor escolha depende de você querer velocidade, segurança ou cobertura de funções."
+  },
+  {
+    question: "Vale a pena jogar solo em For The King II?",
+    answer: "Sim. O solo é ótimo para aprender rotas e tomar decisões rápidas, mas é menos permissivo porque cada erro importa mais."
+  },
+  {
+    question: "Qual tamanho de grupo é melhor para a maioria dos jogadores?",
+    answer: "Duo ou trio geralmente oferecem o melhor equilíbrio. Você ganha uma boa sinergia de equipe sem a lentidão de planejamento que pode acontecer em uma run de quatro jogadores."
+  },
+  {
+    question: "Por que as vidas compartilhadas importam tanto?",
+    answer: "Porque cada personagem usa a mesma pool. Quando uma unidade morre, o grupo inteiro sente a perda, então o planejamento de sobrevivência se torna mais importante em qualquer quantidade de jogadores."
+  }
+]} />
+
+<Callout type="success" title="Melhor Conclusão Final">
+A contagem de jogadores em For The King II não é só uma questão de número de pessoas. Ela muda o ritmo, o uso de recursos e o quanto cada decisão importa, então escolha o menor grupo que ainda se encaixe no seu objetivo.
+</Callout>
+
+</Section>
