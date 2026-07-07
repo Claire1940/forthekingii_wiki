@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "for the king ii revive: How to Resurrect Fallen Allies",
+  description: "Master the resurrection mechanics in For The King II. Learn how to manage the Life Pool, use Sanctums, and utilize XP revival in co-op mode.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Revive+Characters+Guide",
+  date: "2026-07-07",
+  author: "for the king ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary mechanic**: Use the **for the king ii revive** system via Hearts, Sanctums, or XP to keep characters active.
+- **Difficulty scaling**: The default Life Pool starting hearts scale from six in Apprentice down to zero in Master mode.
+- **In-combat action**: Revive fallen allies during combat using a bonus action, which consumes one turn and one heart.
+- **Overworld recovery**: Move an active character to a fallen ally's tombstone hex to revive them using a heart.
+- **Co-op exclusive**: Spend XP in nearby towns to resurrect dead characters, though costs rise significantly over time.
+</Callout>
+
+<Section icon={Shield} title="Understanding the for the king ii revive Life Pool">
+
+The foundation of survival in Fahrul rests upon the Life Pool. Before starting any campaign, you must select your difficulty setting and configure your starting loadout. The Life Pool determines how many shared hearts your party possesses. These hearts act as a collective pool of extra lives. If a party member falls and you choose to bring them back, one heart is subtracted from this total.
+
+Managing this resource is critical for long-term progression. Running out of hearts means that the next character death could result in an immediate game over if the remaining party members wipe in combat.
+
+| Difficulty | Default Hearts | Recommended Player Experience |
+|------------|----------------|-------------------------------|
+| Apprentice | 6 Hearts | Beginners learning core combat |
+| Journeyman | 4 Hearts | Experienced strategy players |
+| Master | 0 Hearts | Hardcore players seeking a challenge |
+
+Customization options allow you to adjust the Life Pool independently of the difficulty tier. You can increase your starting hearts up to a maximum of 10. This is highly recommended when attempting new campaigns or before unlocking high-tier gear and classes from the Lore Store.
+
+<Callout type="info" title="Lore Store Progression">
+Always spend your earned Lore Books in the Lore Store between runs. Unlocking stronger starting items, utility gear, and advanced classes directly reduces your reliance on the Life Pool during difficult campaigns.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="In-Combat vs. Overworld Resurrection">
+
+When a character's health drops to zero, they are knocked out. You have two primary opportunities to bring them back: immediately during the battle, or on the overworld map after the combat encounter concludes. Choosing when to execute a resurrection requires careful tactical planning.
+
+| Revival Method | Resource Cost | Turn/Action Cost | Risk Level |
+|----------------|---------------|------------------|------------|
+| In-Combat | 1 Heart | 1 Full Turn (Bonus Action) | High (Exposes active characters) |
+| Overworld | 1 Heart | Movement Points (Hex navigation) | Medium (Tombstone must be reached) |
+
+During combat, any active character can perform the **Revive Ally** bonus action. This action consumes the reviving character's entire turn, meaning they cannot attack or use items during that round. If the battle is almost won, it is often safer to finish off the remaining enemies first. If all active party members die before a revival is performed, the campaign ends immediately.
+
+On the overworld, a fallen character is represented by a tombstone icon on their last occupied hex. To revive them outside of combat, you must navigate an active character to that exact hex.
+
+<Steps>
+  <Step num="1" title="Locate the Tombstone">
+    Find the fallen character's tombstone on the overworld map. You can quickly locate them by clicking their portrait in the bottom-right corner.
+  </Step>
+  <Step num="2" title="Navigate to the Hex">
+    Move an active party member onto the hex containing the tombstone. This requires normal movement points and navigation around hazards.
+  </Step>
+  <Step num="3" title="Trigger the Revival">
+    Interact with the tombstone to consume one heart from your Life Pool and restore the character to active duty.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Wipe Warning">
+Never leave a fallen ally's tombstone unattended in dangerous territory. If your remaining party members are ambushed and defeated before reaching the tombstone, your entire run will end.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Using Sanctums for Auto-Revival">
+
+Sanctums are ancient, powerful structures scattered across the hex grid. Activating a Sanctum binds its unique blessing to the character who interacts with it. In addition to providing stat bonuses and passive buffs, Sanctums act as an individual safety net against death.
+
+When a character protected by a Sanctum falls in battle, they will automatically revive on the spot without consuming a heart from the global Life Pool. However, this process destroys the Sanctum's blessing.
+
+<CardGrid cols={3}>
+  <Card title="Instant Trigger">
+    The revival occurs automatically upon death, requiring no action from other party members during combat.
+  </Card>
+  <Card title="Buff Loss">
+    Reviving via a Sanctum immediately removes all stat buffs and blessings associated with that structure.
+  </Card>
+  <Card title="Non-Transferable">
+    The auto-revive benefit is tied strictly to the character who claimed the Sanctum and cannot be shared.
+  </Card>
+</CardGrid>
+
+| Sanctum Type | Primary Stat Buff | Revival Behavior |
+|--------------|-------------------|------------------|
+| Sanctum of Wealth | Gold Gain Bonus | Auto-revives with buff removal |
+| Sanctum of Shadow | Evasion & Speed | Auto-revives with buff removal |
+| Sanctum of Strength | Physical Damage | Auto-revives with buff removal |
+
+Prioritize giving Sanctum blessings to your squishiest damage dealers or your primary tank. This ensures that your most vulnerable or most targeted characters have a personal shield, preserving the shared Life Pool for emergencies.
+
+<Callout type="tip" title="Sanctum Protection Strategy">
+Keep track of active Sanctum buffs on your character portraits. If a character loses their Sanctum buff due to a revival, plan your pathing to locate another Sanctum as soon as possible.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Co-op Town Recovery and XP Costs">
+
+Multiplayer co-op games introduce an alternative method to execute a **for the king ii revive** when the shared Life Pool is empty. If a player's character dies during a co-op campaign, they can choose to spend their own experience points (XP) to resurrect at a nearby town or settlement.
+
+This system ensures that individual players are not permanently locked out of the game when the team runs out of hearts. However, relying on this method carries a heavy penalty that can impact your party's combat effectiveness in the late game.
+
+| Revival Location | Cost Type | Cost Scaling | Restriction |
+|------------------|-----------|--------------|-------------|
+| Local Town | Character XP | Increases over time | Only dead player can trigger |
+| Camp Site | Heart Pool | Fixed (1 Heart) | Requires active heart |
+
+The XP cost required to perform a town revival rises steadily as the game progresses. If a character dies repeatedly, the XP penalty will cause them to fall behind the rest of the party in levels. This makes them more vulnerable in future encounters, potentially creating a cycle of frequent deaths.
+
+<Checklist
+  id="coop-revival-checklist"
+  title="Co-op Survival Checklist:"
+  items={[
+    "Verify if a nearby town is unlocked before engaging in high-risk battles",
+    "Check the current XP levels of all party members to assess the penalty impact",
+    "Reserve global hearts for characters who cannot afford the XP loss",
+    "Coordinate movement so active players can guard the tombstone of a fallen ally"
+  ]}
+/>
+
+<Callout type="success" title="Co-op Coordination">
+Communicate with your team before choosing to revive in town. If an active player is only one turn away from your tombstone, it is always better to wait and save your XP, provided you have a heart remaining in the Life Pool.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+To help you manage your party's survival, here are the answers to the most common questions regarding character resurrection.
+
+<FAQ items={[
+  {
+    question: "How do I get more hearts for a for the king ii revive during a campaign?",
+    answer: "You cannot easily add hearts to your Life Pool once a campaign starts. You must set your starting hearts (up to 10) during the difficulty configuration screen before launching the run."
+  },
+  {
+    question: "Does reviving a character in town restore their full health?",
+    answer: "No, characters revived in town or via the Life Pool return with only a portion of their maximum health. You must use items, visit inns, or camp to restore them to full strength."
+  },
+  {
+    question: "Can I use a Sanctum buff to revive a different party member?",
+    answer: "No. Sanctum blessings are bound to the specific character who claimed them. The auto-revive effect only applies to the character holding the buff."
+  },
+  {
+    question: "What happens if my entire party wipes in combat?",
+    answer: "If all active party members are defeated in the same combat encounter, the campaign ends immediately, regardless of how many hearts remain in your Life Pool."
+  }
+]} />
+
+<Callout type="info" title="Final Survival Tip">
+Always carry at least one healing herb or tinderbox on your active characters. Reviving an ally leaves them vulnerable at low health, so immediate post-revival healing is crucial to prevent consecutive knockouts.
+</Callout>
+
+</Section>

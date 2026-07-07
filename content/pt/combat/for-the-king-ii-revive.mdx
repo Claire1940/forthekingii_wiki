@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "for the king ii revive: Como Ressuscitar Aliados Caídos",
+  description: "Domine as mecânicas de ressurreição em For The King II. Saiba como gerenciar a Reserva de Vidas, usar Santuários e utilizar a ressurreição por XP no modo cooperativo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Revive+Characters+Guide",
+  date: "2026-07-07",
+  author: "Equipe do Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica principal**: Use o sistema de **for the king ii revive** através de Corações, Santuários ou XP para manter os personagens ativos.
+- **Ajuste de dificuldade**: Os corações iniciais padrão da Reserva de Vidas variam de seis no modo Aprendiz até zero no modo Mestre.
+- **Ação em combate**: Ressuscite aliados caídos durante o combate usando uma ação bônus, o que consome um turno e um coração.
+- **Recuperação no mapa**: Mova um personagem ativo até o hexágono da lápide de um aliado caído para ressuscitá-lo usando um coração.
+- **Exclusivo do cooperativo**: Gaste XP nas cidades próximas para ressucitar personagens mortos, embora os custos aumentem significativamente com o tempo.
+</Callout>
+
+<Section icon={Shield} title="Entendendo a Reserva de Vidas de for the king ii revive">
+
+A base da sobrevivência em Fahrul repousa sobre a Reserva de Vidas. Antes de iniciar qualquer campanha, você deve selecionar sua configuração de dificuldade e configurar seus itens iniciais. A Reserva de Vidas determina quantos corações compartilhados seu grupo possui. Esses corações funcionam como um estoque coletivo de vidas extras. Se um membro do grupo cair e você decidir trazê-lo de volta, um coração será subtraído deste total.
+
+Gerenciar este recurso é crítico para a progressão a longo prazo. Ficar sem corações significa que a próxima morte de personagem pode resultar em um fim de jogo imediato se os membros restantes do grupo forem derrotados em combate.
+
+| Dificuldade | Corações Padrão | Experiência de Jogo Recomendada |
+|------------|----------------|---------------------------------|
+| Aprendiz | 6 Corações | Iniciantes aprendendo o combate básico |
+| Calejado | 4 Corações | Jogadores de estratégia experientes |
+| Mestre | 0 Corações | Jogadores hardcore que buscam um desafio |
+
+As opções de personalização permitem que você ajuste a Reserva de Vidas independentemente do nível de dificuldade. Você pode aumentar seus corações iniciais até o limite máximo de 10. Isso é altamente recomendado ao tentar novas campanhas ou antes de desbloquear equipamentos de alto nível e classes na Loja de Lore.
+
+<Callout type="info" title="Progressão na Loja de Lore">
+Sempre gaste seus Livros de Lore obtidos na Loja de Lore entre as partidas. Desbloquear itens iniciais mais fortes, equipamentos utilitários e classes avançadas reduz diretamente sua dependência da Reserva de Vidas durante campanhas difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ressurreição em Combate vs. No Mapa">
+
+Quando a vida de um personagem chega a zero, ele é nocauteado. Você tem duas oportunidades principais para trazê-lo de volta: imediatamente durante a batalha ou no mapa do mundo após a conclusão do combate. Escolher quando executar uma ressurreição exige um planejamento tático cuidadoso.
+
+| Método de Ressurreição | Custo de Recurso | Custo de Turno/Ação | Nível de Risco |
+|------------------------|------------------|---------------------|----------------|
+| Em Combate | 1 Coração | 1 Turno Completo (Ação Bônus) | Alto (Expõe personagens ativos) |
+| No Mapa | 1 Coração | Pontos de Movimento (Navegação de hexágono) | Médio (A lápide deve ser alcançada) |
+
+Durante o combate, qualquer personagem ativo pode realizar a ação bônus de **Ressuscitar Aliado**. Esta ação consome o turno inteiro do personagem que está ressuscitando, o que significa que ele não poderá atacar ou usar itens naquela rodada. Se a batalha estiver quase ganha, geralmente é mais seguro acabar com os inimigos restantes primeiro. Se todos os membros ativos do grupo morrerem antes que uma ressurreição seja realizada, a campanha termina imediatamente.
+
+No mapa do mundo, um personagem caído é representado por um ícone de lápide em seu último hexágono ocupado. Para ressuscitá-lo fora de combate, você deve navegar com um personagem ativo até esse hexágono exato.
+
+<Steps>
+  <Step num="1" title="Localize a Lápide">
+    Encontre a lápide do personagem caído no mapa do mundo. Você pode localizá-la rapidamente clicando no retrato dele no canto inferior direito.
+  </Step>
+  <Step num="2" title="Navegue até o Hexágono">
+    Mova um membro do grupo ativo para o hexágono que contém a lápide. Isso requer pontos de movimento normais e navegação ao redor de perigos.
+  </Step>
+  <Step num="3" title="Ative a Ressurreição">
+    Interaja com a lápide para consumir um coração de sua Reserva de Vidas e trazer o personagem de volta à atividade.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Derrota Total">
+Nunca deixe a lápide de um aliado caído desprotegida em território perigoso. Se os membros restantes do seu grupo forem emboscados e derrotados antes de alcançarem a lápide, toda a sua partida terminará.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Usando Santuários para Auto-Ressurreição">
+
+Santuários são estruturas antigas e poderosas espalhadas pela grade de hexágonos. Ativar um Santuário vincula sua bênção única ao personagem que interagir com ele. Além de fornecer bônus de atributos e melhorias passivas, os Santuários funcionam como uma rede de segurança individual contra a morte.
+
+Quando um personagem protegido por um Santuário cai em batalha, ele ressuscitará automaticamente no local sem consumir um coração da Reserva de Vidas global. No entanto, este processo destrói a bênção do Santuário.
+
+<CardGrid cols={3}>
+  <Card title="Ativação Instântanea">
+    A ressurreição ocorre automaticamente após a morte, não exigindo nenhuma ação de outros membros do grupo durante o combate.
+  </Card>
+  <Card title="Perda de Bônus">
+    Ressuscitar através de um Santuário remove imediatamente todos os bônus de atributos e bênçãos associados àquela estrutura.
+  </Card>
+  <Card title="Intransferível">
+    O benefício de auto-ressurreição está estritamente atrelado ao personagem que reivindicou o Santuário e não pode ser compartilhado.
+  </Card>
+</CardGrid>
+
+| Tipo de Santuário | Bônus de Atributo Principal | Comportamento de Ressurreição |
+|-------------------|----------------------------|-------------------------------|
+| Santuário da Riqueza | Bônus de Ganho de Ouro | Auto-ressuscita com remoção do bônus |
+| Santuário da Sombra | Evasão e Velocidade | Auto-ressuscita com remoção do bônus |
+| Santuário da Força | Dano Físico | Auto-ressuscita com remoção do bônus |
+
+Priorize dar as bênçãos de Santuário aos seus causadores de dano mais frágeis ou ao seu tanque principal. Isso garante que seus personagens mais vulneráveis ou mais visados tenham um escudo pessoal, preservando a Reserva de Vidas compartilhada para emergências.
+
+<Callout type="tip" title="Estratégia de Proteção de Santuário">
+Fique de olho nos bônus de Santuário ativos nos retratos dos seus personagens. Se um personagem perder o bônus de Santuário devido a uma ressurreição, planeje sua rota para localizar outro Santuário o mais rápido possível.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Recuperação em Cidades no Co-op e Custos de XP">
+
+Jogos cooperativos multiplayer introduzem um método alternativo para executar um **for the king ii revive** quando a Reserva de Vidas compartilhada estiver vazia. Se o personagem de um jogador morrer durante uma campanha cooperativa, ele pode optar por gastar seus próprios pontos de experiência (XP) para ressuscitar em uma cidade ou assentamento próximo.
+
+Este sistema garante que jogadores individuais não fiquem permanentemente fora do jogo quando a equipe ficar sem corações. No entanto, depender deste método traz uma penalidade pesada que pode impactar a eficácia de combate do seu grupo no final do jogo.
+
+| Local de Ressurreição | Tipo de Custo | Escalonamento de Custo | Restrição |
+|-----------------------|---------------|------------------------|-----------|
+| Cidade Local | XP do Personagem | Aumenta com o tempo | Apenas o jogador morto pode ativar |
+| Acampamento | Reserva de Corações | Fixo (1 Coração) | Requer coração ativo |
+
+O custo de XP necessário para realizar uma ressurreição na cidade aumenta progressivamente à medida que o jogo avança. Se um personagem morrer repetidamente, a penalidade de XP fará com que ele fique atrás do resto do grupo em níveis. Isso o torna mais vulnerável em encontros futuros, potencialmente criando um ciclo de mortes frequentes.
+
+<Checklist
+  id="coop-revival-checklist"
+  title="Lista de Sobrevivência Co-op:"
+  items={[
+    "Verifique se há uma cidade próxima desbloqueada antes de entrar em batalhas de alto risco",
+    "Verifique os níveis de XP atuais de todos os membros do grupo para avaliar o impacto da penalidade",
+    "Reserve os corações globais para personagens que não podem arcar com a perda de XP",
+    "Coordene o movimento para que os jogadores ativos possam proteger a lápide de um aliado caído"
+  ]}
+/>
+
+<Callout type="success" title="Coordenação Co-op">
+Comunique-se com sua equipe antes de escolher ressuscitar na cidade. Se um jogador ativo estiver a apenas um turno de distância da sua lápide, sempre será melhor esperar e economizar seu XP, desde que você ainda tenha um coração restante na Reserva de Vidas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para ajudar você a gerenciar a sobrevivência do seu grupo, aqui estão as respostas para as perguntas mais comuns sobre a ressurreição de personagens.
+
+<FAQ items={[
+  {
+    question: "Como consigo mais corações para ressuscitar em for the king ii durante uma campanha?",
+    answer: "Você não pode adicionar corações facilmente à sua Reserva de Vidas depois que uma campanha começa. Você deve definir seus corações iniciais (até 10) na tela de configuração de dificuldade antes de iniciar a partida."
+  },
+  {
+    question: "Ressuscitar um personagem na cidade restaura toda a sua vida?",
+    answer: "Não, personagens ressuscitados na cidade ou através da Reserva de Vidas retornam com apenas uma parte de sua vida máxima. Você deve usar itens, visitar estalagens ou acampar para restaurá-los totalmente."
+  },
+  {
+    question: "Posso usar o bônus de um Santuário para ressuscitar outro membro do grupo?",
+    answer: "Não. As bênçãos do Santuário são vinculadas ao personagem específico que as reivindicou. O efeito de auto-ressurreição aplica-se apenas ao personagem que possui o bônus."
+  },
+  {
+    question: "O que acontece se todo o meu grupo for derrotado em combate?",
+    answer: "Se todos os membros ativos do grupo forem derrotados no mesmo encontro de combate, a campanha termina imediatamente, independentemente de quantos corações restem na sua Reserva de Vidas."
+  }
+]} />
+
+<Callout type="info" title="Dica Final de Sobrevivência">
+Sempre carregue pelo menos uma erva de cura ou caixa de tinder nos seus personagens ativos. Ressuscitar um aliado o deixa vulnerável com pouca vida, então a cura imediata pós-ressurreição é crucial para evitar nocautes consecutivos.
+</Callout>
+
+</Section>

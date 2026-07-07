@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For the King II Child of Chaos: Guia da Expansão de 2026 e Dicas de Meta",
+  description: "Domine a atualização For the King II Child of Chaos com nosso guia sobre as classes Monge, Cartomante e Fabricante de Brinquedos, novos biomas e mecânicas de combate.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Child+of+Chaos+Guide",
+  date: "2026-07-07",
+  author: "Equipe da Wiki de For the King II",
+  keywords: "For the King II, Child of Chaos, guia, classes, Monge, Cartomante, Fabricante de Brinquedos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **For the King II Child of Chaos** apresenta o Capítulo 6, uma aventura gratuita que explora a história de Fahrul após a Resistência.
+- **Novas Classes**: O Monge retorna como uma classe gratuita, enquanto a Cartomante e o Fabricante de Brinquedos entram via DLC Tinkerers of Fate.
+- **Velocidade de Combate**: Reformulações significativas nas animações de combate e na mistura de eventos resultam em uma experiência tática muito mais rápida e fluida.
+- **Progressão**: O Capítulo 6 está desbloqueado por padrão para todos os jogadores, embora exista um aviso de spoiler para aqueles que não terminaram o Capítulo 5.
+- **Meta de Equipamento**: Novas armas de Cultista e Katanas foram adicionadas, junto com um grande buff de fim de jogo para o Espancador (Walloper).
+</Callout>
+
+<Section icon={Map} title="Visão Geral da Aventura Child of Chaos">
+
+A atualização **For the King II Child of Chaos** marca um momento crucial na evolução de Fahrul. Como o sexto capítulo principal da saga, serve como um epílogo para a campanha principal, levando os membros da Resistência para biomas inexplorados repletos de rostos familiares e novos rostos aterrorizantes. Ao contrário das expansões anteriores, este capítulo está acessível a todos imediatamente, permitindo que veteranos e novatos testem sua coragem contra as forças caóticas que surgem no reino.
+
+A narrativa foca nas consequências do final original de For the King II. Você se encontrará navegando por biomas que foram distorcidos por energia caótica, exigindo novas abordagens táticas e uma compreensão profunda das mecânicas reformuladas.
+
+<Callout type="tip" title="Entrada Estratégica">
+Embora você possa entrar no Capítulo 6 imediatamente, recomendamos ter pelo menos um grupo equilibrado no nível 8+ para lidar com o pico de dificuldade inicial nos novos biomas.
+</Callout>
+
+| Recurso | Descrição | Disponibilidade |
+| :--- | :--- | :--- |
+| **Capítulo 6** | Nova aventura de história ambientada após a campanha principal | Atualização Gratuita |
+| **Classe Monge** | Favorito que retorna do FTK1 com sinergias atualizadas | Atualização Gratuita |
+| **Biomas** | Novos tipos de ambiente com encontros únicos | Atualização Gratuita |
+| **DLC Tinkerers** | Adiciona Cartomante, Fabricante de Brinquedos e Mercenário Voodoo | DLC Paga |
+| **Novas Armas** | Família Cultista, Katanas e conjuntos de Rapieiras | Misto |
+
+</Section>
+
+<Section icon={Swords} title="Dominando as Novas Classes: Monge, Cartomante e Fabricante de Brinquedos">
+
+O meta de **For the King II Child of Chaos** é fortemente definido pelas três novas adições de personagens. Cada um traz um sabor distinto ao grupo, variando do suporte disciplinado do Monge à manipulação caótica do destino da Cartomante.
+
+<CardGrid cols={3}>
+  <Card title="O Monge (Gratuito)">
+    - **Arquétipo**: Suporte Híbrido/DPS
+    - **Força Principal**: Alta disciplina e uso versátil de armas
+    - **Melhor Para**: Jogadores que precisam de um curandeiro secundário confiável e combatente de linha de frente
+  </Card>
+  <Card title="Cartomante (DLC)">
+    - **Arquétipo**: Manipulador do Destino
+    - **Força Principal**: Rolar novamente dados de azar e buffs de Tarô
+    - **Melhor Para**: Mitigar RNG e aplicar efeitos de status "Vinculado" únicos
+  </Card>
+  <Card title="Fabricante de Brinquedos (DLC)">
+    - **Arquétipo**: Invocador / Controle de Grupo
+    - **Força Principal**: Transformar inimigos derrotados em bonecos aliados
+    - **Melhor Para**: Vantagem na economia de ações e distração de chefes de alto dano
+  </Card>
+</CardGrid>
+
+A Cartomante é talvez a adição mais única. Sua habilidade "Sorte" (Fortune) permite a descoberta de Cartas de Tarô no mapa-múndi ou em combate. Essas cartas podem ativar o status "Vinculado" (Linked), que conecta os pontos de vida de dois membros do grupo. Isso é de alto risco e alta recompensa; embora possa salvar um mago frágil, também pode levar a um nocaute duplo se não for gerenciado com cuidado.
+
+O Fabricante de Brinquedos, por outro lado, foca no talento "Brinquedo" (Plaything). Quando o Fabricante de Brinquedos desfere um golpe final, há uma chance de recriar esse inimigo como um aliado temporário. Isso efetivamente vira a maré da batalha ao adicionar alvos extras para o inimigo focar, preservando a saúde do seu grupo.
+
+<Callout type="warning" title="Sinergia de DLC">
+O Fabricante de Brinquedos se destaca quando combinado com armas de alta precisão como as novas Rapieiras, garantindo que ele desfira o golpe mortal necessário para ativar sua habilidade de invocação.
+</Callout>
+
+| Classe | Atributo Principal | Habilidade Única | Papel no Grupo |
+| :--- | :--- | :--- | :--- |
+| **Monge** | Inteligência/Força | Disciplina | Off-tank/Curandeiro |
+| **Cartomante** | Percepção/Sorte | Intervenção do Destino | Buff/Controle de RNG |
+| **Fabricante de Brinquedos** | Talento/Velocidade | Brinquedo | Invocador/DPS |
+
+</Section>
+
+<Section icon={Sparkles} title="Refinamentos de Combate e Atualizações de Qualidade de Vida (QoL)">
+
+A IronOak Games ouviu o feedback da comunidade em relação ao ritmo dos encontros. Na atualização **For the King II Child of Chaos**, a velocidade de combate foi aumentada significativamente. As animações agora são mais fluidas e a transição entre as ações de combate foi ajustada para garantir que mesmo batalhas em grande escala não pareçam cansativas.
+
+Além da velocidade, a experiência nas masmorras foi otimizada. Baús de tesouro agora aparecem frequentemente na mesma sala que o encontro, eliminando as tediosas transições de "sala extra" que anteriormente atrasavam a exploração de masmorras. Essa mudança permite que os grupos mantenham seu ímpeto e foquem nos desafios táticos à frente.
+
+<Steps>
+  <Step num="1" title="Menu Principal Dinâmico">
+    O menu agora reflete seu progresso. Completar objetivos adiciona itens e detalhes visuais à sua tela inicial.
+  </Step>
+  <Step num="2" title="Carrossel de Aventuras">
+    Navegue facilmente pelos capítulos com a nova visualização em carrossel, apresentando ícones de coroa para sua maior dificuldade concluída.
+  </Step>
+  <Step num="3" title="Avisos de Dificuldade">
+    Novos jogadores verão agora um aviso antes de começar, semelhante ao jogo original, alertando-os sobre os perigos em Fahrul.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Rastreamento de Dificuldade">
+Os novos ícones de coroa na tela de seleção de aventura são específicos para cada capítulo. Busque a Coroa de Ouro completando missões na dificuldade Mestre para exibir sua proeza na Resistência.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Novo Arsenal: Armas, Mercenários e Pets">
+
+Nenhuma atualização está completa sem novos equipamentos. A expansão **For the King II Child of Chaos** introduz a família de armas Cultista, que inclui escudos, machados e adagas especializados projetados para estilos de jogo de alto risco. Além disso, quatro novas Katanas foram adicionadas ao jogo base, fornecendo mais opções para builds baseadas em Percepção e Velocidade.
+
+Uma das mudanças mais notáveis é a reformulação do "Espancador" (The Walloper). Anteriormente uma arma de meio de jogo, ela foi movida para o nível de fim de jogo com um aumento massivo de dano para 62 e um bônus de precisão de 15%. Isso a torna uma opção viável de endgame para personagens focados em Força.
+
+| Categoria de Arma | Adição Notável | Atributo Chave | Efeito |
+| :--- | :--- | :--- | :--- |
+| **Cultista** | Adaga Cultista | Velocidade | Alta Chance de Crítico |
+| **Oriental** | Katana | Percepção | Sangramento / Ataque Rápido |
+| **Contundente** | O Espancador | Força | 62 de Dano Base |
+| **Arcano** | Conjunto de Orbes | Inteligência | Manipulação do Destino |
+
+Para aqueles que procuram ajuda extra, **Rosetta, a Barda** se juntou às Guildas de Mercenários. Ela pode ser contratada em qualquer cidade e fornece habilidades de suporte essenciais que podem preencher a lacuna se o seu grupo não tiver um Menestrel dedicado.
+
+<Callout type="success" title="Atualização de Pet">
+O pet "Jelly Skelly", incluído na DLC Tinkerers, fornece utilidade única para grupos focados em resistência a danos mágicos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Reformulações de Inimigos e Correções de Bugs">
+
+As criaturas de Fahrul não ficaram estagnadas. O modelo do **Mind Bender** recebeu uma reformulação completa, tornando-o visualmente distinto e mais intimidador. Isso segue a tendência da reformulação do Bisontauro vista em atualizações anteriores, garantindo que a qualidade visual do jogo permaneça consistente à medida que novo conteúdo é adicionado.
+
+Além disso, vários bugs críticos que impediam a progressão foram eliminados. Problemas com a missão "Thieving Imps" no Capítulo 2, que apareciam em áreas inacessíveis, e o "Pirates Cove" sendo inacessível no Capítulo 4 foram resolvidos.
+
+| Categoria do Bug | Descrição da Correção | Impacto |
+| :--- | :--- | :--- |
+| **Jogabilidade** | Corrigidos itens de missão inacessíveis nos Capítulos 2/4 | Alto - Evita bloqueios de progresso |
+| **Combate** | Efeitos de status (Sangramento/Fogo) não resetam mais cronômetros | Médio - Dano contínuo mais consistente |
+| **Online** | Suavizadas animações de "Pronto" e ícones do lobby | Baixo - Melhor UX |
+| **UI** | Cálculos de dano corrigidos para o traço Berserk | Alto - Planejamento preciso |
+
+<Callout type="warning" title="Consistência de Status">
+Note que atingir um inimigo com Sangramento enquanto ele já está sangrando não resetará mais o cronômetro. Agora você deve cronometrar suas aplicações de status de forma mais estratégica para maximizar o dano ao longo do tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Completista e Metas de Meta">
+
+Para vivenciar plenamente tudo o que a atualização **For the King II Child of Chaos** tem a oferecer, os jogadores devem buscar completar novos marcos. Seja dominando as novas classes ou descobrindo todos os segredos no Capítulo 6, há muito conteúdo para manter a Resistência ocupada até 2026.
+
+<Checklist
+  id="chaos-goals"
+  title="Metas de Maestria de Child of Chaos:"
+  items={[
+    "Concluir o Capítulo 6 em qualquer dificuldade",
+    "Desbloquear a classe Monge para uso gratuito em todas as aventuras",
+    "Ativar com sucesso a habilidade Brinquedo do Fabricante de Brinquedos 10 vezes",
+    "Encontrar e usar cada tipo de Carta de Tarô com a Cartomante",
+    "Contratar Rosetta, a Barda, para ajudar em uma exploração de masmorra",
+    "Derrotar o Mind Bender reformulado nos novos biomas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio o Monge em For the King II Child of Chaos?",
+    answer: "O Monge é uma atualização gratuita para todos os jogadores. Você só precisa atualizar seu jogo para a versão Child of Chaos, e o Monge estará disponível na tela de seleção de personagens."
+  },
+  {
+    question: "Preciso terminar a história principal para jogar o Capítulo 6?",
+    answer: "Não. O Capítulo 6 está desbloqueado por padrão. No entanto, um aviso de spoiler aparecerá se você não tiver completado os cinco capítulos anteriores, pois ele segue os eventos do final principal."
+  },
+  {
+    question: "O pacote Tinkerers of Fate é necessário para o novo capítulo?",
+    answer: "Não, a aventura Child of Chaos e a classe Monge são gratuitas. O pacote Tinkerers of Fate é uma DLC paga que adiciona as classes Cartomante e Fabricante de Brinquedos, junto com cosméticos e armas extras."
+  },
+  {
+    question: "O que torna a Cartomante diferente de outros magos?",
+    answer: "A Cartomante foca em sorte e destino. Sua habilidade única de rolar dados novamente para todo o grupo e usar Cartas de Tarô para buffs imprevisíveis a torna uma classe de suporte de alta variância, mas poderosa."
+  }
+]} />
+
+</Section>
