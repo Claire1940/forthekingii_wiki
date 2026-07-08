@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Caçador em For the King II: Guia de Melhores Builds, Atributos e Habilidades",
+  description: "Domine a classe Caçador em For the King II. Descubra os atributos ideais de personagem, equipamentos iniciais, habilidades passivas e builds de combate tático.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hunter+Class+Guide",
+  date: "2026-07-08",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Função Principal da Classe**: Causador de dano físico à distância de alta velocidade, especializado nas mecânicas do **caçador em for the king ii**.
+- **Foco em Atributos Principais**: Priorize **Percepção** para dano e precisão, seguido de perto por **Velocidade**.
+- **Domínio Passivo**: Aproveite a **Emboscada de Elite** e a **Furtividade de Elite** para controlar os encontros no mapa e evitar combates desnecessários.
+- **Vantagem em Combate**: Utilize o **Tiro Certeiro** para garantir jogadas perfeitas e acertos críticos que ignoram as defesas difíceis dos inimigos.
+- **Sinergia de Armas**: Destaca-se principalmente com **Arcos**, mas mantém flexibilidade com **Cajados** e **Armas de Haste** de alta percepção.
+</Callout>
+
+<Section icon={Map} title="Introdução ao Caçador em For the King II">
+
+O **caçador em for the king ii** destaca-se como um pilar essencial de sobrevivência, exploração e combate à distância de alta velocidade nas terras áridas de Fahrul [wiki.gg]. Armados com uma agilidade natural excepcional e olhos afiados, os Caçadores são excelentes em esvaziar as barras de vida dos inimigos de longe, mantendo uma utilidade incomparável no mapa do mundo [wiki.gg]. Seja emboscando patrulhas de batedores reais ou passando furtivamente por ameaças de alto nível, esta classe oferece a flexibilidade tática necessária para sobreviver ao reinado tirânico da Rainha Rosomon [wiki.gg].
+
+**Destaques do Vídeo:**
+- **Posicionamento de Combate**: Aprenda como um Caçador com alta iniciativa age logo no início dos turnos para neutralizar alvos frágeis antes que eles possam agir.
+- **Mecânicas de Sobrevivência**: Observe como o Caçador utiliza escudos defensivos ou alta evasão para sobreviver a emboscadas de curta distância.
+- **Sinergia Cooperativa**: Veja como o Caçador se alia com tanques na linha de frente para desferir dano físico consistente na retaguarda.
+
+<YouTubeEmbed videoId="pZcpca1-784" title="THIS GAME IS EVERYTHING I WANTED! | For the King II" />
+
+Os Caçadores são naturalmente autossuficientes, o que os torna altamente resistentes às leis sufocantes da Rainha [wiki.gg]. Ao dominar suas vantagens estatísticas únicas e estratégias de posicionamento, você pode facilmente transformar confrontos caóticos em vitórias táticas altamente controladas.
+
+<Callout type="success" title="Status de Desbloqueio">
+O Caçador é extremamente amigável para iniciantes, pois já vem desbloqueado por padrão em For the King II [wiki.gg]. Você pode recrutar este causador de dano físico de alto nível para o seu grupo inicial imediatamente, sem gastar pontos da Loja de Lore.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Atributos Básicos do Caçador e Escalonamento de Dificuldade">
+
+Compreender seus atributos básicos é fundamental para otimizar a progressão de equipamentos e o desempenho em combate. O Caçador possui a maior **Percepção** e **Velocidade** iniciais de qualquer classe básica, permitindo que você garanta consistentemente a primeira ação no combate por turnos [wiki.gg].
+
+Abaixo está um detalhamento dos atributos básicos do Caçador nas três principais dificuldades do jogo: Aprendiz, Viajante e Mestre [wiki.gg].
+
+| Dificuldade | PV | Força | Vitalidade | Inteligência | Percepção | Talento | Velocidade | Sorte | Armadura | Resistência | Evasão |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Aprendiz** | **30** | 71 | 57 | 55 | **83** | 71 | **79** | 55 | 0 | 0 | 4 |
+| **Viajante** | **30** | 66 | 52 | 50 | **77** | 66 | **74** | 50 | 0 | 0 | 4 |
+| **Mestre** | **30** | 66 | 52 | 50 | **77** | 66 | **74** | 50 | 0 | 0 | 4 |
+
+<Callout type="warning" title="Manutenção de Atributos">
+Embora seus atributos ofensivos continuem altamente competitivos em dificuldades mais elevadas, sua Vida inicial (30 PV), Armadura (0) e Resistência (0) deixam você extremamente vulnerável a emboscadas físicas e mágicas no início do jogo [wiki.gg]. Sempre posicione seu Caçador na retaguarda ou combine-o com um tanque dedicado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades Especiais e Habilidades Passivas">
+
+O verdadeiro poder do **caçador em for the king ii** reside em seu conjunto de habilidades únicas. Suas passivas concedem um controle sem precedentes sobre como e quando seu grupo entra em combate, enquanto sua habilidade de combate ativa garante um dano explosivo massivo contra um único alvo [wiki.gg].
+
+<CardGrid cols={2}>
+  <Card title="Tiro Certeiro (Ativa)">
+    Oferece uma chance aleatória de garantir uma jogada perfeita e um acerto crítico com armas de longo alcance específicas [wiki.gg]. Note que usar pontos de Foco reduz a chance de ativação desta habilidade [wiki.gg].
+  </Card>
+  <Card title="Emboscada de Elite (Passiva)">
+    Reduz em 1 o número total de jogadas de dados necessárias para executar com sucesso um encontro de Emboscada no mapa do mundo [wiki.gg].
+  </Card>
+  <Card title="Furtividade de Elite (Passiva)">
+    Aumenta significativamente a taxa de sucesso ao passar furtivamente por inimigos no mapa do mundo, permitindo que seu grupo evite lutas perigosas [wiki.gg].
+  </Card>
+  <Card title="Impulso de Energia (Passiva)">
+    Oferece uma chance passiva de recuperar um ponto de movimento ou de ação de combate, maximizando sua utilidade durante rodadas muito disputadas [wiki.gg].
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Gerenciamento de Foco">
+Como o **Tiro Certeiro** tem sua chance de ativação reduzida para cada ponto de Foco gasto, tente poupar seus pontos de Foco para ações de utilidade, movimento no mapa ou ataques com armas que não sejam arcos [wiki.gg]. Deixe que seu atributo bruto de Percepção guie seus tiros normais de arco para conseguir acertos críticos naturais de Tiro Certeiro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progressão Ideal de Equipamentos e Builds">
+
+Para maximizar a alta Percepção e Velocidade do Caçador, você deve equipar itens que complementem esses atributos específicos de escalonamento [wiki.gg]. Embora comece com um Arco de Caça padrão, a progressão do seu equipamento deve focar em arcos de alto dano, armaduras leves de evasão e acessórios que aumentem seus atributos [wiki.gg].
+
+### Progressão de Armas Recomendada
+
+| Nome da Arma | Atributo Principal | Principais Efeitos e Habilidades | Função em Combate |
+| :--- | :--- | :--- | :--- |
+| **Arco de Caça** | Percepção | Dano físico em alvo único, escalonamento básico [wiki.gg] | Equipamento Inicial |
+| **Arco de Teixo** | Percepção | Dano físico médio, chance moderada de crítico | Início do Jogo |
+| **Arco Recurvo** | Percepção | Alta velocidade, ataques que perfuram armadura | Meio do Jogo |
+| **Arco Real** | Percepção | Dano de elite, alta sinergia com Tiro Certeiro, lentidão em grupo | Fim do Jogo |
+| **Arma de Haste de Aço** | Percepção | Alto dano físico, capacidade de triturar armadura [wiki.gg] | Corpo a Corpo Híbrido |
+
+### Armaduras e Acessórios Recomendados
+
+| Espaço | Tipo de Item | Atributos Prioritários | Atributos Alvo |
+| :--- | :--- | :--- | :--- |
+| **Cabeça** | Capuz / Elmo Leve | +Percepção, +Evasão, +Velocidade | Alta Iniciativa |
+| **Peito** | Gibão / Colete de Couro | +Armadura, +Resistência Física, +Evasão | Sobrevivência |
+| **Mãos** | Braçadeiras / Luvas | +Precisão, +Percepção | Consistência de Dano |
+| **Pés** | Botas Leves | +Velocidade, +Pontos de Movimento | Mobilidade no Mapa |
+| **Pescoço/Anel** | Amuleto da Sorte / Mira | +Chance de Crítico, +Evasão, +Regeneração de Foco | Otimização de DPS |
+
+<Callout type="info" title="Estilos de Jogo Híbridos">
+Não ignore as armas corpo a corpo que escalam com Percepção. Se o seu grupo carecer de cobertura na linha de frente, equipar uma Arma de Haste de alta percepção permite que seu Caçador avance para a linha de frente para ajudar a destruir a armadura física dos inimigos sem perder o escalonamento de dano [wiki.gg].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia Tática de Campanha Passo a Passo">
+
+Jogar com sucesso de Caçador exige equilibrar a utilidade de exploração no mapa com a eliminação de alvos de alta prioridade no combate. Siga este guia de progressão passo a passo para dominar sua campanha.
+
+<Steps>
+  <Step num="1" title="Garanta a Iniciativa">
+    No início do jogo, use sua alta Velocidade inicial para garantir o primeiro turno no combate [wiki.gg]. Foque em inimigos frágeis na retaguarda, como magos, bruxas ou batedores inimigos, para eliminá-los antes que possam aplicar penalidades ao seu grupo.
+  </Step>
+  <Step num="2" title="Controle o Mapa com a Emboscada de Elite">
+    No mapa do mundo, use seu Caçador para liderar os movimentos do grupo. Utilize a **Emboscada de Elite** para isolar alvos únicos de grupos maiores de inimigos, permitindo que seu grupo lute em batalhas assimétricas vantajosas [wiki.gg].
+  </Step>
+  <Step num="3" title="Transição para Equipamentos de Perfuração de Armadura">
+    À medida que você avança para as regiões de meio de jogo, os inimigos acumularão armadura física. Mude seus equipamentos para arcos ou armas de haste que possuam atributos de perfuração de armadura ou que inflijam sangramento para manter seu dano alto.
+  </Step>
+  <Step num="4" title="Otimize para Acertos Críticos no Fim do Jogo">
+    No fim do jogo, acumule equipamentos que aumentem seu multiplicador de acerto crítico e sua Evasão plana. Confie nas ativações do **Tiro Certeiro** para derreter chefes com muita vida, mantendo uma alta Evasão para esquivar-se de contra-ataques inimigos [wiki.gg].
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Campanha do Caçador">
+
+Para garantir que seu Caçador esteja devidamente preparado para os capítulos finais da sua campanha, busque alcançar estes marcos essenciais.
+
+<Checklist
+  id="hunter-progression"
+  title="Marcos Essenciais do Caçador:"
+  items={[
+    "Alcançar mais de 85 de Percepção básica através de equipamentos e níveis",
+    "Adquirir um Arco de Tier 3 ou superior que escale com Percepção",
+    "Atingir um mínimo de 15% de Evasão passiva para se esquivar de ataques corpo a corpo pesados",
+    "Executar com sucesso pelo menos 5 Emboscadas no mapa usando a Emboscada de Elite",
+    "Equipar pelo menos um acessório que aumente a Velocidade passiva ou Iniciativa"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor arma inicial para o Caçador?",
+    answer: "O Caçador começa equipado com o Arco de Caça, que escala diretamente com seu alto atributo inicial de Percepção e é excelente para o início do jogo."
+  },
+  {
+    question: "Como funciona o Tiro Certeiro em For the King II?",
+    answer: "O Tiro Certeiro é uma habilidade ativa que concede uma chance passiva de garantir uma jogada perfeita e um acerto crítico em armas de longo alcance específicas. Usar pontos de Foco na verdade reduz essa chance de ativação."
+  },
+  {
+    question: "O Caçador pode usar armas corpo a corpo de forma eficaz?",
+    answer: "Sim. Devido à sua alta Percepção, os Caçadores são altamente habilidosos com armas corpo a corpo que escalam com Percepção, como Armas de Haste e certos Cajados, tornando-os combatentes híbridos viáveis."
+  },
+  {
+    question: "Como a Emboscada de Elite e a Furtividade de Elite beneficiam o grupo?",
+    answer: "A Emboscada de Elite reduz em 1 as jogadas de dados necessárias para um encontro de emboscada, enquanto a Furtividade de Elite torna significativamente mais fácil evitar completamente inimigos perigosos no mapa do mundo."
+  }
+]} />
+
+</Section>
