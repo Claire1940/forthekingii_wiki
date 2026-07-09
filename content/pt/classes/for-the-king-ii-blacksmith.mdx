@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia do Ferreiro em For The King II: Melhor Build, Atributos e Equipamentos",
+  description: "Domine o Ferreiro em For The King II. Descubra as melhores builds de tanque, escala de atributos, habilidades passivas, equipamentos iniciais e estratégias de armas para o final do jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Blacksmith+Build+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Função Principal**: O Ferreiro atua como o principal tanque de linha de frente e especialista em controle de grupo em For The King II.
+- **Mecânicas-Chave**: Aproveite as habilidades passivas **Inabalável** (Steadfast) para anular danos e **Remendar** (Mend) para consertar armas quebráveis.
+- **Melhores Atributos**: Priorize **Vitalidade** para o máximo de vida e escala de Inabalável, seguido de perto por **Força** para dano físico.
+- **Estratégia Central**: Equipe uma arma de concussão de uma mão e um escudo de alta defesa para utilizar as mecânicas de Guardar (Guard) e Provocar (Taunt) de forma eficaz.
+- **Melhor Sinergia**: Combine com causadores de dano de alta velocidade, como o Estudioso ou o Caçador, para compensar a baixa velocidade base do Ferreiro.
+</Callout>
+
+<Section icon={Shield} title="Visão Geral do Ferreiro em For The King II">
+
+O Ferreiro é uma das classes iniciais centrais em For The King II, desbloqueado por padrão e servindo como o verdadeiro coração de qualquer composição de grupo defensiva. Com a maior Vitalidade base e uma Força excepcional, esta classe é sob medida para absorver golpes físicos pesados, provocar inimigos perigosos e proteger conjuradores frágeis na linha de trás, como o Estudioso. 
+
+Embora ela sofra com uma Velocidade base notavelmente baixa, sua extrema sobrevivência e utilidade a tornam um recurso indispensável para campanhas de alta dificuldade, incluindo as dificuldades Companheiro (Journeyman) e Mestre (Master).
+
+| Atributo | Valor Base (Aprendiz) | Valor Base (Companheiro) | Valor Base (Mestre) |
+| :--- | :--- | :--- | :--- |
+| **Vida** | **40** | **40** | **40** |
+| **Força** | **79** | 74 | 74 |
+| **Vitalidade** | **83** | 78 | 78 |
+| **Inteligência** | 55 | 50 | 50 |
+| **Percepção** | 65 | 60 | 60 |
+| **Talento** | 75 | 70 | 70 |
+| **Velocidade** | 63 | 58 | 58 |
+| **Sorte** | 55 | 50 | 50 |
+| **Armadura** | **3** | **3** | **3** |
+| **Resistência** | 0 | 0 | 0 |
+| **Evasão** | 0 | 0 | 0 |
+
+<Callout type="tip" title="Análise de Atributos">
+Os principais atributos de escala do Ferreiro são **Vitalidade** (83 no Aprendiz) e **Força** (79 no Aprendiz). Sua alta Armadura base de 3 lhe dá uma enorme vantagem na mitigação física em comparação com outras classes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades Especiais e Mecânicas de Escala">
+
+O Ferreiro possui duas habilidades passivas únicas que definem seu estilo de jogo: **Remendar** (Mend) e **Inabalável** (Steadfast). Compreender como essas habilidades escalam é essencial para otimizar a escolha de seus equipamentos ao longo de uma campanha.
+
+### Análise das Habilidades Passivas
+
+- **Inabalável** (Steadfast): Esta habilidade concede uma chance aleatória de anular completamente o dano físico recebido quando equipado com um escudo.
+- **Remendar** (Mend): Esta habilidade concede uma chance aleatória de salvar uma arma "Quebrável" de se despedaçar durante o combate.
+
+### Fórmulas de Escala
+
+Para maximizar as taxas de ativação dessas passivas cruciais, concentre-se nas seguintes correlações de atributos:
+
+| Habilidade Passiva | Atributo de Escala Principal | Atributo de Escala Secundário | Requisito de Equipamento |
+| :--- | :--- | :--- | :--- |
+| **Inabalável** | **Vitalidade** | **Sorte** e **Armadura** | Deve equipar um **Escudo** |
+| **Remendar** | **Vitalidade** (Ferreiro) | **Sorte** (Dono da Arma) | Nenhum |
+
+<Callout type="warning" title="Dependência de Escudo">
+Inabalável **nunca** será ativado se você equipar uma arma de duas mãos. Para jogar com o Ferreiro como um tanque verdadeiro, você deve manter um escudo equipado no slot da mão secundária.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds do Ferreiro e Progressão de Equipamentos">
+
+Para obter o máximo do seu Ferreiro, você deve se concentrar em uma build de "Tanque Esponja" que maximiza a defesa, a quantidade de vida e o controle de grupo. Abaixo está o caminho de progressão ideal, desde o seu equipamento inicial até itens lendários de final de jogo.
+
+### Equipamento Inicial
+- **Martelo Simples**: Dano físico base que escala com Força.
+- **Escudo Simples**: Fornece Armadura no início do jogo e ativa a passiva Inabalável.
+
+### Marcos de Progressão de Equipamento
+
+| Estágio | Armas Recomendadas | Mão Secundária / Escudos | Atributos-Chave de Armadura |
+| :--- | :--- | :--- | :--- |
+| **Início do Jogo** | Martelo Simples, Maça de Ferro | Escudo Simples, Escudo Redondo | Armadura Física, Vitalidade |
+| **Meio do Jogo** | Martelo de Guerra, Grande Maça | Escudo Torre, Escudo de Ferro | Armadura, Resistência Mágica, Velocidade |
+| **Fim do Jogo** | **Martelo Real**, **O Pancada** (The Walloper) | **Escudo Aegis**, **Escudo Espinhoso** | Vitalidade Máxima, Reflexão de Dano |
+
+<CardGrid cols={3}>
+  <Card title="O Tanque Esponja">
+    - Foca em **Armadura Máxima** e **Vitalidade**.
+    - Usa Provocar para atrair ataques de alvo único.
+    - Melhor quando combinado com escudos de reflexão de dano.
+  </Card>
+  <Card title="O Batedor (Off-Tank)">
+    - Foca em **Força** e **Martelos de Duas Mãos**.
+    - Sacrifica Inabalável por alto dano físico em área (splash).
+    - Alto risco, mas excelente para limpar grupos rapidamente.
+  </Card>
+  <Card title="O Guarda de Utilidade">
+    - Foca em **Velocidade** e armas de **Atordoamento/Atordoar** (Stun/Daze).
+    - Mantém os inimigos controlados enquanto protege os aliados.
+    - Requer acessórios de velocidade para superar os atributos base baixos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estratégia de Reflexão de Dano">
+Como a habilidade Provocar consome todo o seu turno, equipar itens com **Reflexão de Dano** é altamente eficaz. Isso permite que seu Ferreiro cause dano passivo aos inimigos enquanto absorve os ataques deles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Combate Passo a Passo do Ferreiro">
+
+Jogar com o Ferreiro de forma eficaz requer um gerenciamento cuidadoso de turnos e posicionamento no tabuleiro de combate. Siga esta estratégia passo a passo para manter seu grupo seguro.
+
+<Steps>
+  <Step num="1" title="Posicionamento">
+    Sempre coloque seu Ferreiro na linha de frente, diretamente adjacente aos membros mais frágeis do grupo. Isso ativa os bônus de defesa adjacente dos escudos.
+  </Step>
+  <Step num="2" title="Gerenciamento de Velocidade">
+    Use acessórios de velocidade ou bônus do grupo para aumentar sua iniciativa. Como o Ferreiro é lento, agir cedo permite que você tome uma atitude antes que os inimigos de alto dano ataquem.
+  </Step>
+  <Step num="3" title="Provocar vs. Atacar">
+    Avalie a ameaça. Se um inimigo estiver preparando um ataque massivo de alvo único, use **Provocar** para redirecionar o golpe para o seu Ferreiro. Se os inimigos forem fracos, use uma arma de concussão para aplicar **Atordoamento** (Stun) ou **Atordoar** (Daze).
+  </Step>
+  <Step num="4" title="Alocação de Foco">
+    Guarde seus pontos de Foco para Provocações cruciais ou golpes de martelo de alto dano para garantir rolagens perfeitas, assegurando que efeitos de status como Atordoamento sejam aplicados com sucesso.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Controle da Campanha para Ferreiros">
+
+Para garantir que seu Ferreiro progrida adequadamente ao longo da campanha, tente alcançar estes marcos:
+
+<Checklist
+  id="blacksmith-milestones"
+  title="Lista de Progressão do Ferreiro:"
+  items={[
+    "Adquirir um escudo com bloqueio físico ou reflexão de dano até o Capítulo 2 [1.2.5]",
+    "Equipar pelo menos dois acessórios de aumento de velocidade para compensar o baixo atributo de Velocidade base",
+    "Alcançar mais de 100 de Vida máxima por meio de armaduras que aumentam a Vitalidade",
+    "Obter uma arma capaz de aplicar efeitos de status de Atordoamento (Stun) ou Atordoar (Daze)",
+    "Fazer par com um Estudioso ou Alquimista para cobrir os requisitos de dano mágico"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor composição de grupo para o Ferreiro?",
+    answer: "O Ferreiro se destaca quando pareado com classes de alto dano e alta velocidade. Uma composição de equipe clássica altamente eficaz é Ferreiro (Tanque), Estudioso (Dano Mágico em Área), Caçador (Dano Físico de Alvo Único) e Ervanário (Curandeiro/Suporte)."
+  },
+  {
+    question: "Como funciona a habilidade Remendar?",
+    answer: "Remendar concede uma chance passiva de salvar armas quebráveis (como armas de vidro) de se despedaçarem quando falham em uma rolagem. Sua chance de ativação escala com a Vitalidade do Ferreiro e a Sorte do proprietário da arma."
+  }
+]} />
+
+</Section>

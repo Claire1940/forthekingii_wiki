@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Músico Ambulante em For the King II: Guia de Build e Táticas de Combate para 2026",
+  description: "Domine o Músico Ambulante (Busker) em For the King II com nosso guia de atributos, habilidades como Distrair e Entreter, e os melhores equipamentos para dominar Fahrul em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Busker+Build+Guide",
+  date: "2026-07-09",
+  author: "Equipe Wiki de For The King II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Músico Ambulante em For the King II**: Uma classe híbrida versátil que apresenta altos atributos de **Força** e **Talento**.
+- **Habilidades Chave**: Utiliza **Distrair** para frustrar as jogadas dos inimigos e **Entreter** para gerar ouro extra.
+- **Melhor Build**: Foque em **Talento** para o escalonamento de habilidades ou em **Força** para causar dano na linha de frente.
+- **Equipamento Inicial**: Começa com um **Alaúde Desgastado**, que fornece utilidade no início do jogo.
+- **Status de Desbloqueio**: Disponível por padrão como uma classe inicial para todos os jogadores.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Músico Ambulante em For the King II">
+
+O **músico ambulante em for the king ii** serve como uma ponte única entre um personagem de suporte e uma potência física. Ao contrário do Menestrel, que foca fortemente em Percepção e Talento para suporte puro, o Músico Ambulante traz uma presença física significativa para a linha de frente. Com uma Força e Talento base de 81 no nível Aprendiz, esta classe é capaz de empunhar armas pesadas ou instrumentos musicais sofisticados com a mesma eficácia.
+
+Na perigosa terra de Fahrul, o Músico Ambulante é mais do que apenas um artista de rua. Eles são disruptores táticos. Sua presença no campo de batalha enfraquece ativamente as capacidades ofensivas do inimigo, enquanto sua presença no mapa garante que seu grupo permaneça bem financiado por meio de suas apresentações.
+
+| Dificuldade | Vida | Força | Vitalidade | Inteligência | Percepção | Talento | Velocidade | Sorte |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Aprendiz** | 36 | **81** | 69 | 55 | 65 | **81** | 65 | 55 |
+| **Jornaleiro** | 36 | 76 | 64 | 50 | 60 | 76 | 60 | 50 |
+| **Mestre** | 36 | 76 | 64 | 50 | 60 | 76 | 60 | 50 |
+
+<Callout type="tip" title="Visão sobre Atributos">
+O Músico Ambulante começa com 1 de Armadura e 1 de Resistência, dando-lhes uma leve vantagem de sobrevivência sobre conjuradores puros, embora sua Esquiva de 0 signifique que você deve confiar em equipamentos para evitar golpes.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Pontos Fortes">
+    - **Alta Versatilidade**: Pode alternar entre combate corpo a corpo baseado em Força e suporte baseado em Talento.
+    - **Geração de Ouro**: A renda passiva de ouro ajuda a comprar consumíveis essenciais mais cedo.
+    - **Disrupção de Inimigos**: Reduz passivamente o dano ou o sucesso dos ataques inimigos.
+  </Card>
+  <Card title="Pontos Fracos">
+    - **Baixa Esquiva**: Receberá golpes com frequência sem equipamentos de alto nível.
+    - **Escalonamento Dividido**: Tentar maximizar tanto Força quanto Talento pode levar a um desempenho medíocre em ambos.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades Especiais e Habilidades Passivas">
+
+O verdadeiro valor do **músico ambulante em for the king ii** reside em suas habilidades passivas. Essas habilidades não requerem um turno ativo para serem usadas, o que significa que o Músico Ambulante fornece valor simplesmente por existir no grupo. Ambas as habilidades escalam principalmente com o atributo **Talento**, tornando-o o atributo mais importante para um Músico Ambulante focado em suporte.
+
+| Habilidade | Tipo | Descrição do Efeito | Atributo de Escalonamento |
+| :--- | :--- | :--- | :--- |
+| **Distrair** | Passiva (Combate) | Chance de frustrar a jogada de habilidade de um inimigo, fazendo-o falhar em um slot. | **Talento** |
+| **Entreter** | Passiva (Mundo) | Ganhe Ouro durante o movimento pelo Mapa ou dentro de Masmorras. | **Talento** |
+
+**Distrair** é uma das passivas defensivas mais poderosas do jogo. Quando um inimigo ataca, há uma chance percentual (baseada no seu Talento) de que um de seus slots de ação falhe automaticamente. Isso pode transformar um ataque de "Grande Sucesso" em um golpe padrão ou fazer com que um feitiço complexo falhe inteiramente.
+
+**Entreter** fornece um fluxo constante de renda. Conforme você se move pelo mapa, o Músico Ambulante "se apresenta" para a população local. Embora as quantias individuais de ouro sejam pequenas, elas se acumulam rapidamente, permitindo que seu grupo compre equipamentos melhores ou mais Barba-de-deus do que seus oponentes.
+
+<Callout type="warning" title="Nota de Escalonamento">
+Se você buildar seu Músico Ambulante puramente para Força, suas ativações de Distrair e Entreter serão significativamente menos frequentes. O equilíbrio é a chave.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia Inicial e Progressão">
+
+Começar uma campanha com o **músico ambulante em for the king ii** requer um plano claro para o papel do seu personagem. Como eles são desbloqueados por padrão, costumam ser uma escolha frequente em muitas composições de iniciantes.
+
+<Steps>
+  <Step num="1" title="Equipamento Inicial">
+    O Músico Ambulante começa com um **Alaúde Desgastado**. Esta é uma arma básica baseada em Talento. Se você pretende jogar como um tanque de linha de frente, procure por um martelo de Ferreiro ou uma espada básica na primeira cidade.
+  </Step>
+  <Step num="2" title="Gerenciamento Inicial de Ouro">
+    Use o ouro gerado por **Entreter** para priorizar melhorias de Cachimbo para o seu grupo. Como o Músico Ambulante gera renda extra, ele deve frequentemente ser quem "patrocina" o suprimento inicial de ervas do grupo.
+  </Step>
+  <Step num="3" title="Posicionamento">
+    Na grade 2x4 de For The King II, posicione o Músico Ambulante na linha de frente se estiver buildando para Força/Vitalidade, ou na linha de trás se estiver focando em Talento e Alaúdes.
+  </Step>
+  <Step num="4" title="Transição para o Meio do Jogo">
+    Até o nível 4, decida se você é o causador de dano primário ou um suporte. Se for suporte, procure por "Grandes Alaúdes" ou "Harpas" que oferecem bônus para todo o grupo ou cura.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica Profissional">
+A alta Força do Músico Ambulante os torna excelentes no uso de escudos. Mesmo um Músico Ambulante na linha de trás pode se beneficiar de um escudo se sua arma for de uma mão, aumentando significativamente sua sobrevivência.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Equipamentos e Itens">
+
+Equipar seu **músico ambulante em for the king ii** depende das necessidades específicas do seu grupo. Sua natureza de atributos duplos permite que eles preencham lacunas que outras classes não conseguem. Abaixo está uma comparação de tipos de armas que se adequam aos altos atributos base do Músico Ambulante.
+
+| Tipo de Arma | Atributo Principal | Melhor Para | Principais Benefícios |
+| :--- | :--- | :--- | :--- |
+| **Instrumentos Musicais** | Talento | Suporte/Utilidade | Bônus, Reinicializações e dano em Área de Efeito (AoE). |
+| **Armas de Impacto** | Força | Tanque de Linha de Frente | Alto dano em alvo único e potencial de Atordoamento. |
+| **Escudos** | N/A | Defesa | Essencial para mitigar a baixa Esquiva base do Músico Ambulante. |
+| **Armadura de Talento** | Talento | Escalonamento Passivo | Aumenta a taxa de ativação de Distrair e Entreter. |
+
+**Consumíveis Recomendados:**
+- **Barba-de-deus**: Cura padrão, essencial para todas as classes.
+- **Raiz Dourada**: Restaura Foco, o que é vital para garantir jogadas de Talento de alto impacto.
+- **Urtiga Dançante**: Aumenta a Velocidade, ajudando o Músico Ambulante a agir antes dos inimigos para aplicar ataques carregados de Distrair.
+
+<Callout type="info" title="Sinergia de Itens">
+Procure por itens com as características **Incentivar** ou **Alcance de Suporte**. Eles complementam o papel do Músico Ambulante como peça central da formação do grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergia de Equipe e Composições">
+
+O Músico Ambulante é um personagem de "ligação". Eles tornam todas as outras classes melhores ao fornecer suporte financeiro e reduzir o dano recebido. Ao montar uma equipe em torno de um Músico Ambulante, considere estas parcerias ideais:
+
+| Função na Equipe | Classe Recomendada | Sinergia com o Músico Ambulante |
+| :--- | :--- | :--- |
+| **O Tanque** | Ferreiro | O Músico Ambulante fornece Distrair para reduzir os golpes que o Ferreiro recebe. |
+| **O Curador** | Herbalista | A renda de ouro do Músico Ambulante permite que o Herbalista compre mais ervas para o grupo. |
+| **O DPS** | Caçador | O Músico Ambulante pode usar instrumentos baseados em Talento para aumentar a Precisão do Caçador. |
+
+Em um grupo de quatro jogadores, uma composição popular do meta de 2026 envolve:
+1. **Ferreiro** (Linha de Frente - Tanque)
+2. **Músico Ambulante** (Linha de Frente - Híbrido Força/Suporte)
+3. **Erudito** (Linha de Trás - DPS Mágico)
+4. **Caçador** (Linha de Trás - DPS Físico)
+
+Esta configuração permite que o Músico Ambulante atue como um tanque secundário enquanto ainda fornece as passivas baseadas em Talento que beneficiam toda a equipe.
+
+<Callout type="tip" title="Dica de Estratégia">
+Se o seu Músico Ambulante estiver na linha de frente, priorize equipamentos que adicionem **Armadura** em vez de Talento. Um Músico Ambulante morto não pode Entreter ou Distrair ninguém.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Maestria">
+
+Para realmente dominar o **músico ambulante em for the king ii**, certifique-se de atingir estas metas em cada campanha.
+
+<Checklist
+  id="busker-mastery"
+  title="Metas de Desempenho do Músico Ambulante:"
+  items={[
+    "Alcançar 85+ de Talento para maximizar as taxas de ativação de Distrair.",
+    "Gerar pelo menos 500 de ouro bônus via Entreter até a metade do jogo.",
+    "Frustrar com sucesso o ataque supremo de um chefe usando a passiva Distrair.",
+    "Equipar uma arma baseada em Talento com pelo menos uma habilidade de penalidade em área (AoE).",
+    "Melhorar seu Cachimbo para o Nível 3 antes da segunda masmorra principal."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Músico Ambulante é melhor do que o Menestrel em For The King II?",
+    answer: "O Músico Ambulante é mais durável e tem maior Força, tornando-o melhor para funções na linha de frente. O Menestrel foca mais em Percepção e Velocidade. Escolha o Músico Ambulante se precisar de um híbrido de tanque/suporte."
+  },
+  {
+    question: "O Distrair funciona em chefes?",
+    answer: "Sim, o Distrair pode frustrar jogadas de quase qualquer inimigo no jogo, incluindo chefes. Isso torna o Músico Ambulante inestimável para partidas de alta dificuldade, onde os ataques dos chefes são devastadores."
+  },
+  {
+    question: "Qual é o melhor atributo para priorizar no Músico Ambulante?",
+    answer: "O Talento geralmente é a prioridade porque escala ambas as habilidades passivas exclusivas do Músico Ambulante. No entanto, se ele for o seu atacante físico primário, a Força torna-se igualmente importante."
+  },
+  {
+    question: "Como faço para desbloquear o Músico Ambulante em For The King II?",
+    answer: "O Músico Ambulante é uma das classes iniciais disponíveis imediatamente ao iniciar o jogo. Nenhuma compra na Loja de Lore é necessária para usá-lo."
+  }
+]} />
+
+</Section>

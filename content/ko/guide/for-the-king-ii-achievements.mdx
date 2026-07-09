@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "For The King II 업적 가이드: 100% 완료 공략",
+  description: "스토리, 전투, 비밀의 방 업적을 포함한 종합 가이드를 통해 For The King II의 모든 도전을 완벽하게 마스터하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Achievement+Guide",
+  date: "2026-07-09",
+  author: "For The King II 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **For The King II 업적**은 일반적인 스토리 진행부터 혹독한 마스터 난이도 도전까지 다양합니다.
+- **마스터 난이도**는 특정 골드 트로피를 획득하기 위해 가장 높은 난이도 설정으로 모든 주요 장을 완료해야 합니다.
+- **비밀의 방**은 모든 장에 숨겨져 있으며, 특정 열쇠나 은빛 뱀(Silver Snake) 같은 희귀 적의 전리품이 필요한 경우가 많습니다.
+- **용병 해금**은 다양한 바이옴에서 무작위로 생성되는 세계 이벤트인 '용병 마차(Merc Caravan)'를 통해 발견할 수 있습니다.
+- **Tinkerers of Fate** DLC 콘텐츠는 100% 완료를 위해 인형(Dolls) 및 타로 카드(Tarot cards)와 같은 특정 메커니즘을 추가합니다.
+</Callout>
+
+<Section icon={Map} title="메인 캠페인 및 난이도 이정표">
+
+For The King II의 핵심 서사를 완료하는 것은 업적 사냥꾼의 첫 번째 단계입니다. 게임은 다섯 개의 메인 장으로 나뉘어 있으며, 각 장은 모든 난이도에서 완료할 수 있는 업적과 마스터 난이도에 감히 도전하는 플레이어들을 위한 특별 업적을 제공합니다. 스토리와 관련된 **For The King II 업적**을 달성하려면 위험천만한 파룰(Fahrul)의 대지를 탐험하고 마침내 미쳐버린 로스몬 여왕(Mad Queen Rosman)과 맞서야 합니다.
+
+**비디오 하이라이트:**
+- 쉬운 점수 획득을 위한 어둠의 카니발(Dark Carnival) 메커니즘 빠른 개요.
+- 로스몬 여왕의 편집증에 대한 배경 이야기.
+- 솔로 또는 파티로 새로운 캠페인을 시작하기 위한 전략적 팁.
+- "황금... 아니, 보라색 티켓" 업적을 초반에 획득하는 방법.
+
+<YouTubeEmbed videoId="Oou462Z_rBM" title="Unveiling The Secrets of the Dark Carnival in For the King II!" />
+
+캠페인을 마스터하려면 자원 관리와 턴제 배치에 대한 깊은 이해가 필요합니다. 다음은 여정 중에 마주하게 될 주요 스토리 관련 이정표의 요약입니다.
+
+| 업적 | 장 | 요구 사항 | 보상 유형 |
+| :--- | :--- | :--- | :--- |
+| **Welcome to The Resistance** | 제1장 | 난이도 상관없이 저항군 완료 | 스토리 진행 |
+| **Save The Primordial Oak** | 제2장 | 난이도 상관없이 원시 오크나무 완료 | 스토리 진행 |
+| **Halt the Queen's Mining** | 제3장 | 난이도 상관없이 왕실 광산 완료 | 스토리 진행 |
+| **Rescue Hildebrant... Again** | 제4장 | 난이도 상관없이 교수형 올가미 완료 | 스토리 진행 |
+| **Long Live The Queen** | 제5장 | 난이도 상관없이 성문 완료 | 최종 보스 |
+| **Adventurers Assemble!** | 엔딩 이후 | 엔딩 크레딧 이후 시네마틱 감상 | 내러티브 |
+
+<Callout type="warning" title="마스터 난이도 주의사항">
+**Master of Fahrul**이나 **Puppet Master**와 같은 마스터 난이도 업적은 일부 버전에서 하위 난이도와 중첩되어 달성되지 않을 수 있습니다. 적들의 강력한 스케일링에서 살아남기 위해 전담 힐러(약초상 등)와 피해 경감 능력이 뛰어난 탱커를 포함한 균형 잡힌 파티를 구성하는 것을 적극 권장합니다.
+</Callout>
+
+| 마스터 업적 | 대상 장 | 핵심 도전 과제 |
+| :--- | :--- | :--- |
+| **So You Fancy Yourself a Master** | 저항군 | 제한된 생명 및 높은 장비 비용 |
+| **Drunken Master** | 원시 오크나무 | 독 및 질병 빈도 증가 |
+| **Puppet Master** | 왕실 광산 | 복잡한 광산 탐색 및 더 강력한 경비병 |
+| **Master and Commander** | 교수형 올가미 | 까다로운 해상 전투 및 크라켄의 위협 |
+| **Master of Fahrul** | 성문 | 여왕 근위대를 상대로 하는 궁극의 시험 |
+
+</Section>
+
+<Section icon={Target} title="장별 선택지 및 비밀의 방">
+
+For The King II에는 특히 제1장과 제5장에서 여러 가지 "양자택일" 업적이 등장합니다. 제1장에서는 하수구(Sewers)와 지하실(Cellar) 중 하나를 선택해야 합니다. 모든 **For The King II 업적**을 수집하려면 해당 장을 최소 두 번 실행하여 두 경로를 모두 경험해야 합니다. 또한, 모든 장에는 특정 열쇠나 고유한 상호작용이 필요한 비밀의 방이 숨겨져 있습니다.
+
+<CardGrid cols={2}>
+  <Card title="제1장: 갈림길">
+    - **Came Out Clean**: 첫 번째 월드 끝에서 하수구 경로를 선택하세요.
+    - **Through Cobwebs**: 하수구 대신 지하실 경로를 선택하세요.
+    - **참고**: 비밀의 방 열쇠를 찾기에는 일반적으로 하수구 경로가 더 유리합니다.
+  </Card>
+  <Card title="제5장: 침투">
+    - **You Chose That One?**: 성문을 돌파하려는 힐데브란트의 계획을 따르세요.
+    - **Through the Shadows**: 헤이페니와 함께 몰래 잠입하세요.
+    - **Siege Tank**: 하트크러셔와 함께 전쟁 기계를 제작하세요.
+  </Card>
+</CardGrid>
+
+비밀의 방을 찾는 것은 완벽주의 플레이어들에게 가장 어려운 과제 중 하나입니다. 이 방들은 종종 해당 장의 최종 던전 깊숙한 곳에 숨겨져 있으며, 해당 회차에서 앞서 획득한 아이템을 필요로 합니다.
+
+| 비밀의 방 업적 | 장 | 열쇠 위치 / 요구 사항 |
+| :--- | :--- | :--- |
+| **Come On Boogey** | 1장 | 하수구 내부 상점에서 열쇠 구매 |
+| **Primordial Secrecy** | 2장 | 보라색 거미 던전을 클리어하여 열쇠 획득 |
+| **Double Crossed** | 3장 | 희귀한 은빛 뱀(체력 1, 저항 100) 처치 |
+| **Blimey!** | 4장 | 무작위 해상 던전에서 열쇠 발견 |
+| **Let's Go Party** | 5장 | 은빛 뱀을 다시 처치하고 지하 묘지 진입 |
+
+<Callout type="tip" title="은빛 뱀 공략">
+제3장과 제5장에 등장하는 은빛 뱀은 물리 및 마법 피해에 대해 100의 저항을 가지지만 체력은 단 1입니다. 고정 피해를 주거나 필중 판정이 있는 아이템 및 능력을 사용하여 뱀이 도망치기 전에 타격을 가하세요.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="전투, 재앙, 그리고 몬스터 사냥">
+
+For The King II의 전투 업적은 여러 캠페인에 걸친 장기적인 진행 상황을 기록합니다. 적 1,000명 처치부터 화기(Firearms)와 같은 특정 무기 유형 마스터에 이르기까지 꾸준한 플레이가 필요합니다. 또한, 게임에는 월드 맵에 출몰하며 글로벌 디버프를 방지하기 위해 반드시 처치해야 하는 강력한 미니 보스인 '재앙(Scourges)'이 존재합니다.
+
+<Steps>
+  <Step num="1" title="재앙 식별">
+    화면 상단의 타임라인을 주시하세요. 재앙 아이콘이 활성화 마커에 가까워지면 그 영향력이 파룰에 미치기 시작합니다.
+  </Step>
+  <Step num="2" title="요새 위치 파악">
+    재앙들은 특정 위치(예: 럭키의 금고 또는 황폐해진 교회)에 숨어 있습니다. 정찰 스크롤이나 시야를 확보해 지도에서 위치를 찾아내세요.
+  </Step>
+  <Step num="3" title="전투 준비">
+    재앙들은 종종 독특한 메커니즘을 가지고 있습니다. 예를 들어, 도적 왕(Bandit King)은 골드를 훔치고, 신도(Disciple)는 혼돈을 증가시킵니다.
+  </Step>
+  <Step num="4" title="위치 봉인">
+    재앙 보스를 물리치면 업적을 획득하고 해당 회차의 남은 시간 동안 해당 위협을 영구적으로 제거할 수 있습니다.
+  </Step>
+</Steps>
+
+| 재앙 업적 | 보스 이름 | 봉인할 위치 |
+| :--- | :--- | :--- |
+| **You're So Lucky, You're a Star!** | 럭키 (Lucky) | 럭키의 금고 |
+| **Larger Than Life** | 그레이브본 (Graveborne) | 공동묘지 |
+| **Quit Paying Games** | 도적 왕 (Bandit King) | 도적 요새 |
+| **It's Gonna Be Fray** | 워든 프레이비 (Warden Fraybee) | 황폐해진 교회 |
+| **Blame It On The Rain** | 신도 (The Disciple) | 어둠의 신전 |
+| **You're Toxic** | 보그드링커 (Bogdrinker) | 주술사의 굴 |
+
+<Callout type="success" title="전투 마스터리">
+**Razzle Dazzle** 업적(화기 처치 20회)을 빠르게 달성하려면, 적의 체력이 낮은 제1장 초반 전투에서 인지력(Awareness)이 높은 캐릭터에게 권총이나 머스킷을 장착해 주세요.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="용병 및 기타 업적">
+
+메인 경로 외에도 탐험과 실험 정신을 보상하는 수십 가지의 기타 **For The King II 업적**이 존재합니다. 가장 중요한 시스템 중 하나는 '용병 마차(Mercenary Caravan)'입니다. 이 특화된 NPC들을 구출하면 업적을 달성할 수 있을 뿐만 아니라, 향후 로어 상점(Lore Store)에서 해금하여 사용할 수 있게 됩니다.
+
+<Checklist
+  id="misc-completion"
+  title="필수 업적 체크리스트:"
+  items={[
+    "'Field Medic' 달성을 위해 파티원 부활시키기",
+    "'Critical Fail' 달성을 위해 치명적 실패로 무기 파괴하기",
+    "'Fully Loaded' 달성을 위해 한 번의 모험에서 장비 포인트 20점 사용하기",
+    "'Sushi Master' 달성을 위해 바다에서 크라켄 처치하기",
+    "보라색 티켓을 사용하여 어둠의 카니발 방문하기",
+    "'Take It To The Limit' 달성을 위해 캐릭터 레벨 9 달성하기"
+  ]}
+/>
+
+용병 마차는 무작위 세계 이벤트입니다. 조우하게 되면 내부의 갇힌 이를 구출하기 위해 경비병들을 물리쳐야 합니다. 각각의 고유한 용병들은 고유한 관련 업적을 가지고 있습니다.
+
+| 용병 업적 | 캐릭터 이름 | 바이옴/출처 |
+| :--- | :--- | :--- |
+| **Party Dust** | 보니 부기 (Boney Boogey) | 용병 마차 |
+| **Battle Toad** | 토드슬레이어 (Toadslayer) | 용병 마차 |
+| **Land or Water** | 테라트라우트 (Terratrout) | 용병 마차 |
+| **Brother's Grim** | 그림쇼 (Grimshaw) | 용병 마차 |
+| **Charred General** | 선더본 (Sunderbone) | 용병 마차 |
+| **A Pirate's Life** | 존스그레이브 (Johnsgrave) | 용병 마차 |
+
+<Callout type="info" title="로어 상점 진행">
+업적을 통해 획득한 로어 도슨트(Lore Docents)를 소비하는 것은 매우 중요합니다. **Fashionista**(50회 구매)와 같은 업적은 총 해금 횟수를 추적합니다. 마스터 난이도 도전을 더 수월하게 만들기 위해 우선 새로운 클래스를 해금한 다음, 강력한 시작 아이템을 해금하는 데 집중하세요.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="DLC 콘텐츠: Child of Chaos & Tinkerers of Fate">
+
+*Tinkerers of Fate* DLC와 *Child of Chaos* 업데이트는 게임에 18개의 새로운 업적을 추가했습니다. 이 업적들은 두 가지 새로운 클래스인 장난감 제작자(Toymaker)와 점술가(Fortune Teller), 그리고 새로운 캠페인 지도에 초점을 맞추고 있습니다. 이 **For The King II 업적**들을 달성하려면 새로운 수집 메커니즘인 인형(Dolls)과 타로 카드(Tarot Cards)를 활용해야 합니다.
+
+**새로운 클래스 메커니즘:**
+- **장난감 제작자**: 적을 처치한 후 인형을 수집합니다. 이 확률은 재능(Talent)과 행운(Luck)에 의해 증가합니다. 단, 중독 상태일 때는 인형이 드롭되지 않으므로 주의하세요.
+- **점술가**: 턴이 끝날 때 타로 카드를 뽑습니다. 이는 행운과 인지력의 영향을 받습니다.
+
+| DLC 업적 | 유형 | 요구 사항 |
+| :--- | :--- | :--- |
+| **Family Matters** | 스토리 | Child of Chaos 캠페인 완료 |
+| **Plangologist** | 수집 | 장난감 제작자로 인형 25개 수집 |
+| **The World** | 수집 | 점술가로 타로 카드 21장 수집 |
+| **Storm Chaser** | 도전 | 단일 회차에서 성배 3개 모두 수집 |
+| **Seek and Destroy** | 도전 | 혼돈 장치 6개 모두 파괴 |
+| **Cult Hero** | 비밀 | 비밀의 방(탑 3층)에서 더그(Doug) 구출 |
+
+<Callout type="tip" title="용병 더그(Doug)">
+더그를 해금하려면 Child of Chaos DLC의 두 번째 캠페인에서 비밀의 방을 찾아야 합니다. 일반적으로 최종 성의 모든 방을 열기 위해 해골 열쇠(Skeleton Keys) 3개가 필요합니다. 발견하고 나면 더그가 파티에 합류하며, 이후 다음 회차부터 용병 마차에서 발견하여 영구적으로 해방할 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="자주 묻는 질문">
+
+<FAQ items={[
+  {
+    question: "저항군(The Resistance)에서 비밀의 방은 어떻게 찾나요?",
+    answer: "열쇠는 하수구 안의 상점에서 찾을 수 있습니다. 나중에 지하 묘지 지역에 도달했을 때, 열쇠를 사용해 숨겨진 문을 열면 'Come On Boogey' 업적을 달성할 수 있습니다."
+  },
+  {
+    question: "1,000명 처치 업적을 가장 빨리 깨는 방법은 무엇인가요?",
+    answer: "'I Am Become Death' 업적은 모든 세이브 파일에 걸쳐 누적됩니다. 어둠의 카니발이나 '저항군' 캠페인을 견습생(Apprentice) 난이도로 플레이하면 몹을 빠르게 소탕할 수 있습니다."
+  },
+  {
+    question: "한 번의 플레이로 모든 업적을 달성할 수 있나요?",
+    answer: "아니요. 제1장의 하수구 대 지하실 선택처럼 여러 업적이 상호 배타적이므로, 해당 장을 최소 두 번은 플레이해야 합니다."
+  },
+  {
+    question: "화기도 다른 무기처럼 부서지나요?",
+    answer: "네, 화기도 치명적 실패 시 부서질 수 있습니다. 'Razzle Dazzle' 업적을 달성하기 위해 화기를 사용해야 하지만, 만약을 대비해 보조 무기를 항상 준비해 두세요."
+  }
+]} />
+
+</Section>
